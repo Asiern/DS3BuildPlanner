@@ -22,5 +22,3 @@ While (currentlvl < targetlvl)
     souls+=level[currentlvl]
     currentlvl+=1
 print(souls)
-
-a=input()
