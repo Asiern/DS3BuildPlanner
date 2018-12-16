@@ -1,0 +1,385 @@
+Name:	Fallen Knight Helm		Weight:
+Name:	Fallen Knight Armor		Weight:
+Name:	Fallen Knight Gauntlets		Weight:
+Name:	Fallen Knight Trousers		Weight:
+Name:	Knight Helm		Weight:
+Name:	Knight Armor		Weight:
+Name:	Knight Gauntlets		Weight:
+Name:	Knight Leggings		Weight:
+Name:	Burial Knight’s Helm		Weight:
+Name:	Burial Knight’s Armor		Weight:
+Name:	Burial Knight’s Gauntlets		Weight:
+Name:	Burial Knight’s Leggings		Weight:
+Name:	Firelink Helm		Weight:
+Name:	Firelink Armor		Weight:
+Name:	Firelink Gauntlets		Weight:
+Name:	Firelink Leggings		Weight:
+Name:	Sellsword Helm		Weight:
+Name:	Sellsword Armor		Weight:
+Name:	Sellsword Gauntlet		Weight:
+Name:	Sellsword Trousers		Weight:
+Name:	Herald Helm		Weight:
+Name:	Herald Armor		Weight:
+Name:	Herald Gloves		Weight:
+Name:	Herald Trousers		Weight:
+Name:	Sunless Veil		Weight:
+Name:	Sunless Armor		Weight:
+Name:	Sunless Gauntlets		Weight:
+Name:	Sunless Leggings		Weight:
+Name:	Black Hand Hat		Weight:
+Name:	Black Hand Armor		Weight:
+Name:	Assassin Gloves		Weight:
+Name:	Assassin Trousers		Weight:
+Name:	Assassin Hood		Weight:
+Name:	Assassin Armor		Weight:
+Name:	Xanthous Crown		Weight:
+Name:	Xanthous Overcoat		Weight:
+Name:	Xanthous Gloves		Weight:
+Name:	Xanthous Trousers		Weight:
+Name:	Northern Helm		Weight:
+Name:	Northern Armor		Weight:
+Name:	Northern Gloves		Weight:
+Name:	Northern Trousers		Weight:
+Name:	Morne’s Helm		Weight:
+Name:	Morne’s Armor		Weight:
+Name:	Morne’s Gauntlets		Weight:
+Name:	Morne’s Leggings		Weight:
+Name:	Silver Mask		Weight:
+Name:	Leonhard’s Garb		Weight:
+Name:	Leonhard’s Gauntlets		Weight:
+Name:	Leonhard’s Trousers		Weight:
+Name:	Sneering Mask		Weight:
+Name:	Pale Shade Robe		Weight:
+Name:	Pale Shade Gloves		Weight:
+Name:	Pale Shade Trousers		Weight:
+Name:	Sunset Helm		Weight:
+Name:	Sunset Armor		Weight:
+Name:	Sunset Gauntlets		Weight:
+Name:	Sunset Leggings		Weight:
+Name:	Old Sage’s Blindfold		Weight:
+Name:	Cornyx’s Garb		Weight:
+Name:	Cornyx’s Wrap		Weight:
+Name:	Cornyx’s Skirt		Weight:
+Name:	Executioner Helm		Weight:
+Name:	Executioner Armor		Weight:
+Name:	Executioner Gauntlets		Weight:
+Name:	Executioner Leggings		Weight:
+Name:	Billed Mask		Weight:
+Name:	Black Dress		Weight:
+Name:	Black Gauntlets		Weight:
+Name:	Black Leggings		Weight:
+Name:	Pyromancer Crown		Weight:
+Name:	Pyromancer Garb		Weight:
+Name:	Pyromancer Wrap		Weight:
+Name:	Pyromancer Trousers		Weight:
+Name:	Court Sorcerer Hood		Weight:
+Name:	Court Sorcerer Robe		Weight:
+Name:	Court Sorcerer Gloves		Weight:
+Name:	Court Sorcerer Trousers		Weight:
+Name:	Sorcerer Hood		Weight:
+Name:	Sorcerer Robe		Weight:
+Name:	Sorcerer Gloves		Weight:
+Name:	Sorcerer Trousers		Weight:
+Name:	Clandestine Coat		Weight:
+Name:	Cleric Hat		Weight:
+Name:	Cleric Blue Robe		Weight:
+Name:	Cleric Gloves		Weight:
+Name:	Cleric Trousers		Weight:
+Name:	Dingy Maiden’s Overcoat		Weight:
+Name:	Heavy Knight’s Helm		Weight:
+Name:	Heavy Knight’s Armour		Weight:
+Name:	Heavy Knight’s Gauntlets		Weight:
+Name:	Heavy Knight’s Leggings		Weight:
+Name:	Grotto Hat		Weight:
+Name:	Grotto Robe		Weight:
+Name:	Grotto Wrap		Weight:
+Name:	Grotto Trousers		Weight:
+Name:	Steel Soldier Helm		Weight:
+Name:	Deserter Armor		Weight:
+Name:	Soldier’s Gauntlets		Weight:
+Name:	Deserter Trousers		Weight:
+Name:	Soldier’s Hood		Weight:
+Name:	Thief Mask		Weight:
+Name:	Sage’s Big Hat		Weight:
+Name:	Elder’s Robe		Weight:
+Name:	Aristocrat’s Mask		Weight:
+Name:	Jailer Robe		Weight:
+Name:	Jailer Gloves		Weight:
+Name:	Jailer Trousers		Weight:
+Name:	Saint’s Veil		Weight:
+Name:	Saint’s Dress		Weight:
+Name:	Footman’s Hood		Weight:
+Name:	Footman’s Overcoat		Weight:
+Name:	Footman’s Bracelets		Weight:
+Name:	Footman’s Trousers		Weight:
+Name:	Grave Warden Hood		Weight:
+Name:	Grave Warden Robe		Weight:
+Name:	Grave Warden Wrap		Weight:
+Name:	Grave Warden Skirt		Weight:
+Name:	Worker Hat		Weight:
+Name:	Worker Garb		Weight:
+Name:	Worker Gloves		Weight:
+Name:	Worker Trousers		Weight:
+Name:	Thrall Hood		Weight:
+Name:	Evangelist Hat		Weight:
+Name:	Evangelist Robe		Weight:
+Name:	Evangelist Gloves		Weight:
+Name:	Evangelist Trousers		Weight:
+Name:	Scholar’s Shed Skin		Weight:
+Name:	Scholar’s Robe		Weight:
+Name:	Winged Knight Helm		Weight:
+Name:	Winged Knight Armor		Weight:
+Name:	Winged Knight Gauntlets		Weight:
+Name:	Winged Knight Leggings		Weight:
+Name:	Cathedral Knight Helm		Weight:
+Name:	Cathedral Knight Armor		Weight:
+Name:	Cathedral Knight Gauntlets		Weight:
+Name:	Cathedral Knight Leggings		Weight:
+Name:	Lothric Knight Helm		Weight:
+Name:	Lothric Knight Armor		Weight:
+Name:	Lothric Knight Gauntlets		Weight:
+Name:	Lothric Knight Leggings		Weight:
+Name:	Outrider Knight Helm		Weight:
+Name:	Outrider Knight Armor		Weight:
+Name:	Outrider Knight Gauntlets		Weight:
+Name:	Outrider Knight Leggings		Weight:
+Name:	Black Knight Helm		Weight:
+Name:	Black Knight Armor		Weight:
+Name:	Black Knight Gauntlets		Weight:
+Name:	Black Knight Leggings		Weight:
+Name:	Dark Mask		Weight:
+Name:	Dark Armor		Weight:
+Name:	Dark Gauntlets		Weight:
+Name:	Dark Leggings		Weight:
+Name:	Exile Mask		Weight:
+Name:	Exile Armor		Weight:
+Name:	Exile Gauntlets		Weight:
+Name:	Exile Leggings		Weight:
+Name:	Pontiff Knight Crown		Weight:
+Name:	Pontiff Knight Armor		Weight:
+Name:	Pontiff Knight Gauntlets		Weight:
+Name:	Pontiff Knight Leggings		Weight:
+Name:	Golden Crown		Weight:
+Name:	Dragonscale Armor		Weight:
+Name:	Golden Bracelets		Weight:
+Name:	Dragonscale Waistcloth		Weight:
+Name:	Wolnir’s Crown		Weight:
+Name:	Undead Legion Helm		Weight:
+Name:	Undead Legion Armor		Weight:
+Name:	Undead Legion Gauntlet		Weight:
+Name:	Undead Legion Leggings		Weight:
+Name:	Man Serpent’s Mask		Weight:
+Name:	Man Serpent’s Robe		Weight:
+Name:	Fire Witch Helm		Weight:
+Name:	Fire Witch Armor		Weight:
+Name:	Fire Witch Gauntlets		Weight:
+Name:	Fire Witch Leggings		Weight:
+Name:	Lorian’s Helm		Weight:
+Name:	Lorian’s Armor		Weight:
+Name:	Lorian’s Gauntlets		Weight:
+Name:	Lorian’s Leggings		Weight:
+Name:	Hood of Prayer		Weight:
+Name:	Robe of Prayer		Weight:
+Name:	Skirt of Prayer		Weight:
+Name:	Giant’s crown		Weight:
+Name:	Giant’s Armor		Weight:
+Name:	Giant’s Gauntlets		Weight:
+Name:	Giant’s Leggings		Weight:
+Name:	Dancer’s Crown		Weight:
+Name:	Dancer’s Armor		Weight:
+Name:	Dancer’s Gauntlets		Weight:
+Name:	Dancer’s Leggings		Weight:
+Name:	Gundyr’s Helm		Weight:
+Name:	Gundyr’s Armor		Weight:
+Name:	Gundyr’s Gauntlets		Weight:
+Name:	Gundyr’s Leggings		Weight:
+Name:	Old Monarch’s Crown		Weight:
+Name:	Old Monarch’s Robe		Weight:
+Name:	Archdeacon White Crown		Weight:
+Name:	Archdeacon Holy Garb		Weight:
+Name:	Archdeacon Skirt		Weight:
+Name:	Deacon Robe		Weight:
+Name:	Deacon Skirt		Weight:
+Name:	Frigid Valley Mask		Weight:
+Name:	Dingy Hood		Weight:
+Name:	Fire Keeper Robe		Weight:
+Name:	Fire Keeper Gloves		Weight:
+Name:	Fire Keeper Skirt		Weight:
+Name:	Chain Helm		Weight:
+Name:	Chain Armor		Weight:
+Name:	Leather Gauntlets		Weight:
+Name:	Chain Leggings		Weight:
+Name:	Nameless Knight Helm		Weight:
+Name:	Nameless Knight Armor		Weight:
+Name:	Nameless Knight Gauntlets		Weight:
+Name:	Nameless Knight Leggings		Weight:
+Name:	Elite Knight Helm		Weight:
+Name:	Elite Knight Armor		Weight:
+Name:	Elite Knight Gauntlets		Weight:
+Name:	Elite Knight Leggings		Weight:
+Name:	Faraam Helm		Weight:
+Name:	Faraam Armor		Weight:
+Name:	Faraam Gauntlets		Weight:
+Name:	Faraam Boots		Weight:
+Name:	Catarina Helm		Weight:
+Name:	Catarina Armor		Weight:
+Name:	Catarina Gauntlets		Weight:
+Name:	Catarina Leggings		Weight:
+Name:	Standard Helm		Weight:
+Name:	Hard Leather Armor		Weight:
+Name:	Hard Leather Gauntlets		Weight:
+Name:	Hard Leather Boots		Weight:
+Name:	Havel’s Helm		Weight:
+Name:	Havel’s Armor		Weight:
+Name:	Havel’s Gauntlets		Weight:
+Name:	Havel’s Leggings		Weight:
+Name:	Brigand Hood		Weight:
+Name:	Brigand Armor		Weight:
+Name:	Brigand Gauntlets		Weight:
+Name:	Brigand Trousers		Weight:
+Name:	Pharis’s Hat		Weight:
+Name:	Leather Armor		Weight:
+Name:	Leather Gloves		Weight:
+Name:	Leather Boots		Weight:
+Name:	Ragged Mask		Weight:
+Name:	Master’s Attire		Weight:
+Name:	Master’s Gloves		Weight:
+Name:	Loincloth		Weight:
+Name:	Old Sorcerer Hat		Weight:
+Name:	Old Sorcerer Coat		Weight:
+Name:	Old Sorcerer Gauntlets		Weight:
+Name:	Old Sorcerer Boots		Weight:
+Name:	Conjurator Hood		Weight:
+Name:	Conjurator Robe		Weight:
+Name:	Conjurator Manchettes		Weight:
+Name:	Conjurator Boots		Weight:
+Name:	Thief Mask		Weight:
+Name:	Black Leather Armor		Weight:
+Name:	Black Leather Gloves		Weight:
+Name:	Black Leather Boots		Weight:
+Name:	Symbol of Avarice		Weight:
+Name:	Creighton’s Steel Mask		Weight:
+Name:	Mirrah Chain Mail		Weight:
+Name:	Mirrah Chain Gloves		Weight:
+Name:	Mirrah Chain Leggings		Weight:
+Name:	Maiden Hood		Weight:
+Name:	Maiden Robe		Weight:
+Name:	Maiden Gloves		Weight:
+Name:	Maiden Skirt		Weight:
+Name:	Alva Helm		Weight:
+Name:	Alva Armor		Weight:
+Name:	Alva Gauntlets		Weight:
+Name:	Alva Leggings		Weight:
+Name:	Shadow Mask		Weight:
+Name:	Shadow Garb		Weight:
+Name:	Shadow Gauntlets		Weight:
+Name:	Shadow Leggings		Weight:
+Name:	Eastern Helm		Weight:
+Name:	Eastern Armor		Weight:
+Name:	Eastern Gauntlets		Weight:
+Name:	Eastern Leggings		Weight:
+Name:	Helm of Favor		Weight:
+Name:	Embraced Armor of Favor		Weight:
+Name:	Gauntlets of Favor		Weight:
+Name:	Leggings of Favor		Weight:
+Name:	Brass Helm		Weight:
+Name:	Brass Armor		Weight:
+Name:	Brass Gauntlets		Weight:
+Name:	Brass Leggings		Weight:
+Name:	Silver Knight Helm		Weight:
+Name:	Silver Knight Armor		Weight:
+Name:	Silver Knight Gauntlets		Weight:
+Name:	Silver Knight Leggings		Weight:
+Name:	Lucatiel’s Mask		Weight:
+Name:	Mirrah Vest		Weight:
+Name:	Mirrah Gloves		Weight:
+Name:	Mirrah Trousers		Weight:
+Name:	Iron Helm		Weight:
+Name:	Armor of the Sun		Weight:
+Name:	Iron Bracelets		Weight:
+Name:	Iron Leggings		Weight:
+Name:	Drakeblood Helm		Weight:
+Name:	Drakeblood Armor		Weight:
+Name:	Drakeblood Gauntlets		Weight:
+Name:	Drakeblood Leggings		Weight:
+Name:	Drang Armor		Weight:
+Name:	Drang Gauntlets		Weight:
+Name:	Drang Shoes		Weight:
+Name:	Black Iron Helm		Weight:
+Name:	Black Iron Armor		Weight:
+Name:	Black Iron Gauntlets		Weight:
+Name:	Black Iron Leggings		Weight:
+Name:	Painting Guardian Hood		Weight:
+Name:	Painting Guardian Gown		Weight:
+Name:	Painting Guardian Gloves		Weight:
+Name:	Painting Guardian Waistcloth		Weight:
+Name:	Wolf Knight Helm		Weight:
+Name:	Wolf Knight Armor		Weight:
+Name:	Wolf Knight Gauntlets		Weight:
+Name:	Wolf Knight Leggings		Weight:
+Name:	Dragonslayer Helm		Weight:
+Name:	Dragonslayer Armor		Weight:
+Name:	Dragonslayer Gauntlets		Weight:
+Name:	Dragonslayer Leggings		Weight:
+Name:	Smough’s Helm		Weight:
+Name:	Smough’s Armor		Weight:
+Name:	Smough’s Gauntlets		Weight:
+Name:	Smough’s Leggings		Weight:
+Name:	Hexer’s Hood		Weight:
+Name:	Hexer’s Robes		Weight:
+Name:	Hexer’s Gloves		Weight:
+Name:	Hexer’s Boots		Weight:
+Name:	Helm of Thorns		Weight:
+Name:	Armor of Thorns		Weight:
+Name:	Gauntlets of Thorns		Weight:
+Name:	Leggings of Thorns		Weight:
+Name:	Varangian Helm		Weight:
+Name:	Varangian Armor		Weight:
+Name:	Varangian Cuffs		Weight:
+Name:	Varangian Leggings		Weight:
+Name:	Crown of Dusk		Weight:
+Name:	Antiquated Dress		Weight:
+Name:	Antiquated Gloves		Weight:
+Name:	Antiquated Skirt		Weight:
+Name:	Karla’s Pointed Hat		Weight:
+Name:	Karla’s Coat		Weight:
+Name:	Karla’s Gloves		Weight:
+Name:	Karla’s Trousers		Weight:
+Name:	Follower Helm		Weight:
+Name:	Follower Armor		Weight:
+Name:	Follower Gloves		Weight:
+Name:	Follower Boots		Weight:
+Name:	Slave Knight Hood		Weight:
+Name:	Slave Knight Armor		Weight:
+Name:	Slave Knight Gauntlets		Weight:
+Name:	Slave Knight Leggings		Weight:
+Name:	Vilhelm’s Helm		Weight:
+Name:	Vilhelm’s Armor		Weight:
+Name:	Vilhelm’s Gauntlets		Weight:
+Name:	Vilhelm’s Leggings		Weight:
+Name:	Millwood Knight Helm		Weight:
+Name:	Millwood Knight Armor		Weight:
+Name:	Millwood Knight Gauntlets		Weight:
+Name:	Millwood Knight Leggings		Weight:
+Name:	Ordained Hood		Weight:
+Name:	Ordained Dress		Weight:
+Name:	Antiquated Plain Garb		Weight:
+Name:	Violet Wrappings		Weight:
+Name:	Loincloth		Weight:
+Name:	Shira’s Crown		Weight:
+Name:	Shira’s Armor		Weight:
+Name:	Shira’s Gloves		Weight:
+Name:	Shira’s Trousers		Weight:
+Name:	Lapp’s Helm		Weight:
+Name:	Lapp’s Armor		Weight:
+Name:	Lapp’s Gauntlets		Weight:
+Name:	Lapp’s Leggings		Weight:
+Name:	Ringed Knight Hood		Weight:
+Name:	Ringed Knight Armor		Weight:
+Name:	Ringed Knight Gauntlets		Weight:
+Name:	Ringed Knight Leggings		Weight:
+Name:	Harald Legion Armor		Weight:
+Name:	Harald Legion Gauntlets		Weight:
+Name:	Harald Legion Leggings		Weight:
+Name:	Iron Dragonslayer Helm		Weight:
+Name:	Iron Dragonslayer Armor		Weight:

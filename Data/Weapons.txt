@@ -1,0 +1,2868 @@
+Torch
+Fists
+Standard Arrow
+Fire Arrow
+Poison Arrow
+Large Arrow
+Feather Arrow
+Moonlight Arrow
+Wood Arrow
+Dark Arrow
+Dragonslayer Greatarrow
+Dragonslayer Lightning Arrow
+Onislayer Greatarrow
+Standard Bolt
+Heavy Bolt
+Sniper Bolt
+Wood Bolt
+Lightning Bolt
+Splintering Bolt
+Exploding Bolt
+Dagger
+Heavy Dagger
+Sharp Dagger
+Refined Dagger
+Simple Dagger
+Crystal Dagger
+Fire Dagger
+Chaos Dagger
+Lightning Dagger
+Deep Dagger
+Dark Dagger
+Poison Dagger
+Blood Dagger
+Raw Dagger
+Blessed Dagger
+Hollow Dagger
+Bandit’s Knife
+Heavy Bandit’s Knife
+Sharp Bandit’s Knife
+Refined Bandit’s Knife
+Simple Bandit’s Knife
+Crystal Bandit’s Knife
+Fire Bandit’s Knife
+Chaos Bandit’s Knife
+Lightning Bandit’s Knife
+Deep Bandit’s Knife
+Dark Bandit’s Knife
+Poison Bandit’s Knife
+Blood Bandit’s Knife
+Raw Bandit’s Knife
+Blessed Bandit’s Knife
+Hollow Bandit’s Knife
+Parrying Dagger
+Heavy Parrying Dagger
+Sharp Parrying Dagger
+Refined Parrying Dagger
+Simple Parrying Dagger
+Crystal Parrying Dagger
+Fire Parrying Dagger
+Chaos Parrying Dagger
+Lightning Parrying Dagger
+Deep Parrying Dagger
+Dark Parrying Dagger
+Poison Parrying Dagger
+Blood Parrying Dagger
+Raw Parrying Dagger
+Blessed Parrying Dagger
+Hollow Parrying Dagger
+Rotten Ghru Dagger
+Heavy Rotten Ghru Dagger
+Sharp Rotten Ghru Dagger
+Refined Rotten Ghru Dagger
+Simple Rotten Ghru Dagger
+Crystal Rotten Ghru Dagger
+Fire Rotten Ghru Dagger
+Chaos Rotten Ghru Dagger
+Lightning Rotten Ghru Dagger
+Deep Rotten Ghru Dagger
+Dark Rotten Ghru Dagger
+Poison Rotten Ghru Dagger
+Blood Rotten Ghru Dagger
+Raw Rotten Ghru Dagger
+Blessed Rotten Ghru Dagger
+Hollow Rotten Ghru Dagger
+Blood-stained Short Sword
+Heavy Blood-stained Short Sword
+Sharp Blood-stained Short Sword
+Refined Blood-stained Short Sword
+Simpleton Blood-stained Short Sword
+Crystal Blood-stained Short Sword
+Fire Blood-stained Short Sword
+Chaos Blood-stained Short Sword
+Lightning Blood-stained Short Sword
+Deep Blood-stained Short Sword
+Dark Blood-stained Short Sword
+Poison Blood-stained Short Sword
+Blood Blood-stained Short Sword
+Raw Blood-stained Short Sword
+Blessed Blood-stained Short Sword
+Hollow Blood-stained Short Sword
+Harpe
+Heavy Harpe
+Sharp Harpe
+Refined Harpe
+Simple Harpe
+Crystal Harpe
+Fire Harpe
+Chaos Harpe
+Lightning Harpe
+Deep Harpe
+Dark Harpe
+Poison Harpe
+Blood Harpe
+Raw Harpe
+Blessed Harpe
+Hollow Harpe
+Scholar’s Candlestick
+Heavy Dripping Candle Stick
+Sharp Dripping Candle Stick
+Refined Dripping Candle Stick
+Simpleton Dripping Candle Stick
+Crystal Dripping Candle Stick
+Fire Dripping Candle Stick
+Chaos Dripping Candle Stick
+Lightning Dripping Candle Stick
+Deep Dripping Candle Stick
+Dark Dripping Candle Stick
+Poison Dripping Candle Stick
+Blood Dripping Candle Stick
+Raw Dripping Candle Stick
+Blessed Dripping Candle Stick
+Hollow Dripping Candle Stick
+Tailbone Short Sword
+Heavy Tailbone Short Sword
+Sharp Tailbone Short Sword
+Refined Tailbone Short Sword
+Simple Tailbone Short Sword
+Crystal Tailbone Short Sword
+Fire Tailbone Short Sword
+Chaos Tailbone Short Sword
+Lightning Tailbone Short Sword
+Deep Tailbone Short Sword
+Dark Tailbone Short Sword
+Poison Tailbone Short Sword
+Blood Tailbone Short Sword
+Raw Tailbone Short Sword
+Blessed Tailbone Short Sword
+Hollow Tailbone Short Sword
+Corvian Greatknife
+Heavy Corvian Greatknife
+Sharp Corvian Greatknife
+Refined Corvian Greatknife
+Simple Corvian Greatknife
+Crystal Corvian Greatknife
+Fire Corvian Greatknife
+Chaos Corvian Greatknife
+Lightning Corvian Greatknife
+Deep Corvian Greatknife
+Dark Corvian Greatknife
+Poison Corvian Greatknife
+Blood Corvian Greatknife
+Raw Corvian Greatknife
+Blessed Corvian Greatknife
+Hollow Corvian Greatknife
+Handmaid’s Dagger
+Shortsword
+Heavy Shortsword
+Sharp Shortsword
+Refined Shortsword
+Simple Shortsword
+Crystal Shortsword
+Fire Shortsword
+Chaos Shortsword
+Lightning Shortsword
+Deep Shortsword
+Dark Shortsword
+Poison Shortsword
+Blood Shortsword
+Raw Shortsword
+Blessed Shortsword
+Hollow Shortsword
+Long Sword
+Heavy Longsword
+Sharp Longsword
+Refined Longsword
+Simple Longsword
+Crystal Longsword
+Fire Longsword
+Chaos Longsword
+Lightning Longsword
+Deep Longsword
+Dark Longsword
+Poison Longsword
+Blood Longsword
+Raw Longsword
+Blessed Longsword
+Hollow Longsword
+Broadsword
+Heavy Broadsword
+Sharp Broadsword
+Refined Broadsword
+Simple Broadsword
+Crystal Broadsword
+Fire Broadsword
+Chaos Broadsword
+Lightning Broadsword
+Deep Broadsword
+Dark Broadsword
+Poison Broadsword
+Blood Broadsword
+Raw Broadsword
+Blessed Broadsword
+Hollow Broadsword
+Broken Straight Sword
+Broken Heavy Straight Sword
+Broken Sharp Straight Sword
+Broken Refined Straight Sword
+Broken Simple Straight Sword
+Broken Crystal Straight Sword
+Broken Fire Straight Sword
+Broken Chaos Straight Sword
+Broken Lightning Straight Sword
+Broken Deep Straight Sword
+Broken Dark Straight Sword
+Broken Poison Straight Sword
+Broken Blood Straight Sword
+Broken Raw Straight Sword
+Broken Blessed Straight Sword
+Broken Hollow Straight Sword
+Lothric Knight Sword
+Heavy Lothric Sword
+Sharp Lothric Sword
+Refined Lothric Sword
+Simple Lothric Sword
+Crystal Lothric Sword
+Fire Lothric Sword
+Chaos Lothric Sword
+Lightning Lothric Sword
+Deep Lothric Sword
+Dark Lothric Sword
+Poison Lothric Sword
+Blood Lothric Sword
+Raw Lothric Sword
+Blessed Lothric Sword
+Hollow Lothric Sword
+Sunlight Straight Sword
+Heavy Sunlight Straight Sword
+Sharp Sunlight Straight Sword
+Refined Sunlight Straight Sword
+Simpleton Sunlight Straight Sword
+Crystal Sunlight Straight Sword
+Fire Sunlight Straight Sword
+Chaos Sunlight Straight Sword
+Lightning Sunlight Straight Sword
+Deep Sunlight Straight Sword
+Dark Sunlight Straight Sword
+Poison Sunlight Straight Sword
+Blood Sunlight Straight Sword
+Raw Sunlight Straight Sword
+Blessed Sunlight Straight Sword
+Hollow Sunlight Straight Sword
+Rotten Ghru Curved Sword
+Heavy Rotten Ghru Sword
+Sharp Rotten Ghru Sword
+Refined Rotten Ghru Sword
+Simple Rotten Ghru Sword
+Crystal Rotten Ghru Sword
+Fire Rotten Ghru Sword
+Chaos Rotten Ghru Sword
+Lightning Rotten Ghru Sword
+Deep Rotten Ghru Sword
+Dark Rotten Ghru Sword
+Poison Rotten Ghru Sword
+Blood Rotten Ghru Sword
+Raw Rotten Ghru Sword
+Blessed Rotten Ghru Sword
+Hollow Rotten Ghru Sword
+Irithyll Straight Sword
+Cleric’s Candlestick
+Morion Blade
+Astora Straight Sword
+Heavy Astora Sword
+Sharp Astora Sword
+Refined Astora Sword
+Simple Astora Sword
+Crystal Astora Sword
+Fire Astora Sword
+Chaos Astora Sword
+Lightning Astora Sword
+Deep Astora Sword
+Dark Astora Sword
+Poison Astora Sword
+Blood Astora Sword
+Raw Astora Sword
+Blessed Astora Sword
+Hollow Astora Sword
+Barbed Straight Sword
+Heavy Barbed Sword
+Sharp Barbed Sword
+Refined Barbed Sword
+Simple Barbed Sword
+Crystal Barbed Sword
+Fire Barbed Sword
+Chaos Barbed Sword
+Lightning Barbed Sword
+Deep Barbed Sword
+Dark Barbed Sword
+Poison Barbed Sword
+Blood Barbed Sword
+Raw Barbed Sword
+Blessed Barbed Sword
+Hollow Barbed Sword
+Executioner’s Greatsword
+Heavy Executioner’s Straight Sword
+Sharp Executioner’s Straight Sword
+Refined Executioner’s Straight Sword
+Simpleton Executioner’s Straight Sword
+Crystal Executioner’s Straight Sword
+Fire Executioner’s Straight Sword
+Chaos Executioner’s Straight Sword
+Lightning Executioner’s Straight Sword
+Deep Executioner’s Straight Sword
+Dark Executioner’s Straight Sword
+Poison Executioner’s Straight Sword
+Blood Executioner’s Straight Sword
+Raw Executioner’s Straight Sword
+Blessed Executioner’s Straight Sword
+Hollow Executioner’s Straight Sword
+Anri’s Straight Sword
+Estoc
+Heavy Estoc
+Sharp Estoc
+Refined Estoc
+Simple Estoc
+Crystal Estoc
+Fire Estoc
+Chaos Estoc
+Lightning Estoc
+Deep Estoc
+Dark Estoc
+Poison Estoc
+Blood Estoc
+Raw Estoc
+Blessed Estoc
+Hollow Estoc
+Mail Breaker
+Heavy Mail Breaker
+Sharp Mail Breaker
+Refined Mail Breaker
+Simple Mail Breaker
+Crystal Mail Breaker
+Fire Mail Breaker
+Chaos Mail Breaker
+Lightning Mail Breaker
+Deep Mail Breaker
+Dark Mail Breaker
+Poison Mail Breaker
+Blood Mail Breaker
+Raw Mail Breaker
+Blessed Mail Breaker
+Hollow Mail Breaker
+Rapier
+Heavy Rapier
+Sharp Rapier
+Refined Rapier
+Simple Rapier
+Crystal Rapier
+Fire Rapier
+Chaos Rapier
+Lightning Rapier
+Deep Rapier
+Dark Rapier
+Poison Rapier
+Blood Rapier
+Raw Rapier
+Blessed Rapier
+Hollow Rapier
+Ricard’s Rapier
+Ricard’s Heavy Rapier
+Ricard’s Sharp Rapier
+Ricard’s Refined Rapier
+Ricard’s Simple Rapier
+Ricard’s Crystal Rapier
+Ricard’s Fire Rapier
+Ricard’s Chaos Rapier
+Ricard’s Lightning Rapier
+Ricard’s Deep Rapier
+Ricard’s Dark Rapier
+Ricard’s Poison Rapier
+Ricard’s Blood Rapier
+Ricard’s Raw Rapier
+Ricard’s Blessed Rapier
+Ricard’s Hollow Rapier
+Crystal Sage’s Rapier
+Heavy Crystal Rapier
+Sharp Crystal Rapier
+Refined Crystal Rapier
+Simple Crystal Rapier
+Reinforced Crystal Rapier
+Fire Crystal Rapier
+Chaos Crystal Rapier
+Lightning Crystal Rapier
+Deep Crystal Rapier
+Dark Crystal Rapier
+Poison Crystal Rapier
+Blood Crystal Rapier
+Raw Crystal Rapier
+Blessed Crystal Rapier
+Hollow Crystal Rapier
+Irithyll Rapier
+Shotel
+Heavy Shotel
+Sharp Shotel
+Refined Shotel
+Simple Shotel
+Crystal Shotel
+Fire Shotel
+Chaos Shotel
+Lightning Shotel
+Deep Shotel
+Dark Shotel
+Poison Shotel
+Blood Shotel
+Raw Shotel
+Blessed Shotel
+Hollow Shotel
+Scimitar
+Heavy Scimitar
+Sharp Scimitar
+Refined Scimitar
+Simple Scimitar
+Crystal Scimitar
+Fire Scimitar
+Chaos Scimitar
+Lightning Scimitar
+Deep Scimitar
+Dark Scimitar
+Poison Scimitar
+Blood Scimitar
+Raw Scimitar
+Blessed Scimitar
+Hollow Scimitar
+Falchion
+Heavy Falchion
+Sharp Falchion
+Refined Falchion
+Simple Falchion
+Crystal Falchion
+Fire Falchion
+Chaos Falchion
+Lightning Falchion
+Deep Falchion
+Dark Falchion
+Poison Falchion
+Blood Falchion
+Raw Falchion
+Blessed Falchion
+Hollow Falchion
+Carthus Curved Sword
+Heavy Carthus Sword
+Sharp Carthus Sword
+Refined Carthus Sword
+Simple Carthus Sword
+Crystal Carthus Sword
+Fire Carthus Sword
+Chaos Carthus Sword
+Lightning Carthus Sword
+Deep Carthus Sword
+Dark Carthus Sword
+Poison Carthus Sword
+Blood Carthus Sword
+Raw Carthus Sword
+Blessed Carthus Sword
+Hollow Carthus Sword
+Carthus Curved Greatsword
+Heavy Carthus Greatsword
+Sharp Carthus Greatsword
+Refined Carthus Greatsword
+Simple Carthus Greatsword
+Crystal Carthus Greatsword
+Fire Carthus Greatsword
+Chaos Carthus Greatsword
+Lightning Carthus Greatsword
+Deep Carthus Greatsword
+Dark Carthus Greatsword
+Poison Carthus Greatsword
+Blood Carthus Greatsword
+Raw Carthus Greatsword
+Blessed Carthus Greatsword
+Hollow Carthus Greatsword
+Pontiff Knight Curved Sword
+Storm Curved Sword
+Painting Guardian’s Curved Sword
+Painting Guardian’s Heavy Sword
+Painting Guardian’s Sharp Sword
+Painting Guardian’s Refined Sword
+Painting Guardian’s Simple Sword
+Painting Guardian’s Crystal Sword
+Painting Guardian’s Fire Sword
+Painting Guardian’s Chaos Sword
+Painting Guardian’s Lightning Sword
+Painting Guardian’s Deep Sword
+Painting Guardian’s Dark Sword
+Painting Guardian’s Poison Sword
+Painting Guardian’s Blood Sword
+Painting Guardian’s Raw Sword
+Painting Guardian’s Blessed Sword
+Painting Guardian’s Hollow Sword
+Crescent Moon Sword
+Carthus Shotel
+Heavy Carthus Shotel
+Sharp Carthus Shotel
+Refined Carthus Shotel
+Simple Carthus Shotel
+Crystal Carthus Shotel
+Fire Carthus Shotel
+Chaos Carthus Shotel
+Lightning Carthus Shotel
+Deep Carthus Shotel
+Dark Carthus Shotel
+Poison Carthus Shotel
+Blood Carthus Shotel
+Raw Carthus Shotel
+Blessed Carthus Shotel
+Hollow Carthus Shotel
+Uchigatana
+Heavy Uchigatana
+Sharp Uchigatana
+Refined Uchigatana
+Simple Uchigatana
+Crystal Uchigatana
+Fire Uchigatana
+Chaos Uchigatana
+Lightning Uchigatana
+Deep Uchigatana
+Dark Uchigatana
+Poison Uchigatana
+Blood Uchigatana
+Raw Uchigatana
+Blessed Uchigatana
+Hollow Uchigatana
+Washing Pole
+Heavy Washing Pole
+Sharp Washing Pole
+Refined Washing Pole
+Simple Washing Pole
+Crystal Washing Pole
+Fire Washing Pole
+Chaos Washing Pole
+Lightning Washing Pole
+Deep Washing Pole
+Dark Washing Pole
+Poison Washing Pole
+Blood Washing Pole
+Raw Washing Pole
+Blessed Washing Pole
+Hollow Washing Pole
+Chaos Blade
+Black Blade
+Heavy Black Blade
+Sharp Black Blade
+Refined Black Blade
+Simple Black Blade
+Crystal Black Blade
+Fire Black Blade
+Chaos Black Blade
+Lightning Black Blade
+Deep Black Blade
+Dark Black Blade
+Poison Black Blade
+Blood Black Blade
+Raw Black Blade
+Blessed Black Blade
+Hollow Black Blade
+Bloodlust
+Darkdrift
+Bastard Sword
+Heavy Bastard Sword
+Sharp Bastard Sword
+Refined Bastard Sword
+Simple Bastard Sword
+Crystal Bastard Sword
+Fire Bastard Sword
+Chaos Bastard Sword
+Lightning Bastard Sword
+Deep Bastard Sword
+Dark Bastard Sword
+Poison Bastard Sword
+Blood Bastard Sword
+Raw Bastard Sword
+Blessed Bastard Sword
+Hollow Bastard Sword
+Claymore
+Heavy Claymore
+Sharp Claymore
+Refined Claymore
+Simple Claymore
+Crystal Claymore
+Fire Claymore
+Chaos Claymore
+Lightning Claymore
+Deep Claymore
+Dark Claymore
+Poison Claymore
+Blood Claymore
+Raw Claymore
+Blessed Claymore
+Hollow Claymore
+Zweihander
+Heavy Zweihander
+Sharp Zweihander
+Refined Zweihander
+Simple Zweihander
+Crystal Zweihander
+Fire Zweihander
+Chaos Zweihander
+Lightning Zweihander
+Deep Zweihander
+Dark Zweihander
+Poison Zweihander
+Blood Zweihander
+Raw Zweihander
+Blessed Zweihander
+Hollow Zweihander
+Greatsword
+Heavy Greatsword
+Sharp Greatsword
+Refined Greatsword
+Simple Greatsword
+Crystal Greatsword
+Fire Greatsword
+Chaos Greatsword
+Lightning Greatsword
+Deep Greatsword
+Dark Greatsword
+Poison Greatsword
+Blood Greatsword
+Raw Greatsword
+Blessed Greatsword
+Hollow Greatsword
+Astora Greatsword
+Heavy Astora Greatsword
+Sharp Astora Greatsword
+Refined Astora Greatsword
+Simple Astora Greatsword
+Crystal Astora Greatsword
+Fire Astora Greatsword
+Chaos Astora Greatsword
+Lightning Astora Greatsword
+Deep Astora Greatsword
+Dark Astora Greatsword
+Poison Astora Greatsword
+Blood Astora Greatsword
+Raw Astora Greatsword
+Blessed Astora Greatsword
+Hollow Astora Greatsword
+Murakumo
+Heavy Murakumo
+Sharp Murakumo
+Refined Murakumo
+Simple Murakumo
+Crystal Murakumo
+Fire Murakumo
+Chaos Murakumo
+Lightning Murakumo
+Deep Murakumo
+Dark Murakumo
+Poison Murakumo
+Blood Murakumo
+Raw Murakumo
+Blessed Murakumo
+Hollow Murakumo
+Lothric Knight Greatsword
+Heavy Lothric Greatsword
+Sharp Lothric Greatsword
+Refined Lothric Greatsword
+Simple Lothric Greatsword
+Crystal Lothric Greatsword
+Fire Lothric Greatsword
+Chaos Lothric Greatsword
+Lightning Lothric Greatsword
+Deep Lothric Greatsword
+Dark Lothric Greatsword
+Poison Lothric Greatsword
+Blood Lothric Greatsword
+Raw Lothric Greatsword
+Blessed Lothric Greatsword
+Hollow Lothric Greatsword
+Black Knight Greatsword
+Heavy Black Knight Greatsword
+Sharp Black Knight Greatsword
+Refined Black Knight Greatsword
+Simple Black Knight Greatsword
+Crystal Black Knight Greatsword
+Fire Black Knight Greatsword
+Chaos Black Knight Greatsword
+Lightning Black Knight Greatsword
+Deep Black Knight Greatsword
+Dark Black Knight Greatsword
+Poison Black Knight Greatsword
+Blood Black Knight Greatsword
+Raw Black Knight Greatsword
+Blessed Black Knight Greatsword
+Hollow Black Knight Greatsword
+Flamberge
+Heavy Flamberge
+Sharp Flamberge
+Refined Flamberge
+Simple Flamberge
+Crystal Flamberge
+Fire Flamberge
+Chaos Flamberge
+Lightning Flamberge
+Deep Flamberge
+Dark Flamberge
+Poison Flamberge
+Blood Flamberge
+Raw Flamberge
+Blessed Flamberge
+Hollow Flamberge
+Exile Greatsword
+Heavy Exile Greatsword
+Sharp Exile Greatsword
+Refined Exile Greatsword
+Simple Exile Greatsword
+Crystal Exile Greatsword
+Fire Exile Greatsword
+Chaos Exile Greatsword
+Lightning Exile Greatsword
+Deep Exile Greatsword
+Dark Exile Greatsword
+Poison Exile Greatsword
+Blood Exile Greatsword
+Raw Exile Greatsword
+Blessed Exile Greatsword
+Hollow Exile Greatsword
+Greatsword of Judgment
+Profaned Greatsword
+Cathedral Knight Greatsword
+Heavy Cathedral Greatsword
+Sharp Cathedral Greatsword
+Refined Cathedral Greatsword
+Simple Cathedral Greatsword
+Crystal Cathedral Greatsword
+Fire Cathedral Greatsword
+Chaos Cathedral Greatsword
+Lightning Cathedral Greatsword
+Deep Cathedral Greatsword
+Dark Cathedral Greatsword
+Poison Cathedral Greatsword
+Blood Cathedral Greatsword
+Raw Cathedral Greatsword
+Blessed Cathedral Greatsword
+Hollow Cathedral Greatsword
+Farron Greatsword
+Yhorm’s Great Machete
+Dark Sword
+Heavy Dark Sword
+Sharp Dark Sword
+Refined Dark Sword
+Simple Dark Sword
+Crystal Dark Sword
+Fire Dark Sword
+Chaos Dark Sword
+Lightning Dark Sword
+Deep Dark Sword
+Reinforced Dark Sword
+Poison Dark Sword
+Blood Dark Sword
+Raw Dark Sword
+Blessed Dark Sword
+Hollow Dark Sword
+Black Knight Sword
+Heavy Black Knight Sword
+Sharp Black Knight Sword
+Refined Black Knight Sword
+Simple Black Knight Sword
+Crystal Black Knight Sword
+Fire Black Knight Sword
+Chaos Black Knight Sword
+Lightning Black Knight Sword
+Deep Black Knight Sword
+Dark Black Knight Sword
+Poison Black Knight Sword
+Blood Black Knight Sword
+Raw Black Knight Sword
+Blessed Black Knight Sword
+Hollow Black Knight Sword
+Lorian’s Greatsword
+Twin Princes’ Greatsword
+Lothric’s Holy Sword
+Wolnir’s Holy Sword
+Wolf Knight’s Greatsword
+Greatsword of Artorias
+Greatsword of Artorias+1
+Greatsword of Artorias+2
+Greatsword of Artorias+3
+Greatsword of Artorias+4
+Greatsword of Artorias+5
+Hollowslayer Greatsword
+Heavy Hollowslayer Greatsword
+Sharp Hollowslayer Greatsword
+Refined Hollowslayer Greatsword
+Simple Hollowslayer Greatsword
+Crystal Hollowslayer Greatsword
+Fire Hollowslayer Greatsword
+Chaos Hollowslayer Greatsword
+Lightning Hollowslayer Greatsword
+Deep Hollowslayer Greatsword
+Dark Hollowslayer Greatsword
+Poison Hollowslayer Greatsword
+Blood Hollowslayer Greatsword
+Raw Hollowslayer Greatsword
+Blessed Hollowslayer Greatsword
+Hollow Hollowslayer Greatsword
+Moonlight Greatsword
+Drakeblood Greatsword
+Heavy Drakeblood Greatsword
+Sharp Drakeblood Greatsword
+Refined Drakeblood Greatsword
+Simple Drakeblood Greatsword
+Crystal Drakeblood Greatsword
+Fire Drakeblood Greatsword
+Chaos Drakeblood Greatsword
+Lightning Drakeblood Greatsword
+Deep Drakeblood Greatsword
+Dark Drakeblood Greatsword
+Poison Drakeblood Greatsword
+Blood Drakeblood Greatsword
+Raw Drakeblood Greatsword
+Blessed Drakeblood Greatsword
+Hollow Drakeblood Greatsword
+Firelink Greatsword
+Fume Ultra Greatsword
+Old Wolf Curved Sword
+Storm Ruler
+Hand Axe
+Heavy Hand Axe
+Sharp Hand Axe
+Refined Hand Axe
+Simple Hand Axe
+Crystal Hand Axe
+Fire Hand Axe
+Chaos Hand Axe
+Lightning Hand Axe
+Deep Hand Axe
+Dark Hand Axe
+Poison Hand Axe
+Blood Hand Axe
+Raw Hand Axe
+Blessed Hand Axe
+Hollow Hand Axe
+Battle Axe
+Heavy Battle Axe
+Sharp Battle Axe
+Refined Battle Axe
+Simple Battle Axe
+Crystal Battle Axe
+Fire Battle Axe
+Chaos Battle Axe
+Lightning Battle Axe
+Deep Battle Axe
+Dark Battle Axe
+Poison Battle Axe
+Blood Battle Axe
+Raw Battle Axe
+Blessed Battle Axe
+Hollow Battle Axe
+Brigand Axe
+Heavy Brigand Axe
+Sharp Brigand Axe
+Refined Brigand Axe
+Simple Brigand Axe
+Crystal Brigand Axe
+Fire Brigand Axe
+Chaos Brigand Axe
+Lightning Brigand Axe
+Deep Brigand Axe
+Dark Brigand Axe
+Poison Brigand Axe
+Blood Brigand Axe
+Raw Brigand Axe
+Blessed Brigand Axe
+Hollow Brigand Axe
+Crescent Axe
+Heavy Crescent Axe
+Sharp Crescent Axe
+Refined Crescent Axe
+Simple Crescent Axe
+Crystal Crescent Axe
+Fire Crescent Axe
+Chaos Crescent Axe
+Lightning Crescent Axe
+Deep Crescent Axe
+Dark Crescent Axe
+Poison Crescent Axe
+Blood Crescent Axe
+Raw Crescent Axe
+Blessed Crescent Axe
+Hollow Crescent Axe
+Greataxe
+Heavy Greataxe
+Sharp Greataxe
+Refined Greataxe
+Simple Greataxe
+Crystal Greataxe
+Fire Greataxe
+Chaos Greataxe
+Lightning Greataxe
+Deep Greataxe
+Dark Greataxe
+Poison Greataxe
+Blood Greataxe
+Raw Greataxe
+Blessed Greataxe
+Hollow Greataxe
+Butcher Knife
+Heavy Butcher Knife
+Sharp Butcher Knife
+Refined Butcher Knife
+Simple Butcher Knife
+Crystal Butcher Knife
+Fire Butcher Knife
+Chaos Butcher Knife
+Lightning Butcher Knife
+Deep Butcher Knife
+Dark Butcher Knife
+Poison Butcher Knife
+Blood Butcher Knife
+Raw Butcher Knife
+Blessed Butcher Knife
+Hollow Butcher Knife
+Dragonslayer’s Axe
+Heavy Dragonslayer’s Axe
+Sharp Dragonslayer’s Axe
+Refined Dragonslayer’s Axe
+Simple Dragonslayer’s Axe
+Crystal Dragonslayer’s Axe
+Fire Dragonslayer’s Axe
+Chaos Dragonslayer’s Axe
+Lightning Dragonslayer’s Axe
+Deep Dragonslayer’s Axe
+Dark Dragonslayer’s Axe
+Poison Dragonslayer’s Axe
+Blood Dragonslayer’s Axe
+Raw Dragonslayer’s Axe
+Blessed Dragonslayer’s Axe
+Hollow Dragonslayer’s Axe
+Missionary’s Axe
+Heavy Missionary’s Axe
+Sharp Missionary’s Axe
+Refined Missionary’s Axe
+Simpleton Missionary’s Axe
+Crystal Missionary’s Axe
+Fire Missionary’s Axe
+Chaos Missionary’s Axe
+Lightning Missionary’s Axe
+Deep Missionary’s Axe
+Dark Missionary’s Axe
+Poison Missionary’s Axe
+Blood Missionary’s Axe
+Raw Missionary’s Axe
+Blessed Missionary’s Axe
+Hollow Missionary’s Axe
+Thrall Axe
+Heavy Thrall Axe
+Sharp Thrall Axe
+Refined Thrall Axe
+Simple Thrall Axe
+Crystal Thrall Axe
+Fire Thrall Axe
+Chaos Thrall Axe
+Lightning Thrall Axe
+Deep Thrall Axe
+Dark Thrall Axe
+Poison Thrall Axe
+Blood Thrall Axe
+Raw Thrall Axe
+Blessed Thrall Axe
+Hollow Thrall Axe
+Dragonslayer Greataxe
+Demon’s Greataxe
+Eleonora
+Man Serpent Hatchet
+Heavy Serpent Hatchet
+Sharp Serpent Hatchet
+Refined Serpent Hatchet
+Simple Serpent Hatchet
+Crystal Serpent Hatchet
+Fire Serpent Hatchet
+Chaos Serpent Hatchet
+Lightning Serpent Hatchet
+Deep Serpent Hatchet
+Dark Serpent Hatchet
+Poison Serpent Hatchet
+Blood Serpent Hatchet
+Raw Serpent Hatchet
+Blessed Serpent Hatchet
+Hollow Serpent Hatchet
+Dragon King Greataxe
+Club
+Heavy Club
+Sharp Club
+Refined Club
+Simple Club
+Crystal Club
+Fire Club
+Chaos Club
+Lightning Club
+Deep Club
+Dark Club
+Poison Club
+Blood Club
+Raw Club
+Blessed Club
+Hollow Club
+Mace
+Heavy Mace
+Sharp Mace
+Refined Mace
+Simple Mace
+Crystal Mace
+Fire Mace
+Chaos Mace
+Lightning Mace
+Deep Mace
+Dark Mace
+Poison Mace
+Blood Mace
+Raw Mace
+Blessed Mace
+Hollow Mace
+Morning Star
+Heavy Morning Star
+Sharp Morning Star
+Refined Morning Star
+Simple Morning Star
+Crystal Morning Star
+Fire Morning Star
+Chaos Morning Star
+Lightning Morning Star
+Deep Morning Star
+Dark Morning Star
+Poison Morning Star
+Blood Morning Star
+Raw Morning Star
+Blessed Morning Star
+Hollow Morning Star
+Reinforced Club
+Heavy Reinforced Club
+Sharp Reinforced Club
+Refined Reinforced Club
+Simple Reinforced Club
+Crystal Reinforced Club
+Fire Reinforced Club
+Chaos Reinforced Club
+Lightning Reinforced Club
+Deep Reinforced Club
+Dark Reinforced Club
+Poison Reinforced Club
+Blood Reinforced Club
+Raw Reinforced Club
+Blessed Reinforced Club
+Hollow Reinforced Club
+Large Club
+Heavy Large Club
+Sharp Large Club
+Refined Large Club
+Simple Large Club
+Crystal Large Club
+Fire Large Club
+Chaos Large Club
+Lightning Large Club
+Deep Large Club
+Dark Large Club
+Poison Large Club
+Blood Large Club
+Raw Large Club
+Blessed Large Club
+Hollow Large Club
+Great Club
+Heavy Great Club
+Sharp Great Club
+Refined Great Club
+Simple Great Club
+Crystal Great Club
+Fire Great Club
+Chaos Great Club
+Lightning Great Club
+Deep Great Club
+Dark Great Club
+Poison Great Club
+Blood Great Club
+Raw Great Club
+Blessed Great Club
+Hollow Great Club
+Great Mace
+Heavy Great Mace
+Sharp Great Mace
+Refined Great Mace
+Simple Great Mace
+Crystal Great Mace
+Fire Great Mace
+Chaos Great Mace
+Lightning Great Mace
+Deep Great Mace
+Dark Great Mace
+Poison Great Mace
+Blood Great Mace
+Raw Great Mace
+Blessed Great Mace
+Hollow Great Mace
+Great Wooden Hammer
+Heavy Wooden Hammer
+Sharp Wooden Hammer
+Refined Wooden Hammer
+Simple Wooden Hammer
+Crystal Wooden Hammer
+Fire Wooden Hammer
+Chaos Wooden Hammer
+Lightning Wooden Hammer
+Deep Wooden Hammer
+Dark Wooden Hammer
+Poison Wooden Hammer
+Blood Wooden Hammer
+Raw Wooden Hammer
+Blessed Wooden Hammer
+Hollow Wooden Hammer
+Gargoyle Flame Hammer
+Vordt’s Great Hammer
+Old King’s Great Hammer
+Four Knights Hammer
+Heysel Pick
+Hammer of the Great Tree
+Warpick
+Heavy Warpick
+Sharp Warpick
+Refined Warpick
+Simple Warpick
+Crystal Warpick
+Fire Warpick
+Chaos Warpick
+Lightning Warpick
+Deep Warpick
+Dark Warpick
+Poison Warpick
+Blood Warpick
+Raw Warpick
+Blessed Warpick
+Hollow Warpick
+Pickaxe
+Heavy Pickaxe
+Sharp Pickaxe
+Refined Pickaxe
+Simple Pickaxe
+Crystal Pickaxe
+Fire Pickaxe
+Chaos Pickaxe
+Lightning Pickaxe
+Deep Pickaxe
+Dark Pickaxe
+Poison Pickaxe
+Blood Pickaxe
+Raw Pickaxe
+Blessed Pickaxe
+Hollow Pickaxe
+Dragon Tooth
+Smough’s Great Hammer
+Blacksmith Hammer
+Heavy Blacksmith Hammer
+Sharp Blacksmith Hammer
+Refined Blacksmith Hammer
+Simple Blacksmith Hammer
+Crystal Blacksmith Hammer
+Fire Blacksmith Hammer
+Chaos Blacksmith Hammer
+Lightning Blacksmith Hammer
+Deep Blacksmith Hammer
+Dark Blacksmith Hammer
+Poison Blacksmith Hammer
+Blood Blacksmith Hammer
+Raw Blacksmith Hammer
+Blessed Blacksmith Hammer
+Hollow Blacksmith Hammer
+Morne’s Great Hammer
+Morne’s Heavy Hammer
+Morne’s Sharp Hammer
+Morne’s Refined Hammer
+Morne’s Simple Hammer
+Morne’s Crystal Hammer
+Morne’s Fire Hammer
+Morne’s Chaos Hammer
+Morne’s Lightning Hammer
+Morne’s Deep Hammer
+Morne’s Dark Hammer
+Morne’s Poison Hammer
+Morne’s Blood Hammer
+Morne’s Raw Hammer
+Morne’s Blessed Hammer
+Morne’s Hollow Hammer
+Spiked Mace
+Heavy Spiked Mace
+Sharp Spiked Mace
+Refined Spiked Mace
+Simple Spiked Mace
+Crystal Spiked Mace
+Fire Spiked Mace
+Chaos Spiked Mace
+Lightning Spiked Mace
+Deep Spiked Mace
+Dark Spiked Mace
+Poison Spiked Mace
+Blood Spiked Mace
+Raw Spiked Mace
+Blessed Spiked Mace
+Hollow Spiked Mace
+Spear
+Heavy Spear
+Sharp Spear
+Refined Spear
+Simple Spear
+Crystal Spear
+Fire Spear
+Chaos Spear
+Lightning Spear
+Deep Spear
+Dark Spear
+Poison Spear
+Blood Spear
+Raw Spear
+Blessed Spear
+Hollow Spear
+Winged Spear
+Heavy Winged Spear
+Sharp Winged Spear
+Refined Winged Spear
+Simple Winged Spear
+Crystal Winged Spear
+Fire Winged Spear
+Chaos Winged Spear
+Lightning Winged Spear
+Deep Winged Spear
+Dark Winged Spear
+Poison Winged Spear
+Blood Winged Spear
+Raw Winged Spear
+Blessed Winged Spear
+Hollow Winged Spear
+Partizan
+Heavy Partizan
+Sharp Partizan
+Refined Partizan
+Simple Partizan
+Crystal Partizan
+Fire Partizan
+Chaos Partizan
+Lightning Partizan
+Deep Partizan
+Dark Partizan
+Poison Partizan
+Blood Partizan
+Raw Partizan
+Blessed Partizan
+Hollow Partizan
+Greatlance
+Heavy Greatlance
+Sharp Greatlance
+Refined Greatlance
+Simple Greatlance
+Crystal Greatlance
+Fire Greatlance
+Chaos Greatlance
+Lightning Greatlance
+Deep Greatlance
+Dark Greatlance
+Poison Greatlance
+Blood Greatlance
+Raw Greatlance
+Blessed Greatlance
+Hollow Greatlance
+Lothric Knight Long Spear
+Heavy Lothric Long Spear
+Sharp Lothric Long Spear
+Refined Lothric Long Spear
+Simple Lothric Long Spear
+Crystal Lothric Long Spear
+Fire Lothric Long Spear
+Chaos Lothric Long Spear
+Lightning Lothric Long Spear
+Deep Lothric Long Spear
+Dark Lothric Long Spear
+Poison Lothric Long Spear
+Blood Lothric Long Spear
+Raw Lothric Long Spear
+Blessed Lothric Long Spear
+Hollow Lothric Long Spear
+Four-Pronged Plow
+Heavy Four-Pronged Plow
+Sharp Four-Pronged Plow
+Refined Four-Pronged Plow
+Simple Four-Pronged Plow
+Crystal Four-Pronged Plow
+Fire Four-Pronged Plow
+Chaos Four-Pronged Plow
+Lightning Four-Pronged Plow
+Deep Four-Pronged Plow
+Dark Four-Pronged Plow
+Poison Four-Pronged Plow
+Blood Four-Pronged Plow
+Raw Four-Pronged Plow
+Blessed Four-Pronged Plow
+Hollow Four-Pronged Plow
+Gargoyle Flame Spear
+Rotten Ghru Spear
+Heavy Rotten Ghru Spear
+Sharp Rotten Ghru Spear
+Refined Rotten Ghru Spear
+Simple Rotten Ghru Spear
+Crystal Rotten Ghru Spear
+Fire Rotten Ghru Spear
+Chaos Rotten Ghru Spear
+Lightning Rotten Ghru Spear
+Deep Rotten Ghru Spear
+Dark Rotten Ghru Spear
+Poison Rotten Ghru Spear
+Blood Rotten Ghru Spear
+Raw Rotten Ghru Spear
+Blessed Rotten Ghru Spear
+Hollow Rotten Ghru Spear
+Tailbone Spear
+Soldering Iron
+Heavy Soldering Iron
+Sharp Soldering Iron
+Refined Soldering Iron
+Simple Soldering Iron
+Crystal Soldering Iron
+Fire Soldering Iron
+Chaos Soldering Iron
+Lightning Soldering Iron
+Deep Soldering Iron
+Dark Soldering Iron
+Poison Soldering Iron
+Blood Soldering Iron
+Raw Soldering Iron
+Blessed Soldering Iron
+Hollow Soldering Iron
+Dragonslayer Swordspear
+Arstor’s Spear
+Saint Bident
+Heavy Saint Bident
+Sharp Saint Bident
+Refined Saint Bident
+Simple Saint Bident
+Crystal Saint Bident
+Fire Saint Bident
+Chaos Saint Bident
+Lightning Saint Bident
+Deep Saint Bident
+Dark Saint Bident
+Poison Saint Bident
+Blood Saint Bident
+Raw Saint Bident
+Blessed Saint Bident
+Hollow Saint Bident
+Yorshka’s Spear
+Pike
+Heavy Pike
+Sharp Pike
+Refined Pike
+Simple Pike
+Crystal Pike
+Fire Pike
+Chaos Pike
+Lightning Pike
+Deep Pike
+Dark Pike
+Poison Pike
+Blood Pike
+Raw Pike
+Blessed Pike
+Hollow Pike
+Channeler’s Trident
+Heavy Four-pronged Plow
+Sharp Four-pronged Plow
+Refined Four-pronged Plow
+Simpleton Four-pronged Plow
+Crystal Four-pronged Plow
+Fire Four-pronged Plow
+Chaos Four-pronged Plow
+Lightning Four-pronged Plow
+Deep Four-pronged Plow
+Dark Four-pronged Plow
+Poison Four-pronged Plow
+Blood Four-pronged Plow
+Raw Four-pronged Plow
+Blessed Four-pronged Plow
+Hollow Four-pronged Plow
+Dragonslayer Spear
+Great Scythe
+Heavy Great Scythe
+Sharp Great Scythe
+Refined Great Scythe
+Simple Great Scythe
+Crystal Great Scythe
+Fire Great Scythe
+Chaos Great Scythe
+Lightning Great Scythe
+Deep Great Scythe
+Dark Great Scythe
+Poison Great Scythe
+Blood Great Scythe
+Raw Great Scythe
+Blessed Great Scythe
+Hollow Great Scythe
+Lucerne
+Heavy Lucerne
+Sharp Lucerne
+Refined Lucerne
+Simple Lucerne
+Crystal Lucerne
+Fire Lucerne
+Chaos Lucerne
+Lightning Lucerne
+Deep Lucerne
+Dark Lucerne
+Poison Lucerne
+Blood Lucerne
+Raw Lucerne
+Blessed Lucerne
+Hollow Lucerne
+Glaive
+Heavy Glaive
+Sharp Glaive
+Refined Glaive
+Simple Glaive
+Crystal Glaive
+Fire Glaive
+Chaos Glaive
+Lightning Glaive
+Deep Glaive
+Dark Glaive
+Poison Glaive
+Blood Glaive
+Raw Glaive
+Blessed Glaive
+Hollow Glaive
+Halberd
+Heavy Halberd
+Sharp Halberd
+Refined Halberd
+Simple Halberd
+Crystal Halberd
+Fire Halberd
+Chaos Halberd
+Lightning Halberd
+Deep Halberd
+Dark Halberd
+Poison Halberd
+Blood Halberd
+Raw Halberd
+Blessed Halberd
+Hollow Halberd
+Black Knight Greataxe
+Heavy Black Knight Greataxe
+Sharp Black Knight Greataxe
+Refined Black Knight Greataxe
+Simple Black Knight Greataxe
+Crystal Black Knight Greataxe
+Fire Black Knight Greataxe
+Chaos Black Knight Greataxe
+Lightning Black Knight Greataxe
+Deep Black Knight Greataxe
+Dark Black Knight Greataxe
+Poison Black Knight Greataxe
+Blood Black Knight Greataxe
+Raw Black Knight Greataxe
+Blessed Black Knight Greataxe
+Hollow Black Knight Greataxe
+Pontiff Knight Great Scythe
+Great Corvian Scythe
+Heavy Corvian Scythe
+Sharp Corvian Scythe
+Refined Corvian Scythe
+Simple Corvian Scythe
+Crystal Corvian Scythe
+Fire Corvian Scythe
+Chaos Corvian Scythe
+Lightning Corvian Scythe
+Deep Corvian Scythe
+Dark Corvian Scythe
+Poison Corvian Scythe
+Blood Corvian Scythe
+Raw Corvian Scythe
+Blessed Corvian Scythe
+Hollow Corvian Scythe
+Winged Knight Halberd
+Heavy Winged Knight Halberd
+Sharp Winged Knight Halberd
+Refined Winged Knight Halberd
+Simple Winged Knight Halberd
+Crystal Winged Knight Halberd
+Fire Winged Knight Halberd
+Chaos Winged Knight Halberd
+Lightning Winged Knight Halberd
+Deep Winged Knight Halberd
+Dark Winged Knight Halberd
+Poison Winged Knight Halberd
+Blood Winged Knight Halberd
+Raw Winged Knight Halberd
+Blessed Winged Knight Halberd
+Hollow Winged Knight Halberd
+Gundyr’s Halberd
+Lothric’s Scythe
+Ancient Dragon Halberd
+Scythe of Want
+Red Hilted Halberd
+Heavy Red Halberd
+Sharp Red Halberd
+Refined Red Halberd
+Simple Red Halberd
+Crystal Red Halberd
+Fire Red Halberd
+Chaos Red Halberd
+Lightning Red Halberd
+Deep Red Halberd
+Dark Red Halberd
+Poison Red Halberd
+Blood Red Halberd
+Raw Red Halberd
+Blessed Red Halberd
+Hollow Red Halberd
+Black Knight Glaive
+Heavy Black Knight Glaive
+Sharp Black Knight Glaive
+Refined Black Knight Glaive
+Simple Black Knight Glaive
+Crystal Black Knight Glaive
+Fire Black Knight Glaive
+Chaos Black Knight Glaive
+Lightning Black Knight Glaive
+Deep Black Knight Glaive
+Dark Black Knight Glaive
+Poison Black Knight Glaive
+Blood Black Knight Glaive
+Raw Black Knight Glaive
+Blessed Black Knight Glaive
+Hollow Black Knight Glaive
+Immolation Tinder
+Claw
+Heavy Claw
+Sharp Claw
+Skilled Claw
+Simple Claw
+Crystal Claw
+Fire Claw
+Chaos Claw
+Lightning Claw
+Deep Claw
+Dark Claw
+Poison Claw
+Blood Claw
+Raw Claw
+Blessed Claw
+Hollow Claw
+Caestus
+Heavy Caestus
+Sharp Caestus
+Skilled Caestus
+Simple Caestus
+Crystal Caestus
+Fire Caestus
+Chaos Caestus
+Lightning Caestus
+Deep Caestus
+Dark Caestus
+Poison Caestus
+Blood Caestus
+Raw Caestus
+Blessed Caestus
+Hollow Caestus
+Manikin Claws
+Heavy Manikin Claws
+Sharp Manikin Claws
+Skilled Manikin Claws
+Simple Manikin Claws
+Crystal Manikin Claws
+Fire Manikin Claws
+Chaos Manikin Claws
+Lightning Manikin Claws
+Deep Manikin Claws
+Dark Manikin Claws
+Poison Manikin Claws
+Blood Manikin Claws
+Raw Manikin Claws
+Blessed Manikin Claws
+Hollow Manikin Claws
+Demon’s Fist
+Dark Hand
+Whip
+Heavy Whip
+Sharp Whip
+Skilled Whip
+Simple Whip
+Crystal Whip
+Chaos Whip
+Lightning Whip
+Deep Whip
+Dark Whip
+Poison Whip
+Blood Whip
+Raw Whip
+Blessed Whip
+Hollow Whip
+Witch’s Locks
+Notched Whip
+Heavy Notched Whip
+Sharp Notched Whip
+Skilled Notched Whip
+Simple Notched Whip
+Crystal Notched Whip
+Fire Notched Whip
+Chaos Notched Whip
+Lightning Notched Whip
+Deep Notched Whip
+Dark Notched Whip
+Poison Notched Whip
+Blood Notched Whip
+Raw Notched Whip
+Blessed Notched Whip
+Hollow Notched Whip
+Spotted Whip
+Talisman
+Sorcerer’s Staff
+Storyteller’s Staff
+Mendicant’s Staff
+Man-grub’s Staff
+Archdeacon’s Great Staff
+Golden Ritual Spear
+Yorshka’s Chime
+Sacred Beast Catalyst
+Sage’s Crystal Staff
+Heretic’s Staff
+Court Sorcerer’s Staff
+Witchtree Branch
+Izalith Staff
+Cleric’s Sacred Chime
+Priest’s Chime
+Saint-tree Bellvine
+Caitha’s Chime
+Crystal Chime
+Sunlight Talisman
+Canvas Talisman
+Sunless Talisman
+Saint’s Talisman
+White Hair Talisman
+Pyromancy Flame
+Deep Pyromancy Flame
+Flickering Pyromancy Flame
+Strong Pyromancy Flame
+Deep Pyromancy Flame
+Pitch-Dark Pyromancy Flame
+Dragonslayer Greatbow
+Short Bow
+Heavy Short Bow
+Sharp Short Bow
+Refined Short Bow
+Simpleton Short Bow
+Crystal Short Bow
+Fire Short Bow
+Chaos Short Bow
+Lightning Short Bow
+Deep Short Bow
+Dark Short Bow
+Poison Short Bow
+Blood Short Bow
+Raw Short Bow
+Blessed Short Bow
+Hollow Short Bow
+Composite Bow
+Heavy Composite Bow
+Sharp Composite Bow
+Refined Composite Bow
+Simpleton Composite Bow
+Crystal Composite Bow
+Fire Composite Bow
+Chaos Composite Bow
+Lightning Composite Bow
+Deep Composite Bow
+Dark Composite Bow
+Poison Composite Bow
+Blood Composite Bow
+Raw Composite Bow
+Blessed Composite Bow
+Hollow Composite Bow
+Light Crossbow
+Heavy Soldier’s Crossbow
+Sharp Soldier’s Crossbow
+Refined Soldier’s Crossbow
+Simpleton Soldier’s Crossbow
+Crystal Soldier’s Crossbow
+Fire Soldier’s Crossbow
+Chaos Soldier’s Crossbow
+Lightning Soldier’s Crossbow
+Deep Soldier’s Crossbow
+Dark Soldier’s Crossbow
+Poison Soldier’s Crossbow
+Blood Soldier’s Crossbow
+Raw Soldier’s Crossbow
+Blessed Soldier’s Crossbow
+Hollow Soldier’s Crossbow
+Arbalest
+Heavy Heavy Crossbow
+Sharp Heavy Crossbow
+Refined Heavy Crossbow
+Simpleton Heavy Crossbow
+Crystal Heavy Crossbow
+Fire Heavy Crossbow
+Chaos Heavy Crossbow
+Lightning Heavy Crossbow
+Deep Heavy Crossbow
+Dark Heavy Crossbow
+Poison Heavy Crossbow
+Blood Heavy Crossbow
+Raw Heavy Crossbow
+Blessed Heavy Crossbow
+Hollow Heavy Crossbow
+Longbow
+Heavy Longbow
+Sharp Longbow
+Refined Longbow
+Simpleton Longbow
+Crystal Longbow
+Fire Longbow
+Chaos Longbow
+Lightning Longbow
+Deep Longbow
+Dark Longbow
+Poison Longbow
+Blood Longbow
+Raw Longbow
+Blessed Longbow
+Hollow Longbow
+Dragonrider Bow
+Heavy Dragonrider Bow
+Sharp Dragonrider Bow
+Refined Dragonrider Bow
+Simple Dragonrider Bow
+Crystal Dragonrider Bow
+Fire Dragonrider Bow
+Chaos Dragonrider Bow
+Lightning Dragonrider Bow
+Deep Dragonrider Bow
+Dark Dragonrider Bow
+Poison Dragonrider Bow
+Blood Dragonrider Bow
+Raw Dragonrider Bow
+Blessed Dragonrider Bow
+Hollow Dragonrider Bow
+Avelyn
+Heavy Avelyn
+Sharp Avelyn
+Refined Avelyn
+Simpleton Avelyn
+Crystal Avelyn
+Fire Avelyn
+Chaos Avelyn
+Lightning Avelyn
+Deep Avelyn
+Dark Avelyn
+Poison Avelyn
+Blood Avelyn
+Raw Avelyn
+Blessed Avelyn
+Hollow Avelyn
+Knight’s Crossbow
+Heavy Knight’s Crossbow
+Sharp Knight’s Crossbow
+Refined Knight’s Crossbow
+Simpleton Knight’s Crossbow
+Crystal Knight’s Crossbow
+Fire Knight’s Crossbow
+Chaos Knight’s Crossbow
+Lightning Knight’s Crossbow
+Deep Knight’s Crossbow
+Dark Knight’s Crossbow
+Poison Knight’s Crossbow
+Blood Knight’s Crossbow
+Raw Knight’s Crossbow
+Blessed Knight’s Crossbow
+Hollow Knight’s Crossbow
+Heavy Crossbow
+Heavy Temple Knight’s Crossbow
+Sharp Temple Knight’s Crossbow
+Refined Temple Knight’s Crossbow
+Simpleton Temple Knight’s Crossbow
+Crystal Temple Knight’s Crossbow
+Fire Temple Knight’s Crossbow
+Chaos Temple Knight’s Crossbow
+Lightning Temple Knight’s Crossbow
+Deep Temple Knight’s Crossbow
+Dark Temple Knight’s Crossbow
+Poison Temple Knight’s Crossbow
+Blood Temple Knight’s Crossbow
+Raw Temple Knight’s Crossbow
+Blessed Temple Knight’s Crossbow
+Hollow Temple Knight’s Crossbow
+Dancer’s Short Bow
+Darkmoon Longbow
+Onislayer Greatbow
+Black Bow of Pharis
+Heavy Bow of Pharis
+Sharp Bow of Pharis
+Refined Bow of Pharis
+Simpleton Bow of Pharis
+Crystal Bow of Pharis
+Fire Bow of Pharis
+Chaos Bow of Pharis
+Lightning Bow of Pharis
+Deep Bow of Pharis
+Dark Bow of Pharis
+Poison Bow of Pharis
+Blood Bow of Pharis
+Raw Bow of Pharis
+Blessed Bow of Pharis
+Hollow Bow of Pharis
+Shield Crossbow
+Sniper Crossbow
+Heavy Sniper Crossbow
+Sharp Sniper Crossbow
+Refined Sniper Crossbow
+Simpleton Sniper Crossbow
+Crystal Sniper Crossbow
+Fire Sniper Crossbow
+Chaos Sniper Crossbow
+Lightning Sniper Crossbow
+Deep Sniper Crossbow
+Dark Sniper Crossbow
+Poison Sniper Crossbow
+Blood Sniper Crossbow
+Raw Sniper Crossbow
+Blessed Sniper Crossbow
+Hollow Sniper Crossbow
+Sellsword Twinblades
+Heavy Sellsword Twinblades
+Sharp Sellsword Twinblades
+Refined Sellsword Twinblades
+Simple Sellsword Twinblades
+Crystal Sellsword Twinblades
+Fire Sellsword Twinblades
+Chaos Sellsword Twinblades
+Lightning Sellsword Twinblades
+Deep Sellsword Twinblades
+Dark Sellsword Twinblades
+Poison Sellsword Twinblades
+Blood Sellsword Twinblades
+Raw Sellsword Twinblades
+Blessed Sellsword Twinblades
+Hollow Sellsword Twinblades
+Warden Twinblades
+Heavy Warden Twinblades
+Sharp Warden Twinblades
+Refined Warden Twinblades
+Simple Warden Twinblades
+Crystal Warden Twinblades
+Fire Warden Twinblades
+Chaos Warden Twinblades
+Lightning Warden Twinblades
+Deep Warden Twinblades
+Dark Warden Twinblades
+Poison Warden Twinblades
+Blood Warden Twinblades
+Raw Warden Twinblades
+Blessed Warden Twinblades
+Hollow Warden Twinblades
+Winged Knight Twinaxes
+Heavy Winged Knight Twinaxes
+Sharp Winged Knight Twinaxes
+Refined Winged Knight Twinaxes
+Simple Winged Knight Twinaxes
+Crystal Winged Knight Twinaxes
+Fire Winged Knight Twinaxes
+Chaos Winged Knight Twinaxes
+Lightning Winged Knight Twinaxes
+Deep Winged Knight Twinaxes
+Dark Winged Knight Twinaxes
+Poison Winged Knight Twinaxes
+Blood Winged Knight Twinaxes
+Raw Winged Knight Twinaxes
+Blessed Winged Knight Twinaxes
+Hollow Winged Knight Twinaxes
+Dancer’s Enchanted Swords
+Great Machete
+Heavy Great Machete
+Sharp Great Machete
+Refined Great Machete
+Simple Great Machete
+Crystal Great Machete
+Fire Great Machete
+Chaos Great Machete
+Lightning Great Machete
+Deep Great Machete
+Dark Great Machete
+Poison Great Machete
+Blood Great Machete
+Raw Great Machete
+Blessed Great Machete
+Hollow Great Machete
+Brigand Twindaggers
+Heavy Brigand Twindaggers
+Sharp Brigand Twindaggers
+Refined Brigand Twindaggers
+Simple Brigand Twindaggers
+Crystal Brigand Twindaggers
+Fire Brigand Twindaggers
+Chaos Brigand Twindaggers
+Lightning Brigand Twindaggers
+Deep Brigand Twindaggers
+Dark Brigand Twindaggers
+Poison Brigand Twindaggers
+Blood Brigand Twindaggers
+Raw Brigand Twindaggers
+Blessed Brigand Twindaggers
+Hollow Brigand Twindaggers
+Gotthard Twinswords
+Heavy Gotthard Twinswords
+Sharp Gotthard Twinswords
+Refined Gotthard Twinswords
+Simple Gotthard Twinswords
+Crystal Gotthard Twinswords
+Fire Gotthard Twinswords
+Chaos Gotthard Twinswords
+Lightning Gotthard Twinswords
+Deep Gotthard Twinswords
+Dark Gotthard Twinswords
+Poison Gotthard Twinswords
+Blood Gotthard Twinswords
+Raw Gotthard Twinswords
+Blessed Gotthard Twinswords
+Hollow Gotthard Twinswords
+Golden Dual Swords
+Onikiri and Ubadachi
+Heavy Onikiri and Ubadachi
+Sharp Onikiri and Ubadachi
+Refined Onikiri and Ubadachi
+Simple Onikiri and Ubadachi
+Crystal Onikiri and Ubadachi
+Fire Onikiri and Ubadachi
+Chaos Onikiri and Ubadachi
+Lightning Onikiri and Ubadachi
+Deep Onikiri and Ubadachi
+Dark Onikiri and Ubadachi
+Poison Onikiri and Ubadachi
+Blood Onikiri and Ubadachi
+Raw Onikiri and Ubadachi
+Blessed Onikiri and Ubadachi
+Hollow Onikiri and Ubadachi
+Drang Twinspears
+Heavy Drang Twinspears
+Sharp Drang Twinspears
+Refined Drang Twinspears
+Simple Drang Twinspears
+Crystal Drang Twinspears
+Fire Drang Twinspears
+Chaos Drang Twinspears
+Lightning Drang Twinspears
+Deep Drang Twinspears
+Dark Drang Twinspears
+Poison Drang Twinspears
+Blood Drang Twinspears
+Raw Drang Twinspears
+Blessed Drang Twinspears
+Hollow Drang Twinspears
+Drang Hammers
+Heavy Drang Hammers
+Sharp Drang Hammers
+Refined Drang Hammers
+Simple Drang Hammers
+Crystal Drang Hammers
+Fire Drang Hammers
+Chaos Drang Hammers
+Lightning Drang Hammers
+Deep Drang Hammers
+Dark Drang Hammers
+Poison Drang Hammers
+Blood Drang Hammers
+Raw Drang Hammers
+Blessed Drang Hammers
+Hollow Drang Hammers
+Buckler
+Heavy Buckler
+Sharp Buckler
+Refined Buckler
+Simple Buckler
+Crystal Buckler
+Fire Buckler
+Chaos Buckler
+Lightning Buckler
+Deep Buckler
+Dark Buckler
+Poison Buckler
+Blood Buckler
+Raw Buckler
+Blessed Buckler
+Hollow Buckler
+Small Leather Shield
+Heavy Small Leather Shield
+Sharp Small Leather Shield
+Refined Small Leather Shield
+Simple Small Leather Shield
+Crystal Small Leather Shield
+Fire Small Leather Shield
+Chaos Small Leather Shield
+Lightning Small Leather Shield
+Deep Small Leather Shield
+Dark Small Leather Shield
+Poison Small Leather Shield
+Blood Small Leather Shield
+Raw Small Leather Shield
+Blessed Small Leather Shield
+Hollow Small Leather Shield
+Round Shield
+Heavy Round Shield
+Sharp Round Shield
+Refined Round Shield
+Simple Round Shield
+Crystal Round Shield
+Fire Round Shield
+Chaos Round Shield
+Lightning Round Shield
+Deep Round Shield
+Dark Round Shield
+Poison Round Shield
+Blood Round Shield
+Raw Round Shield
+Blessed Round Shield
+Hollow Round Shield
+Large Leather Shield
+Heavy Large Leather Shield
+Sharp Large Leather Shield
+Refined Large Leather Shield
+Simple Large Leather Shield
+Crystal Large Leather Shield
+Fire Large Leather Shield
+Chaos Large Leather Shield
+Lightning Large Leather Shield
+Deep Large Leather Shield
+Dark Large Leather Shield
+Poison Large Leather Shield
+Blood Large Leather Shield
+Raw Large Leather Shield
+Blessed Large Leather Shield
+Hollow Large Leather Shield
+Hawkwood’s Shield
+Hawkwood’s Heavy Shield
+Hawkwood’s Sharp Shield
+Hawkwood’s Refined Shield
+Hawkwood’s Simple Shield
+Hawkwood’s Crystal Shield
+Hawkwood’s Fire Shield
+Hawkwood’s Chaos Shield
+Hawkwood’s Lightning Shield
+Hawkwood’s Deep Shield
+Hawkwood’s Dark Shield
+Hawkwood’s Poison Shield
+Hawkwood’s Blood Shield
+Hawkwood’s Raw Shield
+Hawkwood’s Blessed Shield
+Hawkwood’s Hollow Shield
+Iron Round Shield
+Heavy Iron Shield
+Sharp Iron Shield
+Refined Iron Shield
+Simple Iron Shield
+Crystal Iron Shield
+Fire Iron Shield
+Chaos Iron Shield
+Lightning Iron Shield
+Deep Iron Shield
+Dark Iron Shield
+Poison Iron Shield
+Blood Iron Shield
+Raw Iron Shield
+Blessed Iron Shield
+Hollow Iron Shield
+Wooden Shield
+Heavy Wooden Shield
+Sharp Wooden Shield
+Refined Wooden Shield
+Simple Wooden Shield
+Crystal Wooden Shield
+Fire Wooden Shield
+Chaos Wooden Shield
+Lightning Wooden Shield
+Deep Wooden Shield
+Dark Wooden Shield
+Poison Wooden Shield
+Blood Wooden Shield
+Raw Wooden Shield
+Blessed Wooden Shield
+Hollow Wooden Shield
+Kite Shield
+Heavy Kite Shield
+Sharp Kite Shield
+Refined Kite Shield
+Simple Kite Shield
+Crystal Kite Shield
+Fire Kite Shield
+Chaos Kite Shield
+Lightning Kite Shield
+Deep Kite Shield
+Dark Kite Shield
+Poison Kite Shield
+Blood Kite Shield
+Raw Kite Shield
+Blessed Kite Shield
+Hollow Kite Shield
+Ghru Rotshield
+Heavy Ghru Rotshield
+Sharp Ghru Rotshield
+Refined Ghru Rotshield
+Simple Ghru Rotshield
+Crystal Ghru Rotshield
+Fire Ghru Rotshield
+Chaos Ghru Rotshield
+Lightning Ghru Rotshield
+Deep Ghru Rotshield
+Dark Ghru Rotshield
+Poison Ghru Rotshield
+Blood Ghru Rotshield
+Raw Ghru Rotshield
+Blessed Ghru Rotshield
+Hollow Ghru Rotshield
+Havel’s Greatshield
+Target Shield
+Heavy Target Shield
+Sharp Target Shield
+Refined Target Shield
+Simple Target Shield
+Crystal Target Shield
+Fire Target Shield
+Chaos Target Shield
+Lightning Target Shield
+Deep Target Shield
+Dark Target Shield
+Poison Target Shield
+Blood Target Shield
+Raw Target Shield
+Blessed Target Shield
+Hollow Target Shield
+Elkhorn Round Shield
+Heavy Elkhorn Shield
+Sharp Elkhorn Shield
+Refined Elkhorn Shield
+Simple Elkhorn Shield
+Crystal Elkhorn Shield
+Fire Elkhorn Shield
+Chaos Elkhorn Shield
+Lightning Elkhorn Shield
+Deep Elkhorn Shield
+Dark Elkhorn Shield
+Poison Elkhorn Shield
+Blood Elkhorn Shield
+Raw Elkhorn Shield
+Blessed Elkhorn Shield
+Hollow Elkhorn Shield
+Warrior’s Round Shield
+Heavy Warrior’s Shield
+Sharp Warrior’s Shield
+Refined Warrior’s Shield
+Simple Warrior’s Shield
+Crystal Warrior’s Shield
+Fire Warrior’s Shield
+Chaos Warrior’s Shield
+Lightning Warrior’s Shield
+Deep Warrior’s Shield
+Dark Warrior’s Shield
+Poison Warrior’s Shield
+Blood Warrior’s Shield
+Raw Warrior’s Shield
+Blessed Warrior’s Shield
+Hollow Warrior’s Shield
+Caduceus Round Shield
+Heavy Caduceus Shield
+Sharp Caduceus Shield
+Refined Caduceus Shield
+Simple Caduceus Shield
+Crystal Caduceus Shield
+Fire Caduceus Shield
+Chaos Caduceus Shield
+Lightning Caduceus Shield
+Deep Caduceus Shield
+Dark Caduceus Shield
+Poison Caduceus Shield
+Blood Caduceus Shield
+Raw Caduceus Shield
+Blessed Caduceus Shield
+Hollow Caduceus Shield
+Red and White Round Shield
+Heavy Red and White Shield
+Sharp Red and White Shield
+Refined Red and White Shield
+Simple Red and White Shield
+Crystal Red and White Shield
+Fire Red and White Shield
+Chaos Red and White Shield
+Lightning Red and White Shield
+Deep Red and White Shield
+Dark Red and White Shield
+Poison Red and White Shield
+Blood Red and White Shield
+Raw Red and White Shield
+Blessed Red and White Shield
+Hollow Red and White Shield
+Plank Shield
+Heavy Plank Shield
+Sharp Plank Shield
+Refined Plank Shield
+Simple Plank Shield
+Crystal Plank Shield
+Fire Plank Shield
+Chaos Plank Shield
+Lightning Plank Shield
+Deep Plank Shield
+Dark Plank Shield
+Poison Plank Shield
+Blood Plank Shield
+Raw Plank Shield
+Blessed Plank Shield
+Hollow Plank Shield
+Leather Shield
+Heavy Leather Shield
+Sharp Leather Shield
+Refined Leather Shield
+Simple Leather Shield
+Crystal Leather Shield
+Fire Leather Shield
+Chaos Leather Shield
+Lightning Leather Shield
+Deep Leather Shield
+Dark Leather Shield
+Poison Leather Shield
+Blood Leather Shield
+Raw Leather Shield
+Blessed Leather Shield
+Hollow Leather Shield
+Crimson Parma
+Heavy Crimson Parma
+Sharp Crimson Parma
+Refined Crimson Parma
+Simple Crimson Parma
+Crystal Crimson Parma
+Fire Crimson Parma
+Chaos Crimson Parma
+Lightning Crimson Parma
+Deep Crimson Parma
+Dark Crimson Parma
+Poison Crimson Parma
+Blood Crimson Parma
+Raw Crimson Parma
+Blessed Crimson Parma
+Hollow Crimson Parma
+Eastern Iron Shield
+Heavy Eastern Shield
+Sharp Eastern Shield
+Refined Eastern Shield
+Simple Eastern Shield
+Crystal Eastern Shield
+Fire Eastern Shield
+Chaos Eastern Shield
+Lightning Eastern Shield
+Deep Eastern Shield
+Dark Eastern Shield
+Poison Eastern Shield
+Blood Eastern Shield
+Raw Eastern Shield
+Blessed Eastern Shield
+Hollow Eastern Shield
+Llewellyn Shield
+Heavy Llewellyn Shield
+Sharp Llewellyn Shield
+Refined Llewellyn Shield
+Simple Llewellyn Shield
+Crystal Llewellyn Shield
+Fire Llewellyn Shield
+Chaos Llewellyn Shield
+Lightning Llewellyn Shield
+Deep Llewellyn Shield
+Dark Llewellyn Shield
+Poison Llewellyn Shield
+Blood Llewellyn Shield
+Raw Llewellyn Shield
+Blessed Llewellyn Shield
+Hollow Llewellyn Shield
+Cleric’s Parma
+Heavy Cleric’s Parma
+Sharp Cleric’s Parma
+Refined Cleric’s Parma
+Simpleton Cleric’s Parma
+Crystal Cleric’s Parma
+Fire Cleric’s Parma
+Chaos Cleric’s Parma
+Lightning Cleric’s Parma
+Deep Cleric’s Parma
+Dark Cleric’s Parma
+Poison Cleric’s Parma
+Blood Cleric’s Parma
+Raw Cleric’s Parma
+Blessed Cleric’s Parma
+Hollow Cleric’s Parma
+Golden Falcon Shield
+Heavy Falcon Shield
+Sharp Falcon Shield
+Refined Falcon Shield
+Simple Falcon Shield
+Crystal Falcon Shield
+Fire Falcon Shield
+Chaos Falcon Shield
+Lightning Falcon Shield
+Deep Falcon Shield
+Dark Falcon Shield
+Poison Falcon Shield
+Blood Falcon Shield
+Raw Falcon Shield
+Blessed Falcon Shield
+Hollow Falcon Shield
+Sacred Bloom Shield
+Ancient Dragon Greatshield
+Heavy Ancient Dragon Great Shield
+Sharp Ancient Dragon Great Shield
+Refined Ancient Dragon Great Shield
+Simpleton Ancient Dragon Great Shield
+Crystal Ancient Dragon Great Shield
+Fire Ancient Dragon Great Shield
+Chaos Ancient Dragon Great Shield
+Lightning Ancient Dragon Great Shield
+Deep Ancient Dragon Great Shield
+Dark Ancient Dragon Great Shield
+Poison Ancient Dragon Great Shield
+Blood Ancient Dragon Great Shield
+Raw Ancient Dragon Great Shield
+Blessed Ancient Dragon Great Shield
+Hollow Ancient Dragon Great Shield
+Lothric Knight Shield
+Heavy Lothric Shield
+Sharp Lothric Shield
+Refined Lothric Shield
+Simple Lothric Shield
+Crystal Lothric Shield
+Fire Lothric Shield
+Chaos Lothric Shield
+Lightning Lothric Shield
+Deep Lothric Shield
+Dark Lothric Shield
+Poison Lothric Shield
+Blood Lothric Shield
+Raw Lothric Shield
+Blessed Lothric Shield
+Hollow Lothric Shield
+Knight Shield
+Heavy Knight Shield
+Sharp Knight Shield
+Refined Knight Shield
+Simple Knight Shield
+Crystal Knight Shield
+Fire Knight Shield
+Chaos Knight Shield
+Lightning Knight Shield
+Deep Knight Shield
+Dark Knight Shield
+Poison Knight Shield
+Blood Knight Shield
+Raw Knight Shield
+Blessed Knight Shield
+Hollow Knight Shield
+Pontiff Knight Shield
+Heavy Pontiff Knight Shield
+Sharp Pontiff Knight Shield
+Refined Pontiff Knight Shield
+Simpleton Pontiff Knight Shield
+Crystal Pontiff Knight Shield
+Fire Pontiff Knight Shield
+Chaos Pontiff Knight Shield
+Lightning Pontiff Knight Shield
+Deep Pontiff Knight Shield
+Dark Pontiff Knight Shield
+Poison Pontiff Knight Shield
+Blood Pontiff Knight Shield
+Raw Pontiff Knight Shield
+Blessed Pontiff Knight Shield
+Hollow Pontiff Knight Shield
+Carthus Shield
+Heavy Carthus Shield
+Sharp Carthus Shield
+Refined Carthus Shield
+Simple Carthus Shield
+Crystal Carthus Shield
+Fire Carthus Shield
+Chaos Carthus Shield
+Lightning Carthus Shield
+Deep Carthus Shield
+Dark Carthus Shield
+Poison Carthus Shield
+Blood Carthus Shield
+Raw Carthus Shield
+Blessed Carthus Shield
+Hollow Carthus Shield
+Black Knight Shield
+Heavy Black Knight Shield
+Sharp Black Knight Shield
+Refined Black Knight Shield
+Simple Black Knight Shield
+Crystal Black Knight Shield
+Fire Black Knight Shield
+Chaos Black Knight Shield
+Lightning Black Knight Shield
+Deep Black Knight Shield
+Dark Black Knight Shield
+Poison Black Knight Shield
+Blood Black Knight Shield
+Raw Black Knight Shield
+Blessed Black Knight Shield
+Hollow Black Knight Shield
+Prince’s Shield
+Silver Knight Shield
+Heavy Silver Knight Shield
+Sharp Silver Knight Shield
+Refined Silver Knight Shield
+Simple Silver Knight Shield
+Crystal Silver Knight Shield
+Fire Silver Knight Shield
+Chaos Silver Knight Shield
+Lightning Silver Knight Shield
+Deep Silver Knight Shield
+Dark Silver Knight Shield
+Poison Silver Knight Shield
+Blood Silver Knight Shield
+Raw Silver Knight Shield
+Blessed Silver Knight Shield
+Hollow Silver Knight Shield
+Spiked Shield
+Heavy Spiked Shield
+Sharp Spiked Shield
+Refined Spiked Shield
+Simple Spiked Shield
+Crystal Spiked Shield
+Fire Spiked Shield
+Chaos Spiked Shield
+Lightning Spiked Shield
+Deep Spiked Shield
+Dark Spiked Shield
+Poison Spiked Shield
+Blood Spiked Shield
+Raw Spiked Shield
+Blessed Spiked Shield
+Hollow Spiked Shield
+Pierce Shield
+Heavy Pierce Shield
+Sharp Pierce Shield
+Refined Pierce Shield
+Simple Pierce Shield
+Crystal Pierce Shield
+Fire Pierce Shield
+Chaos Pierce Shield
+Lightning Pierce Shield
+Deep Pierce Shield
+Dark Pierce Shield
+Poison Pierce Shield
+Blood Pierce Shield
+Raw Pierce Shield
+Blessed Pierce Shield
+Hollow Pierce Shield
+East-West Shield
+Heavy East-West Shield
+Sharp East-West Shield
+Refined East-West Shield
+Simple East-West Shield
+Crystal East-West Shield
+Fire East-West Shield
+Chaos East-West Shield
+Lightning East-West Shield
+Deep East-West Shield
+Dark East-West Shield
+Poison East-West Shield
+Blood East-West Shield
+Raw East-West Shield
+Blessed East-West Shield
+Hollow East-West Shield
+Sunlight Shield
+Heavy Sunlight Shield
+Sharp Sunlight Shield
+Refined Sunlight Shield
+Simple Sunlight Shield
+Crystal Sunlight Shield
+Fire Sunlight Shield
+Chaos Sunlight Shield
+Lightning Sunlight Shield
+Deep Sunlight Shield
+Dark Sunlight Shield
+Poison Sunlight Shield
+Blood Sunlight Shield
+Raw Sunlight Shield
+Blessed Sunlight Shield
+Hollow Sunlight Shield
+Crest Shield
+Heavy Crest Shield
+Sharp Crest Shield
+Refined Crest Shield
+Simpleton Crest Shield
+Crystal Crest Shield
+Fire Crest Shield
+Chaos Crest Shield
+Lightning Crest Shield
+Deep Crest Shield
+Dark Crest Shield
+Poison Crest Shield
+Blood Crest Shield
+Raw Crest Shield
+Blessed Crest Shield
+Hollow Crest Shield
+Dragon Crest Shield
+Heavy Dragon Crest Shield
+Sharp Dragon Crest Shield
+Refined Dragon Crest Shield
+Simpleton Dragon Crest Shield
+Crystal Dragon Crest Shield
+Fire Dragon Crest Shield
+Chaos Dragon Crest Shield
+Lightning Dragon Crest Shield
+Deep Dragon Crest Shield
+Dark Dragon Crest Shield
+Poison Dragon Crest Shield
+Blood Dragon Crest Shield
+Raw Dragon Crest Shield
+Blessed Dragon Crest Shield
+Hollow Dragon Crest Shield
+Spider Shield
+Heavy Spider Shield
+Sharp Spider Shield
+Refined Spider Shield
+Simple Spider Shield
+Crystal Spider Shield
+Fire Spider Shield
+Chaos Spider Shield
+Lightning Spider Shield
+Deep Spider Shield
+Dark Spider Shield
+Poison Spider Shield
+Blood Spider Shield
+Raw Spider Shield
+Blessed Spider Shield
+Hollow Spider Shield
+Grass Crest Shield
+Heavy Grass Crest Shield
+Sharp Grass Crest Shield
+Refined Grass Crest Shield
+Simpleton Grass Crest Shield
+Crystal Grass Crest Shield
+Fire Grass Crest Shield
+Chaos Grass Crest Shield
+Lightning Grass Crest Shield
+Deep Grass Crest Shield
+Dark Grass Crest Shield
+Poison Grass Crest Shield
+Blood Grass Crest Shield
+Raw Grass Crest Shield
+Blessed Grass Crest Shield
+Hollow Grass Crest Shield
+Sunset Shield
+Heavy Sunset Shield
+Sharp Sunset Shield
+Refined Sunset Shield
+Simple Sunset Shield
+Crystal Sunset Shield
+Fire Sunset Shield
+Chaos Sunset Shield
+Lightning Sunset Shield
+Deep Sunset Shield
+Dark Sunset Shield
+Poison Sunset Shield
+Blood Sunset Shield
+Raw Sunset Shield
+Blessed Sunset Shield
+Hollow Sunset Shield
+Golden Wing Crest Shield
+Heavy Golden Wing Crest Shield
+Sharp Golden Wing Crest Shield
+Refined Golden Wing Crest Shield
+Simpleton Golden Wing Crest Shield
+Crystal Golden Wing Crest Shield
+Fire Golden Wing Crest Shield
+Chaos Golden Wing Crest Shield
+Lightning Golden Wing Crest Shield
+Deep Golden Wing Crest Shield
+Dark Golden Wing Crest Shield
+Poison Golden Wing Crest Shield
+Blood Golden Wing Crest Shield
+Raw Golden Wing Crest Shield
+Blessed Golden Wing Crest Shield
+Hollow Golden Wing Crest Shield
+Blue Wooden Shield
+Heavy Blue Shield
+Sharp Blue Shield
+Refined Blue Shield
+Simple Blue Shield
+Crystal Blue Shield
+Fire Blue Shield
+Chaos Blue Shield
+Lightning Blue Shield
+Deep Blue Shield
+Dark Blue Shield
+Poison Blue Shield
+Blood Blue Shield
+Raw Blue Shield
+Blessed Blue Shield
+Hollow Blue Shield
+Silver Eagle Kite Shield
+Heavy Eagle Kite Shield
+Sharp Eagle Kite Shield
+Refined Eagle Kite Shield
+Simple Eagle Kite Shield
+Crystal Eagle Kite Shield
+Fire Eagle Kite Shield
+Chaos Eagle Kite Shield
+Lightning Eagle Kite Shield
+Deep Eagle Kite Shield
+Dark Eagle Kite Shield
+Poison Eagle Kite Shield
+Blood Eagle Kite Shield
+Raw Eagle Kite Shield
+Blessed Eagle Kite Shield
+Hollow Eagle Kite Shield
+Stone Parma
+Heavy Stone Parma
+Sharp Stone Parma
+Refined Stone Parma
+Simple Stone Parma
+Crystal Stone Parma
+Fire Stone Parma
+Chaos Stone Parma
+Lightning Stone Parma
+Deep Stone Parma
+Dark Stone Parma
+Poison Stone Parma
+Blood Stone Parma
+Raw Stone Parma
+Blessed Stone Parma
+Hollow Stone Parma
+Spirit Tree Crest Shield
+Heavy Sacred Wood Crest Shield
+Sharp Sacred Wood Crest Shield
+Refined Sacred Wood Crest Shield
+Simpleton Sacred Wood Crest Shield
+Crystal Sacred Wood Crest Shield
+Fire Sacred Wood Crest Shield
+Chaos Sacred Wood Crest Shield
+Lightning Sacred Wood Crest Shield
+Deep Sacred Wood Crest Shield
+Dark Sacred Wood Crest Shield
+Poison Sacred Wood Crest Shield
+Blood Sacred Wood Crest Shield
+Raw Sacred Wood Crest Shield
+Blessed Sacred Wood Crest Shield
+Hollow Sacred Wood Crest Shield
+Porcine Shield
+Heavy Porcine Shield
+Sharp Porcine Shield
+Refined Porcine Shield
+Simple Porcine Shield
+Crystal Porcine Shield
+Fire Porcine Shield
+Chaos Porcine Shield
+Lightning Porcine Shield
+Deep Porcine Shield
+Dark Porcine Shield
+Poison Porcine Shield
+Blood Porcine Shield
+Raw Porcine Shield
+Blessed Porcine Shield
+Hollow Porcine Shield
+Shield of Want
+Wargod Wooden Shield
+Heavy Wargod Shield
+Sharp Wargod Shield
+Refined Wargod Shield
+Simple Wargod Shield
+Crystal Wargod Shield
+Fire Wargod Shield
+Chaos Wargod Shield
+Lightning Wargod Shield
+Deep Wargod Shield
+Dark Wargod Shield
+Poison Wargod Shield
+Blood Wargod Shield
+Raw Wargod Shield
+Blessed Wargod Shield
+Hollow Wargod Shield
+Lothric Knight Greatshield
+Heavy Lothric Greatshield
+Sharp Lothric Greatshield
+Refined Lothric Greatshield
+Simple Lothric Greatshield
+Crystal Lothric Greatshield
+Fire Lothric Greatshield
+Chaos Lothric Greatshield
+Lightning Lothric Greatshield
+Deep Lothric Greatshield
+Dark Lothric Greatshield
+Poison Lothric Greatshield
+Blood Lothric Greatshield
+Raw Lothric Greatshield
+Blessed Lothric Greatshield
+Hollow Lothric Greatshield
+Cathedral Knight Greatshield
+Heavy Cathedral Greatshield
+Sharp Cathedral Greatshield
+Refined Cathedral Greatshield
+Simple Cathedral Greatshield
+Crystal Cathedral Greatshield
+Fire Cathedral Greatshield
+Chaos Cathedral Greatshield
+Lightning Cathedral Greatshield
+Deep Cathedral Greatshield
+Dark Cathedral Greatshield
+Poison Cathedral Greatshield
+Blood Cathedral Greatshield
+Raw Cathedral Greatshield
+Blessed Cathedral Greatshield
+Hollow Cathedral Greatshield
+Dragonslayer Greatshield
+Moaning Shield
+Ancient Dragon Great Shield
+Yhorm’s Greatshield
+Black Iron Greatshield
+Heavy Black Iron Greatshield
+Sharp Black Iron Greatshield
+Refined Black Iron Greatshield
+Simple Black Iron Greatshield
+Crystal Black Iron Greatshield
+Fire Black Iron Greatshield
+Chaos Black Iron Greatshield
+Lightning Black Iron Greatshield
+Deep Black Iron Greatshield
+Dark Black Iron Greatshield
+Poison Black Iron Greatshield
+Blood Black Iron Greatshield
+Raw Black Iron Greatshield
+Blessed Black Iron Greatshield
+Hollow Black Iron Greatshield
+Wolf Knight’s Greatshield
+Twin Dragon Greatshield
+Heavy Twin Dragon Greatshield
+Sharp Twin Dragon Greatshield
+Refined Twin Dragon Greatshield
+Simple Twin Dragon Greatshield
+Crystal Twin Dragon Greatshield
+Fire Twin Dragon Greatshield
+Chaos Twin Dragon Greatshield
+Lightning Twin Dragon Greatshield
+Deep Twin Dragon Greatshield
+Dark Twin Dragon Greatshield
+Poison Twin Dragon Greatshield
+Blood Twin Dragon Greatshield
+Raw Twin Dragon Greatshield
+Blessed Twin Dragon Greatshield
+Hollow Twin Dragon Greatshield
+Greatshield of Glory
+Heavy Greatshield of Glory
+Sharp Greatshield of Glory
+Refined Greatshield of Glory
+Simple Greatshield of Glory
+Crystal Greatshield of Glory
+Fire Greatshield of Glory
+Chaos Greatshield of Glory
+Lightning Greatshield of Glory
+Deep Greatshield of Glory
+Dark Greatshield of Glory
+Poison Greatshield of Glory
+Blood Greatshield of Glory
+Raw Greatshield of Glory
+Blessed Greatshield of Glory
+Hollow Greatshield of Glory
+Curse Ward Greatshield
+Heavy Curse Ward Greatshield
+Sharp Curse Ward Greatshield
+Refined Curse Ward Greatshield
+Simple Curse Ward Greatshield
+Crystal Curse Ward Greatshield
+Fire Curse Ward Greatshield
+Chaos Curse Ward Greatshield
+Lightning Curse Ward Greatshield
+Deep Curse Ward Greatshield
+Dark Curse Ward Greatshield
+Poison Curse Ward Greatshield
+Blood Curse Ward Greatshield
+Raw Curse Ward Greatshield
+Blessed Curse Ward Greatshield
+Hollow Curse Ward Greatshield
+Bonewheel Shield
+Heavy Bonewheel Shield
+Sharp Bonewheel Shield
+Refined Bonewheel Shield
+Simple Bonewheel Shield
+Crystal Bonewheel Shield
+Fire Bonewheel Shield
+Chaos Bonewheel Shield
+Lightning Bonewheel Shield
+Deep Bonewheel Shield
+Dark Bonewheel Shield
+Poison Bonewheel Shield
+Blood Bonewheel Shield
+Raw Bonewheel Shield
+Blessed Bonewheel Shield
+Hollow Bonewheel Shield
+Stone Greatshield
+Heavy Stone Greatshield
+Sharp Stone Greatshield
+Refined Stone Greatshield
+Simple Stone Greatshield
+Crystal Stone Greatshield
+Fire Stone Greatshield
+Chaos Stone Greatshield
+Lightning Stone Greatshield
+Deep Stone Greatshield
+Dark Stone Greatshield
+Poison Stone Greatshield
+Blood Stone Greatshield
+Raw Stone Greatshield
+Blessed Stone Greatshield
+Hollow Stone Greatshield
+
+----------AOA--------------
+Millwood Greatarrow
+Onyx Blade
+Follower Sabre
+Millwood Battle Axe
+Earth Seeker
+Quakestone Hammer
+Follower Javelin
+Friede’s Great Scythe
+Crow Talons
+Rose of Ariandel
+Pyromancer’s Parting Flame
+Millwood Greatbow
+Valorheart
+Crow Quills
+Followers Shield
+Ethereal Oak Shield
+Follower Torch
+
+-----------TRC-------------
+Aquamarine Dagger
+Murky Hand Scythe
+Ringed Knight Straight Sword
+Gael Greatsword
+Demon Scar
+Frayed Blade
+Herald Curved Greatsword
+Ledo’s Great Hammer
+Ringed Knight Spear
+Lothric War Banner
+Crucifix of the Mad King (Halberd)
+Splitleaf Greatsword (It’s a Halberd)
+Murky Longstaff
+Sacred Chime of Filianore
+Preacher’s Right Arm
+White Tree Bow (White Birch Bow)
+Repeating Crossbow
+

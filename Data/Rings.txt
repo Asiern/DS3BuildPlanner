@@ -1,0 +1,120 @@
+Name:	Life Ring	Weight:
+Name:	Life Ring+1	Weight:
+Name:	Life Ring+2	Weight:
+Name:	Life Ring+3	Weight:
+Name:	Chloranthy Ring	Weight:
+Name:	Chloranthy Ring+1	Weight:
+Name:	Chloranthy Ring+2	Weight:
+Name:	Havel’s Ring	Weight:
+Name:	Havel’s Ring+1	Weight:
+Name:	Havel’s Ring+2	Weight:
+Name:	Ring of Favor	Weight:
+Name:	Ring of Favor+1	Weight:
+Name:	Ring of Favor+2	Weight:
+Name:	Ring of Steel Protection	Weight:
+Name:	Ring of Steel Protection+1	Weight:
+Name:	Ring of Steel Protection+2	Weight:
+Name:	Flame Stoneplate Ring	Weight:
+Name:	Flame Stoneplate Ring+1	Weight:
+Name:	Flame Stoneplate Ring+2	Weight:
+Name:	Thunder Stoneplate Ring	Weight:
+Name:	Thunder Stoneplate Ring+1	Weight:
+Name:	Thunder Stoneplate Ring+2	Weight:
+Name:	Magic Stoneplate Ring	Weight:
+Name:	Magic Stoneplate Ring+1	Weight:
+Name:	Magic Stoneplate Ring+2	Weight:
+Name:	Dark Stoneplate Ring	Weight:
+Name:	Dark Stoneplate Ring+1	Weight:
+Name:	Dark Stoneplate Ring+2	Weight:
+Name:	Speckled Stoneplate Ring	Weight:
+Name:	Speckled Stoneplate Ring+1	Weight:
+Name:	Bloodbite Ring	Weight:
+Name:	Bloodbite Ring+1	Weight:
+Name:	Poisonbite Ring	Weight:
+Name:	Poisonbite Ring+1	Weight:
+Name:	Cursebite Ring	Weight:
+Name:	Fleshbite Ring	Weight:
+Name:	Fleshbite Ring+1	Weight:
+Name:	Wood Grain Ring	Weight:
+Name:	Wood Grain Ring+1	Weight:
+Name:	Wood Grain Ring+2	Weight:
+Name:	Scholar Ring	Weight:
+Name:	Priestess Ring	Weight:
+Name:	Red Tearstone Ring	Weight:
+Name:	Blue Tearstone Ring	Weight:
+Name:	Wolf Ring	Weight:
+Name:	Wolf Ring+1	Weight:
+Name:	Wolf Ring+2	Weight:
+Name:	Leo Ring	Weight:
+Name:	Ring of Sacrifice	Weight:
+Name:	Rare Ring of Sacrifice	Weight:
+Name:	Young Dragon Ring	Weight:
+Name:	Bellowing Dragoncrest Ring	Weight:
+Name:	Great Swamp Ring	Weight:
+Name:	Witch’s Ring	Weight:
+Name:	Morne’s Ring	Weight:
+Name:	Ring of the Sun’s First Born	Weight:
+Name:	Lingering Dragoncrest Ring	Weight:
+Name:	Lingering Dragoncrest Ring+1	Weight:
+Name:	Lingering Dragoncrest Ring+2	Weight:
+Name:	Sage Ring	Weight:
+Name:	Sage Ring+1	Weight:
+Name:	Sage Ring+2	Weight:
+Name:	Slumbering Dragoncrest Ring	Weight:
+Name:	Dusk Crown Ring	Weight:
+Name:	Saint’s Ring	Weight:
+Name:	Deep Ring	Weight:
+Name:	Darkmoon Ring	Weight:
+Name:	Ring of the Sun’s Firstborn	Weight:
+Name:	Darkmoon Blade Covenant Ring	Weight:
+Name:	Leo Ring	Weight:
+Name:	Hawk Ring	Weight:
+Name:	Hornet Ring	Weight:
+Name:	Covetous Gold Serpent Ring	Weight:
+Name:	Covetous Gold Serpent Ring+1	Weight:
+Name:	Covetous Gold Serpent Ring+2	Weight:
+Name:	Covetous Silver Serpent Ring	Weight:
+Name:	Covetous Silver Serpent Ring+1	Weight:
+Name:	Covetous Silver Serpent Ring+2	Weight:
+Name:	Sun Princess Ring	Weight:
+Name:	Silvercat Ring	Weight:
+Name:	Skull Ring	Weight:
+Name:	Untrue White Ring	Weight:
+Name:	Carthus Milkring	Weight:
+Name:	Knight’s Ring	Weight:
+Name:	Hunter’s Ring	Weight:
+Name:	Knight Slayer’s Ring	Weight:
+Name:	Magic Clutch Ring	Weight:
+Name:	Lightning Clutch Ring	Weight:
+Name:	Fire Clutch Ring	Weight:
+Name:	Dark Clutch Ring	Weight:
+Name:	Baneful Bird Ring	Weight:
+Name:	Flynn’s Ring	Weight:
+Name:	Prisoner’s Chain	Weight:
+Name:	Untrue Dark Ring	Weight:
+Name:	Yorgh’s Ring	Weight:
+Name:	Obscuring Ring	Weight:
+Name:	Ring of the Evil Eye	Weight:
+Name:	Ring of the Evil Eye+1	Weight:
+Name:	Ring of the Evil Eye+2	Weight:
+Name:	Calamity Ring	Weight:
+Name:	Farron Ring	Weight:
+Name:	Aldrich’s Ruby	Weight:
+Name:	Aldrich’s Sapphire	Weight:
+Name:	Lloyd’s Sword Ring	Weight:
+Name:	Lloyd’s Shield Ring	Weight:
+Name:	Ring of Hiding	Weight:
+Name:	Estus Ring	Weight:
+Name:	Ashen Estus Ring	Weight:
+Name:	Horsehoof Ring	Weight:
+Name:	Carthus Bloodring	Weight:
+Name:	Reversal Ring	Weight:
+Name:	Pontiff’s Right Eye	Weight:
+Name:	Ring of Sustained Toughness	Weight:
+Name:	Ring of Sustained Energy	Weight:
+Name:	Ring of Sustained Magic	Weight:
+Name:	Pontiff’s Left Eye	Weight:
+Name:	Ring of Sustained Essence	Weight:
+Name:	Ring of Sustained Might	Weight:
+Name:	Ring of Sustained Fortune	Weight:
+Name:	Dragonscale Ring	Weight:
