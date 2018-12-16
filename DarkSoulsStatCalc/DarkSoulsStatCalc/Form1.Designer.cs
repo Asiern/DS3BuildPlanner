@@ -30,22 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Calculate = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Rweapon1 = new System.Windows.Forms.ComboBox();
             this.Armorlbl = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.Lweapon1 = new System.Windows.Forms.ComboBox();
+            this.Ring1 = new System.Windows.Forms.ComboBox();
+            this.Ring2 = new System.Windows.Forms.ComboBox();
+            this.Rweapon2 = new System.Windows.Forms.ComboBox();
+            this.Rweapon3 = new System.Windows.Forms.ComboBox();
+            this.Lweapon2 = new System.Windows.Forms.ComboBox();
+            this.Lweapon3 = new System.Windows.Forms.ComboBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.Ringslbl = new System.Windows.Forms.Label();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.Ring3 = new System.Windows.Forms.ComboBox();
+            this.Ring4 = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -54,26 +54,28 @@
             this.armor = new System.Windows.Forms.Label();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.soulsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Calculate
             // 
-            this.Calculate.Location = new System.Drawing.Point(45, 473);
+            this.Calculate.Location = new System.Drawing.Point(31, 463);
             this.Calculate.Name = "Calculate";
             this.Calculate.Size = new System.Drawing.Size(85, 27);
             this.Calculate.TabIndex = 0;
             this.Calculate.Text = "Calculate";
             this.Calculate.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // Rweapon1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(121, 62);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(105, 21);
-            this.comboBox1.TabIndex = 1;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.Rweapon1.FormattingEnabled = true;
+            this.Rweapon1.Location = new System.Drawing.Point(121, 62);
+            this.Rweapon1.Name = "Rweapon1";
+            this.Rweapon1.Size = new System.Drawing.Size(178, 21);
+            this.Rweapon1.TabIndex = 1;
+            this.Rweapon1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Armorlbl
             // 
@@ -84,70 +86,72 @@
             this.Armorlbl.TabIndex = 2;
             this.Armorlbl.Text = "R Weapon";
             // 
-            // comboBox2
+            // Lweapon1
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(121, 103);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(105, 21);
-            this.comboBox2.TabIndex = 3;
+            this.Lweapon1.FormattingEnabled = true;
+            this.Lweapon1.Location = new System.Drawing.Point(121, 103);
+            this.Lweapon1.Name = "Lweapon1";
+            this.Lweapon1.Size = new System.Drawing.Size(179, 21);
+            this.Lweapon1.TabIndex = 3;
             // 
-            // comboBox3
+            // Ring1
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(161, 205);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(138, 21);
-            this.comboBox3.TabIndex = 4;
+            this.Ring1.FormattingEnabled = true;
+            this.Ring1.Location = new System.Drawing.Point(121, 159);
+            this.Ring1.Name = "Ring1";
+            this.Ring1.Size = new System.Drawing.Size(125, 21);
+            this.Ring1.TabIndex = 4;
             // 
-            // comboBox4
+            // Ring2
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(337, 205);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(138, 21);
-            this.comboBox4.TabIndex = 5;
+            this.Ring2.FormattingEnabled = true;
+            this.Ring2.Location = new System.Drawing.Point(262, 159);
+            this.Ring2.Name = "Ring2";
+            this.Ring2.Size = new System.Drawing.Size(125, 21);
+            this.Ring2.TabIndex = 5;
             // 
-            // comboBox5
+            // Rweapon2
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(245, 62);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(105, 21);
-            this.comboBox5.TabIndex = 6;
+            this.Rweapon2.FormattingEnabled = true;
+            this.Rweapon2.Location = new System.Drawing.Point(305, 62);
+            this.Rweapon2.Name = "Rweapon2";
+            this.Rweapon2.Size = new System.Drawing.Size(178, 21);
+            this.Rweapon2.TabIndex = 6;
             // 
-            // comboBox6
+            // Rweapon3
             // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(370, 62);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(105, 21);
-            this.comboBox6.TabIndex = 7;
+            this.Rweapon3.FormattingEnabled = true;
+            this.Rweapon3.Location = new System.Drawing.Point(489, 62);
+            this.Rweapon3.Name = "Rweapon3";
+            this.Rweapon3.Size = new System.Drawing.Size(178, 21);
+            this.Rweapon3.TabIndex = 7;
             // 
-            // comboBox7
+            // Lweapon2
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(245, 103);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(105, 21);
-            this.comboBox7.TabIndex = 8;
+            this.Lweapon2.FormattingEnabled = true;
+            this.Lweapon2.Location = new System.Drawing.Point(305, 103);
+            this.Lweapon2.Name = "Lweapon2";
+            this.Lweapon2.Size = new System.Drawing.Size(178, 21);
+            this.Lweapon2.TabIndex = 8;
             // 
-            // comboBox8
+            // Lweapon3
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(370, 103);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(105, 21);
-            this.comboBox8.TabIndex = 9;
+            this.Lweapon3.FormattingEnabled = true;
+            this.Lweapon3.Location = new System.Drawing.Point(489, 103);
+            this.Lweapon3.Name = "Lweapon3";
+            this.Lweapon3.Size = new System.Drawing.Size(178, 21);
+            this.Lweapon3.TabIndex = 9;
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem,
-            this.aboutToolStripMenuItem1});
+            this.soulsToolStripMenuItem,
+            this.aboutToolStripMenuItem1,
+            this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(528, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(681, 24);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -166,6 +170,7 @@
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
             this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem1.Text = "About";
+            this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
             // 
             // label1
             // 
@@ -179,32 +184,32 @@
             // Ringslbl
             // 
             this.Ringslbl.AutoSize = true;
-            this.Ringslbl.Location = new System.Drawing.Point(105, 228);
+            this.Ringslbl.Location = new System.Drawing.Point(42, 162);
             this.Ringslbl.Name = "Ringslbl";
             this.Ringslbl.Size = new System.Drawing.Size(34, 13);
             this.Ringslbl.TabIndex = 13;
             this.Ringslbl.Text = "Rings";
             // 
-            // comboBox9
+            // Ring3
             // 
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(161, 245);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(138, 21);
-            this.comboBox9.TabIndex = 14;
+            this.Ring3.FormattingEnabled = true;
+            this.Ring3.Location = new System.Drawing.Point(411, 159);
+            this.Ring3.Name = "Ring3";
+            this.Ring3.Size = new System.Drawing.Size(125, 21);
+            this.Ring3.TabIndex = 14;
             // 
-            // comboBox10
+            // Ring4
             // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(337, 245);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(138, 21);
-            this.comboBox10.TabIndex = 15;
+            this.Ring4.FormattingEnabled = true;
+            this.Ring4.Location = new System.Drawing.Point(542, 159);
+            this.Ring4.Name = "Ring4";
+            this.Ring4.Size = new System.Drawing.Size(125, 21);
+            this.Ring4.TabIndex = 15;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(164, 425);
+            this.checkBox1.Location = new System.Drawing.Point(37, 313);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(62, 17);
             this.checkBox1.TabIndex = 16;
@@ -214,7 +219,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(271, 425);
+            this.checkBox2.Location = new System.Drawing.Point(37, 355);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(79, 17);
             this.checkBox2.TabIndex = 17;
@@ -224,7 +229,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(393, 425);
+            this.checkBox3.Location = new System.Drawing.Point(37, 396);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(65, 17);
             this.checkBox3.TabIndex = 18;
@@ -250,7 +255,7 @@
             // armor
             // 
             this.armor.AutoSize = true;
-            this.armor.Location = new System.Drawing.Point(106, 336);
+            this.armor.Location = new System.Drawing.Point(161, 297);
             this.armor.Name = "armor";
             this.armor.Size = new System.Drawing.Size(34, 13);
             this.armor.TabIndex = 21;
@@ -272,11 +277,25 @@
             this.comboBox14.Size = new System.Drawing.Size(138, 21);
             this.comboBox14.TabIndex = 19;
             // 
+            // soulsToolStripMenuItem
+            // 
+            this.soulsToolStripMenuItem.Name = "soulsToolStripMenuItem";
+            this.soulsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.soulsToolStripMenuItem.Text = "Souls";
+            this.soulsToolStripMenuItem.Click += new System.EventHandler(this.soulsToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 530);
+            this.ClientSize = new System.Drawing.Size(681, 523);
             this.Controls.Add(this.comboBox11);
             this.Controls.Add(this.comboBox12);
             this.Controls.Add(this.armor);
@@ -285,20 +304,20 @@
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.comboBox10);
-            this.Controls.Add(this.comboBox9);
+            this.Controls.Add(this.Ring4);
+            this.Controls.Add(this.Ring3);
             this.Controls.Add(this.Ringslbl);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.comboBox8);
-            this.Controls.Add(this.comboBox7);
-            this.Controls.Add(this.comboBox6);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.Lweapon3);
+            this.Controls.Add(this.Lweapon2);
+            this.Controls.Add(this.Rweapon3);
+            this.Controls.Add(this.Rweapon2);
+            this.Controls.Add(this.Ring2);
+            this.Controls.Add(this.Ring1);
+            this.Controls.Add(this.Lweapon1);
             this.Controls.Add(this.Armorlbl);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.Rweapon1);
             this.Controls.Add(this.Calculate);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -314,22 +333,22 @@
         #endregion
 
         private System.Windows.Forms.Button Calculate;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox Rweapon1;
         private System.Windows.Forms.Label Armorlbl;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox Lweapon1;
+        private System.Windows.Forms.ComboBox Ring1;
+        private System.Windows.Forms.ComboBox Ring2;
+        private System.Windows.Forms.ComboBox Rweapon2;
+        private System.Windows.Forms.ComboBox Rweapon3;
+        private System.Windows.Forms.ComboBox Lweapon2;
+        private System.Windows.Forms.ComboBox Lweapon3;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label Ringslbl;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox Ring3;
+        private System.Windows.Forms.ComboBox Ring4;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -338,6 +357,8 @@
         private System.Windows.Forms.Label armor;
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.ToolStripMenuItem soulsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
 

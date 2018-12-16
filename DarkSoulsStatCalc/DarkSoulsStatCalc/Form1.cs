@@ -26,5 +26,23 @@ namespace DarkSoulsStatCalc
         {
 
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void soulsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 soulsForm = new Form2();
+            this.Hide();
+            soulsForm.Show();
+            
+        }
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Developed by:\n \n PapaElGunmen \n byTxampi \n Iker Galardi \n \n \n Version: 0.1(Alpha)", "About");
+        }
     }
 }
