@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace DarkSoulsStatCalc
 {
@@ -34,15 +35,37 @@ namespace DarkSoulsStatCalc
 
         private void soulsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form2 soulsForm = new Form2();
-            this.Hide();
-            soulsForm.Show();
-            
+                    
         }
 
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Developed by:\n \n PapaElGunmen \n byTxampi \n Iker Galardi \n \n \n Version: 0.1(Alpha)", "About");
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lweapon1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+ 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

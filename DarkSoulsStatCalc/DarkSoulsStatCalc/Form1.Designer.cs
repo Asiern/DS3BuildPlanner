@@ -29,336 +29,253 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.Calculate = new System.Windows.Forms.Button();
-            this.Rweapon1 = new System.Windows.Forms.ComboBox();
-            this.Armorlbl = new System.Windows.Forms.Label();
-            this.Lweapon1 = new System.Windows.Forms.ComboBox();
-            this.Ring1 = new System.Windows.Forms.ComboBox();
-            this.Ring2 = new System.Windows.Forms.ComboBox();
-            this.Rweapon2 = new System.Windows.Forms.ComboBox();
-            this.Rweapon3 = new System.Windows.Forms.ComboBox();
-            this.Lweapon2 = new System.Windows.Forms.ComboBox();
-            this.Lweapon3 = new System.Windows.Forms.ComboBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Ringslbl = new System.Windows.Forms.Label();
-            this.Ring3 = new System.Windows.Forms.ComboBox();
-            this.Ring4 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.armor = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.Vitpage = new System.Windows.Forms.TabPage();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
-            this.soulsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.rings4 = new System.Windows.Forms.ComboBox();
+            this.rings3 = new System.Windows.Forms.ComboBox();
+            this.rings2 = new System.Windows.Forms.ComboBox();
+            this.rings1 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Lweapon1 = new System.Windows.Forms.ComboBox();
+            this.Soulpage = new System.Windows.Forms.TabPage();
+            this.clvl = new System.Windows.Forms.Label();
+            this.Currentlvl = new System.Windows.Forms.TextBox();
+            this.tabControl1.SuspendLayout();
+            this.Vitpage.SuspendLayout();
+            this.Soulpage.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Calculate
+            // tabControl1
             // 
-            this.Calculate.Location = new System.Drawing.Point(31, 463);
-            this.Calculate.Name = "Calculate";
-            this.Calculate.Size = new System.Drawing.Size(85, 27);
-            this.Calculate.TabIndex = 0;
-            this.Calculate.Text = "Calculate";
-            this.Calculate.UseVisualStyleBackColor = true;
+            this.tabControl1.Controls.Add(this.Vitpage);
+            this.tabControl1.Controls.Add(this.Soulpage);
+            this.tabControl1.Location = new System.Drawing.Point(0, 2);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(490, 613);
+            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.tabControl1.TabIndex = 24;
             // 
-            // Rweapon1
+            // Vitpage
             // 
-            this.Rweapon1.FormattingEnabled = true;
-            this.Rweapon1.Location = new System.Drawing.Point(121, 62);
-            this.Rweapon1.Name = "Rweapon1";
-            this.Rweapon1.Size = new System.Drawing.Size(178, 21);
-            this.Rweapon1.TabIndex = 1;
-            this.Rweapon1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // Armorlbl
-            // 
-            this.Armorlbl.AutoSize = true;
-            this.Armorlbl.Location = new System.Drawing.Point(42, 65);
-            this.Armorlbl.Name = "Armorlbl";
-            this.Armorlbl.Size = new System.Drawing.Size(59, 13);
-            this.Armorlbl.TabIndex = 2;
-            this.Armorlbl.Text = "R Weapon";
-            // 
-            // Lweapon1
-            // 
-            this.Lweapon1.FormattingEnabled = true;
-            this.Lweapon1.Location = new System.Drawing.Point(121, 103);
-            this.Lweapon1.Name = "Lweapon1";
-            this.Lweapon1.Size = new System.Drawing.Size(179, 21);
-            this.Lweapon1.TabIndex = 3;
-            // 
-            // Ring1
-            // 
-            this.Ring1.FormattingEnabled = true;
-            this.Ring1.Location = new System.Drawing.Point(121, 159);
-            this.Ring1.Name = "Ring1";
-            this.Ring1.Size = new System.Drawing.Size(125, 21);
-            this.Ring1.TabIndex = 4;
-            // 
-            // Ring2
-            // 
-            this.Ring2.FormattingEnabled = true;
-            this.Ring2.Location = new System.Drawing.Point(262, 159);
-            this.Ring2.Name = "Ring2";
-            this.Ring2.Size = new System.Drawing.Size(125, 21);
-            this.Ring2.TabIndex = 5;
-            // 
-            // Rweapon2
-            // 
-            this.Rweapon2.FormattingEnabled = true;
-            this.Rweapon2.Location = new System.Drawing.Point(305, 62);
-            this.Rweapon2.Name = "Rweapon2";
-            this.Rweapon2.Size = new System.Drawing.Size(178, 21);
-            this.Rweapon2.TabIndex = 6;
-            // 
-            // Rweapon3
-            // 
-            this.Rweapon3.FormattingEnabled = true;
-            this.Rweapon3.Location = new System.Drawing.Point(489, 62);
-            this.Rweapon3.Name = "Rweapon3";
-            this.Rweapon3.Size = new System.Drawing.Size(178, 21);
-            this.Rweapon3.TabIndex = 7;
-            // 
-            // Lweapon2
-            // 
-            this.Lweapon2.FormattingEnabled = true;
-            this.Lweapon2.Location = new System.Drawing.Point(305, 103);
-            this.Lweapon2.Name = "Lweapon2";
-            this.Lweapon2.Size = new System.Drawing.Size(178, 21);
-            this.Lweapon2.TabIndex = 8;
-            // 
-            // Lweapon3
-            // 
-            this.Lweapon3.FormattingEnabled = true;
-            this.Lweapon3.Location = new System.Drawing.Point(489, 103);
-            this.Lweapon3.Name = "Lweapon3";
-            this.Lweapon3.Size = new System.Drawing.Size(178, 21);
-            this.Lweapon3.TabIndex = 9;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutToolStripMenuItem,
-            this.soulsToolStripMenuItem,
-            this.aboutToolStripMenuItem1,
-            this.exitToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(681, 24);
-            this.menuStrip1.TabIndex = 11;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Checked = true;
-            this.aboutToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.aboutToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.aboutToolStripMenuItem.Text = "Vitality ";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // aboutToolStripMenuItem1
-            // 
-            this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem1.Text = "About";
-            this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 106);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "L Weapon";
-            // 
-            // Ringslbl
-            // 
-            this.Ringslbl.AutoSize = true;
-            this.Ringslbl.Location = new System.Drawing.Point(42, 162);
-            this.Ringslbl.Name = "Ringslbl";
-            this.Ringslbl.Size = new System.Drawing.Size(34, 13);
-            this.Ringslbl.TabIndex = 13;
-            this.Ringslbl.Text = "Rings";
-            // 
-            // Ring3
-            // 
-            this.Ring3.FormattingEnabled = true;
-            this.Ring3.Location = new System.Drawing.Point(411, 159);
-            this.Ring3.Name = "Ring3";
-            this.Ring3.Size = new System.Drawing.Size(125, 21);
-            this.Ring3.TabIndex = 14;
-            // 
-            // Ring4
-            // 
-            this.Ring4.FormattingEnabled = true;
-            this.Ring4.Location = new System.Drawing.Point(542, 159);
-            this.Ring4.Name = "Ring4";
-            this.Ring4.Size = new System.Drawing.Size(125, 21);
-            this.Ring4.TabIndex = 15;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(37, 313);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(62, 17);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "Fast roll";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(37, 355);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(79, 17);
-            this.checkBox2.TabIndex = 17;
-            this.checkBox2.Text = "Regular roll";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(37, 396);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(65, 17);
-            this.checkBox3.TabIndex = 18;
-            this.checkBox3.Text = "Slow roll";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(338, 353);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(138, 21);
-            this.comboBox11.TabIndex = 23;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(162, 353);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(138, 21);
-            this.comboBox12.TabIndex = 22;
-            // 
-            // armor
-            // 
-            this.armor.AutoSize = true;
-            this.armor.Location = new System.Drawing.Point(161, 297);
-            this.armor.Name = "armor";
-            this.armor.Size = new System.Drawing.Size(34, 13);
-            this.armor.TabIndex = 21;
-            this.armor.Text = "Armor";
+            this.Vitpage.BackColor = System.Drawing.Color.White;
+            this.Vitpage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Vitpage.BackgroundImage")));
+            this.Vitpage.Controls.Add(this.comboBox13);
+            this.Vitpage.Controls.Add(this.comboBox12);
+            this.Vitpage.Controls.Add(this.comboBox11);
+            this.Vitpage.Controls.Add(this.comboBox10);
+            this.Vitpage.Controls.Add(this.rings4);
+            this.Vitpage.Controls.Add(this.rings3);
+            this.Vitpage.Controls.Add(this.rings2);
+            this.Vitpage.Controls.Add(this.rings1);
+            this.Vitpage.Controls.Add(this.comboBox5);
+            this.Vitpage.Controls.Add(this.comboBox4);
+            this.Vitpage.Controls.Add(this.comboBox3);
+            this.Vitpage.Controls.Add(this.comboBox2);
+            this.Vitpage.Controls.Add(this.comboBox1);
+            this.Vitpage.Controls.Add(this.Lweapon1);
+            this.Vitpage.Location = new System.Drawing.Point(4, 22);
+            this.Vitpage.Name = "Vitpage";
+            this.Vitpage.Padding = new System.Windows.Forms.Padding(3);
+            this.Vitpage.Size = new System.Drawing.Size(482, 587);
+            this.Vitpage.TabIndex = 0;
+            this.Vitpage.Text = "Vitality";
+            this.Vitpage.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // comboBox13
             // 
             this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(338, 313);
+            this.comboBox13.Location = new System.Drawing.Point(265, 453);
             this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(138, 21);
-            this.comboBox13.TabIndex = 20;
+            this.comboBox13.Size = new System.Drawing.Size(179, 21);
+            this.comboBox13.TabIndex = 40;
             // 
-            // comboBox14
+            // comboBox12
             // 
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(162, 313);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(138, 21);
-            this.comboBox14.TabIndex = 19;
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Location = new System.Drawing.Point(43, 453);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(179, 21);
+            this.comboBox12.TabIndex = 39;
             // 
-            // soulsToolStripMenuItem
+            // comboBox11
             // 
-            this.soulsToolStripMenuItem.Name = "soulsToolStripMenuItem";
-            this.soulsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
-            this.soulsToolStripMenuItem.Text = "Souls";
-            this.soulsToolStripMenuItem.Click += new System.EventHandler(this.soulsToolStripMenuItem_Click);
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Location = new System.Drawing.Point(265, 402);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(179, 21);
+            this.comboBox11.TabIndex = 38;
             // 
-            // exitToolStripMenuItem
+            // comboBox10
             // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Location = new System.Drawing.Point(43, 402);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(179, 21);
+            this.comboBox10.TabIndex = 37;
+            // 
+            // rings4
+            // 
+            this.rings4.FormattingEnabled = true;
+            this.rings4.Location = new System.Drawing.Point(265, 312);
+            this.rings4.Name = "rings4";
+            this.rings4.Size = new System.Drawing.Size(179, 21);
+            this.rings4.TabIndex = 36;
+            // 
+            // rings3
+            // 
+            this.rings3.FormattingEnabled = true;
+            this.rings3.Location = new System.Drawing.Point(43, 312);
+            this.rings3.Name = "rings3";
+            this.rings3.Size = new System.Drawing.Size(179, 21);
+            this.rings3.TabIndex = 35;
+            // 
+            // rings2
+            // 
+            this.rings2.FormattingEnabled = true;
+            this.rings2.Location = new System.Drawing.Point(265, 261);
+            this.rings2.Name = "rings2";
+            this.rings2.Size = new System.Drawing.Size(179, 21);
+            this.rings2.TabIndex = 34;
+            // 
+            // rings1
+            // 
+            this.rings1.FormattingEnabled = true;
+            this.rings1.Location = new System.Drawing.Point(43, 261);
+            this.rings1.Name = "rings1";
+            this.rings1.Size = new System.Drawing.Size(179, 21);
+            this.rings1.TabIndex = 33;
+            this.rings1.SelectedIndexChanged += new System.EventHandler(this.comboBox6_SelectedIndexChanged);
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(265, 171);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(179, 21);
+            this.comboBox5.TabIndex = 32;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(265, 120);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(179, 21);
+            this.comboBox4.TabIndex = 31;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(265, 69);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(179, 21);
+            this.comboBox3.TabIndex = 30;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(43, 171);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(179, 21);
+            this.comboBox2.TabIndex = 29;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(43, 120);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(179, 21);
+            this.comboBox1.TabIndex = 28;
+            // 
+            // Lweapon1
+            // 
+            this.Lweapon1.FormattingEnabled = true;
+            this.Lweapon1.Items.AddRange(new object[] {
+            "Aldrich\'s Ruby",
+            "Aldrich\'s Ruby"});
+            this.Lweapon1.Location = new System.Drawing.Point(43, 69);
+            this.Lweapon1.Name = "Lweapon1";
+            this.Lweapon1.Size = new System.Drawing.Size(179, 21);
+            this.Lweapon1.TabIndex = 27;
+            this.Lweapon1.SelectedIndexChanged += new System.EventHandler(this.Lweapon1_SelectedIndexChanged);
+            // 
+            // Soulpage
+            // 
+            this.Soulpage.Controls.Add(this.clvl);
+            this.Soulpage.Controls.Add(this.Currentlvl);
+            this.Soulpage.Location = new System.Drawing.Point(4, 22);
+            this.Soulpage.Name = "Soulpage";
+            this.Soulpage.Padding = new System.Windows.Forms.Padding(3);
+            this.Soulpage.Size = new System.Drawing.Size(482, 587);
+            this.Soulpage.TabIndex = 1;
+            this.Soulpage.Text = "Souls";
+            this.Soulpage.UseVisualStyleBackColor = true;
+            // 
+            // clvl
+            // 
+            this.clvl.AutoSize = true;
+            this.clvl.Location = new System.Drawing.Point(44, 57);
+            this.clvl.Name = "clvl";
+            this.clvl.Size = new System.Drawing.Size(70, 13);
+            this.clvl.TabIndex = 3;
+            this.clvl.Text = "Current Level";
+            // 
+            // Currentlvl
+            // 
+            this.Currentlvl.Location = new System.Drawing.Point(137, 54);
+            this.Currentlvl.Name = "Currentlvl";
+            this.Currentlvl.Size = new System.Drawing.Size(199, 20);
+            this.Currentlvl.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(681, 523);
-            this.Controls.Add(this.comboBox11);
-            this.Controls.Add(this.comboBox12);
-            this.Controls.Add(this.armor);
-            this.Controls.Add(this.comboBox13);
-            this.Controls.Add(this.comboBox14);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.Ring4);
-            this.Controls.Add(this.Ring3);
-            this.Controls.Add(this.Ringslbl);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.Lweapon3);
-            this.Controls.Add(this.Lweapon2);
-            this.Controls.Add(this.Rweapon3);
-            this.Controls.Add(this.Rweapon2);
-            this.Controls.Add(this.Ring2);
-            this.Controls.Add(this.Ring1);
-            this.Controls.Add(this.Lweapon1);
-            this.Controls.Add(this.Armorlbl);
-            this.Controls.Add(this.Rweapon1);
-            this.Controls.Add(this.Calculate);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(487, 615);
+            this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Dark Souls Stat Calc";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.tabControl1.ResumeLayout(false);
+            this.Vitpage.ResumeLayout(false);
+            this.Soulpage.ResumeLayout(false);
+            this.Soulpage.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Calculate;
-        private System.Windows.Forms.ComboBox Rweapon1;
-        private System.Windows.Forms.Label Armorlbl;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage Vitpage;
+        private System.Windows.Forms.TabPage Soulpage;
         private System.Windows.Forms.ComboBox Lweapon1;
-        private System.Windows.Forms.ComboBox Ring1;
-        private System.Windows.Forms.ComboBox Ring2;
-        private System.Windows.Forms.ComboBox Rweapon2;
-        private System.Windows.Forms.ComboBox Rweapon3;
-        private System.Windows.Forms.ComboBox Lweapon2;
-        private System.Windows.Forms.ComboBox Lweapon3;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label Ringslbl;
-        private System.Windows.Forms.ComboBox Ring3;
-        private System.Windows.Forms.ComboBox Ring4;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.Label armor;
+        private System.Windows.Forms.Label clvl;
+        private System.Windows.Forms.TextBox Currentlvl;
         private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.ToolStripMenuItem soulsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox rings4;
+        private System.Windows.Forms.ComboBox rings3;
+        private System.Windows.Forms.ComboBox rings2;
+        private System.Windows.Forms.ComboBox rings1;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
