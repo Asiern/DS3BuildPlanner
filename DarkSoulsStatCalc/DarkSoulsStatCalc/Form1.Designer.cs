@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.About = new System.Windows.Forms.TabControl();
             this.Vitpage = new System.Windows.Forms.TabPage();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
@@ -48,26 +48,29 @@
             this.Soulpage = new System.Windows.Forms.TabPage();
             this.clvl = new System.Windows.Forms.Label();
             this.Currentlvl = new System.Windows.Forms.TextBox();
-            this.tabControl1.SuspendLayout();
+            this.Aboutlink = new System.Windows.Forms.LinkLabel();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.About.SuspendLayout();
             this.Vitpage.SuspendLayout();
             this.Soulpage.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // About
             // 
-            this.tabControl1.Controls.Add(this.Vitpage);
-            this.tabControl1.Controls.Add(this.Soulpage);
-            this.tabControl1.Location = new System.Drawing.Point(0, 2);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(490, 613);
-            this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl1.TabIndex = 24;
+            this.About.Controls.Add(this.Vitpage);
+            this.About.Controls.Add(this.Soulpage);
+            this.About.Location = new System.Drawing.Point(0, 2);
+            this.About.Name = "About";
+            this.About.SelectedIndex = 0;
+            this.About.Size = new System.Drawing.Size(490, 613);
+            this.About.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
+            this.About.TabIndex = 24;
             // 
             // Vitpage
             // 
             this.Vitpage.BackColor = System.Drawing.Color.White;
             this.Vitpage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Vitpage.BackgroundImage")));
+            this.Vitpage.Controls.Add(this.Aboutlink);
             this.Vitpage.Controls.Add(this.comboBox13);
             this.Vitpage.Controls.Add(this.comboBox12);
             this.Vitpage.Controls.Add(this.comboBox11);
@@ -199,9 +202,6 @@
             // Lweapon1
             // 
             this.Lweapon1.FormattingEnabled = true;
-            this.Lweapon1.Items.AddRange(new object[] {
-            "Aldrich\'s Ruby",
-            "Aldrich\'s Ruby"});
             this.Lweapon1.Location = new System.Drawing.Point(43, 69);
             this.Lweapon1.Name = "Lweapon1";
             this.Lweapon1.Size = new System.Drawing.Size(179, 21);
@@ -210,6 +210,7 @@
             // 
             // Soulpage
             // 
+            this.Soulpage.Controls.Add(this.linkLabel1);
             this.Soulpage.Controls.Add(this.clvl);
             this.Soulpage.Controls.Add(this.Currentlvl);
             this.Soulpage.Location = new System.Drawing.Point(4, 22);
@@ -236,20 +237,42 @@
             this.Currentlvl.Size = new System.Drawing.Size(199, 20);
             this.Currentlvl.TabIndex = 2;
             // 
+            // Aboutlink
+            // 
+            this.Aboutlink.AutoSize = true;
+            this.Aboutlink.Location = new System.Drawing.Point(383, 574);
+            this.Aboutlink.Name = "Aboutlink";
+            this.Aboutlink.Size = new System.Drawing.Size(99, 13);
+            this.Aboutlink.TabIndex = 41;
+            this.Aboutlink.TabStop = true;
+            this.Aboutlink.Text = "About DS Stat Calc";
+            this.Aboutlink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(383, 574);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(99, 13);
+            this.linkLabel1.TabIndex = 42;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "About DS Stat Calc";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(487, 615);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.About);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Dark Souls Stat Calc";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.About.ResumeLayout(false);
             this.Vitpage.ResumeLayout(false);
+            this.Vitpage.PerformLayout();
             this.Soulpage.ResumeLayout(false);
             this.Soulpage.PerformLayout();
             this.ResumeLayout(false);
@@ -257,7 +280,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl About;
         private System.Windows.Forms.TabPage Vitpage;
         private System.Windows.Forms.TabPage Soulpage;
         private System.Windows.Forms.ComboBox Lweapon1;
@@ -276,6 +299,8 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.LinkLabel Aboutlink;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

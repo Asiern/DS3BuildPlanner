@@ -28,21 +28,6 @@ namespace DarkSoulsStatCalc
 
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void soulsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-                    
-        }
-
-        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Developed by:\n \n PapaElGunmen \n byTxampi \n Iker Galardi \n \n \n Version: 0.1(Alpha)", "About");
-        }
-
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
@@ -66,6 +51,12 @@ namespace DarkSoulsStatCalc
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AboutBox1 about = new AboutBox1();
+            about.Show();
         }
     }
 }
