@@ -13,9 +13,17 @@ namespace DarkSoulsStatCalc
 {
     public partial class Form1 : Form
     {
+        private List<Item> Protector;
+        private List<Item> Rings;
+        private List<Item> Weapons;
+
         public Form1()
         {
             InitializeComponent();
+
+            // Protector = CSV.Read("ObjectData/Protector.csv");
+            // Rings = CSV.Read("ObjectData/Rings.csv");
+            // Weapons = CSV.Read("ObjectData/Weapons.csv");
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
