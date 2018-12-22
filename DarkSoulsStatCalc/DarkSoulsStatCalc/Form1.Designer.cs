@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.About = new System.Windows.Forms.TabControl();
             this.Vitpage = new System.Windows.Forms.TabPage();
+            this.Aboutlink = new System.Windows.Forms.LinkLabel();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
@@ -46,30 +48,36 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.Lweapon1 = new System.Windows.Forms.ComboBox();
             this.Soulpage = new System.Windows.Forms.TabPage();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.clvl = new System.Windows.Forms.Label();
             this.Currentlvl = new System.Windows.Forms.TextBox();
-            this.Aboutlink = new System.Windows.Forms.LinkLabel();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.Settings = new System.Windows.Forms.TabPage();
+            this.Settingsapply = new System.Windows.Forms.Button();
+            this.combobox7 = new System.Windows.Forms.ComboBox();
+            this.Themelbl = new System.Windows.Forms.Label();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.Languagelbl = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.About.SuspendLayout();
             this.Vitpage.SuspendLayout();
             this.Soulpage.SuspendLayout();
+            this.Settings.SuspendLayout();
             this.SuspendLayout();
             // 
             // About
             // 
             this.About.Controls.Add(this.Vitpage);
             this.About.Controls.Add(this.Soulpage);
-            this.About.Location = new System.Drawing.Point(0, 2);
+            this.About.Controls.Add(this.Settings);
+            resources.ApplyResources(this.About, "About");
             this.About.Name = "About";
             this.About.SelectedIndex = 0;
-            this.About.Size = new System.Drawing.Size(490, 613);
             this.About.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.About.TabIndex = 24;
             // 
             // Vitpage
             // 
             this.Vitpage.BackColor = System.Drawing.Color.White;
-            this.Vitpage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Vitpage.BackgroundImage")));
+            this.Vitpage.BackgroundImage = global::DarkSoulsStatCalc.Properties.Resources.Vitlight;
             this.Vitpage.Controls.Add(this.Aboutlink);
             this.Vitpage.Controls.Add(this.comboBox13);
             this.Vitpage.Controls.Add(this.comboBox12);
@@ -85,127 +93,104 @@
             this.Vitpage.Controls.Add(this.comboBox2);
             this.Vitpage.Controls.Add(this.comboBox1);
             this.Vitpage.Controls.Add(this.Lweapon1);
-            this.Vitpage.Location = new System.Drawing.Point(4, 22);
+            resources.ApplyResources(this.Vitpage, "Vitpage");
             this.Vitpage.Name = "Vitpage";
-            this.Vitpage.Padding = new System.Windows.Forms.Padding(3);
-            this.Vitpage.Size = new System.Drawing.Size(482, 587);
-            this.Vitpage.TabIndex = 0;
-            this.Vitpage.Text = "Vitality";
             this.Vitpage.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // Aboutlink
+            // 
+            resources.ApplyResources(this.Aboutlink, "Aboutlink");
+            this.Aboutlink.BackColor = System.Drawing.Color.Transparent;
+            this.Aboutlink.LinkColor = System.Drawing.Color.Orange;
+            this.Aboutlink.Name = "Aboutlink";
+            this.Aboutlink.TabStop = true;
+            this.Aboutlink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // comboBox13
             // 
             this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(265, 453);
+            resources.ApplyResources(this.comboBox13, "comboBox13");
             this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(179, 21);
-            this.comboBox13.TabIndex = 40;
             // 
             // comboBox12
             // 
             this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(43, 453);
+            resources.ApplyResources(this.comboBox12, "comboBox12");
             this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(179, 21);
-            this.comboBox12.TabIndex = 39;
             // 
             // comboBox11
             // 
             this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(265, 402);
+            resources.ApplyResources(this.comboBox11, "comboBox11");
             this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(179, 21);
-            this.comboBox11.TabIndex = 38;
             // 
             // comboBox10
             // 
             this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(43, 402);
+            resources.ApplyResources(this.comboBox10, "comboBox10");
             this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(179, 21);
-            this.comboBox10.TabIndex = 37;
             // 
             // rings4
             // 
             this.rings4.FormattingEnabled = true;
-            this.rings4.Location = new System.Drawing.Point(265, 312);
+            resources.ApplyResources(this.rings4, "rings4");
             this.rings4.Name = "rings4";
-            this.rings4.Size = new System.Drawing.Size(179, 21);
-            this.rings4.TabIndex = 36;
             // 
             // rings3
             // 
             this.rings3.FormattingEnabled = true;
-            this.rings3.Location = new System.Drawing.Point(43, 312);
+            resources.ApplyResources(this.rings3, "rings3");
             this.rings3.Name = "rings3";
-            this.rings3.Size = new System.Drawing.Size(179, 21);
-            this.rings3.TabIndex = 35;
             // 
             // rings2
             // 
             this.rings2.FormattingEnabled = true;
-            this.rings2.Location = new System.Drawing.Point(265, 261);
+            resources.ApplyResources(this.rings2, "rings2");
             this.rings2.Name = "rings2";
-            this.rings2.Size = new System.Drawing.Size(179, 21);
-            this.rings2.TabIndex = 34;
             // 
             // rings1
             // 
             this.rings1.FormattingEnabled = true;
-            this.rings1.Location = new System.Drawing.Point(43, 261);
+            resources.ApplyResources(this.rings1, "rings1");
             this.rings1.Name = "rings1";
-            this.rings1.Size = new System.Drawing.Size(179, 21);
-            this.rings1.TabIndex = 33;
             this.rings1.SelectedIndexChanged += new System.EventHandler(this.comboBox6_SelectedIndexChanged);
             // 
             // comboBox5
             // 
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(265, 171);
+            resources.ApplyResources(this.comboBox5, "comboBox5");
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(179, 21);
-            this.comboBox5.TabIndex = 32;
             // 
             // comboBox4
             // 
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(265, 120);
+            resources.ApplyResources(this.comboBox4, "comboBox4");
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(179, 21);
-            this.comboBox4.TabIndex = 31;
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(265, 69);
+            resources.ApplyResources(this.comboBox3, "comboBox3");
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(179, 21);
-            this.comboBox3.TabIndex = 30;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(43, 171);
+            resources.ApplyResources(this.comboBox2, "comboBox2");
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(179, 21);
-            this.comboBox2.TabIndex = 29;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(43, 120);
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(179, 21);
-            this.comboBox1.TabIndex = 28;
             // 
             // Lweapon1
             // 
             this.Lweapon1.FormattingEnabled = true;
-            this.Lweapon1.Location = new System.Drawing.Point(43, 69);
+            resources.ApplyResources(this.Lweapon1, "Lweapon1");
             this.Lweapon1.Name = "Lweapon1";
-            this.Lweapon1.Size = new System.Drawing.Size(179, 21);
-            this.Lweapon1.TabIndex = 27;
             this.Lweapon1.SelectedIndexChanged += new System.EventHandler(this.Lweapon1_SelectedIndexChanged);
             // 
             // Soulpage
@@ -213,68 +198,98 @@
             this.Soulpage.Controls.Add(this.linkLabel1);
             this.Soulpage.Controls.Add(this.clvl);
             this.Soulpage.Controls.Add(this.Currentlvl);
-            this.Soulpage.Location = new System.Drawing.Point(4, 22);
+            resources.ApplyResources(this.Soulpage, "Soulpage");
             this.Soulpage.Name = "Soulpage";
-            this.Soulpage.Padding = new System.Windows.Forms.Padding(3);
-            this.Soulpage.Size = new System.Drawing.Size(482, 587);
-            this.Soulpage.TabIndex = 1;
-            this.Soulpage.Text = "Souls";
             this.Soulpage.UseVisualStyleBackColor = true;
-            // 
-            // clvl
-            // 
-            this.clvl.AutoSize = true;
-            this.clvl.Location = new System.Drawing.Point(44, 57);
-            this.clvl.Name = "clvl";
-            this.clvl.Size = new System.Drawing.Size(70, 13);
-            this.clvl.TabIndex = 3;
-            this.clvl.Text = "Current Level";
-            // 
-            // Currentlvl
-            // 
-            this.Currentlvl.Location = new System.Drawing.Point(137, 54);
-            this.Currentlvl.Name = "Currentlvl";
-            this.Currentlvl.Size = new System.Drawing.Size(199, 20);
-            this.Currentlvl.TabIndex = 2;
-            // 
-            // Aboutlink
-            // 
-            this.Aboutlink.AutoSize = true;
-            this.Aboutlink.Location = new System.Drawing.Point(383, 574);
-            this.Aboutlink.Name = "Aboutlink";
-            this.Aboutlink.Size = new System.Drawing.Size(99, 13);
-            this.Aboutlink.TabIndex = 41;
-            this.Aboutlink.TabStop = true;
-            this.Aboutlink.Text = "About DS Stat Calc";
-            this.Aboutlink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel1
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(383, 574);
+            resources.ApplyResources(this.linkLabel1, "linkLabel1");
+            this.linkLabel1.LinkColor = System.Drawing.Color.Orange;
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(99, 13);
-            this.linkLabel1.TabIndex = 42;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "About DS Stat Calc";
+            // 
+            // clvl
+            // 
+            resources.ApplyResources(this.clvl, "clvl");
+            this.clvl.Name = "clvl";
+            // 
+            // Currentlvl
+            // 
+            resources.ApplyResources(this.Currentlvl, "Currentlvl");
+            this.Currentlvl.Name = "Currentlvl";
+            // 
+            // Settings
+            // 
+            this.Settings.BackColor = System.Drawing.Color.White;
+            this.Settings.Controls.Add(this.Settingsapply);
+            this.Settings.Controls.Add(this.combobox7);
+            this.Settings.Controls.Add(this.Themelbl);
+            this.Settings.Controls.Add(this.comboBox6);
+            this.Settings.Controls.Add(this.Languagelbl);
+            this.Settings.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            resources.ApplyResources(this.Settings, "Settings");
+            this.Settings.Name = "Settings";
+            this.Settings.Click += new System.EventHandler(this.tabPage1_Click_1);
+            // 
+            // Settingsapply
+            // 
+            resources.ApplyResources(this.Settingsapply, "Settingsapply");
+            this.Settingsapply.Name = "Settingsapply";
+            this.Settingsapply.UseVisualStyleBackColor = true;
+            this.Settingsapply.Click += new System.EventHandler(this.Settingsapply_Click);
+            // 
+            // combobox7
+            // 
+            this.combobox7.FormattingEnabled = true;
+            this.combobox7.Items.AddRange(new object[] {
+            resources.GetString("combobox7.Items"),
+            resources.GetString("combobox7.Items1")});
+            resources.ApplyResources(this.combobox7, "combobox7");
+            this.combobox7.Name = "combobox7";
+            // 
+            // Themelbl
+            // 
+            resources.ApplyResources(this.Themelbl, "Themelbl");
+            this.Themelbl.Name = "Themelbl";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            resources.GetString("comboBox6.Items"),
+            resources.GetString("comboBox6.Items1")});
+            resources.ApplyResources(this.comboBox6, "comboBox6");
+            this.comboBox6.Name = "comboBox6";
+            // 
+            // Languagelbl
+            // 
+            resources.ApplyResources(this.Languagelbl, "Languagelbl");
+            this.Languagelbl.Name = "Languagelbl";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(487, 615);
             this.Controls.Add(this.About);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Dark Souls Stat Calc";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.About.ResumeLayout(false);
             this.Vitpage.ResumeLayout(false);
             this.Vitpage.PerformLayout();
             this.Soulpage.ResumeLayout(false);
             this.Soulpage.PerformLayout();
+            this.Settings.ResumeLayout(false);
+            this.Settings.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -301,6 +316,13 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.LinkLabel Aboutlink;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.TabPage Settings;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Label Languagelbl;
+        private System.Windows.Forms.ComboBox combobox7;
+        private System.Windows.Forms.Label Themelbl;
+        private System.Windows.Forms.Button Settingsapply;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
