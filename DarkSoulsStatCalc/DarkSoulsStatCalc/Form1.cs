@@ -58,7 +58,7 @@ namespace DarkSoulsStatCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+      
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -95,8 +95,10 @@ namespace DarkSoulsStatCalc
                 //Soulpage.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Soullight;
                 Settings.ForeColor = SystemColors.ActiveCaptionText;
                 //Settings.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Settlight;
+                Settings.BackColor = Color.FromArgb(255,255,255);
                 Vitpage.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Vitlight;
                 //Cambiar color de fondo form1 a "Systemcolors.buttonface"
+                this.BackColor = SystemColors.ButtonFace;
                 //Cambiar color de Tab control
             }
 
@@ -108,9 +110,22 @@ namespace DarkSoulsStatCalc
                 //Soulpage.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Souldark;
                 Settings.ForeColor = SystemColors.ControlLightLight;
                 //Settings.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Settdark;
+                Settings.BackColor = Color.FromArgb(37, 37, 37);
                 //Cambiar color de fondo form1 a #353535
+                this.BackColor = Color.FromArgb(53,53,53);
                 //Cambiar color de Tab control
             }
+        }
+
+
+        private void LightThemebut_Click(object sender, EventArgs e)
+        {
+            DarkSoulsStatCalc.Properties.Settings.Default.Theme = "Default";
+        }
+
+        private void DarkThemebut_Click(object sender, EventArgs e)
+        {
+            DarkSoulsStatCalc.Properties.Settings.Default.Theme = "Dark";
         }
     }
 }

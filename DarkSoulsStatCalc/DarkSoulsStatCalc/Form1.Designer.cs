@@ -58,6 +58,8 @@
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.Languagelbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.LightThemebut = new System.Windows.Forms.Button();
+            this.DarkThemebut = new System.Windows.Forms.Button();
             this.About.SuspendLayout();
             this.Vitpage.SuspendLayout();
             this.Soulpage.SuspendLayout();
@@ -222,6 +224,8 @@
             // Settings
             // 
             this.Settings.BackColor = System.Drawing.Color.White;
+            this.Settings.Controls.Add(this.DarkThemebut);
+            this.Settings.Controls.Add(this.LightThemebut);
             this.Settings.Controls.Add(this.Settingsapply);
             this.Settings.Controls.Add(this.combobox7);
             this.Settings.Controls.Add(this.Themelbl);
@@ -271,6 +275,20 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // LightThemebut
+            // 
+            resources.ApplyResources(this.LightThemebut, "LightThemebut");
+            this.LightThemebut.Name = "LightThemebut";
+            this.LightThemebut.UseVisualStyleBackColor = true;
+            this.LightThemebut.Click += new System.EventHandler(this.LightThemebut_Click);
+            // 
+            // DarkThemebut
+            // 
+            resources.ApplyResources(this.DarkThemebut, "DarkThemebut");
+            this.DarkThemebut.Name = "DarkThemebut";
+            this.DarkThemebut.UseVisualStyleBackColor = true;
+            this.DarkThemebut.Click += new System.EventHandler(this.DarkThemebut_Click);
             // 
             // Form1
             // 
@@ -323,6 +341,8 @@
         private System.Windows.Forms.Label Themelbl;
         private System.Windows.Forms.Button Settingsapply;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button DarkThemebut;
+        private System.Windows.Forms.Button LightThemebut;
     }
 }
 
