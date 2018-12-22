@@ -113,12 +113,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\DS2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Database.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\Settlight.jpg" />
     <None Include="Resources\Vitlight.jpg" />
     <None Include="Resources\Vitdark.jpg" />
   </ItemGroup>

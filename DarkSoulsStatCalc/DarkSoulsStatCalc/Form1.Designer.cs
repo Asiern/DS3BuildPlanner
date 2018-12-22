@@ -31,8 +31,14 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.About = new System.Windows.Forms.TabControl();
+            this.Soulpage = new System.Windows.Forms.TabPage();
+            this.clvl = new System.Windows.Forms.Label();
+            this.Currentlvl = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Vitpage = new System.Windows.Forms.TabPage();
-            this.Aboutlink = new System.Windows.Forms.LinkLabel();
+            this.Fatcheckbox = new System.Windows.Forms.CheckBox();
+            this.Normalcheckbox = new System.Windows.Forms.CheckBox();
+            this.Fastcheckbox = new System.Windows.Forms.CheckBox();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
@@ -47,22 +53,13 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.Lweapon1 = new System.Windows.Forms.ComboBox();
-            this.Soulpage = new System.Windows.Forms.TabPage();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.clvl = new System.Windows.Forms.Label();
-            this.Currentlvl = new System.Windows.Forms.TextBox();
             this.Settings = new System.Windows.Forms.TabPage();
-            this.Settingsapply = new System.Windows.Forms.Button();
-            this.combobox7 = new System.Windows.Forms.ComboBox();
-            this.Themelbl = new System.Windows.Forms.Label();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.Languagelbl = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.LightThemebut = new System.Windows.Forms.Button();
+            this.Aboutbut = new System.Windows.Forms.Button();
             this.DarkThemebut = new System.Windows.Forms.Button();
+            this.LightThemebut = new System.Windows.Forms.Button();
             this.About.SuspendLayout();
-            this.Vitpage.SuspendLayout();
             this.Soulpage.SuspendLayout();
+            this.Vitpage.SuspendLayout();
             this.Settings.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,11 +73,36 @@
             this.About.SelectedIndex = 0;
             this.About.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             // 
+            // Soulpage
+            // 
+            this.Soulpage.Controls.Add(this.clvl);
+            this.Soulpage.Controls.Add(this.Currentlvl);
+            resources.ApplyResources(this.Soulpage, "Soulpage");
+            this.Soulpage.Name = "Soulpage";
+            this.Soulpage.UseVisualStyleBackColor = true;
+            // 
+            // clvl
+            // 
+            resources.ApplyResources(this.clvl, "clvl");
+            this.clvl.Name = "clvl";
+            // 
+            // Currentlvl
+            // 
+            resources.ApplyResources(this.Currentlvl, "Currentlvl");
+            this.Currentlvl.Name = "Currentlvl";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Vitpage
             // 
             this.Vitpage.BackColor = System.Drawing.Color.White;
             this.Vitpage.BackgroundImage = global::DarkSoulsStatCalc.Properties.Resources.Vitlight;
-            this.Vitpage.Controls.Add(this.Aboutlink);
+            this.Vitpage.Controls.Add(this.Fatcheckbox);
+            this.Vitpage.Controls.Add(this.Normalcheckbox);
+            this.Vitpage.Controls.Add(this.Fastcheckbox);
             this.Vitpage.Controls.Add(this.comboBox13);
             this.Vitpage.Controls.Add(this.comboBox12);
             this.Vitpage.Controls.Add(this.comboBox11);
@@ -99,14 +121,26 @@
             this.Vitpage.Name = "Vitpage";
             this.Vitpage.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // Aboutlink
+            // Fatcheckbox
             // 
-            resources.ApplyResources(this.Aboutlink, "Aboutlink");
-            this.Aboutlink.BackColor = System.Drawing.Color.Transparent;
-            this.Aboutlink.LinkColor = System.Drawing.Color.Orange;
-            this.Aboutlink.Name = "Aboutlink";
-            this.Aboutlink.TabStop = true;
-            this.Aboutlink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            resources.ApplyResources(this.Fatcheckbox, "Fatcheckbox");
+            this.Fatcheckbox.BackColor = System.Drawing.Color.Transparent;
+            this.Fatcheckbox.Name = "Fatcheckbox";
+            this.Fatcheckbox.UseVisualStyleBackColor = false;
+            // 
+            // Normalcheckbox
+            // 
+            resources.ApplyResources(this.Normalcheckbox, "Normalcheckbox");
+            this.Normalcheckbox.BackColor = System.Drawing.Color.Transparent;
+            this.Normalcheckbox.Name = "Normalcheckbox";
+            this.Normalcheckbox.UseVisualStyleBackColor = false;
+            // 
+            // Fastcheckbox
+            // 
+            resources.ApplyResources(this.Fastcheckbox, "Fastcheckbox");
+            this.Fastcheckbox.BackColor = System.Drawing.Color.Transparent;
+            this.Fastcheckbox.Name = "Fastcheckbox";
+            this.Fastcheckbox.UseVisualStyleBackColor = false;
             // 
             // comboBox13
             // 
@@ -195,93 +229,24 @@
             this.Lweapon1.Name = "Lweapon1";
             this.Lweapon1.SelectedIndexChanged += new System.EventHandler(this.Lweapon1_SelectedIndexChanged);
             // 
-            // Soulpage
-            // 
-            this.Soulpage.Controls.Add(this.linkLabel1);
-            this.Soulpage.Controls.Add(this.clvl);
-            this.Soulpage.Controls.Add(this.Currentlvl);
-            resources.ApplyResources(this.Soulpage, "Soulpage");
-            this.Soulpage.Name = "Soulpage";
-            this.Soulpage.UseVisualStyleBackColor = true;
-            // 
-            // linkLabel1
-            // 
-            resources.ApplyResources(this.linkLabel1, "linkLabel1");
-            this.linkLabel1.LinkColor = System.Drawing.Color.Orange;
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.TabStop = true;
-            // 
-            // clvl
-            // 
-            resources.ApplyResources(this.clvl, "clvl");
-            this.clvl.Name = "clvl";
-            // 
-            // Currentlvl
-            // 
-            resources.ApplyResources(this.Currentlvl, "Currentlvl");
-            this.Currentlvl.Name = "Currentlvl";
-            // 
             // Settings
             // 
             this.Settings.BackColor = System.Drawing.Color.White;
+            this.Settings.BackgroundImage = global::DarkSoulsStatCalc.Properties.Resources.Settlight;
+            this.Settings.Controls.Add(this.Aboutbut);
             this.Settings.Controls.Add(this.DarkThemebut);
             this.Settings.Controls.Add(this.LightThemebut);
-            this.Settings.Controls.Add(this.Settingsapply);
-            this.Settings.Controls.Add(this.combobox7);
-            this.Settings.Controls.Add(this.Themelbl);
-            this.Settings.Controls.Add(this.comboBox6);
-            this.Settings.Controls.Add(this.Languagelbl);
             this.Settings.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             resources.ApplyResources(this.Settings, "Settings");
             this.Settings.Name = "Settings";
             this.Settings.Click += new System.EventHandler(this.tabPage1_Click_1);
             // 
-            // Settingsapply
+            // Aboutbut
             // 
-            resources.ApplyResources(this.Settingsapply, "Settingsapply");
-            this.Settingsapply.Name = "Settingsapply";
-            this.Settingsapply.UseVisualStyleBackColor = true;
-            this.Settingsapply.Click += new System.EventHandler(this.Settingsapply_Click);
-            // 
-            // combobox7
-            // 
-            this.combobox7.FormattingEnabled = true;
-            this.combobox7.Items.AddRange(new object[] {
-            resources.GetString("combobox7.Items"),
-            resources.GetString("combobox7.Items1")});
-            resources.ApplyResources(this.combobox7, "combobox7");
-            this.combobox7.Name = "combobox7";
-            // 
-            // Themelbl
-            // 
-            resources.ApplyResources(this.Themelbl, "Themelbl");
-            this.Themelbl.Name = "Themelbl";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
-            resources.GetString("comboBox6.Items"),
-            resources.GetString("comboBox6.Items1")});
-            resources.ApplyResources(this.comboBox6, "comboBox6");
-            this.comboBox6.Name = "comboBox6";
-            // 
-            // Languagelbl
-            // 
-            resources.ApplyResources(this.Languagelbl, "Languagelbl");
-            this.Languagelbl.Name = "Languagelbl";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // LightThemebut
-            // 
-            resources.ApplyResources(this.LightThemebut, "LightThemebut");
-            this.LightThemebut.Name = "LightThemebut";
-            this.LightThemebut.UseVisualStyleBackColor = true;
-            this.LightThemebut.Click += new System.EventHandler(this.LightThemebut_Click);
+            resources.ApplyResources(this.Aboutbut, "Aboutbut");
+            this.Aboutbut.Name = "Aboutbut";
+            this.Aboutbut.UseVisualStyleBackColor = true;
+            this.Aboutbut.Click += new System.EventHandler(this.button1_Click);
             // 
             // DarkThemebut
             // 
@@ -289,6 +254,13 @@
             this.DarkThemebut.Name = "DarkThemebut";
             this.DarkThemebut.UseVisualStyleBackColor = true;
             this.DarkThemebut.Click += new System.EventHandler(this.DarkThemebut_Click);
+            // 
+            // LightThemebut
+            // 
+            resources.ApplyResources(this.LightThemebut, "LightThemebut");
+            this.LightThemebut.Name = "LightThemebut";
+            this.LightThemebut.UseVisualStyleBackColor = true;
+            this.LightThemebut.Click += new System.EventHandler(this.LightThemebut_Click);
             // 
             // Form1
             // 
@@ -302,12 +274,11 @@
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.About.ResumeLayout(false);
-            this.Vitpage.ResumeLayout(false);
-            this.Vitpage.PerformLayout();
             this.Soulpage.ResumeLayout(false);
             this.Soulpage.PerformLayout();
+            this.Vitpage.ResumeLayout(false);
+            this.Vitpage.PerformLayout();
             this.Settings.ResumeLayout(false);
-            this.Settings.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -332,17 +303,14 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.LinkLabel Aboutlink;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.TabPage Settings;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.Label Languagelbl;
-        private System.Windows.Forms.ComboBox combobox7;
-        private System.Windows.Forms.Label Themelbl;
-        private System.Windows.Forms.Button Settingsapply;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button DarkThemebut;
         private System.Windows.Forms.Button LightThemebut;
+        private System.Windows.Forms.Button Aboutbut;
+        private System.Windows.Forms.CheckBox Fatcheckbox;
+        private System.Windows.Forms.CheckBox Normalcheckbox;
+        private System.Windows.Forms.CheckBox Fastcheckbox;
     }
 }
 

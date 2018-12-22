@@ -118,33 +118,97 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Aboutlink.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Fatcheckbox.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Fatcheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Aboutlink.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 574</value>
+  <data name="Fatcheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 536</value>
   </data>
-  <data name="Aboutlink.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 13</value>
+  <data name="Fatcheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 17</value>
   </data>
-  <data name="Aboutlink.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
+  <data name="Fatcheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
   </data>
-  <data name="Aboutlink.Text" xml:space="preserve">
-    <value>About DS Stat Calc</value>
+  <data name="Fatcheckbox.Text" xml:space="preserve">
+    <value>Fat Roll</value>
   </data>
-  <data name="&gt;&gt;Aboutlink.Name" xml:space="preserve">
-    <value>Aboutlink</value>
+  <data name="&gt;&gt;Fatcheckbox.Name" xml:space="preserve">
+    <value>Fatcheckbox</value>
   </data>
-  <data name="&gt;&gt;Aboutlink.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Fatcheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Aboutlink.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Fatcheckbox.Parent" xml:space="preserve">
     <value>Vitpage</value>
   </data>
-  <data name="&gt;&gt;Aboutlink.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Fatcheckbox.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="Normalcheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Normalcheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Normalcheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 536</value>
+  </data>
+  <data name="Normalcheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="Normalcheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="Normalcheckbox.Text" xml:space="preserve">
+    <value>Normal Roll</value>
+  </data>
+  <data name="&gt;&gt;Normalcheckbox.Name" xml:space="preserve">
+    <value>Normalcheckbox</value>
+  </data>
+  <data name="&gt;&gt;Normalcheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Normalcheckbox.Parent" xml:space="preserve">
+    <value>Vitpage</value>
+  </data>
+  <data name="&gt;&gt;Normalcheckbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Fastcheckbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Fastcheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Fastcheckbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 536</value>
+  </data>
+  <data name="Fastcheckbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 17</value>
+  </data>
+  <data name="Fastcheckbox.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="Fastcheckbox.Text" xml:space="preserve">
+    <value>Fast Roll</value>
+  </data>
+  <data name="&gt;&gt;Fastcheckbox.Name" xml:space="preserve">
+    <value>Fastcheckbox</value>
+  </data>
+  <data name="&gt;&gt;Fastcheckbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Fastcheckbox.Parent" xml:space="preserve">
+    <value>Vitpage</value>
+  </data>
+  <data name="&gt;&gt;Fastcheckbox.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="comboBox13.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 453</value>
@@ -165,7 +229,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox13.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="comboBox12.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 453</value>
@@ -186,7 +250,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox12.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="comboBox11.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 402</value>
@@ -207,7 +271,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox11.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="comboBox10.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 402</value>
@@ -228,7 +292,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox10.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="rings4.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 312</value>
@@ -249,7 +313,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="rings3.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 312</value>
@@ -270,7 +334,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="rings2.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 261</value>
@@ -291,7 +355,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="rings1.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 261</value>
@@ -312,7 +376,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings1.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="comboBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 171</value>
@@ -333,7 +397,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox5.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 120</value>
@@ -354,7 +418,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox4.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 69</value>
@@ -375,7 +439,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox3.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 171</value>
@@ -396,7 +460,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 120</value>
@@ -417,7 +481,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="Lweapon1.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 69</value>
@@ -438,17 +502,16 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;Lweapon1.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="Vitpage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Vitpage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="Vitpage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>492, 595</value>
+    <value>479, 589</value>
   </data>
   <data name="Vitpage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -468,35 +531,11 @@
   <data name="&gt;&gt;Vitpage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="linkLabel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>383, 574</value>
-  </data>
-  <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 13</value>
-  </data>
-  <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="linkLabel1.Text" xml:space="preserve">
-    <value>About DS Stat Calc</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Name" xml:space="preserve">
-    <value>linkLabel1</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.Parent" xml:space="preserve">
-    <value>Soulpage</value>
-  </data>
-  <data name="&gt;&gt;linkLabel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="clvl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="clvl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="clvl.Location" type="System.Drawing.Point, System.Drawing">
     <value>44, 57</value>
@@ -520,7 +559,7 @@
     <value>Soulpage</value>
   </data>
   <data name="&gt;&gt;clvl.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="Currentlvl.Location" type="System.Drawing.Point, System.Drawing">
     <value>137, 54</value>
@@ -541,7 +580,7 @@
     <value>Soulpage</value>
   </data>
   <data name="&gt;&gt;Currentlvl.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="Soulpage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -550,7 +589,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="Soulpage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>492, 595</value>
+    <value>479, 589</value>
   </data>
   <data name="Soulpage.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -570,14 +609,41 @@
   <data name="&gt;&gt;Soulpage.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="Aboutbut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Aboutbut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 422</value>
+  </data>
+  <data name="Aboutbut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 41</value>
+  </data>
+  <data name="Aboutbut.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Aboutbut.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;Aboutbut.Name" xml:space="preserve">
+    <value>Aboutbut</value>
+  </data>
+  <data name="&gt;&gt;Aboutbut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Aboutbut.Parent" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;Aboutbut.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="DarkThemebut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="DarkThemebut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 141</value>
+    <value>289, 132</value>
   </data>
   <data name="DarkThemebut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>112, 41</value>
   </data>
   <data name="DarkThemebut.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -595,16 +661,16 @@
     <value>Settings</value>
   </data>
   <data name="&gt;&gt;DarkThemebut.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="LightThemebut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="LightThemebut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 141</value>
+    <value>73, 132</value>
   </data>
   <data name="LightThemebut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>103, 41</value>
   </data>
   <data name="LightThemebut.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -622,142 +688,7 @@
     <value>Settings</value>
   </data>
   <data name="&gt;&gt;LightThemebut.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Settingsapply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 507</value>
-  </data>
-  <data name="Settingsapply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 50</value>
-  </data>
-  <data name="Settingsapply.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="Settingsapply.Text" xml:space="preserve">
-    <value>Apply</value>
-  </data>
-  <data name="&gt;&gt;Settingsapply.Name" xml:space="preserve">
-    <value>Settingsapply</value>
-  </data>
-  <data name="&gt;&gt;Settingsapply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Settingsapply.Parent" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;Settingsapply.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="combobox7.Items" xml:space="preserve">
-    <value>Default</value>
-  </data>
-  <data name="combobox7.Items1" xml:space="preserve">
-    <value>Dark</value>
-  </data>
-  <data name="combobox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 143</value>
-  </data>
-  <data name="combobox7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 21</value>
-  </data>
-  <data name="combobox7.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="combobox7.Text" xml:space="preserve">
-    <value>Pick Theme</value>
-  </data>
-  <data name="&gt;&gt;combobox7.Name" xml:space="preserve">
-    <value>combobox7</value>
-  </data>
-  <data name="&gt;&gt;combobox7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;combobox7.Parent" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;combobox7.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Themelbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Themelbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 146</value>
-  </data>
-  <data name="Themelbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 13</value>
-  </data>
-  <data name="Themelbl.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="Themelbl.Text" xml:space="preserve">
-    <value>Theme</value>
-  </data>
-  <data name="&gt;&gt;Themelbl.Name" xml:space="preserve">
-    <value>Themelbl</value>
-  </data>
-  <data name="&gt;&gt;Themelbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Themelbl.Parent" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;Themelbl.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="comboBox6.Items" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="comboBox6.Items1" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="comboBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 80</value>
-  </data>
-  <data name="comboBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 21</value>
-  </data>
-  <data name="comboBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;comboBox6.Name" xml:space="preserve">
-    <value>comboBox6</value>
-  </data>
-  <data name="&gt;&gt;comboBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox6.Parent" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;comboBox6.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="Languagelbl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Languagelbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 83</value>
-  </data>
-  <data name="Languagelbl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 13</value>
-  </data>
-  <data name="Languagelbl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Languagelbl.Text" xml:space="preserve">
-    <value>Laguage</value>
-  </data>
-  <data name="&gt;&gt;Languagelbl.Name" xml:space="preserve">
-    <value>Languagelbl</value>
-  </data>
-  <data name="&gt;&gt;Languagelbl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Languagelbl.Parent" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="&gt;&gt;Languagelbl.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <data name="Settings.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -766,7 +697,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="Settings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>492, 595</value>
+    <value>479, 589</value>
   </data>
   <data name="Settings.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -786,11 +717,14 @@
   <data name="&gt;&gt;Settings.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="About.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="About.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-5, 2</value>
+    <value>0, 0</value>
   </data>
   <data name="About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 621</value>
+    <value>487, 615</value>
   </data>
   <data name="About.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>

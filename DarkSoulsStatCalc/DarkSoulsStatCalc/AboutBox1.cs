@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace DarkSoulsStatCalc
 {
-    partial class AboutBox1 : Form
+    partial class About : Form
     {
-        public AboutBox1()
+        public About()
         {
             InitializeComponent();
             this.Text = String.Format("Acerca de {0}", AssemblyTitle);
