@@ -31,10 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.About = new System.Windows.Forms.TabControl();
-            this.Soulpage = new System.Windows.Forms.TabPage();
-            this.clvl = new System.Windows.Forms.Label();
-            this.Currentlvl = new System.Windows.Forms.TextBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Vitpage = new System.Windows.Forms.TabPage();
             this.Fatcheckbox = new System.Windows.Forms.CheckBox();
             this.Normalcheckbox = new System.Windows.Forms.CheckBox();
@@ -53,13 +49,18 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.Lweapon1 = new System.Windows.Forms.ComboBox();
+            this.Soulpage = new System.Windows.Forms.TabPage();
+            this.clvl = new System.Windows.Forms.Label();
+            this.Currentlvl = new System.Windows.Forms.TextBox();
             this.Settings = new System.Windows.Forms.TabPage();
             this.Aboutbut = new System.Windows.Forms.Button();
             this.DarkThemebut = new System.Windows.Forms.Button();
             this.LightThemebut = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.About.SuspendLayout();
-            this.Soulpage.SuspendLayout();
             this.Vitpage.SuspendLayout();
+            this.Soulpage.SuspendLayout();
             this.Settings.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,33 +74,11 @@
             this.About.SelectedIndex = 0;
             this.About.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             // 
-            // Soulpage
-            // 
-            this.Soulpage.Controls.Add(this.clvl);
-            this.Soulpage.Controls.Add(this.Currentlvl);
-            resources.ApplyResources(this.Soulpage, "Soulpage");
-            this.Soulpage.Name = "Soulpage";
-            this.Soulpage.UseVisualStyleBackColor = true;
-            // 
-            // clvl
-            // 
-            resources.ApplyResources(this.clvl, "clvl");
-            this.clvl.Name = "clvl";
-            // 
-            // Currentlvl
-            // 
-            resources.ApplyResources(this.Currentlvl, "Currentlvl");
-            this.Currentlvl.Name = "Currentlvl";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // Vitpage
             // 
             this.Vitpage.BackColor = System.Drawing.Color.White;
             this.Vitpage.BackgroundImage = global::DarkSoulsStatCalc.Properties.Resources.Vitlight;
+            this.Vitpage.Controls.Add(this.label1);
             this.Vitpage.Controls.Add(this.Fatcheckbox);
             this.Vitpage.Controls.Add(this.Normalcheckbox);
             this.Vitpage.Controls.Add(this.Fastcheckbox);
@@ -127,6 +106,7 @@
             this.Fatcheckbox.BackColor = System.Drawing.Color.Transparent;
             this.Fatcheckbox.Name = "Fatcheckbox";
             this.Fatcheckbox.UseVisualStyleBackColor = false;
+            this.Fatcheckbox.CheckedChanged += new System.EventHandler(this.Fatcheckbox_CheckedChanged);
             // 
             // Normalcheckbox
             // 
@@ -134,6 +114,7 @@
             this.Normalcheckbox.BackColor = System.Drawing.Color.Transparent;
             this.Normalcheckbox.Name = "Normalcheckbox";
             this.Normalcheckbox.UseVisualStyleBackColor = false;
+            this.Normalcheckbox.CheckedChanged += new System.EventHandler(this.Normalcheckbox_CheckedChanged);
             // 
             // Fastcheckbox
             // 
@@ -141,6 +122,7 @@
             this.Fastcheckbox.BackColor = System.Drawing.Color.Transparent;
             this.Fastcheckbox.Name = "Fastcheckbox";
             this.Fastcheckbox.UseVisualStyleBackColor = false;
+            this.Fastcheckbox.CheckedChanged += new System.EventHandler(this.Fastcheckbox_CheckedChanged);
             // 
             // comboBox13
             // 
@@ -229,6 +211,24 @@
             this.Lweapon1.Name = "Lweapon1";
             this.Lweapon1.SelectedIndexChanged += new System.EventHandler(this.Lweapon1_SelectedIndexChanged);
             // 
+            // Soulpage
+            // 
+            this.Soulpage.Controls.Add(this.clvl);
+            this.Soulpage.Controls.Add(this.Currentlvl);
+            resources.ApplyResources(this.Soulpage, "Soulpage");
+            this.Soulpage.Name = "Soulpage";
+            this.Soulpage.UseVisualStyleBackColor = true;
+            // 
+            // clvl
+            // 
+            resources.ApplyResources(this.clvl, "clvl");
+            this.clvl.Name = "clvl";
+            // 
+            // Currentlvl
+            // 
+            resources.ApplyResources(this.Currentlvl, "Currentlvl");
+            this.Currentlvl.Name = "Currentlvl";
+            // 
             // Settings
             // 
             this.Settings.BackColor = System.Drawing.Color.White;
@@ -262,6 +262,16 @@
             this.LightThemebut.UseVisualStyleBackColor = true;
             this.LightThemebut.Click += new System.EventHandler(this.LightThemebut_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -274,10 +284,10 @@
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.About.ResumeLayout(false);
-            this.Soulpage.ResumeLayout(false);
-            this.Soulpage.PerformLayout();
             this.Vitpage.ResumeLayout(false);
             this.Vitpage.PerformLayout();
+            this.Soulpage.ResumeLayout(false);
+            this.Soulpage.PerformLayout();
             this.Settings.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -311,6 +321,7 @@
         private System.Windows.Forms.CheckBox Fatcheckbox;
         private System.Windows.Forms.CheckBox Normalcheckbox;
         private System.Windows.Forms.CheckBox Fastcheckbox;
+        private System.Windows.Forms.Label label1;
     }
 }
 

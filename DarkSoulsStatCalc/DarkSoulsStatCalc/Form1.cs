@@ -58,7 +58,7 @@ namespace DarkSoulsStatCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
-      
+            
         }
 
         private void tabPage1_Click_1(object sender, EventArgs e)
@@ -83,7 +83,7 @@ namespace DarkSoulsStatCalc
                 //Soulpage.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Soullight;
 
                 //Settings
-                Settings.ForeColor = SystemColors.ActiveCaptionText;
+                //Settings.ForeColor = SystemColors.ActiveCaptionText;
                 Settings.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Settlight;
                 Settings.BackColor = Color.FromArgb(255,255,255);
                 
@@ -108,14 +108,13 @@ namespace DarkSoulsStatCalc
 
 
                 //Settings
-                Settings.ForeColor = SystemColors.ControlLightLight;
+                //Settings.ForeColor = SystemColors.ControlLightLight;
                 Settings.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Settdark;
                 Settings.BackColor = Color.FromArgb(37, 37, 37);
                
                 
                 //Cambiar color de fondo form1 a #353535
                 this.BackColor = Color.FromArgb(53,53,53);
-                //Cambiar color de Tab control
                 //Cambiar color de Tab control a #353535 y #252525
                 
             }
@@ -136,6 +135,21 @@ namespace DarkSoulsStatCalc
         {
             About about = new About();
             about.Show();
+        }
+
+        private void Fastcheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+             
+        }
+
+        private void Normalcheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Fatcheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
