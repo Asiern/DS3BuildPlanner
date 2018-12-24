@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace DarkSoulsStatCalc
 {
@@ -24,11 +22,6 @@ namespace DarkSoulsStatCalc
             // Protector = CSV.Read("ObjectData/Protector.csv");
             // Rings = CSV.Read("ObjectData/Rings.csv");
             // Weapons = CSV.Read("ObjectData/Weapons.csv");
-        }
-
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -66,9 +59,54 @@ namespace DarkSoulsStatCalc
 
         }
 
+       /* public void vitcalc()
+        {
+            float rollpercent;
+            int vitality;
+            int cont = 0;
+            int finished = 0;
+            List<int> vitstats = new List<int>();
+
+            //Selec kind of roll
+            if (Fastcheckbox.Checked)
+            {
+                rollpercent = 29.9;
+            }
+            if (Normalcheckbox.Checked)
+            {
+                rollpercent = 69.9;
+            }
+            if (Fatcheckbox.Checked)
+            {
+                rollpercent = 99.9;
+            }
+
+            //Calculate vitality lvl
+            vitality = weight * 100 / rollpercent;
+
+            //Select lvl
+            while (finished == 0)
+            {
+                //Search lvl comparing vitality stats in both lists
+                if(vitality <= vitstats[cont])
+                {
+                    finished = 1;
+                }
+                else
+                {
+                    cont += 1;
+                }
+            }
+
+            //Show result
+            Vitlbl.Text = cont;
+
+        }*/
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             //Theme Change
+            //Light Theme
             if (DarkSoulsStatCalc.Properties.Settings.Default.Theme == "Light")
             {
                 //Vitality
@@ -91,7 +129,7 @@ namespace DarkSoulsStatCalc
                 this.BackColor = SystemColors.ButtonFace;
                 //Cambiar color de Tab control a "SystemColors.ButtonFace"
             }
-
+            //Dark Theme
             if (DarkSoulsStatCalc.Properties.Settings.Default.Theme == "Dark")
             {
                 //Vitality
@@ -149,7 +187,12 @@ namespace DarkSoulsStatCalc
 
         private void Fatcheckbox_CheckedChanged(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

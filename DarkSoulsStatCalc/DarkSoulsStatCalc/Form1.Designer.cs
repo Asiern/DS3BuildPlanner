@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.About = new System.Windows.Forms.TabControl();
             this.Vitpage = new System.Windows.Forms.TabPage();
+            this.Vitlbl = new System.Windows.Forms.Label();
             this.Fatcheckbox = new System.Windows.Forms.CheckBox();
             this.Normalcheckbox = new System.Windows.Forms.CheckBox();
             this.Fastcheckbox = new System.Windows.Forms.CheckBox();
@@ -51,13 +52,11 @@
             this.Lweapon1 = new System.Windows.Forms.ComboBox();
             this.Soulpage = new System.Windows.Forms.TabPage();
             this.clvl = new System.Windows.Forms.Label();
-            this.Currentlvl = new System.Windows.Forms.TextBox();
             this.Settings = new System.Windows.Forms.TabPage();
             this.Aboutbut = new System.Windows.Forms.Button();
             this.DarkThemebut = new System.Windows.Forms.Button();
             this.LightThemebut = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             this.About.SuspendLayout();
             this.Vitpage.SuspendLayout();
             this.Soulpage.SuspendLayout();
@@ -78,7 +77,7 @@
             // 
             this.Vitpage.BackColor = System.Drawing.Color.White;
             this.Vitpage.BackgroundImage = global::DarkSoulsStatCalc.Properties.Resources.Vitlight;
-            this.Vitpage.Controls.Add(this.label1);
+            this.Vitpage.Controls.Add(this.Vitlbl);
             this.Vitpage.Controls.Add(this.Fatcheckbox);
             this.Vitpage.Controls.Add(this.Normalcheckbox);
             this.Vitpage.Controls.Add(this.Fastcheckbox);
@@ -99,6 +98,12 @@
             resources.ApplyResources(this.Vitpage, "Vitpage");
             this.Vitpage.Name = "Vitpage";
             this.Vitpage.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // Vitlbl
+            // 
+            resources.ApplyResources(this.Vitlbl, "Vitlbl");
+            this.Vitlbl.Name = "Vitlbl";
+            this.Vitlbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // Fatcheckbox
             // 
@@ -214,7 +219,6 @@
             // Soulpage
             // 
             this.Soulpage.Controls.Add(this.clvl);
-            this.Soulpage.Controls.Add(this.Currentlvl);
             resources.ApplyResources(this.Soulpage, "Soulpage");
             this.Soulpage.Name = "Soulpage";
             this.Soulpage.UseVisualStyleBackColor = true;
@@ -223,11 +227,6 @@
             // 
             resources.ApplyResources(this.clvl, "clvl");
             this.clvl.Name = "clvl";
-            // 
-            // Currentlvl
-            // 
-            resources.ApplyResources(this.Currentlvl, "Currentlvl");
-            this.Currentlvl.Name = "Currentlvl";
             // 
             // Settings
             // 
@@ -267,11 +266,6 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -299,7 +293,6 @@
         private System.Windows.Forms.TabPage Soulpage;
         private System.Windows.Forms.ComboBox Lweapon1;
         private System.Windows.Forms.Label clvl;
-        private System.Windows.Forms.TextBox Currentlvl;
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.ComboBox comboBox12;
         private System.Windows.Forms.ComboBox comboBox11;
@@ -321,7 +314,7 @@
         private System.Windows.Forms.CheckBox Fatcheckbox;
         private System.Windows.Forms.CheckBox Normalcheckbox;
         private System.Windows.Forms.CheckBox Fastcheckbox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Vitlbl;
     }
 }
 
