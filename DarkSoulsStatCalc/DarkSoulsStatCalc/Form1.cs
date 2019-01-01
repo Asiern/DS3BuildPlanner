@@ -59,30 +59,35 @@ namespace DarkSoulsStatCalc
 
         }
 
-       /* public void vitcalc()
+        //Vit Calc
+        /*public void vitcalc()
         {
             float rollpercent;
-            int vitality;
+            float vitality;
             int cont = 0;
+            float weight;
             int finished = 0;
             List<int> vitstats = new List<int>();
+            //Add items to list
+                    
+            weight = float.Parse(weightbox.Text);
 
             //Selec kind of roll
-            if (Fastcheckbox.Checked)
+            if (Fastrb.Checked)
             {
                 rollpercent = 29.9;
             }
-            if (Normalcheckbox.Checked)
+            if (Normalrb.Checked)
             {
                 rollpercent = 69.9;
             }
-            if (Fatcheckbox.Checked)
+            if (Fatrb.Checked)
             {
                 rollpercent = 99.9;
             }
 
             //Calculate vitality lvl
-            vitality = weight * 100 / rollpercent;
+            vitality = weight * 100.0 / rollpercent;
 
             //Select lvl
             while (finished == 0)
@@ -99,7 +104,7 @@ namespace DarkSoulsStatCalc
             }
 
             //Show result
-            Vitlbl.Text = cont;
+            Vitlbl.Text = char.Parse(cont);
 
         }*/
 
@@ -112,9 +117,9 @@ namespace DarkSoulsStatCalc
                 //Vitality
                 Vitpage.ForeColor = SystemColors.ActiveCaptionText;
                 Vitpage.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Vitlight;
-                Fastcheckbox.ForeColor = SystemColors.ActiveCaptionText;
-                Normalcheckbox.ForeColor = SystemColors.ActiveCaptionText;
-                Fatcheckbox.ForeColor = SystemColors.ActiveCaptionText;
+                Fastrb.ForeColor = SystemColors.ActiveCaptionText;
+                Normalrb.ForeColor = SystemColors.ActiveCaptionText;
+                Fatrb.ForeColor = SystemColors.ActiveCaptionText;
 
                 //Souls
                 Soulpage.ForeColor = SystemColors.ActiveCaptionText;
@@ -135,9 +140,9 @@ namespace DarkSoulsStatCalc
                 //Vitality
                 Vitpage.BackgroundImage = DarkSoulsStatCalc.Properties.Resources.Vitdark;
                 Vitpage.ForeColor = SystemColors.ControlLightLight;
-                Fastcheckbox.ForeColor = SystemColors.ControlLightLight;
-                Normalcheckbox.ForeColor = SystemColors.ControlLightLight;
-                Fatcheckbox.ForeColor = SystemColors.ControlLightLight;
+                Fastrb.ForeColor = SystemColors.ControlLightLight;
+                Normalrb.ForeColor = SystemColors.ControlLightLight;
+                Fatrb.ForeColor = SystemColors.ControlLightLight;
 
 
                 //Souls
@@ -175,22 +180,27 @@ namespace DarkSoulsStatCalc
             about.Show();
         }
 
-        private void Fastcheckbox_CheckedChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-             
+
         }
 
-        private void Normalcheckbox_CheckedChanged(object sender, EventArgs e)
+        private void Normalrb_CheckedChanged(object sender, EventArgs e)
         {
             
         }
 
-        private void Fatcheckbox_CheckedChanged(object sender, EventArgs e)
+        private void Fastrb_CheckedChanged(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Fatrb_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void weightbox_TextChanged(object sender, EventArgs e)
         {
 
         }

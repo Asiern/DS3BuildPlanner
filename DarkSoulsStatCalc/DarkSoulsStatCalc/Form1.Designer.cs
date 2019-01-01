@@ -33,9 +33,6 @@
             this.About = new System.Windows.Forms.TabControl();
             this.Vitpage = new System.Windows.Forms.TabPage();
             this.Vitlbl = new System.Windows.Forms.Label();
-            this.Fatcheckbox = new System.Windows.Forms.CheckBox();
-            this.Normalcheckbox = new System.Windows.Forms.CheckBox();
-            this.Fastcheckbox = new System.Windows.Forms.CheckBox();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
@@ -57,6 +54,10 @@
             this.DarkThemebut = new System.Windows.Forms.Button();
             this.LightThemebut = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Fastrb = new System.Windows.Forms.RadioButton();
+            this.Normalrb = new System.Windows.Forms.RadioButton();
+            this.Fatrb = new System.Windows.Forms.RadioButton();
+            this.weightbox = new System.Windows.Forms.TextBox();
             this.About.SuspendLayout();
             this.Vitpage.SuspendLayout();
             this.Soulpage.SuspendLayout();
@@ -77,10 +78,11 @@
             // 
             this.Vitpage.BackColor = System.Drawing.Color.White;
             this.Vitpage.BackgroundImage = global::DarkSoulsStatCalc.Properties.Resources.Vitlight;
+            this.Vitpage.Controls.Add(this.weightbox);
+            this.Vitpage.Controls.Add(this.Fatrb);
+            this.Vitpage.Controls.Add(this.Normalrb);
+            this.Vitpage.Controls.Add(this.Fastrb);
             this.Vitpage.Controls.Add(this.Vitlbl);
-            this.Vitpage.Controls.Add(this.Fatcheckbox);
-            this.Vitpage.Controls.Add(this.Normalcheckbox);
-            this.Vitpage.Controls.Add(this.Fastcheckbox);
             this.Vitpage.Controls.Add(this.comboBox13);
             this.Vitpage.Controls.Add(this.comboBox12);
             this.Vitpage.Controls.Add(this.comboBox11);
@@ -104,30 +106,6 @@
             resources.ApplyResources(this.Vitlbl, "Vitlbl");
             this.Vitlbl.Name = "Vitlbl";
             this.Vitlbl.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // Fatcheckbox
-            // 
-            resources.ApplyResources(this.Fatcheckbox, "Fatcheckbox");
-            this.Fatcheckbox.BackColor = System.Drawing.Color.Transparent;
-            this.Fatcheckbox.Name = "Fatcheckbox";
-            this.Fatcheckbox.UseVisualStyleBackColor = false;
-            this.Fatcheckbox.CheckedChanged += new System.EventHandler(this.Fatcheckbox_CheckedChanged);
-            // 
-            // Normalcheckbox
-            // 
-            resources.ApplyResources(this.Normalcheckbox, "Normalcheckbox");
-            this.Normalcheckbox.BackColor = System.Drawing.Color.Transparent;
-            this.Normalcheckbox.Name = "Normalcheckbox";
-            this.Normalcheckbox.UseVisualStyleBackColor = false;
-            this.Normalcheckbox.CheckedChanged += new System.EventHandler(this.Normalcheckbox_CheckedChanged);
-            // 
-            // Fastcheckbox
-            // 
-            resources.ApplyResources(this.Fastcheckbox, "Fastcheckbox");
-            this.Fastcheckbox.BackColor = System.Drawing.Color.Transparent;
-            this.Fastcheckbox.Name = "Fastcheckbox";
-            this.Fastcheckbox.UseVisualStyleBackColor = false;
-            this.Fastcheckbox.CheckedChanged += new System.EventHandler(this.Fastcheckbox_CheckedChanged);
             // 
             // comboBox13
             // 
@@ -266,6 +244,38 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // Fastrb
+            // 
+            resources.ApplyResources(this.Fastrb, "Fastrb");
+            this.Fastrb.BackColor = System.Drawing.Color.Transparent;
+            this.Fastrb.Name = "Fastrb";
+            this.Fastrb.UseVisualStyleBackColor = false;
+            this.Fastrb.CheckedChanged += new System.EventHandler(this.Fastrb_CheckedChanged);
+            // 
+            // Normalrb
+            // 
+            resources.ApplyResources(this.Normalrb, "Normalrb");
+            this.Normalrb.BackColor = System.Drawing.Color.Transparent;
+            this.Normalrb.Checked = true;
+            this.Normalrb.Name = "Normalrb";
+            this.Normalrb.TabStop = true;
+            this.Normalrb.UseVisualStyleBackColor = false;
+            this.Normalrb.CheckedChanged += new System.EventHandler(this.Normalrb_CheckedChanged);
+            // 
+            // Fatrb
+            // 
+            resources.ApplyResources(this.Fatrb, "Fatrb");
+            this.Fatrb.BackColor = System.Drawing.Color.Transparent;
+            this.Fatrb.Name = "Fatrb";
+            this.Fatrb.UseVisualStyleBackColor = false;
+            this.Fatrb.CheckedChanged += new System.EventHandler(this.Fatrb_CheckedChanged);
+            // 
+            // weightbox
+            // 
+            resources.ApplyResources(this.weightbox, "weightbox");
+            this.weightbox.Name = "weightbox";
+            this.weightbox.TextChanged += new System.EventHandler(this.weightbox_TextChanged);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -311,10 +321,11 @@
         private System.Windows.Forms.Button DarkThemebut;
         private System.Windows.Forms.Button LightThemebut;
         private System.Windows.Forms.Button Aboutbut;
-        private System.Windows.Forms.CheckBox Fatcheckbox;
-        private System.Windows.Forms.CheckBox Normalcheckbox;
-        private System.Windows.Forms.CheckBox Fastcheckbox;
         private System.Windows.Forms.Label Vitlbl;
+        private System.Windows.Forms.RadioButton Normalrb;
+        private System.Windows.Forms.RadioButton Fastrb;
+        private System.Windows.Forms.RadioButton Fatrb;
+        private System.Windows.Forms.TextBox weightbox;
     }
 }
 

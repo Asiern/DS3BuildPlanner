@@ -117,11 +117,113 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="weightbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="weightbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="weightbox.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;weightbox.Name" xml:space="preserve">
+    <value>weightbox</value>
+  </data>
+  <data name="&gt;&gt;weightbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;weightbox.Parent" xml:space="preserve">
+    <value>Vitpage</value>
+  </data>
+  <data name="&gt;&gt;weightbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Fatrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Fatrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 536</value>
+  </data>
+  <data name="Fatrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="Fatrb.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="Fatrb.Text" xml:space="preserve">
+    <value>Fat Roll</value>
+  </data>
+  <data name="&gt;&gt;Fatrb.Name" xml:space="preserve">
+    <value>Fatrb</value>
+  </data>
+  <data name="&gt;&gt;Fatrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Fatrb.Parent" xml:space="preserve">
+    <value>Vitpage</value>
+  </data>
+  <data name="&gt;&gt;Fatrb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Normalrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Normalrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 536</value>
+  </data>
+  <data name="Normalrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="Normalrb.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="Normalrb.Text" xml:space="preserve">
+    <value>Normal Roll</value>
+  </data>
+  <data name="&gt;&gt;Normalrb.Name" xml:space="preserve">
+    <value>Normalrb</value>
+  </data>
+  <data name="&gt;&gt;Normalrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Normalrb.Parent" xml:space="preserve">
+    <value>Vitpage</value>
+  </data>
+  <data name="&gt;&gt;Normalrb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Fastrb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Fastrb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 536</value>
+  </data>
+  <data name="Fastrb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="Fastrb.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="Fastrb.Text" xml:space="preserve">
+    <value>Fast Roll</value>
+  </data>
+  <data name="&gt;&gt;Fastrb.Name" xml:space="preserve">
+    <value>Fastrb</value>
+  </data>
+  <data name="&gt;&gt;Fastrb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Fastrb.Parent" xml:space="preserve">
+    <value>Vitpage</value>
+  </data>
+  <data name="&gt;&gt;Fastrb.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="Vitlbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Vitlbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>343, 536</value>
   </data>
@@ -144,98 +246,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;Vitlbl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Fatcheckbox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Fatcheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Fatcheckbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 536</value>
-  </data>
-  <data name="Fatcheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 17</value>
-  </data>
-  <data name="Fatcheckbox.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="Fatcheckbox.Text" xml:space="preserve">
-    <value>Fat Roll</value>
-  </data>
-  <data name="&gt;&gt;Fatcheckbox.Name" xml:space="preserve">
-    <value>Fatcheckbox</value>
-  </data>
-  <data name="&gt;&gt;Fatcheckbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Fatcheckbox.Parent" xml:space="preserve">
-    <value>Vitpage</value>
-  </data>
-  <data name="&gt;&gt;Fatcheckbox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="Normalcheckbox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Normalcheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Normalcheckbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 536</value>
-  </data>
-  <data name="Normalcheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
-  </data>
-  <data name="Normalcheckbox.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="Normalcheckbox.Text" xml:space="preserve">
-    <value>Normal Roll</value>
-  </data>
-  <data name="&gt;&gt;Normalcheckbox.Name" xml:space="preserve">
-    <value>Normalcheckbox</value>
-  </data>
-  <data name="&gt;&gt;Normalcheckbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Normalcheckbox.Parent" xml:space="preserve">
-    <value>Vitpage</value>
-  </data>
-  <data name="&gt;&gt;Normalcheckbox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Fastcheckbox.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Fastcheckbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Fastcheckbox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 536</value>
-  </data>
-  <data name="Fastcheckbox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 17</value>
-  </data>
-  <data name="Fastcheckbox.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="Fastcheckbox.Text" xml:space="preserve">
-    <value>Fast Roll</value>
-  </data>
-  <data name="&gt;&gt;Fastcheckbox.Name" xml:space="preserve">
-    <value>Fastcheckbox</value>
-  </data>
-  <data name="&gt;&gt;Fastcheckbox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Fastcheckbox.Parent" xml:space="preserve">
-    <value>Vitpage</value>
-  </data>
-  <data name="&gt;&gt;Fastcheckbox.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="comboBox13.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 453</value>
@@ -256,7 +267,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox13.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="comboBox12.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 453</value>
@@ -277,7 +288,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox12.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="comboBox11.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 402</value>
@@ -298,7 +309,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox11.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="comboBox10.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 402</value>
@@ -319,7 +330,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox10.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="rings4.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 312</value>
@@ -340,7 +351,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings4.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="rings3.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 312</value>
@@ -361,7 +372,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings3.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="rings2.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 261</value>
@@ -382,7 +393,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="rings1.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 261</value>
@@ -403,7 +414,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;rings1.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="comboBox5.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 171</value>
@@ -424,7 +435,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox5.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 120</value>
@@ -445,7 +456,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox4.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 69</value>
@@ -466,7 +477,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox3.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 171</value>
@@ -487,7 +498,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 120</value>
@@ -508,7 +519,7 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="Lweapon1.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 69</value>
@@ -529,11 +540,12 @@
     <value>Vitpage</value>
   </data>
   <data name="&gt;&gt;Lweapon1.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="Vitpage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Vitpage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
