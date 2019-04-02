@@ -28,40 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.About = new System.Windows.Forms.TabControl();
             this.Vitpage = new System.Windows.Forms.TabPage();
-            this.Vitlbl = new System.Windows.Forms.Label();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.rings4 = new System.Windows.Forms.ComboBox();
-            this.rings3 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rings2 = new System.Windows.Forms.ComboBox();
             this.rings1 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.rings3 = new System.Windows.Forms.ComboBox();
+            this.rings4 = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.Lweapon1 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.Fatrb = new System.Windows.Forms.RadioButton();
+            this.Normalrb = new System.Windows.Forms.RadioButton();
+            this.Fastrb = new System.Windows.Forms.RadioButton();
+            this.Vitlbl = new System.Windows.Forms.Label();
             this.Soulpage = new System.Windows.Forms.TabPage();
             this.clvl = new System.Windows.Forms.Label();
             this.Settings = new System.Windows.Forms.TabPage();
             this.Aboutbut = new System.Windows.Forms.Button();
             this.DarkThemebut = new System.Windows.Forms.Button();
             this.LightThemebut = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.Fastrb = new System.Windows.Forms.RadioButton();
-            this.Normalrb = new System.Windows.Forms.RadioButton();
-            this.Fatrb = new System.Windows.Forms.RadioButton();
-            this.weightbox = new System.Windows.Forms.TextBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.About.SuspendLayout();
             this.Vitpage.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.Soulpage.SuspendLayout();
             this.Settings.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // About
@@ -77,41 +84,23 @@
             // Vitpage
             // 
             this.Vitpage.BackColor = System.Drawing.Color.White;
-            this.Vitpage.BackgroundImage = global::DarkSoulsStatCalc.Properties.Resources.Vitlight;
-            this.Vitpage.Controls.Add(this.weightbox);
-            this.Vitpage.Controls.Add(this.Fatrb);
-            this.Vitpage.Controls.Add(this.Normalrb);
-            this.Vitpage.Controls.Add(this.Fastrb);
-            this.Vitpage.Controls.Add(this.Vitlbl);
-            this.Vitpage.Controls.Add(this.comboBox13);
-            this.Vitpage.Controls.Add(this.comboBox12);
-            this.Vitpage.Controls.Add(this.comboBox11);
-            this.Vitpage.Controls.Add(this.comboBox10);
-            this.Vitpage.Controls.Add(this.rings4);
-            this.Vitpage.Controls.Add(this.rings3);
-            this.Vitpage.Controls.Add(this.rings2);
-            this.Vitpage.Controls.Add(this.rings1);
-            this.Vitpage.Controls.Add(this.comboBox5);
-            this.Vitpage.Controls.Add(this.comboBox4);
-            this.Vitpage.Controls.Add(this.comboBox3);
-            this.Vitpage.Controls.Add(this.comboBox2);
-            this.Vitpage.Controls.Add(this.comboBox1);
-            this.Vitpage.Controls.Add(this.Lweapon1);
+            this.Vitpage.Controls.Add(this.groupBox5);
+            this.Vitpage.Controls.Add(this.groupBox4);
+            this.Vitpage.Controls.Add(this.groupBox3);
+            this.Vitpage.Controls.Add(this.groupBox2);
+            this.Vitpage.Controls.Add(this.groupBox1);
             resources.ApplyResources(this.Vitpage, "Vitpage");
             this.Vitpage.Name = "Vitpage";
-            this.Vitpage.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // Vitlbl
+            // groupBox3
             // 
-            resources.ApplyResources(this.Vitlbl, "Vitlbl");
-            this.Vitlbl.Name = "Vitlbl";
-            this.Vitlbl.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // comboBox13
-            // 
-            this.comboBox13.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox13, "comboBox13");
-            this.comboBox13.Name = "comboBox13";
+            this.groupBox3.Controls.Add(this.comboBox12);
+            this.groupBox3.Controls.Add(this.comboBox10);
+            this.groupBox3.Controls.Add(this.comboBox11);
+            this.groupBox3.Controls.Add(this.comboBox13);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
             // 
             // comboBox12
             // 
@@ -119,29 +108,33 @@
             resources.ApplyResources(this.comboBox12, "comboBox12");
             this.comboBox12.Name = "comboBox12";
             // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox11, "comboBox11");
-            this.comboBox11.Name = "comboBox11";
-            // 
             // comboBox10
             // 
             this.comboBox10.FormattingEnabled = true;
             resources.ApplyResources(this.comboBox10, "comboBox10");
             this.comboBox10.Name = "comboBox10";
             // 
-            // rings4
+            // comboBox11
             // 
-            this.rings4.FormattingEnabled = true;
-            resources.ApplyResources(this.rings4, "rings4");
-            this.rings4.Name = "rings4";
+            this.comboBox11.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox11, "comboBox11");
+            this.comboBox11.Name = "comboBox11";
             // 
-            // rings3
+            // comboBox13
             // 
-            this.rings3.FormattingEnabled = true;
-            resources.ApplyResources(this.rings3, "rings3");
-            this.rings3.Name = "rings3";
+            this.comboBox13.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox13, "comboBox13");
+            this.comboBox13.Name = "comboBox13";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rings2);
+            this.groupBox2.Controls.Add(this.rings1);
+            this.groupBox2.Controls.Add(this.rings3);
+            this.groupBox2.Controls.Add(this.rings4);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
             // 
             // rings2
             // 
@@ -154,25 +147,48 @@
             this.rings1.FormattingEnabled = true;
             resources.ApplyResources(this.rings1, "rings1");
             this.rings1.Name = "rings1";
-            this.rings1.SelectedIndexChanged += new System.EventHandler(this.comboBox6_SelectedIndexChanged);
             // 
-            // comboBox5
+            // rings3
             // 
-            this.comboBox5.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox5, "comboBox5");
-            this.comboBox5.Name = "comboBox5";
+            this.rings3.FormattingEnabled = true;
+            resources.ApplyResources(this.rings3, "rings3");
+            this.rings3.Name = "rings3";
             // 
-            // comboBox4
+            // rings4
             // 
-            this.comboBox4.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox4, "comboBox4");
-            this.comboBox4.Name = "comboBox4";
+            this.rings4.FormattingEnabled = true;
+            resources.ApplyResources(this.rings4, "rings4");
+            this.rings4.Name = "rings4";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.comboBox3);
+            this.groupBox1.Controls.Add(this.Lweapon1);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.comboBox2);
+            this.groupBox1.Controls.Add(this.comboBox4);
+            this.groupBox1.Controls.Add(this.comboBox5);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
             // 
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
             resources.ApplyResources(this.comboBox3, "comboBox3");
             this.comboBox3.Name = "comboBox3";
+            // 
+            // Lweapon1
+            // 
+            this.Lweapon1.FormattingEnabled = true;
+            resources.ApplyResources(this.Lweapon1, "Lweapon1");
+            this.Lweapon1.Name = "Lweapon1";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.Name = "comboBox1";
             // 
             // comboBox2
             // 
@@ -181,18 +197,45 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
-            // comboBox1
+            // comboBox4
             // 
-            this.comboBox1.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.Name = "comboBox1";
+            this.comboBox4.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox4, "comboBox4");
+            this.comboBox4.Name = "comboBox4";
             // 
-            // Lweapon1
+            // comboBox5
             // 
-            this.Lweapon1.FormattingEnabled = true;
-            resources.ApplyResources(this.Lweapon1, "Lweapon1");
-            this.Lweapon1.Name = "Lweapon1";
-            this.Lweapon1.SelectedIndexChanged += new System.EventHandler(this.Lweapon1_SelectedIndexChanged);
+            this.comboBox5.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox5, "comboBox5");
+            this.comboBox5.Name = "comboBox5";
+            // 
+            // Fatrb
+            // 
+            resources.ApplyResources(this.Fatrb, "Fatrb");
+            this.Fatrb.BackColor = System.Drawing.Color.Transparent;
+            this.Fatrb.Name = "Fatrb";
+            this.Fatrb.UseVisualStyleBackColor = false;
+            // 
+            // Normalrb
+            // 
+            resources.ApplyResources(this.Normalrb, "Normalrb");
+            this.Normalrb.BackColor = System.Drawing.Color.Transparent;
+            this.Normalrb.Checked = true;
+            this.Normalrb.Name = "Normalrb";
+            this.Normalrb.TabStop = true;
+            this.Normalrb.UseVisualStyleBackColor = false;
+            // 
+            // Fastrb
+            // 
+            resources.ApplyResources(this.Fastrb, "Fastrb");
+            this.Fastrb.BackColor = System.Drawing.Color.Transparent;
+            this.Fastrb.Name = "Fastrb";
+            this.Fastrb.UseVisualStyleBackColor = false;
+            // 
+            // Vitlbl
+            // 
+            resources.ApplyResources(this.Vitlbl, "Vitlbl");
+            this.Vitlbl.Name = "Vitlbl";
             // 
             // Soulpage
             // 
@@ -216,7 +259,6 @@
             this.Settings.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             resources.ApplyResources(this.Settings, "Settings");
             this.Settings.Name = "Settings";
-            this.Settings.Click += new System.EventHandler(this.tabPage1_Click_1);
             // 
             // Aboutbut
             // 
@@ -239,42 +281,21 @@
             this.LightThemebut.UseVisualStyleBackColor = true;
             this.LightThemebut.Click += new System.EventHandler(this.LightThemebut_Click);
             // 
-            // timer1
+            // groupBox4
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.groupBox4.Controls.Add(this.Vitlbl);
+            resources.ApplyResources(this.groupBox4, "groupBox4");
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.TabStop = false;
             // 
-            // Fastrb
+            // groupBox5
             // 
-            resources.ApplyResources(this.Fastrb, "Fastrb");
-            this.Fastrb.BackColor = System.Drawing.Color.Transparent;
-            this.Fastrb.Name = "Fastrb";
-            this.Fastrb.UseVisualStyleBackColor = false;
-            this.Fastrb.CheckedChanged += new System.EventHandler(this.Fastrb_CheckedChanged);
-            // 
-            // Normalrb
-            // 
-            resources.ApplyResources(this.Normalrb, "Normalrb");
-            this.Normalrb.BackColor = System.Drawing.Color.Transparent;
-            this.Normalrb.Checked = true;
-            this.Normalrb.Name = "Normalrb";
-            this.Normalrb.TabStop = true;
-            this.Normalrb.UseVisualStyleBackColor = false;
-            this.Normalrb.CheckedChanged += new System.EventHandler(this.Normalrb_CheckedChanged);
-            // 
-            // Fatrb
-            // 
-            resources.ApplyResources(this.Fatrb, "Fatrb");
-            this.Fatrb.BackColor = System.Drawing.Color.Transparent;
-            this.Fatrb.Name = "Fatrb";
-            this.Fatrb.UseVisualStyleBackColor = false;
-            this.Fatrb.CheckedChanged += new System.EventHandler(this.Fatrb_CheckedChanged);
-            // 
-            // weightbox
-            // 
-            resources.ApplyResources(this.weightbox, "weightbox");
-            this.weightbox.Name = "weightbox";
-            this.weightbox.TextChanged += new System.EventHandler(this.weightbox_TextChanged);
+            this.groupBox5.Controls.Add(this.Fatrb);
+            this.groupBox5.Controls.Add(this.Normalrb);
+            this.groupBox5.Controls.Add(this.Fastrb);
+            resources.ApplyResources(this.groupBox5, "groupBox5");
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.TabStop = false;
             // 
             // Form1
             // 
@@ -289,10 +310,16 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.About.ResumeLayout(false);
             this.Vitpage.ResumeLayout(false);
-            this.Vitpage.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.Soulpage.ResumeLayout(false);
             this.Soulpage.PerformLayout();
             this.Settings.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -317,7 +344,6 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TabPage Settings;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button DarkThemebut;
         private System.Windows.Forms.Button LightThemebut;
         private System.Windows.Forms.Button Aboutbut;
@@ -325,7 +351,11 @@
         private System.Windows.Forms.RadioButton Normalrb;
         private System.Windows.Forms.RadioButton Fastrb;
         private System.Windows.Forms.RadioButton Fatrb;
-        private System.Windows.Forms.TextBox weightbox;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox4;
     }
 }
 

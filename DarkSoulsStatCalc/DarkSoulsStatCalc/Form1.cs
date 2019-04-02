@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -24,40 +25,43 @@ namespace DarkSoulsStatCalc
             // Weapons = CSV.Read("ObjectData/Weapons.csv");
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Lweapon1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
  
         }
+        
+        
+        //Ring Object
+        class Ring
+        {
+            string name;
+            double weight;
+            public Ring (string name, float weight)
+            {
+                name = name;
+                weight = weight;
+            }
+            public string Name { get => name; set => name = value; }
+            public double Weight { get => weight; set => weight = value; }
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
+            //Load Rings List
+            ArrayList RingList = new ArrayList();
+            RingList.Add(new Ring("Name", 03));
+
+            //Load Ring ComboBox
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            foreach (Ring item in RingList)
+            {
+                Console.WriteLine("Name:{0} Weight:{1}", item.Name, item.Weight);
+            }
+
         }
 
-        private void tabPage1_Click_1(object sender, EventArgs e)
-        {
-
-        }
 
         //Vit Calc
         /*public void vitcalc()
@@ -108,7 +112,7 @@ namespace DarkSoulsStatCalc
 
         }*/
 
-        private void timer1_Tick(object sender, EventArgs e)
+        /*private void timer1_Tick(object sender, EventArgs e)
         {
             //Theme Change
             //Light Theme
@@ -162,7 +166,7 @@ namespace DarkSoulsStatCalc
                 
             }
         }
-
+        */
 
         private void LightThemebut_Click(object sender, EventArgs e)
         {
@@ -180,29 +184,5 @@ namespace DarkSoulsStatCalc
             about.Show();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Normalrb_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Fastrb_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Fatrb_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void weightbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
