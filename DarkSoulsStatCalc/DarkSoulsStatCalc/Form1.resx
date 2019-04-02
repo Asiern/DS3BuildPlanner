@@ -669,63 +669,6 @@
   <data name="&gt;&gt;Vitpage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="clvl.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="clvl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="clvl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 57</value>
-  </data>
-  <data name="clvl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 13</value>
-  </data>
-  <data name="clvl.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="clvl.Text" xml:space="preserve">
-    <value>Current Level</value>
-  </data>
-  <data name="&gt;&gt;clvl.Name" xml:space="preserve">
-    <value>clvl</value>
-  </data>
-  <data name="&gt;&gt;clvl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;clvl.Parent" xml:space="preserve">
-    <value>Soulpage</value>
-  </data>
-  <data name="&gt;&gt;clvl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Soulpage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="Soulpage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="Soulpage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>479, 589</value>
-  </data>
-  <data name="Soulpage.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="Soulpage.Text" xml:space="preserve">
-    <value>Souls</value>
-  </data>
-  <data name="&gt;&gt;Soulpage.Name" xml:space="preserve">
-    <value>Soulpage</value>
-  </data>
-  <data name="&gt;&gt;Soulpage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Soulpage.Parent" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="&gt;&gt;Soulpage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="Aboutbut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -814,7 +757,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="Settings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>479, 589</value>
+    <value>479, 514</value>
   </data>
   <data name="Settings.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -832,7 +775,7 @@
     <value>About</value>
   </data>
   <data name="&gt;&gt;Settings.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="About.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>

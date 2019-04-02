@@ -25,56 +25,94 @@ namespace DarkSoulsStatCalc
             // Weapons = CSV.Read("ObjectData/Weapons.csv");
         }
 
-      
+
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
- 
+
         }
-        
-        
-        //Ring Object
-        class Ring
+
+       public void LoadRings()
         {
-            string name;
-            double weight;
-            public Ring (string name, float weight)
-            {
-                name = name;
-                weight = weight;
-            }
-            public string Name { get => name; set => name = value; }
-            public double Weight { get => weight; set => weight = value; }
+            List<Ring> RingList = new List<Ring>();
+            
+            //Havel
+            Ring Havel = new Ring();
+            Havel.Name = "Havel";
+            Havel.Weight = 3;
+            RingList.Add(Havel);
+
+            //FAP
+            Ring FAP = new Ring();
+            Havel.Name = "FAP";
+            Havel.Weight = 2;
+            RingList.Add(FAP);            
+
+            //Cloranthy
+            Ring Cloranthy = new Ring();
+            Havel.Name = "Cloranthy";
+            Havel.Weight = 2;
+            RingList.Add(Cloranthy);
+
+            //ADD RINGS
+            //...
+            //...
+
+            //Ring Combobox1
+            rings1.DataSource = RingList;
+            rings1.DisplayMember = "Name";
+            rings1.ValueMember = "Weight";
+            rings1.SelectedItem = null;
+
+            //Ring Combobox2
+            rings2.DataSource = RingList;
+            rings2.DisplayMember = "Name";
+            rings2.ValueMember = "Weight";
+            rings2.SelectedItem = null;
+
+            //Ring Combobox3
+            rings3.DataSource = RingList;
+            rings3.DisplayMember = "Name";
+            rings3.ValueMember = "Weight";
+            rings3.SelectedItem = null;
+
+            //Ring Combobox4
+            rings4.DataSource = RingList;
+            rings4.DisplayMember = "Name";
+            rings4.ValueMember = "Weight";
+            rings4.SelectedItem = null;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            //Load Rings List
-            ArrayList RingList = new ArrayList();
-            RingList.Add(new Ring("Name", 03));
+            LoadRings();
 
-            //Load Ring ComboBox
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            foreach (Ring item in RingList)
-            {
-                Console.WriteLine("Name:{0} Weight:{1}", item.Name, item.Weight);
-            }
+
+
+            
+
 
         }
 
+        //Calculate weight
+        public  int weightsum()
+        {
+            return 43;
+        }
 
         //Vit Calc
-        /*public void vitcalc()
+       /* public void vitcalc()
         {
-            float rollpercent;
-            float vitality;
+            double rollpercent = 29.9;
+            double vitality;
             int cont = 0;
-            float weight;
+            double weight;
             int finished = 0;
             List<int> vitstats = new List<int>();
             //Add items to list
-                    
-            weight = float.Parse(weightbox.Text);
+
+            //weight = float.Parse(weightbox.Text);
+            weight = weightsum();
 
             //Selec kind of roll
             if (Fastrb.Checked)
@@ -109,7 +147,6 @@ namespace DarkSoulsStatCalc
 
             //Show result
             Vitlbl.Text = char.Parse(cont);
-
         }*/
 
         /*private void timer1_Tick(object sender, EventArgs e)
@@ -184,5 +221,11 @@ namespace DarkSoulsStatCalc
             about.Show();
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           // Ring Selected = comboBox1.SelectedItem as Ring;
+            //Vitlbl.Text = Selected.Name;
+
+        }
     }
 }
