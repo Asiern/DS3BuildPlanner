@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace DarkSoulsStatCalc
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MaterialForm
     {
         private List<Item> Protector;
         private List<Item> Rings;
@@ -84,12 +85,8 @@ namespace DarkSoulsStatCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
             LoadRings();
-
-
-
-            
+                                         
 
 
         }
@@ -223,7 +220,7 @@ namespace DarkSoulsStatCalc
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           // Ring Selected = comboBox1.SelectedItem as Ring;
+            // Ring Selected = comboBox1.SelectedItem as Ring;
             //Vitlbl.Text = Selected.Name;
 
         }
