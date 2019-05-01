@@ -138,7 +138,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Rweapon3.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="Rweapon2.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 167</value>
@@ -159,7 +159,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Rweapon2.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="Lweapon3.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 218</value>
@@ -180,7 +180,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Lweapon3.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="Lweapon2.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 167</value>
@@ -201,7 +201,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Lweapon2.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="rings4.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 351</value>
@@ -222,7 +222,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings4.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="Lweapon1.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 116</value>
@@ -243,7 +243,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Lweapon1.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="rings3.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 351</value>
@@ -264,7 +264,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings3.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="rings1.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 300</value>
@@ -285,7 +285,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings1.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="Rweapon1.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 116</value>
@@ -306,28 +306,28 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Rweapon1.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
-  <data name="comboBox13.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="armor4.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 472</value>
   </data>
-  <data name="comboBox13.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="armor4.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="comboBox13.TabIndex" type="System.Int32, mscorlib">
+  <data name="armor4.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
   </data>
-  <data name="&gt;&gt;comboBox13.Name" xml:space="preserve">
-    <value>comboBox13</value>
+  <data name="&gt;&gt;armor4.Name" xml:space="preserve">
+    <value>armor4</value>
   </data>
-  <data name="&gt;&gt;comboBox13.Type" xml:space="preserve">
+  <data name="&gt;&gt;armor4.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox13.Parent" xml:space="preserve">
+  <data name="&gt;&gt;armor4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox13.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;armor4.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="rings2.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 300</value>
@@ -348,70 +348,70 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
-  <data name="comboBox11.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="armor3.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 421</value>
   </data>
-  <data name="comboBox11.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="armor3.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="comboBox11.TabIndex" type="System.Int32, mscorlib">
+  <data name="armor3.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
   </data>
-  <data name="&gt;&gt;comboBox11.Name" xml:space="preserve">
-    <value>comboBox11</value>
+  <data name="&gt;&gt;armor3.Name" xml:space="preserve">
+    <value>armor3</value>
   </data>
-  <data name="&gt;&gt;comboBox11.Type" xml:space="preserve">
+  <data name="&gt;&gt;armor3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;armor3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox11.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;armor3.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="comboBox10.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="armor1.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 421</value>
   </data>
-  <data name="comboBox10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="armor1.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="comboBox10.TabIndex" type="System.Int32, mscorlib">
+  <data name="armor1.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Name" xml:space="preserve">
-    <value>comboBox10</value>
+  <data name="&gt;&gt;armor1.Name" xml:space="preserve">
+    <value>armor1</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Type" xml:space="preserve">
+  <data name="&gt;&gt;armor1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;armor1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox10.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;armor1.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="comboBox12.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="armor2.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 472</value>
   </data>
-  <data name="comboBox12.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="armor2.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="comboBox12.TabIndex" type="System.Int32, mscorlib">
+  <data name="armor2.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
   </data>
-  <data name="&gt;&gt;comboBox12.Name" xml:space="preserve">
-    <value>comboBox12</value>
+  <data name="&gt;&gt;armor2.Name" xml:space="preserve">
+    <value>armor2</value>
   </data>
-  <data name="&gt;&gt;comboBox12.Type" xml:space="preserve">
+  <data name="&gt;&gt;armor2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;armor2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox12.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;armor2.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -445,7 +445,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="materialLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -478,7 +478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -511,115 +511,115 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
-  <data name="materialRadioButton1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Fastrb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="materialRadioButton1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Fastrb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialRadioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Fastrb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialRadioButton1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Fastrb.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 539</value>
   </data>
-  <data name="materialRadioButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Fastrb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialRadioButton1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Fastrb.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 30</value>
   </data>
-  <data name="materialRadioButton1.TabIndex" type="System.Int32, mscorlib">
+  <data name="Fastrb.TabIndex" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="materialRadioButton1.Text" xml:space="preserve">
+  <data name="Fastrb.Text" xml:space="preserve">
     <value>Fast Roll</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton1.Name" xml:space="preserve">
-    <value>materialRadioButton1</value>
+  <data name="&gt;&gt;Fastrb.Name" xml:space="preserve">
+    <value>Fastrb</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;Fastrb.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Fastrb.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton1.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;Fastrb.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="materialRadioButton2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Normalrb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="materialRadioButton2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Normalrb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialRadioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Normalrb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialRadioButton2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Normalrb.Location" type="System.Drawing.Point, System.Drawing">
     <value>201, 539</value>
   </data>
-  <data name="materialRadioButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Normalrb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialRadioButton2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Normalrb.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 30</value>
   </data>
-  <data name="materialRadioButton2.TabIndex" type="System.Int32, mscorlib">
+  <data name="Normalrb.TabIndex" type="System.Int32, mscorlib">
     <value>52</value>
   </data>
-  <data name="materialRadioButton2.Text" xml:space="preserve">
+  <data name="Normalrb.Text" xml:space="preserve">
     <value>Normal Roll</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton2.Name" xml:space="preserve">
-    <value>materialRadioButton2</value>
+  <data name="&gt;&gt;Normalrb.Name" xml:space="preserve">
+    <value>Normalrb</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton2.Type" xml:space="preserve">
+  <data name="&gt;&gt;Normalrb.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Normalrb.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton2.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;Normalrb.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="materialRadioButton3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="Fatrb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="materialRadioButton3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="Fatrb.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
-  <data name="materialRadioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="Fatrb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="materialRadioButton3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Fatrb.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 539</value>
   </data>
-  <data name="materialRadioButton3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="Fatrb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
-  <data name="materialRadioButton3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Fatrb.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 30</value>
   </data>
-  <data name="materialRadioButton3.TabIndex" type="System.Int32, mscorlib">
+  <data name="Fatrb.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
   </data>
-  <data name="materialRadioButton3.Text" xml:space="preserve">
+  <data name="Fatrb.Text" xml:space="preserve">
     <value>Fat Roll </value>
   </data>
-  <data name="&gt;&gt;materialRadioButton3.Name" xml:space="preserve">
-    <value>materialRadioButton3</value>
+  <data name="&gt;&gt;Fatrb.Name" xml:space="preserve">
+    <value>Fatrb</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton3.Type" xml:space="preserve">
+  <data name="&gt;&gt;Fatrb.Type" xml:space="preserve">
     <value>MaterialSkin.Controls.MaterialRadioButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Fatrb.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;materialRadioButton3.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;Fatrb.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="Vitlbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -652,6 +652,39 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Vitlbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialFlatButton1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="materialFlatButton1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="materialFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 567</value>
+  </data>
+  <data name="materialFlatButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="materialFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 36</value>
+  </data>
+  <data name="materialFlatButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="materialFlatButton1.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Name" xml:space="preserve">
+    <value>materialFlatButton1</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialFlatButton1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

@@ -38,18 +38,19 @@
             this.rings3 = new System.Windows.Forms.ComboBox();
             this.rings1 = new System.Windows.Forms.ComboBox();
             this.Rweapon1 = new System.Windows.Forms.ComboBox();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.armor4 = new System.Windows.Forms.ComboBox();
             this.rings2 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.armor3 = new System.Windows.Forms.ComboBox();
+            this.armor1 = new System.Windows.Forms.ComboBox();
+            this.armor2 = new System.Windows.Forms.ComboBox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialRadioButton1 = new MaterialSkin.Controls.MaterialRadioButton();
-            this.materialRadioButton2 = new MaterialSkin.Controls.MaterialRadioButton();
-            this.materialRadioButton3 = new MaterialSkin.Controls.MaterialRadioButton();
+            this.Fastrb = new MaterialSkin.Controls.MaterialRadioButton();
+            this.Normalrb = new MaterialSkin.Controls.MaterialRadioButton();
+            this.Fatrb = new MaterialSkin.Controls.MaterialRadioButton();
             this.Vitlbl = new MaterialSkin.Controls.MaterialLabel();
+            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             this.SuspendLayout();
             // 
             // Rweapon3
@@ -99,6 +100,7 @@
             this.rings1.FormattingEnabled = true;
             resources.ApplyResources(this.rings1, "rings1");
             this.rings1.Name = "rings1";
+            this.rings1.SelectedIndexChanged += new System.EventHandler(this.rings1_SelectedIndexChanged);
             // 
             // Rweapon1
             // 
@@ -106,11 +108,11 @@
             resources.ApplyResources(this.Rweapon1, "Rweapon1");
             this.Rweapon1.Name = "Rweapon1";
             // 
-            // comboBox13
+            // armor4
             // 
-            this.comboBox13.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox13, "comboBox13");
-            this.comboBox13.Name = "comboBox13";
+            this.armor4.FormattingEnabled = true;
+            resources.ApplyResources(this.armor4, "armor4");
+            this.armor4.Name = "armor4";
             // 
             // rings2
             // 
@@ -118,23 +120,23 @@
             resources.ApplyResources(this.rings2, "rings2");
             this.rings2.Name = "rings2";
             // 
-            // comboBox11
+            // armor3
             // 
-            this.comboBox11.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox11, "comboBox11");
-            this.comboBox11.Name = "comboBox11";
+            this.armor3.FormattingEnabled = true;
+            resources.ApplyResources(this.armor3, "armor3");
+            this.armor3.Name = "armor3";
             // 
-            // comboBox10
+            // armor1
             // 
-            this.comboBox10.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox10, "comboBox10");
-            this.comboBox10.Name = "comboBox10";
+            this.armor1.FormattingEnabled = true;
+            resources.ApplyResources(this.armor1, "armor1");
+            this.armor1.Name = "armor1";
             // 
-            // comboBox12
+            // armor2
             // 
-            this.comboBox12.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox12, "comboBox12");
-            this.comboBox12.Name = "comboBox12";
+            this.armor2.FormattingEnabled = true;
+            resources.ApplyResources(this.armor2, "armor2");
+            this.armor2.Name = "armor2";
             // 
             // materialLabel1
             // 
@@ -160,38 +162,37 @@
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             // 
-            // materialRadioButton1
+            // Fastrb
             // 
-            resources.ApplyResources(this.materialRadioButton1, "materialRadioButton1");
-            this.materialRadioButton1.Depth = 0;
-            this.materialRadioButton1.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialRadioButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRadioButton1.Name = "materialRadioButton1";
-            this.materialRadioButton1.Ripple = true;
-            this.materialRadioButton1.TabStop = true;
-            this.materialRadioButton1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Fastrb, "Fastrb");
+            this.Fastrb.Depth = 0;
+            this.Fastrb.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.Fastrb.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Fastrb.Name = "Fastrb";
+            this.Fastrb.Ripple = true;
+            this.Fastrb.UseVisualStyleBackColor = true;
             // 
-            // materialRadioButton2
+            // Normalrb
             // 
-            resources.ApplyResources(this.materialRadioButton2, "materialRadioButton2");
-            this.materialRadioButton2.Depth = 0;
-            this.materialRadioButton2.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialRadioButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRadioButton2.Name = "materialRadioButton2";
-            this.materialRadioButton2.Ripple = true;
-            this.materialRadioButton2.TabStop = true;
-            this.materialRadioButton2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Normalrb, "Normalrb");
+            this.Normalrb.Checked = true;
+            this.Normalrb.Depth = 0;
+            this.Normalrb.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.Normalrb.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Normalrb.Name = "Normalrb";
+            this.Normalrb.Ripple = true;
+            this.Normalrb.TabStop = true;
+            this.Normalrb.UseVisualStyleBackColor = true;
             // 
-            // materialRadioButton3
+            // Fatrb
             // 
-            resources.ApplyResources(this.materialRadioButton3, "materialRadioButton3");
-            this.materialRadioButton3.Depth = 0;
-            this.materialRadioButton3.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.materialRadioButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRadioButton3.Name = "materialRadioButton3";
-            this.materialRadioButton3.Ripple = true;
-            this.materialRadioButton3.TabStop = true;
-            this.materialRadioButton3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Fatrb, "Fatrb");
+            this.Fatrb.Depth = 0;
+            this.Fatrb.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.Fatrb.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Fatrb.Name = "Fatrb";
+            this.Fatrb.Ripple = true;
+            this.Fatrb.UseVisualStyleBackColor = true;
             // 
             // Vitlbl
             // 
@@ -201,23 +202,34 @@
             this.Vitlbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.Vitlbl.Name = "Vitlbl";
             // 
+            // materialFlatButton1
+            // 
+            resources.ApplyResources(this.materialFlatButton1, "materialFlatButton1");
+            this.materialFlatButton1.Depth = 0;
+            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton1.Name = "materialFlatButton1";
+            this.materialFlatButton1.Primary = false;
+            this.materialFlatButton1.UseVisualStyleBackColor = true;
+            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.Vitlbl);
-            this.Controls.Add(this.materialRadioButton3);
-            this.Controls.Add(this.materialRadioButton2);
-            this.Controls.Add(this.materialRadioButton1);
+            this.Controls.Add(this.Fatrb);
+            this.Controls.Add(this.Normalrb);
+            this.Controls.Add(this.Fastrb);
             this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.comboBox12);
-            this.Controls.Add(this.comboBox10);
-            this.Controls.Add(this.comboBox11);
+            this.Controls.Add(this.armor2);
+            this.Controls.Add(this.armor1);
+            this.Controls.Add(this.armor3);
             this.Controls.Add(this.rings2);
-            this.Controls.Add(this.comboBox13);
+            this.Controls.Add(this.armor4);
             this.Controls.Add(this.Rweapon1);
             this.Controls.Add(this.rings1);
             this.Controls.Add(this.rings3);
@@ -247,18 +259,19 @@
         private System.Windows.Forms.ComboBox rings3;
         private System.Windows.Forms.ComboBox rings1;
         private System.Windows.Forms.ComboBox Rweapon1;
-        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.ComboBox armor4;
         private System.Windows.Forms.ComboBox rings2;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox armor3;
+        private System.Windows.Forms.ComboBox armor1;
+        private System.Windows.Forms.ComboBox armor2;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
-        private MaterialSkin.Controls.MaterialRadioButton materialRadioButton1;
-        private MaterialSkin.Controls.MaterialRadioButton materialRadioButton2;
-        private MaterialSkin.Controls.MaterialRadioButton materialRadioButton3;
+        private MaterialSkin.Controls.MaterialRadioButton Fastrb;
+        private MaterialSkin.Controls.MaterialRadioButton Normalrb;
+        private MaterialSkin.Controls.MaterialRadioButton Fatrb;
         private MaterialSkin.Controls.MaterialLabel Vitlbl;
+        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
     }
 }
 
