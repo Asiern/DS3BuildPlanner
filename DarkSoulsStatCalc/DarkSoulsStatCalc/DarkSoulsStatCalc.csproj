@@ -79,6 +79,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Methods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Ring.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="Source\FileUtility\TSV.cs" />
     <Compile Include="Source\Item.cs" />
     <Compile Include="Source\UnitTesting\UnitTest.cs" />
+    <Compile Include="weapon.cs" />
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>

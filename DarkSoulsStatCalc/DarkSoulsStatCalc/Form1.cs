@@ -39,20 +39,20 @@ namespace DarkSoulsStatCalc
             //Havel
             Ring Havel = new Ring();
             Havel.Name = "Havel";
-            Havel.Weight = 3;
+            Havel.Weight = 1.5;
             RingList.Add(Havel);
 
             //FAP
             Ring FAP = new Ring();
-            Havel.Name = "FAP";
-            Havel.Weight = 2;
+            FAP.Name = "FAP";
+            FAP.Weight = 1.5;
             RingList.Add(FAP);            
 
             //Cloranthy
-            Ring Cloranthy = new Ring();
-            Havel.Name = "Cloranthy";
-            Havel.Weight = 2;
-            RingList.Add(Cloranthy);
+            Ring Chloranthy = new Ring();
+            Chloranthy.Name = "Cloranthy";
+            Chloranthy.Weight = 0.7;
+            RingList.Add(Chloranthy);
 
             //ADD RINGS
             //...
@@ -64,7 +64,7 @@ namespace DarkSoulsStatCalc
             rings1.ValueMember = "Weight";
             rings1.SelectedItem = null;
 
-            //Ring Combobox2
+            ///Ring Combobox2
             rings2.DataSource = RingList;
             rings2.DisplayMember = "Name";
             rings2.ValueMember = "Weight";
@@ -83,18 +83,75 @@ namespace DarkSoulsStatCalc
             rings4.SelectedItem = null;
         }
 
+        public void LoadWeapons()
+        {
+            List<weapon> weaponList = new List<weapon>();
+
+            //Anri's Straight Sword
+            weapon Anris_Straight_Sword = new weapon();
+            Anris_Straight_Sword.Name = "Anri's Straight Sword";
+            Anris_Straight_Sword.Weight = 3.0;
+            weaponList.Add(Anris_Straight_Sword);
+
+            //Ancient Dragon Great Shield
+            weapon Ancient_Dragon_Great_Shield = new weapon();
+            Ancient_Dragon_Great_Shield.Name = "Ancient Dragon Great Shield";
+            Ancient_Dragon_Great_Shield.Weight = 6.5;
+            weaponList.Add(Ancient_Dragon_Great_Shield);
+
+            //ADD weapons
+            //...
+            //...
+
+            //Lweapon1
+            Lweapon1.DataSource = weaponList;
+            Lweapon1.DisplayMember = "Name";
+            Lweapon1.ValueMember = "Weight";
+            Lweapon1.SelectedItem = null;
+
+            //Lweapon2
+            Lweapon2.DataSource = weaponList;
+            Lweapon2.DisplayMember = "Name";
+            Lweapon2.ValueMember = "Weight";
+            Lweapon2.SelectedItem = null;
+
+            //Lweapon3
+            Lweapon3.DataSource = weaponList;
+            Lweapon3.DisplayMember = "Name";
+            Lweapon3.ValueMember = "Weight";
+            Lweapon3.SelectedItem = null;
+
+            //Rweapon1
+            Rweapon1.DataSource = weaponList;
+            Rweapon1.DisplayMember = "Name";
+            Rweapon1.ValueMember = "Weight";
+            Rweapon1.SelectedItem = null;
+
+            //Rweapon2
+            Rweapon2.DataSource = weaponList;
+            Rweapon2.DisplayMember = "Name";
+            Rweapon2.ValueMember = "Weight";
+            Rweapon2.SelectedItem = null;
+
+            //Rweapon3
+            Rweapon3.DataSource = weaponList;
+            Rweapon3.DisplayMember = "Name";
+            Rweapon3.ValueMember = "Weight";
+            Rweapon3.SelectedItem = null;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadRings();
-                                         
+            LoadWeapons();                  
 
 
         }
 
         //Calculate weight
-        public  int weightsum()
+        public  int Weightsum()
         {
-            return 43;
+            return 1;
         }
 
         //Vit Calc
@@ -220,7 +277,7 @@ namespace DarkSoulsStatCalc
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Ring Selected = comboBox1.SelectedItem as Ring;
+            //Ring Selected = comboBox1.SelectedItem as Ring;
             //Vitlbl.Text = Selected.Name;
 
         }

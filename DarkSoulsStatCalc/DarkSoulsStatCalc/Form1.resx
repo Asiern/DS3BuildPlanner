@@ -118,69 +118,195 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="comboBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 472</value>
+  <data name="Rweapon3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 218</value>
   </data>
-  <data name="comboBox12.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Rweapon3.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="comboBox12.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
+  <data name="Rweapon3.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
   </data>
-  <data name="&gt;&gt;comboBox12.Name" xml:space="preserve">
-    <value>comboBox12</value>
+  <data name="&gt;&gt;Rweapon3.Name" xml:space="preserve">
+    <value>Rweapon3</value>
   </data>
-  <data name="&gt;&gt;comboBox12.Type" xml:space="preserve">
+  <data name="&gt;&gt;Rweapon3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox12.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Rweapon3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox12.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;Rweapon3.ZOrder" xml:space="preserve">
+    <value>20</value>
   </data>
-  <data name="comboBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 421</value>
+  <data name="Rweapon2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 167</value>
   </data>
-  <data name="comboBox10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Rweapon2.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="comboBox10.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
+  <data name="Rweapon2.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Name" xml:space="preserve">
-    <value>comboBox10</value>
+  <data name="&gt;&gt;Rweapon2.Name" xml:space="preserve">
+    <value>Rweapon2</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Type" xml:space="preserve">
+  <data name="&gt;&gt;Rweapon2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Rweapon2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox10.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;Rweapon2.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
-  <data name="comboBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 421</value>
+  <data name="Lweapon3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 218</value>
   </data>
-  <data name="comboBox11.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Lweapon3.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="comboBox11.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
+  <data name="Lweapon3.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
-  <data name="&gt;&gt;comboBox11.Name" xml:space="preserve">
-    <value>comboBox11</value>
+  <data name="&gt;&gt;Lweapon3.Name" xml:space="preserve">
+    <value>Lweapon3</value>
   </data>
-  <data name="&gt;&gt;comboBox11.Type" xml:space="preserve">
+  <data name="&gt;&gt;Lweapon3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox11.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Lweapon3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox11.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;Lweapon3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Lweapon2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 167</value>
+  </data>
+  <data name="Lweapon2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="Lweapon2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Lweapon2.Name" xml:space="preserve">
+    <value>Lweapon2</value>
+  </data>
+  <data name="&gt;&gt;Lweapon2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lweapon2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lweapon2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="rings4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 351</value>
+  </data>
+  <data name="rings4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="rings4.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;rings4.Name" xml:space="preserve">
+    <value>rings4</value>
+  </data>
+  <data name="&gt;&gt;rings4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rings4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rings4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Lweapon1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 116</value>
+  </data>
+  <data name="Lweapon1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="Lweapon1.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Lweapon1.Name" xml:space="preserve">
+    <value>Lweapon1</value>
+  </data>
+  <data name="&gt;&gt;Lweapon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lweapon1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lweapon1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="rings3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 351</value>
+  </data>
+  <data name="rings3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="rings3.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;rings3.Name" xml:space="preserve">
+    <value>rings3</value>
+  </data>
+  <data name="&gt;&gt;rings3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rings3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rings3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="rings1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 300</value>
+  </data>
+  <data name="rings1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="rings1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;rings1.Name" xml:space="preserve">
+    <value>rings1</value>
+  </data>
+  <data name="&gt;&gt;rings1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rings1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rings1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Rweapon1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 116</value>
+  </data>
+  <data name="Rweapon1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 21</value>
+  </data>
+  <data name="Rweapon1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;Rweapon1.Name" xml:space="preserve">
+    <value>Rweapon1</value>
+  </data>
+  <data name="&gt;&gt;Rweapon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Rweapon1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Rweapon1.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="comboBox13.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 472</value>
@@ -224,200 +350,78 @@
   <data name="&gt;&gt;rings2.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="rings1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 300</value>
+  <data name="comboBox11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 421</value>
   </data>
-  <data name="rings1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="comboBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="rings1.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
+  <data name="comboBox11.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
   </data>
-  <data name="&gt;&gt;rings1.Name" xml:space="preserve">
-    <value>rings1</value>
+  <data name="&gt;&gt;comboBox11.Name" xml:space="preserve">
+    <value>comboBox11</value>
   </data>
-  <data name="&gt;&gt;rings1.Type" xml:space="preserve">
+  <data name="&gt;&gt;comboBox11.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rings1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;comboBox11.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;rings1.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="&gt;&gt;comboBox11.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="rings3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 351</value>
+  <data name="comboBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 421</value>
   </data>
-  <data name="rings3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="comboBox10.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="rings3.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+  <data name="comboBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
   </data>
-  <data name="&gt;&gt;rings3.Name" xml:space="preserve">
-    <value>rings3</value>
+  <data name="&gt;&gt;comboBox10.Name" xml:space="preserve">
+    <value>comboBox10</value>
   </data>
-  <data name="&gt;&gt;rings3.Type" xml:space="preserve">
+  <data name="&gt;&gt;comboBox10.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rings3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;comboBox10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;rings3.ZOrder" xml:space="preserve">
-    <value>14</value>
+  <data name="&gt;&gt;comboBox10.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="rings4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 351</value>
+  <data name="comboBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 472</value>
   </data>
-  <data name="rings4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="comboBox12.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
   </data>
-  <data name="rings4.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
+  <data name="comboBox12.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
   </data>
-  <data name="&gt;&gt;rings4.Name" xml:space="preserve">
-    <value>rings4</value>
+  <data name="&gt;&gt;comboBox12.Name" xml:space="preserve">
+    <value>comboBox12</value>
   </data>
-  <data name="&gt;&gt;rings4.Type" xml:space="preserve">
+  <data name="&gt;&gt;comboBox12.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;rings4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;comboBox12.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;rings4.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 116</value>
-  </data>
-  <data name="comboBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
-  </data>
-  <data name="comboBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;comboBox3.Name" xml:space="preserve">
-    <value>comboBox3</value>
-  </data>
-  <data name="&gt;&gt;comboBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBox3.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="Lweapon1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 116</value>
-  </data>
-  <data name="Lweapon1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
-  </data>
-  <data name="Lweapon1.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;Lweapon1.Name" xml:space="preserve">
-    <value>Lweapon1</value>
-  </data>
-  <data name="&gt;&gt;Lweapon1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Lweapon1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Lweapon1.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 167</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 218</value>
-  </data>
-  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
-  </data>
-  <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;comboBox2.Name" xml:space="preserve">
-    <value>comboBox2</value>
-  </data>
-  <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 167</value>
-  </data>
-  <data name="comboBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
-  </data>
-  <data name="comboBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;comboBox4.Name" xml:space="preserve">
-    <value>comboBox4</value>
-  </data>
-  <data name="&gt;&gt;comboBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBox4.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="comboBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 218</value>
-  </data>
-  <data name="comboBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>179, 21</value>
-  </data>
-  <data name="comboBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;comboBox5.Name" xml:space="preserve">
-    <value>comboBox5</value>
-  </data>
-  <data name="&gt;&gt;comboBox5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBox5.ZOrder" xml:space="preserve">
-    <value>20</value>
+  <data name="&gt;&gt;comboBox12.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="materialLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="materialLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="materialLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 94</value>
@@ -449,6 +453,9 @@
   <data name="materialLabel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
   </data>
+  <data name="materialLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 278</value>
   </data>
@@ -478,6 +485,9 @@
   </data>
   <data name="materialLabel3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="materialLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 399</value>
@@ -509,10 +519,12 @@
   <data name="materialRadioButton1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
+  <data name="materialRadioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialRadioButton1.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 539</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="materialRadioButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
@@ -542,6 +554,9 @@
   </data>
   <data name="materialRadioButton2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
+  </data>
+  <data name="materialRadioButton2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="materialRadioButton2.Location" type="System.Drawing.Point, System.Drawing">
     <value>201, 539</value>
@@ -576,6 +591,9 @@
   <data name="materialRadioButton3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 10pt</value>
   </data>
+  <data name="materialRadioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="materialRadioButton3.Location" type="System.Drawing.Point, System.Drawing">
     <value>322, 539</value>
   </data>
@@ -608,6 +626,9 @@
   </data>
   <data name="Vitlbl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Roboto, 11pt</value>
+  </data>
+  <data name="Vitlbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="Vitlbl.Location" type="System.Drawing.Point, System.Drawing">
     <value>427, 544</value>
@@ -643,7 +664,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>592, 609</value>
+    <value>620, 618</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

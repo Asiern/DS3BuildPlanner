@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.Rweapon3 = new System.Windows.Forms.ComboBox();
+            this.Rweapon2 = new System.Windows.Forms.ComboBox();
+            this.Lweapon3 = new System.Windows.Forms.ComboBox();
+            this.Lweapon2 = new System.Windows.Forms.ComboBox();
+            this.rings4 = new System.Windows.Forms.ComboBox();
+            this.Lweapon1 = new System.Windows.Forms.ComboBox();
+            this.rings3 = new System.Windows.Forms.ComboBox();
+            this.rings1 = new System.Windows.Forms.ComboBox();
+            this.Rweapon1 = new System.Windows.Forms.ComboBox();
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.rings2 = new System.Windows.Forms.ComboBox();
-            this.rings1 = new System.Windows.Forms.ComboBox();
-            this.rings3 = new System.Windows.Forms.ComboBox();
-            this.rings4 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.Lweapon1 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
@@ -52,23 +52,59 @@
             this.Vitlbl = new MaterialSkin.Controls.MaterialLabel();
             this.SuspendLayout();
             // 
-            // comboBox12
+            // Rweapon3
             // 
-            this.comboBox12.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox12, "comboBox12");
-            this.comboBox12.Name = "comboBox12";
+            this.Rweapon3.FormattingEnabled = true;
+            resources.ApplyResources(this.Rweapon3, "Rweapon3");
+            this.Rweapon3.Name = "Rweapon3";
             // 
-            // comboBox10
+            // Rweapon2
             // 
-            this.comboBox10.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox10, "comboBox10");
-            this.comboBox10.Name = "comboBox10";
+            this.Rweapon2.FormattingEnabled = true;
+            resources.ApplyResources(this.Rweapon2, "Rweapon2");
+            this.Rweapon2.Name = "Rweapon2";
             // 
-            // comboBox11
+            // Lweapon3
             // 
-            this.comboBox11.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox11, "comboBox11");
-            this.comboBox11.Name = "comboBox11";
+            this.Lweapon3.FormattingEnabled = true;
+            resources.ApplyResources(this.Lweapon3, "Lweapon3");
+            this.Lweapon3.Name = "Lweapon3";
+            // 
+            // Lweapon2
+            // 
+            this.Lweapon2.FormattingEnabled = true;
+            resources.ApplyResources(this.Lweapon2, "Lweapon2");
+            this.Lweapon2.Name = "Lweapon2";
+            // 
+            // rings4
+            // 
+            this.rings4.FormattingEnabled = true;
+            resources.ApplyResources(this.rings4, "rings4");
+            this.rings4.Name = "rings4";
+            // 
+            // Lweapon1
+            // 
+            this.Lweapon1.FormattingEnabled = true;
+            resources.ApplyResources(this.Lweapon1, "Lweapon1");
+            this.Lweapon1.Name = "Lweapon1";
+            // 
+            // rings3
+            // 
+            this.rings3.FormattingEnabled = true;
+            resources.ApplyResources(this.rings3, "rings3");
+            this.rings3.Name = "rings3";
+            // 
+            // rings1
+            // 
+            this.rings1.FormattingEnabled = true;
+            resources.ApplyResources(this.rings1, "rings1");
+            this.rings1.Name = "rings1";
+            // 
+            // Rweapon1
+            // 
+            this.Rweapon1.FormattingEnabled = true;
+            resources.ApplyResources(this.Rweapon1, "Rweapon1");
+            this.Rweapon1.Name = "Rweapon1";
             // 
             // comboBox13
             // 
@@ -82,59 +118,23 @@
             resources.ApplyResources(this.rings2, "rings2");
             this.rings2.Name = "rings2";
             // 
-            // rings1
+            // comboBox11
             // 
-            this.rings1.FormattingEnabled = true;
-            resources.ApplyResources(this.rings1, "rings1");
-            this.rings1.Name = "rings1";
+            this.comboBox11.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox11, "comboBox11");
+            this.comboBox11.Name = "comboBox11";
             // 
-            // rings3
+            // comboBox10
             // 
-            this.rings3.FormattingEnabled = true;
-            resources.ApplyResources(this.rings3, "rings3");
-            this.rings3.Name = "rings3";
+            this.comboBox10.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox10, "comboBox10");
+            this.comboBox10.Name = "comboBox10";
             // 
-            // rings4
+            // comboBox12
             // 
-            this.rings4.FormattingEnabled = true;
-            resources.ApplyResources(this.rings4, "rings4");
-            this.rings4.Name = "rings4";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox3, "comboBox3");
-            this.comboBox3.Name = "comboBox3";
-            // 
-            // Lweapon1
-            // 
-            this.Lweapon1.FormattingEnabled = true;
-            resources.ApplyResources(this.Lweapon1, "Lweapon1");
-            this.Lweapon1.Name = "Lweapon1";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.Name = "comboBox1";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox2, "comboBox2");
-            this.comboBox2.Name = "comboBox2";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox4, "comboBox4");
-            this.comboBox4.Name = "comboBox4";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            resources.ApplyResources(this.comboBox5, "comboBox5");
-            this.comboBox5.Name = "comboBox5";
+            this.comboBox12.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox12, "comboBox12");
+            this.comboBox12.Name = "comboBox12";
             // 
             // materialLabel1
             // 
@@ -218,15 +218,15 @@
             this.Controls.Add(this.comboBox11);
             this.Controls.Add(this.rings2);
             this.Controls.Add(this.comboBox13);
-            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.Rweapon1);
             this.Controls.Add(this.rings1);
             this.Controls.Add(this.rings3);
             this.Controls.Add(this.Lweapon1);
             this.Controls.Add(this.rings4);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.Lweapon2);
+            this.Controls.Add(this.Lweapon3);
+            this.Controls.Add(this.Rweapon2);
+            this.Controls.Add(this.Rweapon3);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.MaximizeBox = false;
             this.Name = "Form1";
@@ -237,20 +237,21 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox11;
+
+        private System.Windows.Forms.ComboBox Rweapon3;
+        private System.Windows.Forms.ComboBox Rweapon2;
+        private System.Windows.Forms.ComboBox Lweapon3;
+        private System.Windows.Forms.ComboBox Lweapon2;
+        private System.Windows.Forms.ComboBox rings4;
+        private System.Windows.Forms.ComboBox Lweapon1;
+        private System.Windows.Forms.ComboBox rings3;
+        private System.Windows.Forms.ComboBox rings1;
+        private System.Windows.Forms.ComboBox Rweapon1;
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.ComboBox rings2;
-        private System.Windows.Forms.ComboBox rings1;
-        private System.Windows.Forms.ComboBox rings3;
-        private System.Windows.Forms.ComboBox rings4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox Lweapon1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox comboBox12;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;

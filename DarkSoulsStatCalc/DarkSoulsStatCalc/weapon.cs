@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace DarkSoulsStatCalc
 {
-    public class Ring
+    public class weapon
     {
         public string Name { get; set; }
         public double Weight { get; set; }
+       
+
+       
     }
+
+    
 }
