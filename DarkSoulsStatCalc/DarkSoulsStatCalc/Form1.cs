@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -142,6 +143,20 @@ namespace DarkSoulsStatCalc
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Search for updates
+            WebClient webClient = new WebClient();
+            if (!webClient.DownloadString("https://pastebin.com/raw/4SDWV9m4").Contains("1.0"))
+            {
+                if (MessageBox.Show("Update available", "DSIIIStatCalcUpdater", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator/releases");
+                }
+                else
+                {
+
+                }
+            }
+
             LoadRings();
             LoadWeapons();                  
 
