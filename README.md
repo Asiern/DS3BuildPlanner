@@ -4,5 +4,5 @@ DarkSoulsStatCalculator is a tool for ones that want to calculate the vitality n
 ## Roadmap
 * [x] User interface
 * [x] Vitality calculation
-* [ ] Text parser to read the items
+* [x] Text parser to read the items
 * [x] CSV and TSV reader
