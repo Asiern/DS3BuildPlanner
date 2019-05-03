@@ -2827,9 +2827,6 @@ Yhorm’s Greatshield
 Yorshka’s Chime
 Yorshka’s Spear
 Zweihander
-
-
-----------AOA--------------
 Millwood Greatarrow
 Onyx Blade
 Follower Sabre
@@ -2847,8 +2844,6 @@ Crow Quills
 Followers Shield
 Ethereal Oak Shield
 Follower Torch
-
------------TRC-------------
 Aquamarine Dagger
 Murky Hand Scythe
 Ringed Knight Straight Sword

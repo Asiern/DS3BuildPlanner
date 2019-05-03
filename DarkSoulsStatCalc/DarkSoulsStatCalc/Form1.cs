@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -14,10 +15,6 @@ namespace DarkSoulsStatCalc
 {
     public partial class Form1 : MaterialForm
     {
-        /*private List<Item> Protector;
-        private List<Item> Rings;
-        private List<Item> Weapons;*/
-
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +25,57 @@ namespace DarkSoulsStatCalc
         }
 
         public void LoadRings()
+        {
+            string path = System.IO.Path.GetFullPath("rings.csv");
+            List<Ring> RingList = new List<Ring>();
+
+            using (StreamReader reader = new StreamReader(path)) // Used to read file data
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+
+                    // Split the line by the tab so that both columns are separated
+                    string[] values = line.Split(',');
+
+                    // set the properties of the item and parse the value string to float
+                    string name = values[0];
+                    float weight = float.Parse(values[1], System.Globalization.CultureInfo.InvariantCulture);
+
+                    //Ring
+                    Ring ring = new Ring();
+                    ring.Name = name;
+                    ring.Weight = weight;
+                    RingList.Add(ring);
+                }
+            }
+
+            //Ring Combobox1
+            rings1.DataSource = RingList;
+            rings1.DisplayMember = "Name";
+            rings1.ValueMember = "Weight";
+            rings1.SelectedItem = null;
+
+            ///Ring Combobox2
+            rings2.DataSource = RingList;
+            rings2.DisplayMember = "Name";
+            rings2.ValueMember = "Weight";
+            rings2.SelectedItem = null;
+
+            //Ring Combobox3
+            rings3.DataSource = RingList;
+            rings3.DisplayMember = "Name";
+            rings3.ValueMember = "Weight";
+            rings3.SelectedItem = null;
+
+            //Ring Combobox4
+            rings4.DataSource = RingList;
+            rings4.DisplayMember = "Name";
+            rings4.ValueMember = "Weight";
+            rings4.SelectedItem = null;
+        }
+
+        /*public void LoadRings()
         {
             List<Ring> RingList = new List<Ring>();
             
@@ -76,35 +124,35 @@ namespace DarkSoulsStatCalc
             rings4.DisplayMember = "Name";
             rings4.ValueMember = "Weight";
             rings4.SelectedItem = null;
-        }
+        }*/
 
         public void LoadWeapons()
         {
             List<weapon> weaponList = new List<weapon>();
 
-            //Ancient Dragon Great Shield
-            weapon Ancient_Dragon_Great_Shield = new weapon();
-            Ancient_Dragon_Great_Shield.Name = "Ancient Dragon Great Shield";
-            Ancient_Dragon_Great_Shield.Weight = 6.5;
-            weaponList.Add(Ancient_Dragon_Great_Shield);
+            string path = System.IO.Path.GetFullPath("weapons.csv");
+            List<Ring> RingList = new List<Ring>();
 
-            //Ancient Dragon Halberd
-            weapon Ancient_Dragon_Halberd = new weapon();
-            Ancient_Dragon_Halberd.Name = "Ancient Dragon Halberd";
-            Ancient_Dragon_Halberd.Weight = 6.5;
-            weaponList.Add(Ancient_Dragon_Halberd);
+            using (StreamReader reader = new StreamReader(path)) // Used to read file data
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
 
-            //Anri's Straight Sword
-            weapon Anris_Straight_Sword = new weapon();
-            Anris_Straight_Sword.Name = "Anri's Straight Sword";
-            Anris_Straight_Sword.Weight = 3.0;
-            weaponList.Add(Anris_Straight_Sword);
+                    // Split the line by the tab so that both columns are separated
+                    string[] values = line.Split(',');
 
-            
+                    // set the properties of the item and parse the value string to float
+                    string name = values[0];
+                    float weight = float.Parse(values[1], System.Globalization.CultureInfo.InvariantCulture);
 
-            //ADD weapons
-            //...
-            //...
+                    //Weapon
+                    weapon weapon = new weapon();
+                    weapon.Name = name;
+                    weapon.Weight = weight;
+                    weaponList.Add(weapon);
+                }
+            }
 
             //Lweapon1
             Lweapon1.DataSource = weaponList;
@@ -143,40 +191,40 @@ namespace DarkSoulsStatCalc
             Rweapon3.SelectedItem = null;
         }
 
-        public void LoadArmor()
+        public void LoadHead()
         {
-            List<armor> armorList = new List<armor>();
+            List<armor> headList = new List<armor>();
 
-            //Alva Armor
-            armor Alva_Armor = new armor();
-            Alva_Armor.Name = "Alva Armor";
-            Alva_Armor.Weight = 9;
-            armorList.Add(Alva_Armor);
+            string path = System.IO.Path.GetFullPath("head.csv");
+            List<Ring> RingList = new List<Ring>();
+
+            using (StreamReader reader = new StreamReader(path)) // Used to read file data
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+
+                    // Split the line by the tab so that both columns are separated
+                    string[] values = line.Split(',');
+
+                    // set the properties of the item and parse the value string to float
+                    string name = values[0];
+                    float weight = float.Parse(values[1], System.Globalization.CultureInfo.InvariantCulture);
+
+                    //Weapon
+                    armor head = new armor();
+                    head.Name = name;
+                    head.Weight = weight;
+                    headList.Add(head);
+                }
+            }
 
 
             //armor1
-            armor1.DataSource = armorList;
+            armor1.DataSource = headList;
             armor1.DisplayMember = "Name";
             armor1.ValueMember = "Weight";
             armor1.SelectedItem = null;
-
-            //armor2
-            armor2.DataSource = armorList;
-            armor2.DisplayMember = "Name";
-            armor2.ValueMember = "Weight";
-            armor2.SelectedItem = null;
-
-            //armor3
-            armor3.DataSource = armorList;
-            armor3.DisplayMember = "Name";
-            armor3.ValueMember = "Weight";
-            armor3.SelectedItem = null;
-
-            //armor4
-            armor4.DataSource = armorList;
-            armor4.DisplayMember = "Name";
-            armor4.ValueMember = "Weight";
-            armor4.SelectedItem = null;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -198,7 +246,7 @@ namespace DarkSoulsStatCalc
             //Init
             LoadRings();
             LoadWeapons();
-            LoadArmor();
+            LoadHead();
 
         }
 
