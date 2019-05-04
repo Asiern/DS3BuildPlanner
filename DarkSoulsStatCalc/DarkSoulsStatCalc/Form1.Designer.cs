@@ -50,18 +50,15 @@
             this.Normalrb = new MaterialSkin.Controls.MaterialRadioButton();
             this.Fatrb = new MaterialSkin.Controls.MaterialRadioButton();
             this.Vitlbl = new MaterialSkin.Controls.MaterialLabel();
-            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
-            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.SuspendLayout();
             // 
             // Rweapon3
@@ -193,7 +190,8 @@
             this.Normalrb.Name = "Normalrb";
             this.Normalrb.Ripple = true;
             this.Normalrb.TabStop = true;
-            this.Normalrb.UseVisualStyleBackColor = true;
+            this.Normalrb.UseCompatibleTextRendering = true;
+            this.Normalrb.UseVisualStyleBackColor = false;
             // 
             // Fatrb
             // 
@@ -213,24 +211,6 @@
             this.Vitlbl.MouseState = MaterialSkin.MouseState.HOVER;
             this.Vitlbl.Name = "Vitlbl";
             // 
-            // materialFlatButton1
-            // 
-            resources.ApplyResources(this.materialFlatButton1, "materialFlatButton1");
-            this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton1.Name = "materialFlatButton1";
-            this.materialFlatButton1.Primary = false;
-            this.materialFlatButton1.UseVisualStyleBackColor = true;
-            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
-            // 
-            // materialLabel4
-            // 
-            resources.ApplyResources(this.materialLabel4, "materialLabel4");
-            this.materialLabel4.Depth = 0;
-            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel4.Name = "materialLabel4";
-            // 
             // materialLabel5
             // 
             resources.ApplyResources(this.materialLabel5, "materialLabel5");
@@ -239,14 +219,6 @@
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             // 
-            // materialLabel6
-            // 
-            resources.ApplyResources(this.materialLabel6, "materialLabel6");
-            this.materialLabel6.Depth = 0;
-            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel6.Name = "materialLabel6";
-            // 
             // materialLabel7
             // 
             resources.ApplyResources(this.materialLabel7, "materialLabel7");
@@ -254,14 +226,6 @@
             this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
-            // 
-            // materialLabel8
-            // 
-            resources.ApplyResources(this.materialLabel8, "materialLabel8");
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
             // 
             // materialLabel9
             // 
@@ -311,23 +275,30 @@
             this.materialLabel14.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel14.Name = "materialLabel14";
             // 
+            // materialRaisedButton1
+            // 
+            this.materialRaisedButton1.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton1, "materialRaisedButton1");
+            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton1.Name = "materialRaisedButton1";
+            this.materialRaisedButton1.Primary = true;
+            this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.materialLabel14);
             this.Controls.Add(this.materialLabel13);
             this.Controls.Add(this.materialLabel12);
             this.Controls.Add(this.materialLabel11);
             this.Controls.Add(this.materialLabel10);
             this.Controls.Add(this.materialLabel9);
-            this.Controls.Add(this.materialLabel8);
             this.Controls.Add(this.materialLabel7);
-            this.Controls.Add(this.materialLabel6);
             this.Controls.Add(this.materialLabel5);
-            this.Controls.Add(this.materialLabel4);
-            this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.Vitlbl);
             this.Controls.Add(this.Fatrb);
             this.Controls.Add(this.Normalrb);
@@ -381,18 +352,15 @@
         private MaterialSkin.Controls.MaterialRadioButton Normalrb;
         private MaterialSkin.Controls.MaterialRadioButton Fatrb;
         private MaterialSkin.Controls.MaterialLabel Vitlbl;
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel4;
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
-        private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private MaterialSkin.Controls.MaterialLabel materialLabel8;
         private MaterialSkin.Controls.MaterialLabel materialLabel9;
         private MaterialSkin.Controls.MaterialLabel materialLabel10;
         private MaterialSkin.Controls.MaterialLabel materialLabel11;
         private MaterialSkin.Controls.MaterialLabel materialLabel12;
         private MaterialSkin.Controls.MaterialLabel materialLabel13;
         private MaterialSkin.Controls.MaterialLabel materialLabel14;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
     }
 }
 

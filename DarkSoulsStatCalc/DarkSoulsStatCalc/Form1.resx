@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Rweapon3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 218</value>
+    <value>506, 172</value>
   </data>
   <data name="Rweapon3.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -138,10 +138,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Rweapon3.ZOrder" xml:space="preserve">
-    <value>32</value>
+    <value>29</value>
   </data>
   <data name="Rweapon2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 167</value>
+    <value>304, 172</value>
   </data>
   <data name="Rweapon2.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -159,10 +159,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Rweapon2.ZOrder" xml:space="preserve">
-    <value>31</value>
+    <value>28</value>
   </data>
   <data name="Lweapon3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 218</value>
+    <value>506, 116</value>
   </data>
   <data name="Lweapon3.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -180,10 +180,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Lweapon3.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>27</value>
   </data>
   <data name="Lweapon2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 167</value>
+    <value>304, 116</value>
   </data>
   <data name="Lweapon2.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -201,10 +201,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Lweapon2.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>26</value>
   </data>
   <data name="rings4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 351</value>
+    <value>304, 336</value>
   </data>
   <data name="rings4.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -222,7 +222,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings4.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>25</value>
   </data>
   <data name="Lweapon1.Location" type="System.Drawing.Point, System.Drawing">
     <value>100, 116</value>
@@ -243,10 +243,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Lweapon1.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>24</value>
   </data>
   <data name="rings3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 351</value>
+    <value>100, 336</value>
   </data>
   <data name="rings3.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -264,10 +264,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings3.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>23</value>
   </data>
   <data name="rings1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 300</value>
+    <value>100, 268</value>
   </data>
   <data name="rings1.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -285,10 +285,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings1.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>22</value>
   </data>
   <data name="Rweapon1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 116</value>
+    <value>100, 172</value>
   </data>
   <data name="Rweapon1.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -306,10 +306,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Rweapon1.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>21</value>
   </data>
   <data name="armor4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 472</value>
+    <value>304, 518</value>
   </data>
   <data name="armor4.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -327,10 +327,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;armor4.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>20</value>
   </data>
   <data name="rings2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 300</value>
+    <value>304, 268</value>
   </data>
   <data name="rings2.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -348,10 +348,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;rings2.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>19</value>
   </data>
   <data name="armor3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 421</value>
+    <value>100, 518</value>
   </data>
   <data name="armor3.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -369,10 +369,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;armor3.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>18</value>
   </data>
   <data name="armor1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 421</value>
+    <value>100, 449</value>
   </data>
   <data name="armor1.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -390,10 +390,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;armor1.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>17</value>
   </data>
   <data name="armor2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 472</value>
+    <value>304, 449</value>
   </data>
   <data name="armor2.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
@@ -411,7 +411,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;armor2.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>16</value>
   </data>
   <data name="materialLabel1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -445,7 +445,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel1.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>15</value>
   </data>
   <data name="materialLabel2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -457,7 +457,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 278</value>
+    <value>96, 246</value>
   </data>
   <data name="materialLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 19</value>
@@ -478,7 +478,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel2.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>14</value>
   </data>
   <data name="materialLabel3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -490,7 +490,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 399</value>
+    <value>96, 427</value>
   </data>
   <data name="materialLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 19</value>
@@ -511,7 +511,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel3.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>13</value>
   </data>
   <data name="Fastrb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -523,7 +523,7 @@
     <value>NoControl</value>
   </data>
   <data name="Fastrb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 539</value>
+    <value>532, 259</value>
   </data>
   <data name="Fastrb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -547,7 +547,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Fastrb.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>12</value>
   </data>
   <data name="Normalrb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -559,7 +559,7 @@
     <value>NoControl</value>
   </data>
   <data name="Normalrb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>201, 539</value>
+    <value>532, 305</value>
   </data>
   <data name="Normalrb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -573,6 +573,9 @@
   <data name="Normalrb.Text" xml:space="preserve">
     <value>Normal Roll</value>
   </data>
+  <data name="Normalrb.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
   <data name="&gt;&gt;Normalrb.Name" xml:space="preserve">
     <value>Normalrb</value>
   </data>
@@ -583,7 +586,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Normalrb.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>11</value>
   </data>
   <data name="Fatrb.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -595,7 +598,7 @@
     <value>NoControl</value>
   </data>
   <data name="Fatrb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 539</value>
+    <value>532, 351</value>
   </data>
   <data name="Fatrb.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -619,7 +622,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Fatrb.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>10</value>
   </data>
   <data name="Vitlbl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -631,7 +634,7 @@
     <value>NoControl</value>
   </data>
   <data name="Vitlbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>427, 544</value>
+    <value>540, 462</value>
   </data>
   <data name="Vitlbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 19</value>
@@ -652,73 +655,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Vitlbl.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="materialFlatButton1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialFlatButton1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
-  </data>
-  <data name="materialFlatButton1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 567</value>
-  </data>
-  <data name="materialFlatButton1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 4, 6</value>
-  </data>
-  <data name="materialFlatButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 36</value>
-  </data>
-  <data name="materialFlatButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>55</value>
-  </data>
-  <data name="materialFlatButton1.Text" xml:space="preserve">
-    <value>Calculate</value>
-  </data>
-  <data name="&gt;&gt;materialFlatButton1.Name" xml:space="preserve">
-    <value>materialFlatButton1</value>
-  </data>
-  <data name="&gt;&gt;materialFlatButton1.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialFlatButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialFlatButton1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;materialFlatButton1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="materialLabel4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialLabel4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
-  </data>
-  <data name="materialLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 94</value>
-  </data>
-  <data name="materialLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 19</value>
-  </data>
-  <data name="materialLabel4.TabIndex" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="materialLabel4.Text" xml:space="preserve">
-    <value>Right Hand Weapon 1</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Name" xml:space="preserve">
-    <value>materialLabel4</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;materialLabel4.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="materialLabel5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -730,7 +667,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 145</value>
+    <value>339, 94</value>
   </data>
   <data name="materialLabel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 19</value>
@@ -751,39 +688,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel5.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="materialLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
-  </data>
-  <data name="materialLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 145</value>
-  </data>
-  <data name="materialLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 19</value>
-  </data>
-  <data name="materialLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>58</value>
-  </data>
-  <data name="materialLabel6.Text" xml:space="preserve">
-    <value>Right Hand Weapon 2</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.Name" xml:space="preserve">
-    <value>materialLabel6</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;materialLabel6.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
   <data name="materialLabel7.AutoSize" type="System.Boolean, mscorlib">
@@ -796,7 +700,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 196</value>
+    <value>528, 94</value>
   </data>
   <data name="materialLabel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 19</value>
@@ -819,39 +723,6 @@
   <data name="&gt;&gt;materialLabel7.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="materialLabel8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="materialLabel8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 11pt</value>
-  </data>
-  <data name="materialLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="materialLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 196</value>
-  </data>
-  <data name="materialLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 19</value>
-  </data>
-  <data name="materialLabel8.TabIndex" type="System.Int32, mscorlib">
-    <value>60</value>
-  </data>
-  <data name="materialLabel8.Text" xml:space="preserve">
-    <value>Right Hand Weapon 3</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.Name" xml:space="preserve">
-    <value>materialLabel8</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.Type" xml:space="preserve">
-    <value>MaterialSkin.Controls.MaterialLabel, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;materialLabel8.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="materialLabel9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -862,7 +733,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 329</value>
+    <value>298, 314</value>
   </data>
   <data name="materialLabel9.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 19</value>
@@ -883,7 +754,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel9.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="materialLabel10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -895,7 +766,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 278</value>
+    <value>96, 314</value>
   </data>
   <data name="materialLabel10.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 19</value>
@@ -916,7 +787,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel10.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="materialLabel11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -928,7 +799,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 329</value>
+    <value>298, 246</value>
   </data>
   <data name="materialLabel11.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 19</value>
@@ -949,7 +820,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel11.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="materialLabel12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -961,7 +832,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 450</value>
+    <value>300, 427</value>
   </data>
   <data name="materialLabel12.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 19</value>
@@ -982,7 +853,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel12.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="materialLabel13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -994,7 +865,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 399</value>
+    <value>94, 496</value>
   </data>
   <data name="materialLabel13.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 19</value>
@@ -1015,7 +886,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel13.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="materialLabel14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1027,7 +898,7 @@
     <value>NoControl</value>
   </data>
   <data name="materialLabel14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 450</value>
+    <value>300, 496</value>
   </data>
   <data name="materialLabel14.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 19</value>
@@ -1048,6 +919,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;materialLabel14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="materialRaisedButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>532, 508</value>
+  </data>
+  <data name="materialRaisedButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 38</value>
+  </data>
+  <data name="materialRaisedButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="materialRaisedButton1.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Name" xml:space="preserve">
+    <value>materialRaisedButton1</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialRaisedButton, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;materialRaisedButton1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -1060,7 +955,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>620, 618</value>
+    <value>777, 602</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
