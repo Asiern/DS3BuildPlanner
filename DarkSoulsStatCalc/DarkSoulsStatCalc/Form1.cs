@@ -196,7 +196,6 @@ namespace DarkSoulsStatCalc
             List<armor> headList = new List<armor>();
 
             string path = System.IO.Path.GetFullPath("head.csv");
-            List<Ring> RingList = new List<Ring>();
 
             using (StreamReader reader = new StreamReader(path)) // Used to read file data
             {
@@ -227,6 +226,55 @@ namespace DarkSoulsStatCalc
             armor1.SelectedItem = null;
         }
 
+        public void LoadChest()
+        {
+            List<armor> chestList = new List<armor>();
+
+            string path = System.IO.Path.GetFullPath("chest.csv");
+
+            using (StreamReader reader = new StreamReader(path)) // Used to read file data
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+
+                    // Split the line by the tab so that both columns are separated
+                    string[] values = line.Split(',');
+
+                    // set the properties of the item and parse the value string to float
+                    string name = values[0];
+                    float P = float.Parse(values[1], System.Globalization.CultureInfo.InvariantCulture);
+                    float ST = float.Parse(values[2], System.Globalization.CultureInfo.InvariantCulture);
+                    float SL = float.Parse(values[3], System.Globalization.CultureInfo.InvariantCulture);
+                    float TH = float.Parse(values[4], System.Globalization.CultureInfo.InvariantCulture);
+                    float M = float.Parse(values[5], System.Globalization.CultureInfo.InvariantCulture);
+                    float F = float.Parse(values[6], System.Globalization.CultureInfo.InvariantCulture);
+                    float L = float.Parse(values[7], System.Globalization.CultureInfo.InvariantCulture);
+                    float D = float.Parse(values[8], System.Globalization.CultureInfo.InvariantCulture);
+                    float BI = float.Parse(values[9], System.Globalization.CultureInfo.InvariantCulture);
+                    float PO = float.Parse(values[10], System.Globalization.CultureInfo.InvariantCulture);
+                    float FR = float.Parse(values[11], System.Globalization.CultureInfo.InvariantCulture);
+                    float CU = float.Parse(values[12], System.Globalization.CultureInfo.InvariantCulture);
+                    float PS = float.Parse(values[13], System.Globalization.CultureInfo.InvariantCulture);
+                    float weight = float.Parse(values[14], System.Globalization.CultureInfo.InvariantCulture);
+                    float PSW = float.Parse(values[15], System.Globalization.CultureInfo.InvariantCulture);
+
+                    //Weapon
+                    armor chest = new armor();
+                    chest.Name = name;
+                    chest.Weight = weight;
+                    chestList.Add(chest);
+                }
+            }
+
+
+            //chest
+            armor2.DataSource = chestList;
+            armor2.DisplayMember = "Name";
+            armor2.ValueMember = "Weight";
+            armor2.SelectedItem = null;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             //Search for updates
@@ -247,6 +295,7 @@ namespace DarkSoulsStatCalc
             LoadRings();
             LoadWeapons();
             LoadHead();
+            LoadChest();
 
         }
 
@@ -323,6 +372,34 @@ namespace DarkSoulsStatCalc
             {
                 weapon weapon6 = Rweapon3.SelectedItem as weapon;
                 weight = weight + weapon6.Weight;
+            }
+
+            //Head
+            if (armor1.SelectedItem != null)
+            {
+                armor head = armor1.SelectedItem as armor;
+                weight = weight + head.Weight;
+            }
+
+            //Chest
+            if (armor2.SelectedItem != null)
+            {
+                armor chest = armor2.SelectedItem as armor;
+                weight = weight + chest.Weight;
+            }
+
+            //Hands
+            if (armor3.SelectedItem != null)
+            {
+                armor hands = armor3.SelectedItem as armor;
+                weight = weight + hands.Weight;
+            }
+
+            //Legs
+            if (armor4.SelectedItem != null)
+            {
+                armor legs = armor4.SelectedItem as armor;
+                weight = weight + legs.Weight;
             }
 
             return weight;
@@ -433,7 +510,9 @@ namespace DarkSoulsStatCalc
 
         private void materialFlatButton1_Click(object sender, EventArgs e)
         {
-            vitcalc();
+
+           Vitlbl.Text = Weightsum().ToString();
+
         }
     }
 }
