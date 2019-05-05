@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
@@ -62,36 +61,39 @@
             this.Lweapon3 = new System.Windows.Forms.ComboBox();
             this.Rweapon2 = new System.Windows.Forms.ComboBox();
             this.Rweapon3 = new System.Windows.Forms.ComboBox();
-            this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
-            this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton3 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton4 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialRaisedButton5 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton6 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton7 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown2 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown3 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown4 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown5 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown6 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown7 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown8 = new System.Windows.Forms.DomainUpDown();
-            this.domainUpDown9 = new System.Windows.Forms.DomainUpDown();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel15 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.domainUpDown9 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown8 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown7 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown6 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown5 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown4 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown3 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown2 = new System.Windows.Forms.DomainUpDown();
+            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
+            this.souls = new MaterialSkin.Controls.MaterialLabel();
+            this.clvlinput = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.materialRaisedButton7 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton6 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton5 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialRaisedButton4 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton3 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
+            this.materialRaisedButton8 = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.tlvlinput = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -111,6 +113,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.White;
             this.tabPage1.Controls.Add(this.materialRaisedButton1);
             this.tabPage1.Controls.Add(this.materialLabel14);
             this.tabPage1.Controls.Add(this.materialLabel13);
@@ -143,33 +146,6 @@
             this.tabPage1.Controls.Add(this.Rweapon3);
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.materialLabel23);
-            this.tabPage2.Controls.Add(this.materialLabel22);
-            this.tabPage2.Controls.Add(this.materialLabel21);
-            this.tabPage2.Controls.Add(this.materialLabel20);
-            this.tabPage2.Controls.Add(this.materialLabel18);
-            this.tabPage2.Controls.Add(this.materialLabel17);
-            this.tabPage2.Controls.Add(this.materialLabel16);
-            this.tabPage2.Controls.Add(this.materialLabel15);
-            this.tabPage2.Controls.Add(this.materialLabel8);
-            this.tabPage2.Controls.Add(this.domainUpDown9);
-            this.tabPage2.Controls.Add(this.domainUpDown8);
-            this.tabPage2.Controls.Add(this.domainUpDown7);
-            this.tabPage2.Controls.Add(this.domainUpDown6);
-            this.tabPage2.Controls.Add(this.domainUpDown5);
-            this.tabPage2.Controls.Add(this.domainUpDown4);
-            this.tabPage2.Controls.Add(this.domainUpDown3);
-            this.tabPage2.Controls.Add(this.domainUpDown2);
-            this.tabPage2.Controls.Add(this.domainUpDown1);
-            this.tabPage2.Controls.Add(this.materialLabel4);
-            this.tabPage2.Controls.Add(this.materialSingleLineTextField1);
-            resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // materialRaisedButton1
             // 
@@ -411,125 +387,145 @@
             this.Rweapon3.Name = "Rweapon3";
             this.Rweapon3.SelectedIndexChanged += new System.EventHandler(this.Lweapon1_SelectedIndexChanged);
             // 
-            // materialTabSelector1
+            // tabPage2
             // 
-            this.materialTabSelector1.BaseTabControl = this.materialTabControl1;
-            this.materialTabSelector1.Depth = 0;
-            resources.ApplyResources(this.materialTabSelector1, "materialTabSelector1");
-            this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialTabSelector1.Name = "materialTabSelector1";
-            this.materialTabSelector1.Click += new System.EventHandler(this.materialTabSelector1_Click);
+            this.tabPage2.BackColor = System.Drawing.Color.White;
+            this.tabPage2.Controls.Add(this.tlvlinput);
+            this.tabPage2.Controls.Add(this.materialRaisedButton8);
+            this.tabPage2.Controls.Add(this.materialLabel23);
+            this.tabPage2.Controls.Add(this.materialLabel22);
+            this.tabPage2.Controls.Add(this.materialLabel21);
+            this.tabPage2.Controls.Add(this.materialLabel20);
+            this.tabPage2.Controls.Add(this.materialLabel18);
+            this.tabPage2.Controls.Add(this.materialLabel17);
+            this.tabPage2.Controls.Add(this.materialLabel16);
+            this.tabPage2.Controls.Add(this.materialLabel15);
+            this.tabPage2.Controls.Add(this.materialLabel8);
+            this.tabPage2.Controls.Add(this.domainUpDown9);
+            this.tabPage2.Controls.Add(this.domainUpDown8);
+            this.tabPage2.Controls.Add(this.domainUpDown7);
+            this.tabPage2.Controls.Add(this.domainUpDown6);
+            this.tabPage2.Controls.Add(this.domainUpDown5);
+            this.tabPage2.Controls.Add(this.domainUpDown4);
+            this.tabPage2.Controls.Add(this.domainUpDown3);
+            this.tabPage2.Controls.Add(this.domainUpDown2);
+            this.tabPage2.Controls.Add(this.domainUpDown1);
+            this.tabPage2.Controls.Add(this.souls);
+            this.tabPage2.Controls.Add(this.clvlinput);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
             // 
-            // tabPage3
+            // materialLabel23
             // 
-            this.tabPage3.Controls.Add(this.materialRaisedButton7);
-            this.tabPage3.Controls.Add(this.materialRaisedButton6);
-            this.tabPage3.Controls.Add(this.materialRaisedButton5);
-            this.tabPage3.Controls.Add(this.materialLabel19);
-            this.tabPage3.Controls.Add(this.materialRaisedButton4);
-            this.tabPage3.Controls.Add(this.materialRaisedButton3);
-            this.tabPage3.Controls.Add(this.materialRaisedButton2);
-            this.tabPage3.Controls.Add(this.materialLabel6);
-            resources.ApplyResources(this.tabPage3, "tabPage3");
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.materialLabel23, "materialLabel23");
+            this.materialLabel23.Depth = 0;
+            this.materialLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel23.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel23.Name = "materialLabel23";
             // 
-            // materialSingleLineTextField1
+            // materialLabel22
             // 
-            this.materialSingleLineTextField1.Depth = 0;
-            this.materialSingleLineTextField1.Hint = "";
-            resources.ApplyResources(this.materialSingleLineTextField1, "materialSingleLineTextField1");
-            this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.PasswordChar = '\0';
-            this.materialSingleLineTextField1.SelectedText = "";
-            this.materialSingleLineTextField1.SelectionLength = 0;
-            this.materialSingleLineTextField1.SelectionStart = 0;
-            this.materialSingleLineTextField1.UseSystemPasswordChar = false;
+            resources.ApplyResources(this.materialLabel22, "materialLabel22");
+            this.materialLabel22.Depth = 0;
+            this.materialLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel22.Name = "materialLabel22";
             // 
-            // materialLabel4
+            // materialLabel21
             // 
-            resources.ApplyResources(this.materialLabel4, "materialLabel4");
-            this.materialLabel4.Depth = 0;
-            this.materialLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel4.Name = "materialLabel4";
+            resources.ApplyResources(this.materialLabel21, "materialLabel21");
+            this.materialLabel21.Depth = 0;
+            this.materialLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel21.Name = "materialLabel21";
             // 
-            // materialLabel6
+            // materialLabel20
             // 
-            resources.ApplyResources(this.materialLabel6, "materialLabel6");
-            this.materialLabel6.Depth = 0;
-            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel6.Name = "materialLabel6";
+            resources.ApplyResources(this.materialLabel20, "materialLabel20");
+            this.materialLabel20.Depth = 0;
+            this.materialLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel20.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel20.Name = "materialLabel20";
             // 
-            // materialRaisedButton2
+            // materialLabel18
             // 
-            this.materialRaisedButton2.Depth = 0;
-            resources.ApplyResources(this.materialRaisedButton2, "materialRaisedButton2");
-            this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton2.Name = "materialRaisedButton2";
-            this.materialRaisedButton2.Primary = true;
-            this.materialRaisedButton2.UseVisualStyleBackColor = true;
-            this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
+            resources.ApplyResources(this.materialLabel18, "materialLabel18");
+            this.materialLabel18.Depth = 0;
+            this.materialLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel18.Name = "materialLabel18";
             // 
-            // materialRaisedButton3
+            // materialLabel17
             // 
-            this.materialRaisedButton3.Depth = 0;
-            resources.ApplyResources(this.materialRaisedButton3, "materialRaisedButton3");
-            this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton3.Name = "materialRaisedButton3";
-            this.materialRaisedButton3.Primary = true;
-            this.materialRaisedButton3.UseVisualStyleBackColor = true;
-            this.materialRaisedButton3.Click += new System.EventHandler(this.materialRaisedButton3_Click);
+            resources.ApplyResources(this.materialLabel17, "materialLabel17");
+            this.materialLabel17.Depth = 0;
+            this.materialLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel17.Name = "materialLabel17";
             // 
-            // materialRaisedButton4
+            // materialLabel16
             // 
-            this.materialRaisedButton4.Depth = 0;
-            resources.ApplyResources(this.materialRaisedButton4, "materialRaisedButton4");
-            this.materialRaisedButton4.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton4.Name = "materialRaisedButton4";
-            this.materialRaisedButton4.Primary = true;
-            this.materialRaisedButton4.UseVisualStyleBackColor = true;
-            this.materialRaisedButton4.Click += new System.EventHandler(this.materialRaisedButton4_Click);
+            resources.ApplyResources(this.materialLabel16, "materialLabel16");
+            this.materialLabel16.Depth = 0;
+            this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel16.Name = "materialLabel16";
             // 
-            // materialLabel19
+            // materialLabel15
             // 
-            resources.ApplyResources(this.materialLabel19, "materialLabel19");
-            this.materialLabel19.Depth = 0;
-            this.materialLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel19.Name = "materialLabel19";
+            resources.ApplyResources(this.materialLabel15, "materialLabel15");
+            this.materialLabel15.Depth = 0;
+            this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel15.Name = "materialLabel15";
             // 
-            // materialRaisedButton5
+            // materialLabel8
             // 
-            this.materialRaisedButton5.Depth = 0;
-            resources.ApplyResources(this.materialRaisedButton5, "materialRaisedButton5");
-            this.materialRaisedButton5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton5.Name = "materialRaisedButton5";
-            this.materialRaisedButton5.Primary = true;
-            this.materialRaisedButton5.UseVisualStyleBackColor = true;
-            this.materialRaisedButton5.Click += new System.EventHandler(this.materialRaisedButton5_Click);
+            resources.ApplyResources(this.materialLabel8, "materialLabel8");
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
             // 
-            // materialRaisedButton6
+            // domainUpDown9
             // 
-            this.materialRaisedButton6.Depth = 0;
-            resources.ApplyResources(this.materialRaisedButton6, "materialRaisedButton6");
-            this.materialRaisedButton6.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton6.Name = "materialRaisedButton6";
-            this.materialRaisedButton6.Primary = true;
-            this.materialRaisedButton6.UseVisualStyleBackColor = true;
-            this.materialRaisedButton6.Click += new System.EventHandler(this.materialRaisedButton6_Click);
+            resources.ApplyResources(this.domainUpDown9, "domainUpDown9");
+            this.domainUpDown9.Name = "domainUpDown9";
             // 
-            // materialRaisedButton7
+            // domainUpDown8
             // 
-            this.materialRaisedButton7.Depth = 0;
-            resources.ApplyResources(this.materialRaisedButton7, "materialRaisedButton7");
-            this.materialRaisedButton7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton7.Name = "materialRaisedButton7";
-            this.materialRaisedButton7.Primary = true;
-            this.materialRaisedButton7.UseVisualStyleBackColor = true;
-            this.materialRaisedButton7.Click += new System.EventHandler(this.materialRaisedButton7_Click);
+            resources.ApplyResources(this.domainUpDown8, "domainUpDown8");
+            this.domainUpDown8.Name = "domainUpDown8";
+            // 
+            // domainUpDown7
+            // 
+            resources.ApplyResources(this.domainUpDown7, "domainUpDown7");
+            this.domainUpDown7.Name = "domainUpDown7";
+            // 
+            // domainUpDown6
+            // 
+            resources.ApplyResources(this.domainUpDown6, "domainUpDown6");
+            this.domainUpDown6.Name = "domainUpDown6";
+            // 
+            // domainUpDown5
+            // 
+            resources.ApplyResources(this.domainUpDown5, "domainUpDown5");
+            this.domainUpDown5.Name = "domainUpDown5";
+            // 
+            // domainUpDown4
+            // 
+            resources.ApplyResources(this.domainUpDown4, "domainUpDown4");
+            this.domainUpDown4.Name = "domainUpDown4";
+            // 
+            // domainUpDown3
+            // 
+            resources.ApplyResources(this.domainUpDown3, "domainUpDown3");
+            this.domainUpDown3.Name = "domainUpDown3";
+            // 
+            // domainUpDown2
+            // 
+            resources.ApplyResources(this.domainUpDown2, "domainUpDown2");
+            this.domainUpDown2.Name = "domainUpDown2";
             // 
             // domainUpDown1
             // 
@@ -627,117 +623,148 @@
             resources.ApplyResources(this.domainUpDown1, "domainUpDown1");
             this.domainUpDown1.Name = "domainUpDown1";
             // 
-            // domainUpDown2
+            // souls
             // 
-            resources.ApplyResources(this.domainUpDown2, "domainUpDown2");
-            this.domainUpDown2.Name = "domainUpDown2";
+            resources.ApplyResources(this.souls, "souls");
+            this.souls.Depth = 0;
+            this.souls.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.souls.MouseState = MaterialSkin.MouseState.HOVER;
+            this.souls.Name = "souls";
             // 
-            // domainUpDown3
+            // clvlinput
             // 
-            resources.ApplyResources(this.domainUpDown3, "domainUpDown3");
-            this.domainUpDown3.Name = "domainUpDown3";
+            this.clvlinput.Depth = 0;
+            this.clvlinput.Hint = "";
+            resources.ApplyResources(this.clvlinput, "clvlinput");
+            this.clvlinput.MouseState = MaterialSkin.MouseState.HOVER;
+            this.clvlinput.Name = "clvlinput";
+            this.clvlinput.PasswordChar = '\0';
+            this.clvlinput.SelectedText = "";
+            this.clvlinput.SelectionLength = 0;
+            this.clvlinput.SelectionStart = 0;
+            this.clvlinput.UseSystemPasswordChar = false;
             // 
-            // domainUpDown4
+            // tabPage3
             // 
-            resources.ApplyResources(this.domainUpDown4, "domainUpDown4");
-            this.domainUpDown4.Name = "domainUpDown4";
+            this.tabPage3.BackColor = System.Drawing.Color.White;
+            this.tabPage3.Controls.Add(this.materialRaisedButton7);
+            this.tabPage3.Controls.Add(this.materialRaisedButton6);
+            this.tabPage3.Controls.Add(this.materialRaisedButton5);
+            this.tabPage3.Controls.Add(this.materialLabel19);
+            this.tabPage3.Controls.Add(this.materialRaisedButton4);
+            this.tabPage3.Controls.Add(this.materialRaisedButton3);
+            this.tabPage3.Controls.Add(this.materialRaisedButton2);
+            this.tabPage3.Controls.Add(this.materialLabel6);
+            resources.ApplyResources(this.tabPage3, "tabPage3");
+            this.tabPage3.Name = "tabPage3";
             // 
-            // domainUpDown5
+            // materialRaisedButton7
             // 
-            resources.ApplyResources(this.domainUpDown5, "domainUpDown5");
-            this.domainUpDown5.Name = "domainUpDown5";
+            this.materialRaisedButton7.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton7, "materialRaisedButton7");
+            this.materialRaisedButton7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton7.Name = "materialRaisedButton7";
+            this.materialRaisedButton7.Primary = true;
+            this.materialRaisedButton7.UseVisualStyleBackColor = true;
+            this.materialRaisedButton7.Click += new System.EventHandler(this.materialRaisedButton7_Click);
             // 
-            // domainUpDown6
+            // materialRaisedButton6
             // 
-            resources.ApplyResources(this.domainUpDown6, "domainUpDown6");
-            this.domainUpDown6.Name = "domainUpDown6";
+            this.materialRaisedButton6.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton6, "materialRaisedButton6");
+            this.materialRaisedButton6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton6.Name = "materialRaisedButton6";
+            this.materialRaisedButton6.Primary = true;
+            this.materialRaisedButton6.UseVisualStyleBackColor = true;
+            this.materialRaisedButton6.Click += new System.EventHandler(this.materialRaisedButton6_Click);
             // 
-            // domainUpDown7
+            // materialRaisedButton5
             // 
-            resources.ApplyResources(this.domainUpDown7, "domainUpDown7");
-            this.domainUpDown7.Name = "domainUpDown7";
+            this.materialRaisedButton5.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton5, "materialRaisedButton5");
+            this.materialRaisedButton5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton5.Name = "materialRaisedButton5";
+            this.materialRaisedButton5.Primary = true;
+            this.materialRaisedButton5.UseVisualStyleBackColor = true;
+            this.materialRaisedButton5.Click += new System.EventHandler(this.materialRaisedButton5_Click);
             // 
-            // domainUpDown8
+            // materialLabel19
             // 
-            resources.ApplyResources(this.domainUpDown8, "domainUpDown8");
-            this.domainUpDown8.Name = "domainUpDown8";
+            resources.ApplyResources(this.materialLabel19, "materialLabel19");
+            this.materialLabel19.Depth = 0;
+            this.materialLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel19.Name = "materialLabel19";
             // 
-            // domainUpDown9
+            // materialRaisedButton4
             // 
-            resources.ApplyResources(this.domainUpDown9, "domainUpDown9");
-            this.domainUpDown9.Name = "domainUpDown9";
+            this.materialRaisedButton4.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton4, "materialRaisedButton4");
+            this.materialRaisedButton4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton4.Name = "materialRaisedButton4";
+            this.materialRaisedButton4.Primary = true;
+            this.materialRaisedButton4.UseVisualStyleBackColor = true;
+            this.materialRaisedButton4.Click += new System.EventHandler(this.materialRaisedButton4_Click);
             // 
-            // materialLabel8
+            // materialRaisedButton3
             // 
-            resources.ApplyResources(this.materialLabel8, "materialLabel8");
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
+            this.materialRaisedButton3.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton3, "materialRaisedButton3");
+            this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton3.Name = "materialRaisedButton3";
+            this.materialRaisedButton3.Primary = true;
+            this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            this.materialRaisedButton3.Click += new System.EventHandler(this.materialRaisedButton3_Click);
             // 
-            // materialLabel15
+            // materialRaisedButton2
             // 
-            resources.ApplyResources(this.materialLabel15, "materialLabel15");
-            this.materialLabel15.Depth = 0;
-            this.materialLabel15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel15.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel15.Name = "materialLabel15";
+            this.materialRaisedButton2.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton2, "materialRaisedButton2");
+            this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton2.Name = "materialRaisedButton2";
+            this.materialRaisedButton2.Primary = true;
+            this.materialRaisedButton2.UseVisualStyleBackColor = true;
+            this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
             // 
-            // materialLabel16
+            // materialLabel6
             // 
-            resources.ApplyResources(this.materialLabel16, "materialLabel16");
-            this.materialLabel16.Depth = 0;
-            this.materialLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel16.Name = "materialLabel16";
+            resources.ApplyResources(this.materialLabel6, "materialLabel6");
+            this.materialLabel6.Depth = 0;
+            this.materialLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel6.Name = "materialLabel6";
             // 
-            // materialLabel17
+            // materialTabSelector1
             // 
-            resources.ApplyResources(this.materialLabel17, "materialLabel17");
-            this.materialLabel17.Depth = 0;
-            this.materialLabel17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel17.Name = "materialLabel17";
+            this.materialTabSelector1.BaseTabControl = this.materialTabControl1;
+            this.materialTabSelector1.Depth = 0;
+            resources.ApplyResources(this.materialTabSelector1, "materialTabSelector1");
+            this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialTabSelector1.Name = "materialTabSelector1";
+            this.materialTabSelector1.Click += new System.EventHandler(this.materialTabSelector1_Click);
             // 
-            // materialLabel18
+            // materialRaisedButton8
             // 
-            resources.ApplyResources(this.materialLabel18, "materialLabel18");
-            this.materialLabel18.Depth = 0;
-            this.materialLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel18.Name = "materialLabel18";
+            this.materialRaisedButton8.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton8, "materialRaisedButton8");
+            this.materialRaisedButton8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton8.Name = "materialRaisedButton8";
+            this.materialRaisedButton8.Primary = true;
+            this.materialRaisedButton8.UseVisualStyleBackColor = true;
+            this.materialRaisedButton8.Click += new System.EventHandler(this.materialRaisedButton8_Click);
             // 
-            // materialLabel20
+            // tlvlinput
             // 
-            resources.ApplyResources(this.materialLabel20, "materialLabel20");
-            this.materialLabel20.Depth = 0;
-            this.materialLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel20.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel20.Name = "materialLabel20";
-            // 
-            // materialLabel21
-            // 
-            resources.ApplyResources(this.materialLabel21, "materialLabel21");
-            this.materialLabel21.Depth = 0;
-            this.materialLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel21.Name = "materialLabel21";
-            // 
-            // materialLabel22
-            // 
-            resources.ApplyResources(this.materialLabel22, "materialLabel22");
-            this.materialLabel22.Depth = 0;
-            this.materialLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel22.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel22.Name = "materialLabel22";
-            // 
-            // materialLabel23
-            // 
-            resources.ApplyResources(this.materialLabel23, "materialLabel23");
-            this.materialLabel23.Depth = 0;
-            this.materialLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel23.Name = "materialLabel23";
+            this.tlvlinput.Depth = 0;
+            this.tlvlinput.Hint = "";
+            resources.ApplyResources(this.tlvlinput, "tlvlinput");
+            this.tlvlinput.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tlvlinput.Name = "tlvlinput";
+            this.tlvlinput.PasswordChar = '\0';
+            this.tlvlinput.SelectedText = "";
+            this.tlvlinput.SelectionLength = 0;
+            this.tlvlinput.SelectionStart = 0;
+            this.tlvlinput.UseSystemPasswordChar = false;
             // 
             // Form1
             // 
@@ -798,8 +825,8 @@
         private System.Windows.Forms.TabPage tabPage2;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
         private System.Windows.Forms.TabPage tabPage3;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel4;
+        private MaterialSkin.Controls.MaterialSingleLineTextField clvlinput;
+        private MaterialSkin.Controls.MaterialLabel souls;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton4;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton3;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton2;
@@ -826,6 +853,8 @@
         private System.Windows.Forms.DomainUpDown domainUpDown4;
         private System.Windows.Forms.DomainUpDown domainUpDown3;
         private System.Windows.Forms.DomainUpDown domainUpDown2;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton8;
+        private MaterialSkin.Controls.MaterialSingleLineTextField tlvlinput;
     }
 }
 
