@@ -643,16 +643,56 @@ namespace DarkSoulsStatCalc
             Vitlbl.Text = vitlvl[cont].ToString();
          }
 
-        private void materialFlatButton1_Click(object sender, EventArgs e)
+        private void materialTabSelector1_Click(object sender, EventArgs e)
         {
-
-           Vitlbl.Text = Weightsum().ToString();
 
         }
 
-        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        private void materialRaisedButton1_Click_1(object sender, EventArgs e)
         {
             Vitlbl.Text = Weightsum().ToString();
         }
+
+        private void Lweapon1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            vitcalc();
+        }
+
+        private void Fastrb_CheckedChanged(object sender, EventArgs e)
+        {
+            vitcalc();
+        }
+
+        private void materialLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //LINKS
+        private void materialRaisedButton5_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator");
+        }
+        private void materialRaisedButton6_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator/releases");
+        }
+        private void materialRaisedButton7_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator#users-guide");
+        }
+        private void materialRaisedButton2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen");
+        }
+        private void materialRaisedButton3_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/IkerGalardi");
+        }
+        private void materialRaisedButton4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/bytxampi");
+        }
+        //LINKS
     }
 }
