@@ -62,6 +62,8 @@
             this.Rweapon2 = new System.Windows.Forms.ComboBox();
             this.Rweapon3 = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tlvlinput = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.materialRaisedButton8 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel23 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel22 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
@@ -92,8 +94,6 @@
             this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
-            this.materialRaisedButton8 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.tlvlinput = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -414,6 +414,29 @@
             this.tabPage2.Controls.Add(this.clvlinput);
             resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
+            // 
+            // tlvlinput
+            // 
+            this.tlvlinput.Depth = 0;
+            this.tlvlinput.Hint = "";
+            resources.ApplyResources(this.tlvlinput, "tlvlinput");
+            this.tlvlinput.MouseState = MaterialSkin.MouseState.HOVER;
+            this.tlvlinput.Name = "tlvlinput";
+            this.tlvlinput.PasswordChar = '\0';
+            this.tlvlinput.SelectedText = "";
+            this.tlvlinput.SelectionLength = 0;
+            this.tlvlinput.SelectionStart = 0;
+            this.tlvlinput.UseSystemPasswordChar = false;
+            // 
+            // materialRaisedButton8
+            // 
+            this.materialRaisedButton8.Depth = 0;
+            resources.ApplyResources(this.materialRaisedButton8, "materialRaisedButton8");
+            this.materialRaisedButton8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton8.Name = "materialRaisedButton8";
+            this.materialRaisedButton8.Primary = true;
+            this.materialRaisedButton8.UseVisualStyleBackColor = true;
+            this.materialRaisedButton8.Click += new System.EventHandler(this.materialRaisedButton8_Click);
             // 
             // materialLabel23
             // 
@@ -742,29 +765,6 @@
             this.materialTabSelector1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabSelector1.Name = "materialTabSelector1";
             this.materialTabSelector1.Click += new System.EventHandler(this.materialTabSelector1_Click);
-            // 
-            // materialRaisedButton8
-            // 
-            this.materialRaisedButton8.Depth = 0;
-            resources.ApplyResources(this.materialRaisedButton8, "materialRaisedButton8");
-            this.materialRaisedButton8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton8.Name = "materialRaisedButton8";
-            this.materialRaisedButton8.Primary = true;
-            this.materialRaisedButton8.UseVisualStyleBackColor = true;
-            this.materialRaisedButton8.Click += new System.EventHandler(this.materialRaisedButton8_Click);
-            // 
-            // tlvlinput
-            // 
-            this.tlvlinput.Depth = 0;
-            this.tlvlinput.Hint = "";
-            resources.ApplyResources(this.tlvlinput, "tlvlinput");
-            this.tlvlinput.MouseState = MaterialSkin.MouseState.HOVER;
-            this.tlvlinput.Name = "tlvlinput";
-            this.tlvlinput.PasswordChar = '\0';
-            this.tlvlinput.SelectedText = "";
-            this.tlvlinput.SelectionLength = 0;
-            this.tlvlinput.SelectionStart = 0;
-            this.tlvlinput.UseSystemPasswordChar = false;
             // 
             // Form1
             // 
