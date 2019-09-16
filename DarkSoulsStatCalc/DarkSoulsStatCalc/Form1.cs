@@ -365,7 +365,7 @@ namespace DarkSoulsStatCalc
             {
                 if (MessageBox.Show("Update available", "DSIIIStatCalcUpdater", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator/releases");
+                    System.Diagnostics.Process.Start("https://github.com/Asiern/DarkSoulsStatCalculator/releases");
                 }
                 else
                 {
@@ -660,19 +660,19 @@ namespace DarkSoulsStatCalc
         //LINKS
         private void materialRaisedButton5_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator");
+            System.Diagnostics.Process.Start("https://github.com/Asiern/DarkSoulsStatCalculator");
         }
         private void materialRaisedButton6_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator/releases");
+            System.Diagnostics.Process.Start("https://github.com/Asiern/DarkSoulsStatCalculator/releases");
         }
         private void materialRaisedButton7_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen/DarkSoulsStatCalculator#users-guide");
+            System.Diagnostics.Process.Start("https://github.com/Asiern/DarkSoulsStatCalculator#users-guide");
         }
         private void materialRaisedButton2_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/PapaElGunmen");
+            System.Diagnostics.Process.Start("https://github.com/Asiern");
         }
         private void materialRaisedButton3_Click(object sender, EventArgs e)
         {
