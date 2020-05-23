@@ -149,8 +149,9 @@
             // 
             // materialRaisedButton1
             // 
-            this.materialRaisedButton1.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton1, "materialRaisedButton1");
+            this.materialRaisedButton1.Depth = 0;
+            this.materialRaisedButton1.Icon = null;
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
@@ -420,18 +421,21 @@
             this.tlvlinput.Depth = 0;
             this.tlvlinput.Hint = "";
             resources.ApplyResources(this.tlvlinput, "tlvlinput");
+            this.tlvlinput.MaxLength = 32767;
             this.tlvlinput.MouseState = MaterialSkin.MouseState.HOVER;
             this.tlvlinput.Name = "tlvlinput";
             this.tlvlinput.PasswordChar = '\0';
             this.tlvlinput.SelectedText = "";
             this.tlvlinput.SelectionLength = 0;
             this.tlvlinput.SelectionStart = 0;
+            this.tlvlinput.TabStop = false;
             this.tlvlinput.UseSystemPasswordChar = false;
             // 
             // materialRaisedButton8
             // 
-            this.materialRaisedButton8.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton8, "materialRaisedButton8");
+            this.materialRaisedButton8.Depth = 0;
+            this.materialRaisedButton8.Icon = null;
             this.materialRaisedButton8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton8.Name = "materialRaisedButton8";
             this.materialRaisedButton8.Primary = true;
@@ -659,12 +663,14 @@
             this.clvlinput.Depth = 0;
             this.clvlinput.Hint = "";
             resources.ApplyResources(this.clvlinput, "clvlinput");
+            this.clvlinput.MaxLength = 32767;
             this.clvlinput.MouseState = MaterialSkin.MouseState.HOVER;
             this.clvlinput.Name = "clvlinput";
             this.clvlinput.PasswordChar = '\0';
             this.clvlinput.SelectedText = "";
             this.clvlinput.SelectionLength = 0;
             this.clvlinput.SelectionStart = 0;
+            this.clvlinput.TabStop = false;
             this.clvlinput.UseSystemPasswordChar = false;
             // 
             // tabPage3
@@ -683,8 +689,9 @@
             // 
             // materialRaisedButton7
             // 
-            this.materialRaisedButton7.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton7, "materialRaisedButton7");
+            this.materialRaisedButton7.Depth = 0;
+            this.materialRaisedButton7.Icon = null;
             this.materialRaisedButton7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton7.Name = "materialRaisedButton7";
             this.materialRaisedButton7.Primary = true;
@@ -693,8 +700,9 @@
             // 
             // materialRaisedButton6
             // 
-            this.materialRaisedButton6.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton6, "materialRaisedButton6");
+            this.materialRaisedButton6.Depth = 0;
+            this.materialRaisedButton6.Icon = null;
             this.materialRaisedButton6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton6.Name = "materialRaisedButton6";
             this.materialRaisedButton6.Primary = true;
@@ -703,8 +711,9 @@
             // 
             // materialRaisedButton5
             // 
-            this.materialRaisedButton5.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton5, "materialRaisedButton5");
+            this.materialRaisedButton5.Depth = 0;
+            this.materialRaisedButton5.Icon = null;
             this.materialRaisedButton5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton5.Name = "materialRaisedButton5";
             this.materialRaisedButton5.Primary = true;
@@ -721,8 +730,9 @@
             // 
             // materialRaisedButton4
             // 
-            this.materialRaisedButton4.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton4, "materialRaisedButton4");
+            this.materialRaisedButton4.Depth = 0;
+            this.materialRaisedButton4.Icon = null;
             this.materialRaisedButton4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton4.Name = "materialRaisedButton4";
             this.materialRaisedButton4.Primary = true;
@@ -731,8 +741,9 @@
             // 
             // materialRaisedButton3
             // 
-            this.materialRaisedButton3.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton3, "materialRaisedButton3");
+            this.materialRaisedButton3.Depth = 0;
+            this.materialRaisedButton3.Icon = null;
             this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton3.Name = "materialRaisedButton3";
             this.materialRaisedButton3.Primary = true;
@@ -741,8 +752,9 @@
             // 
             // materialRaisedButton2
             // 
-            this.materialRaisedButton2.Depth = 0;
             resources.ApplyResources(this.materialRaisedButton2, "materialRaisedButton2");
+            this.materialRaisedButton2.Depth = 0;
+            this.materialRaisedButton2.Icon = null;
             this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton2.Name = "materialRaisedButton2";
             this.materialRaisedButton2.Primary = true;
