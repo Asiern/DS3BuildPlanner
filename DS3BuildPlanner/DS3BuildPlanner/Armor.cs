@@ -22,6 +22,10 @@ namespace DS3BuildPlanner
         private float Weight;
         private float PoiseWeightRatio;
 
+        public Armor()
+        {
+
+        }
         public Armor(string name, float physicalAbsortion, float magicAbsortion, float fireAbsortion, float lightningAbsortion, float darkAbsortion, int bleedResistance, int poisonResistance, int frostResistance, int curseResistance, float poise, float weight, float poiseWeightRatio)
         {
             this.name = name;
@@ -38,5 +42,7 @@ namespace DS3BuildPlanner
             Weight = weight;
             PoiseWeightRatio = poiseWeightRatio;
         }
+
+        public String Name { get { return name; } set { name = value; } }
     }
 }

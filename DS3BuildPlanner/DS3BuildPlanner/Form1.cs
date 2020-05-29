@@ -16,6 +16,7 @@ namespace DS3BuildPlanner
     public partial class Form1 : MaterialForm
     {
         private readonly MaterialSkinManager materialSkinManager;
+        List<Armor> chestList = new List<Armor>();
         public Form1()
         {
             InitializeComponent();
@@ -99,7 +100,7 @@ namespace DS3BuildPlanner
         //TESTING
         private void test()
         {
-            List<Armor> chestList = new List<Armor>();
+            
 
             string path = System.IO.Path.GetFullPath("chest.csv");
 
@@ -131,22 +132,26 @@ namespace DS3BuildPlanner
                     float poiseWeightRatio = float.Parse(values[15], System.Globalization.CultureInfo.InvariantCulture);
 
                     //Weapon
-                    Armor chest = new Armor(name, physicalAbsortion, magicAbsortion, fireAbsortion, lightningAbsortion, darkAbsortion, bleedResistance, poisonResistance, 
-                        frostResistance, curseResistance, poise, weight, poiseWeightRatio);
+                    /*Armor chest = new Armor(name, physicalAbsortion, magicAbsortion, fireAbsortion, lightningAbsortion, darkAbsortion, bleedResistance, poisonResistance, 
+                        frostResistance, curseResistance, poise, weight, poiseWeightRatio);*/
+                    Armor chest = new Armor();
+                    chest.Name = name;
                     chestList.Add(chest);
                 }
             }
 
 
 
-            var bindingSource1 = new BindingSource();
-            bindingSource1.DataSource = chestList;
             //chest
-            testcb.DataSource = bindingSource1.DataSource;
-            testcb.DisplayMember = "name";
-            //testcb.ValueMember = weight;
-            testcb.SelectedItem = null;
-            testcb.SelectedIndex = 0;
+            comboBox1.DataSource = chestList;
+            comboBox1.DisplayMember = "name";
+            comboBox1.SelectedItem = null;
+            comboBox1.SelectedIndex = 0;
+        }
+
+        private void materialButton2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
