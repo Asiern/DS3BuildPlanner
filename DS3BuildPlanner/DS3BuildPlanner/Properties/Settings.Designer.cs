@@ -34,5 +34,72 @@ namespace DS3BuildPlanner.Properties {
                 this["colorSchemeIndex"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::MaterialSkin.Accent ThemeAccent {
+            get {
+                return ((global::MaterialSkin.Accent)(this["ThemeAccent"]));
+            }
+            set {
+                this["ThemeAccent"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::MaterialSkin.Primary ThemePrimary1 {
+            get {
+                return ((global::MaterialSkin.Primary)(this["ThemePrimary1"]));
+            }
+            set {
+                this["ThemePrimary1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::MaterialSkin.Primary ThemePrimary2 {
+            get {
+                return ((global::MaterialSkin.Primary)(this["ThemePrimary2"]));
+            }
+            set {
+                this["ThemePrimary2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::MaterialSkin.Primary ThemePrimary3 {
+            get {
+                return ((global::MaterialSkin.Primary)(this["ThemePrimary3"]));
+            }
+            set {
+                this["ThemePrimary3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::MaterialSkin.TextShade ThemeTextShade {
+            get {
+                return ((global::MaterialSkin.TextShade)(this["ThemeTextShade"]));
+            }
+            set {
+                this["ThemeTextShade"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Theme {
+            get {
+                return ((string)(this["Theme"]));
+            }
+            set {
+                this["Theme"] = value;
+            }
+        }
     }
 }

@@ -24,77 +24,35 @@ namespace DS3BuildPlanner
             materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
-            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
+
+            if (Properties.Settings.Default.ThemePrimary1 == null)
+            {
+                Properties.Settings.Default.ThemePrimary1 = Primary.Green600;
+                Properties.Settings.Default.ThemePrimary2 = Primary.Green700;
+                Properties.Settings.Default.ThemePrimary3 = Primary.Green200;
+                Properties.Settings.Default.ThemeAccent = Accent.Red100;
+                Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
+                Properties.Settings.Default.Save();
+            }
+            loadTheme();
 
             test();
-            seedListView(chestList[1]);
+            //seedListView(chestList[1]);
 
         }
-
-        //THEME
-        private void updateColor()
-        {
-            switch (Properties.Settings.Default.colorSchemeIndex)
-            {
-                case 0:
-                    materialSkinManager.ColorScheme = new ColorScheme(
-                        materialSkinManager.Theme == MaterialSkinManager.Themes.DARK ? Primary.Teal500 : Primary.Indigo500,
-                        materialSkinManager.Theme == MaterialSkinManager.Themes.DARK ? Primary.Teal700 : Primary.Indigo700,
-                        materialSkinManager.Theme == MaterialSkinManager.Themes.DARK ? Primary.Teal200 : Primary.Indigo100,
-                        Accent.Pink200,
-                        TextShade.WHITE);
-                    break;
-
-                case 1:
-                    materialSkinManager.ColorScheme = new ColorScheme(
-                        Primary.Green600,
-                        Primary.Green700,
-                        Primary.Green200,
-                        Accent.Red100,
-                        TextShade.WHITE);
-                    break;
-
-                case 2:
-                    materialSkinManager.ColorScheme = new ColorScheme(
-                        Primary.BlueGrey800,
-                        Primary.BlueGrey900,
-                        Primary.BlueGrey500,
-                        Accent.LightBlue200,
-                        TextShade.WHITE);
-                    break;
-            }
-            Invalidate();
-        }
+        
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void tabPage5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialComboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialButton1_Click(object sender, EventArgs e)
-        {
-            updateColor();
-        }
-
-        private void materialComboBox1_TabIndexChanged(object sender, EventArgs e)
-        {
-            Properties.Settings.Default.colorSchemeIndex = materialComboBox1.SelectedIndex;
-        }
-
+        //DARK MODE
         private void materialSwitch1_CheckedChanged(object sender, EventArgs e)
         {
-            if (!materialSwitch1.Checked) { materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT; }
-            else { materialSkinManager.Theme = MaterialSkinManager.Themes.DARK; }
+            if (!materialSwitch1.Checked) { Properties.Settings.Default.Theme = "LIGHT"; }
+            else { Properties.Settings.Default.Theme = "DARK"; }
+            Properties.Settings.Default.Save();
+            loadTheme();
             
         }
 
@@ -150,11 +108,6 @@ namespace DS3BuildPlanner
             comboBox1.SelectedIndex = 0;
         }
 
-        private void materialButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void seedListView(Armor a)
         {
             //Armor to String
@@ -172,5 +125,71 @@ namespace DS3BuildPlanner
             }
         }
 
+        private void materialComboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (materialComboBox2.SelectedIndex)
+            {
+                case 0:
+                    pictureBox1.Image = Image.FromFile("map/mp_firelink_shrine/mp_firelink_shrine.jpg");
+                    break;
+                case 1:
+                    pictureBox1.Image = Image.FromFile("map/mp_cemetery_of_ash/mp_cemetery_of_ash.jpg");
+                    break;
+            }
+        }
+        private void loadTheme()
+        {
+            materialSkinManager.ColorScheme = new ColorScheme(
+                        Properties.Settings.Default.ThemePrimary1,
+                        Properties.Settings.Default.ThemePrimary2,
+                        Properties.Settings.Default.ThemePrimary3,
+                        Properties.Settings.Default.ThemeAccent,
+                        Properties.Settings.Default.ThemeTextShade);
+            if (Properties.Settings.Default.Theme == "DARK")
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
+                materialSwitch1.Checked = true;
+            }
+            else
+            {
+                materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
+                materialSwitch1.Checked = false;
+            }
+        }
+        private void materialButton3_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.ThemePrimary1 = Primary.Green600;
+            Properties.Settings.Default.ThemePrimary2 = Primary.Green700;
+            Properties.Settings.Default.ThemePrimary3 = Primary.Green200;
+            Properties.Settings.Default.ThemeAccent = Accent.Red100;
+            Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
+            Properties.Settings.Default.Theme = "LIGHT";
+            Properties.Settings.Default.Save();
+            loadTheme();
+        }
+
+        private void materialButton4_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.ThemePrimary1 = Primary.Orange600;
+            Properties.Settings.Default.ThemePrimary2 = Primary.Orange700;
+            Properties.Settings.Default.ThemePrimary3 = Primary.Orange200;
+            Properties.Settings.Default.ThemeAccent = Accent.Blue100;
+            Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
+            Properties.Settings.Default.Theme = "DARK";
+            Properties.Settings.Default.Save();
+            loadTheme();
+        }
+
+        private void materialButton5_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.ThemePrimary1 = Primary.Green600;
+            Properties.Settings.Default.ThemePrimary2 = Primary.Green700;
+            Properties.Settings.Default.ThemePrimary3 = Primary.Green200;
+            Properties.Settings.Default.ThemeAccent = Accent.Red100;
+            Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
+            Properties.Settings.Default.Theme = "DARK";
+            Properties.Settings.Default.Save();
+            loadTheme();
+        }
     }
 }

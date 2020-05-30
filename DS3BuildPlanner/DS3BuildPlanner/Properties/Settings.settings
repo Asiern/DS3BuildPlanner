@@ -1,9 +1,27 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DS3BuldPlanner.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DS3BuildPlanner.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
     <Setting Name="colorSchemeIndex" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ThemeAccent" Type="MaterialSkin.Accent" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThemePrimary1" Type="MaterialSkin.Primary" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThemePrimary2" Type="MaterialSkin.Primary" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThemePrimary3" Type="MaterialSkin.Primary" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ThemeTextShade" Type="MaterialSkin.TextShade" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Theme" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>
