@@ -27,5 +27,23 @@ namespace DS3BuildPlanner
             get { return weight; }
             set { weight = value; } 
         }
+
+        //Equals method override
+        public override bool Equals(Object obj)
+        {
+            var item = obj as Item;
+
+            if (item == null)
+            {
+                return false;
+            }
+
+            return this.name.Equals(item.name);
+        }
+
+        public override int GetHashCode()
+        {
+            return this.name.GetHashCode();
+        }
     }
 }
