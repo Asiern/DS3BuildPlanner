@@ -17,6 +17,7 @@ namespace DS3BuildPlanner
     {
         private readonly MaterialSkinManager materialSkinManager;
         List<Armor> chestList = new List<Armor>();
+        souls s = souls.getInstance();
         public Form1()
         {
             InitializeComponent();
@@ -25,15 +26,15 @@ namespace DS3BuildPlanner
             materialSkinManager.EnforceBackcolorOnAllComponents = true;
             materialSkinManager.AddFormToManage(this);
 
-            if (Properties.Settings.Default.ThemePrimary1 == null)
-            {
+            //if (Properties.Settings.Default.ThemePrimary1 == null)
+            //{
                 Properties.Settings.Default.ThemePrimary1 = Primary.Green600;
                 Properties.Settings.Default.ThemePrimary2 = Primary.Green700;
                 Properties.Settings.Default.ThemePrimary3 = Primary.Green200;
                 Properties.Settings.Default.ThemeAccent = Accent.Red100;
                 Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
                 Properties.Settings.Default.Save();
-            }
+            //}
             loadTheme();
 
             test();
@@ -190,6 +191,17 @@ namespace DS3BuildPlanner
             Properties.Settings.Default.Theme = "DARK";
             Properties.Settings.Default.Save();
             loadTheme();
+        }
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string souls = s.calculateSouls(int.Parse(materialTextBox1.Text), int.Parse(materialTextBox2.Text)).ToString();
+                //materialLabel3.Text = s.calculateSouls(15,23).ToString();
+                materialLabel3.Text = (souls+" souls will be needed to get from level "+ materialTextBox1.Text+" to level "+ materialTextBox2.Text);
+            }
+            catch(Exception ex) { MessageBox.Show(ex.Message); }
         }
     }
 }
