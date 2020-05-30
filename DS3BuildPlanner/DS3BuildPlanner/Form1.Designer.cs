@@ -763,7 +763,7 @@
             this.ClientSize = new System.Drawing.Size(952, 610);
             this.Controls.Add(this.materialTabControl2);
             this.DrawerTabControl = this.materialTabControl2;
-            this.Name = "Form1";
+            //this.Name = "Form1";
             this.Text = "DS3 Build Planner";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.materialTabControl1.ResumeLayout(false);
