@@ -28,6 +28,7 @@ namespace DS3BuildPlanner
             materialSkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
 
             test();
+            seedListView(chestList[1]);
 
         }
 
@@ -153,5 +154,23 @@ namespace DS3BuildPlanner
         {
 
         }
+
+        private void seedListView(Armor a)
+        {
+            //Armor to String
+            //Define
+            var data = new[]
+            {
+                new []{a.Name, a.PhysicalAbsortion.ToString(), a.MagicAbsortion.ToString(), a.FireAbsortion.ToString(), a.LightningAbsortion.ToString(), a.DarkAbsortion.ToString(), a.BleedResistance.ToString(), a.PoisonResistance.ToString(), a.FrostResistance.ToString(), a.CurseResistance.ToString(), a.Poise.ToString(), a.Weight.ToString(), a.PoiseWeightRatio.ToString() },
+            };
+
+            //Add
+            foreach (string[] version in data)
+            {
+                var item = new ListViewItem(version);
+                materialListView1.Items.Add(item);
+            }
+        }
+
     }
 }
