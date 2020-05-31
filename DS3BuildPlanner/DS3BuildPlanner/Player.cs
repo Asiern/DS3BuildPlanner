@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MaterialSkin.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,6 +62,7 @@ namespace DS3BuildPlanner
 
         }
 
+        //LOAD STARTING CLASS STATS
         public void setupPlayer(String startingClass)
         {
             if (this.startingClass != startingClass) this.startingClass = startingClass;
@@ -189,6 +191,11 @@ namespace DS3BuildPlanner
                     this.luck = 10;
                     break;
             }
+        }
+
+        public void showPlayer(MaterialListView v)
+        {
+
         }
     }
 }
