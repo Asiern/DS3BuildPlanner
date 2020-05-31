@@ -19,6 +19,7 @@ namespace DS3BuildPlanner
         List<Armor> chestList = new List<Armor>();
         souls s = souls.getInstance();
         Updater u = new Updater();
+        Player p = new Player();
         public Form1()
         {
             InitializeComponent();
