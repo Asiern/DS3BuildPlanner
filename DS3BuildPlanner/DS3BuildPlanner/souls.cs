@@ -130,6 +130,7 @@ namespace DS3BuildPlanner
               22639520, 22704806, 22770217, 22835753, 22901415, 22967203, 23033116, 23099156, 23165321, 23231613 };
         }
 
+        //TODO: Cap max level at 802
         public int calculateSouls(int current, int target)
         {
             //Adjust to list index
