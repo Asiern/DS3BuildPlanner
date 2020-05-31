@@ -18,6 +18,7 @@ namespace DS3BuildPlanner
         private readonly MaterialSkinManager materialSkinManager;
         List<Armor> chestList = new List<Armor>();
         souls s = souls.getInstance();
+        Updater u = new Updater();
         public Form1()
         {
             InitializeComponent();
@@ -36,6 +37,9 @@ namespace DS3BuildPlanner
                 Properties.Settings.Default.Save();
             //}
             loadTheme();
+
+            //Search for updates
+            u.update();
 
             test();
             //seedListView(chestList[1]);
@@ -202,6 +206,11 @@ namespace DS3BuildPlanner
                 materialLabel3.Text = (souls+" souls will be needed to get from level "+ materialTextBox1.Text+" to level "+ materialTextBox2.Text);
             }
             catch(Exception ex) { MessageBox.Show(ex.Message); }
+        }
+
+        private void materialButton6_Click(object sender, EventArgs e)
+        {
+            materialLabel3.Text = s.exponential(int.Parse(materialTextBox1.Text)).ToString();
         }
     }
 }
