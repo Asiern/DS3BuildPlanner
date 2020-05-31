@@ -37,6 +37,7 @@
             this.FastRollbtn = new MaterialSkin.Controls.MaterialRadioButton();
             this.calculatebtn = new MaterialSkin.Controls.MaterialButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -82,6 +83,16 @@
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
             this.materialSwitch1 = new MaterialSkin.Controls.MaterialSwitch();
             this.about = new System.Windows.Forms.TabPage();
+            this.materialCard5 = new MaterialSkin.Controls.MaterialCard();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialCard4 = new MaterialSkin.Controls.MaterialCard();
+            this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -96,6 +107,10 @@
             this.materialCard3.SuspendLayout();
             this.materialCard2.SuspendLayout();
             this.materialCard1.SuspendLayout();
+            this.about.SuspendLayout();
+            this.materialCard5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.materialCard4.SuspendLayout();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -223,6 +238,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.materialButton6);
             this.tabPage2.Controls.Add(this.materialLabel6);
             this.tabPage2.Controls.Add(this.materialLabel5);
             this.tabPage2.Controls.Add(this.materialLabel4);
@@ -237,6 +253,25 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Souls";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // materialButton6
+            // 
+            this.materialButton6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton6.Depth = 0;
+            this.materialButton6.DrawShadows = true;
+            this.materialButton6.HighEmphasis = true;
+            this.materialButton6.Icon = null;
+            this.materialButton6.Location = new System.Drawing.Point(833, 344);
+            this.materialButton6.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton6.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton6.Name = "materialButton6";
+            this.materialButton6.Size = new System.Drawing.Size(48, 36);
+            this.materialButton6.TabIndex = 7;
+            this.materialButton6.Text = "exp";
+            this.materialButton6.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton6.UseAccentColor = false;
+            this.materialButton6.UseVisualStyleBackColor = true;
+            this.materialButton6.Click += new System.EventHandler(this.materialButton6_Click);
             // 
             // materialLabel6
             // 
@@ -748,6 +783,8 @@
             // 
             // about
             // 
+            this.about.Controls.Add(this.materialCard5);
+            this.about.Controls.Add(this.materialCard4);
             this.about.Location = new System.Drawing.Point(4, 22);
             this.about.Name = "about";
             this.about.Padding = new System.Windows.Forms.Padding(3);
@@ -755,6 +792,152 @@
             this.about.TabIndex = 1;
             this.about.Text = "About";
             this.about.UseVisualStyleBackColor = true;
+            // 
+            // materialCard5
+            // 
+            this.materialCard5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard5.Controls.Add(this.materialButton9);
+            this.materialCard5.Controls.Add(this.materialButton8);
+            this.materialCard5.Controls.Add(this.pictureBox2);
+            this.materialCard5.Controls.Add(this.materialLabel10);
+            this.materialCard5.Depth = 0;
+            this.materialCard5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard5.Location = new System.Drawing.Point(506, 92);
+            this.materialCard5.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard5.Name = "materialCard5";
+            this.materialCard5.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard5.Size = new System.Drawing.Size(229, 299);
+            this.materialCard5.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::DS3BuildPlanner.Properties.Resources.logo;
+            this.pictureBox2.Location = new System.Drawing.Point(64, 79);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // materialLabel10
+            // 
+            this.materialLabel10.AutoSize = true;
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel10.Location = new System.Drawing.Point(91, 57);
+            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel10.Name = "materialLabel10";
+            this.materialLabel10.Size = new System.Drawing.Size(45, 19);
+            this.materialLabel10.TabIndex = 0;
+            this.materialLabel10.Text = "Asiern";
+            // 
+            // materialCard4
+            // 
+            this.materialCard4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard4.Controls.Add(this.materialButton7);
+            this.materialCard4.Controls.Add(this.materialLabel9);
+            this.materialCard4.Controls.Add(this.materialLabel8);
+            this.materialCard4.Controls.Add(this.materialLabel7);
+            this.materialCard4.Depth = 0;
+            this.materialCard4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard4.Location = new System.Drawing.Point(120, 92);
+            this.materialCard4.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard4.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard4.Name = "materialCard4";
+            this.materialCard4.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard4.Size = new System.Drawing.Size(232, 300);
+            this.materialCard4.TabIndex = 0;
+            // 
+            // materialButton7
+            // 
+            this.materialButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton7.Depth = 0;
+            this.materialButton7.DrawShadows = true;
+            this.materialButton7.HighEmphasis = true;
+            this.materialButton7.Icon = null;
+            this.materialButton7.Location = new System.Drawing.Point(60, 245);
+            this.materialButton7.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton7.Name = "materialButton7";
+            this.materialButton7.Size = new System.Drawing.Size(116, 36);
+            this.materialButton7.TabIndex = 1;
+            this.materialButton7.Text = "View Source";
+            this.materialButton7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton7.UseAccentColor = false;
+            this.materialButton7.UseVisualStyleBackColor = true;
+            // 
+            // materialLabel9
+            // 
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel9.Location = new System.Drawing.Point(164, 132);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(23, 19);
+            this.materialLabel9.TabIndex = 2;
+            this.materialLabel9.Text = "1.0";
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel8.Location = new System.Drawing.Point(53, 132);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(105, 19);
+            this.materialLabel8.TabIndex = 1;
+            this.materialLabel8.Text = "CurrentVersion";
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel7.Location = new System.Drawing.Point(55, 57);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(129, 19);
+            this.materialLabel7.TabIndex = 0;
+            this.materialLabel7.Text = "DS3 Build Planner";
+            // 
+            // materialButton8
+            // 
+            this.materialButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton8.Depth = 0;
+            this.materialButton8.DrawShadows = true;
+            this.materialButton8.HighEmphasis = true;
+            this.materialButton8.Icon = null;
+            this.materialButton8.Location = new System.Drawing.Point(49, 245);
+            this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton8.Name = "materialButton8";
+            this.materialButton8.Size = new System.Drawing.Size(74, 36);
+            this.materialButton8.TabIndex = 2;
+            this.materialButton8.Text = "GitHub";
+            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton8.UseAccentColor = false;
+            this.materialButton8.UseVisualStyleBackColor = true;
+            // 
+            // materialButton9
+            // 
+            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton9.Depth = 0;
+            this.materialButton9.DrawShadows = true;
+            this.materialButton9.HighEmphasis = true;
+            this.materialButton9.Icon = null;
+            this.materialButton9.Location = new System.Drawing.Point(131, 245);
+            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton9.Name = "materialButton9";
+            this.materialButton9.Size = new System.Drawing.Size(52, 36);
+            this.materialButton9.TabIndex = 3;
+            this.materialButton9.Text = "Web";
+            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton9.UseAccentColor = false;
+            this.materialButton9.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -787,6 +970,12 @@
             this.materialCard2.PerformLayout();
             this.materialCard1.ResumeLayout(false);
             this.materialCard1.PerformLayout();
+            this.about.ResumeLayout(false);
+            this.materialCard5.ResumeLayout(false);
+            this.materialCard5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.materialCard4.ResumeLayout(false);
+            this.materialCard4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -847,6 +1036,17 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
+        private MaterialSkin.Controls.MaterialButton materialButton6;
+        private MaterialSkin.Controls.MaterialCard materialCard4;
+        private MaterialSkin.Controls.MaterialLabel materialLabel8;
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MaterialSkin.Controls.MaterialLabel materialLabel9;
+        private MaterialSkin.Controls.MaterialCard materialCard5;
+        private MaterialSkin.Controls.MaterialLabel materialLabel10;
+        private MaterialSkin.Controls.MaterialButton materialButton7;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private MaterialSkin.Controls.MaterialButton materialButton9;
+        private MaterialSkin.Controls.MaterialButton materialButton8;
     }
 }
 
