@@ -20,6 +20,7 @@ namespace DS3BuildPlanner
         souls s = souls.getInstance();
         Updater u = new Updater();
         Player p = new Player();
+        Equipment e = Equipment.getInstance();
         public Form1()
         {
             InitializeComponent();
@@ -44,6 +45,7 @@ namespace DS3BuildPlanner
 
             test();
             //seedListView(chestList[1]);
+
 
         }
         
@@ -167,7 +169,7 @@ namespace DS3BuildPlanner
             Properties.Settings.Default.ThemePrimary1 = Primary.Green600;
             Properties.Settings.Default.ThemePrimary2 = Primary.Green700;
             Properties.Settings.Default.ThemePrimary3 = Primary.Green200;
-            Properties.Settings.Default.ThemeAccent = Accent.Red100;
+            Properties.Settings.Default.ThemeAccent = Accent.Green700;
             Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
             Properties.Settings.Default.Theme = "LIGHT";
             Properties.Settings.Default.Save();
@@ -198,17 +200,6 @@ namespace DS3BuildPlanner
             loadTheme();
         }
 
-        private void materialButton1_Click(object sender, EventArgs e)
-        {
-            /*try
-            {
-               * string souls = s.calculateSouls(int.Parse(materialTextBox1.Text), int.Parse(materialTextBox2.Text)).ToString();
-                //materialLabel3.Text = s.calculateSouls(15,23).ToString();
-                materialLabel3.Text = (souls+" souls will be needed to get from level "+ materialTextBox1.Text+" to level "+ materialTextBox2.Text);
-            }
-            catch(Exception ex) { MessageBox.Show(ex.Message); }*/
-        }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             p.setupPlayer(comboBox1.Text);
@@ -217,30 +208,215 @@ namespace DS3BuildPlanner
 
         public void ShowPlayer()
         {
-            vigorbase.Text = p.getVigor().ToString();
-            attunementbase.Text = p.getAttunement().ToString();
-            endurancebase.Text = p.getEndurance().ToString();
-            vitalitybase.Text = p.getVitality().ToString();
-            strenghtbase.Text = p.getStrenght().ToString();
-            dexteritybase.Text = p.getDexterity().ToString();
-            intelligencebase.Text = p.getIntelligence().ToString();
-            faithbase.Text = p.getFaith().ToString();
-            luckbase.Text = p.getLuck().ToString();
+            vigorbase.Text = p.getbaseVigor().ToString();
+            attunementbase.Text = p.getbaseAttunement().ToString();
+            endurancebase.Text = p.getbaseEndurance().ToString();
+            vitalitybase.Text = p.getbaseVitality().ToString();
+            strenghtbase.Text = p.getbaseStrenght().ToString();
+            dexteritybase.Text = p.getbaseDexterity().ToString();
+            intelligencebase.Text = p.getbaseIntelligence().ToString();
+            faithbase.Text = p.getbaseFaith().ToString();
+            luckbase.Text = p.getbaseLuck().ToString();
             levelbtn.Text = p.getLevel().ToString();
+
+            vigor.Text = p.getVigor().ToString();
+            attunement.Text = p.getAttunement().ToString();
+            endurance.Text = p.getEndurance().ToString();
+            vitality.Text = p.getVitality().ToString();
+            strenght.Text = p.getStrenght().ToString();
+            dexterity.Text = p.getDexterity().ToString();
+            intelligence.Text = p.getIntelligence().ToString();
+            faith.Text = p.getFaith().ToString();
+            luck.Text = p.getLuck().ToString();
+            levelbtn.Text = p.getLevel().ToString();
+
+            calculateSouls();
         }
 
         private void addvigor_Click(object sender, EventArgs e)
         {
-            p.setVigor(p.getVigor() + 1);
-            p.setLevel(p.getLevel() + 1);
-            ShowPlayer();
+            if(p.getVigor() < 99)
+            {
+                p.setVigor(p.getVigor() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+                
+            }
         }
 
         private void subvigor_Click(object sender, EventArgs e)
         {
+            if(p.getVigor() > p.getbaseVigor()) { 
             p.setVigor(p.getVigor() - 1);
             p.setLevel(p.getLevel() - 1);
-            ShowPlayer();
+            ShowPlayer(); 
+            }
+        }
+
+        private void addattunement_Click(object sender, EventArgs e)
+        {
+            if (p.getAttunement() < 99)
+            {
+                p.setAttunement(p.getAttunement() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void subattunement_Click(object sender, EventArgs e)
+        {
+            if (p.getAttunement() > p.getbaseAttunement())
+            {
+                p.setAttunement(p.getAttunement() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        private void addendurance_Click(object sender, EventArgs e)
+        {
+            if (p.getEndurance() < 99)
+            {
+                p.setEndurance(p.getEndurance() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void subendurance_Click(object sender, EventArgs e)
+        {
+            if (p.getEndurance() > p.getbaseEndurance())
+            {
+                p.setEndurance(p.getEndurance() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        private void addvitality_Click(object sender, EventArgs e)
+        {
+            if (p.getVitality() < 99)
+            {
+                p.setVitality(p.getVitality() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void subvitality_Click(object sender, EventArgs e)
+        {
+            if (p.getVitality() > p.getbaseVitality())
+            {
+                p.setVitality(p.getVitality() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        private void addstrength_Click(object sender, EventArgs e)
+        {
+            if (p.getStrenght() < 99)
+            {
+                p.setStrenght(p.getStrenght() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void substrenght_Click(object sender, EventArgs e)
+        {
+            if (p.getStrenght() > p.getbaseStrenght())
+            {
+                p.setStrenght(p.getStrenght() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        private void adddexterity_Click(object sender, EventArgs e)
+        {
+            if (p.getDexterity() < 99)
+            {
+                p.setDexterity(p.getDexterity() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void subdexterity_Click(object sender, EventArgs e)
+        { 
+            if (p.getDexterity() > p.getbaseDexterity())
+            {
+                p.setDexterity(p.getDexterity() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        private void addintelligence_Click(object sender, EventArgs e)
+        {
+            if (p.getIntelligence() < 99)
+            {
+                p.setIntelligence(p.getIntelligence() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void subintelligence_Click(object sender, EventArgs e)
+        {
+            if (p.getIntelligence() > p.getbaseIntelligence())
+            {
+                p.setIntelligence(p.getIntelligence() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        private void addfaith_Click(object sender, EventArgs e)
+        {
+            if (p.getFaith() < 99)
+            {
+                p.setFaith(p.getFaith() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void subfaith_Click(object sender, EventArgs e)
+        {
+            if (p.getFaith() > p.getbaseFaith())
+            {
+                p.setFaith(p.getFaith() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        private void addluck_Click(object sender, EventArgs e)
+        {
+            if (p.getLuck() < 99)
+            {
+                p.setLuck(p.getLuck() + 1);
+                p.setLevel(p.getLevel() + 1);
+                ShowPlayer();
+            }
+        }
+
+        private void subluck_Click(object sender, EventArgs e)
+        {
+            if (p.getLuck() > p.getbaseLuck())
+            {
+                p.setLuck(p.getLuck() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
+            }
+        }
+
+        public void calculateSouls()
+        {
+            //nextSouls.Text = s.soulsToNextLevel(p.getLevel()).ToString();
+            totalSouls.Text = s.calculateSouls(p.getbaseLevel(),p.getLevel()).ToString();
         }
     }
 }
