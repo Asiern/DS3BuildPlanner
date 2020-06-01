@@ -56,6 +56,87 @@ namespace DS3BuildPlanner
         private int faith;
         private int luck;
 
+        //GETTERS
+        public int getVigor()
+        {
+            return this.vigor;
+        }
+        public int getAttunement()
+        {
+            return this.attunement;
+        }
+        public int getEndurance()
+        {
+            return this.endurance;
+        }
+        public int getVitality()
+        {
+            return this.vitality;
+        }
+        public int getStrenght()
+        {
+            return this.strenght;
+        }
+        public int getDexterity()
+        {
+            return this.dexterity;
+        }
+        public int getIntelligence()
+        {
+            return this.intelligence;
+        }
+        public int getFaith()
+        {
+            return this.faith;
+        }
+        public int getLuck()
+        {
+            return this.luck;
+        }
+        public int getLevel()
+        {
+            return this.level;
+        }
+
+        //SETTERS
+
+        public Player(string startingClass, int level, int souls, int hp, int fp, int stamina, float equipLoad, float poise, int itemDiscovery, int rWeapon1, int rWeapon2, int rWeapon3, int lWeapon1, int lWeapon2, int lWeapon3, int physicalDefense, int magicDefense, int fireDefense, int lightningDefense, int darkDefense, int bleedResistance, int poisonResistance, int frostResistance, int curseResistance, int attunementSlots, int vigor, int attunement, int endurance, int vitality, int strenght, int dexterity, int intelligence, int faith, int luck)
+        {
+            this.startingClass = startingClass;
+            this.level = level;
+            this.souls = souls;
+            this.hp = hp;
+            this.fp = fp;
+            this.stamina = stamina;
+            this.equipLoad = equipLoad;
+            this.poise = poise;
+            this.itemDiscovery = itemDiscovery;
+            this.rWeapon1 = rWeapon1;
+            this.rWeapon2 = rWeapon2;
+            this.rWeapon3 = rWeapon3;
+            this.lWeapon1 = lWeapon1;
+            this.lWeapon2 = lWeapon2;
+            this.lWeapon3 = lWeapon3;
+            this.physicalDefense = physicalDefense;
+            this.magicDefense = magicDefense;
+            this.fireDefense = fireDefense;
+            this.lightningDefense = lightningDefense;
+            this.darkDefense = darkDefense;
+            this.bleedResistance = bleedResistance;
+            this.poisonResistance = poisonResistance;
+            this.frostResistance = frostResistance;
+            this.curseResistance = curseResistance;
+            this.attunementSlots = attunementSlots;
+            this.vigor = vigor;
+            this.attunement = attunement;
+            this.endurance = endurance;
+            this.vitality = vitality;
+            this.strenght = strenght;
+            this.dexterity = dexterity;
+            this.intelligence = intelligence;
+            this.faith = faith;
+            this.luck = luck;
+        }
 
         public Player()
         {
@@ -193,9 +274,6 @@ namespace DS3BuildPlanner
             }
         }
 
-        public void showPlayer(MaterialListView v)
-        {
 
-        }
     }
 }
