@@ -228,5 +228,19 @@ namespace DS3BuildPlanner
             luckbase.Text = p.getLuck().ToString();
             levelbtn.Text = p.getLevel().ToString();
         }
+
+        private void addvigor_Click(object sender, EventArgs e)
+        {
+            p.setVigor(p.getVigor() + 1);
+            p.setLevel(p.getLevel() + 1);
+            ShowPlayer();
+        }
+
+        private void subvigor_Click(object sender, EventArgs e)
+        {
+            p.setVigor(p.getVigor() - 1);
+            p.setLevel(p.getLevel() - 1);
+            ShowPlayer();
+        }
     }
 }
