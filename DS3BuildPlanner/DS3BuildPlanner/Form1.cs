@@ -43,7 +43,10 @@ namespace DS3BuildPlanner
             //Search for updates
             u.update();
 
-            test();
+            //Class select Knight as Default
+            classcb.SelectedIndex = 0;
+
+            //test();
             //seedListView(chestList[1]);
 
 
@@ -202,7 +205,7 @@ namespace DS3BuildPlanner
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            p.setupPlayer(comboBox1.Text);
+            p.setupPlayer(classcb.Text);
             ShowPlayer();
         }
 
@@ -417,6 +420,16 @@ namespace DS3BuildPlanner
         {
             //nextSouls.Text = s.soulsToNextLevel(p.getLevel()).ToString();
             totalSouls.Text = s.calculateSouls(p.getbaseLevel(),p.getLevel()).ToString();
+        }
+
+        private void calculator_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void materialComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
