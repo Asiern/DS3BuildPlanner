@@ -31,6 +31,7 @@
         {
             this.materialTabControl2 = new MaterialSkin.Controls.MaterialTabControl();
             this.calculator = new System.Windows.Forms.TabPage();
+            this.WeaponCard = new MaterialSkin.Controls.MaterialCard();
             this.StatCard = new MaterialSkin.Controls.MaterialCard();
             this.RingCard = new MaterialSkin.Controls.MaterialCard();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
@@ -41,7 +42,6 @@
             this.materialLabel27 = new MaterialSkin.Controls.MaterialLabel();
             this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.materialLabel28 = new MaterialSkin.Controls.MaterialLabel();
-            this.WeaponCard = new MaterialSkin.Controls.MaterialCard();
             this.ArmorCard = new MaterialSkin.Controls.MaterialCard();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.materialLabel24 = new MaterialSkin.Controls.MaterialLabel();
@@ -57,15 +57,33 @@
             this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
             this.CharacterCard = new MaterialSkin.Controls.MaterialCard();
-            this.materialButton20 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton21 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton22 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton23 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton24 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton25 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton26 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton27 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton28 = new MaterialSkin.Controls.MaterialButton();
+            this.subfaith = new MaterialSkin.Controls.MaterialButton();
+            this.subluck = new MaterialSkin.Controls.MaterialButton();
+            this.subintelligence = new MaterialSkin.Controls.MaterialButton();
+            this.subdexterity = new MaterialSkin.Controls.MaterialButton();
+            this.substrenght = new MaterialSkin.Controls.MaterialButton();
+            this.subvitality = new MaterialSkin.Controls.MaterialButton();
+            this.subendurance = new MaterialSkin.Controls.MaterialButton();
+            this.subattunement = new MaterialSkin.Controls.MaterialButton();
+            this.subvigor = new MaterialSkin.Controls.MaterialButton();
+            this.addfaith = new MaterialSkin.Controls.MaterialButton();
+            this.addluck = new MaterialSkin.Controls.MaterialButton();
+            this.addintelligence = new MaterialSkin.Controls.MaterialButton();
+            this.adddexterity = new MaterialSkin.Controls.MaterialButton();
+            this.addstrength = new MaterialSkin.Controls.MaterialButton();
+            this.addvitality = new MaterialSkin.Controls.MaterialButton();
+            this.addendurance = new MaterialSkin.Controls.MaterialButton();
+            this.addattunement = new MaterialSkin.Controls.MaterialButton();
+            this.addvigor = new MaterialSkin.Controls.MaterialButton();
+            this.faith = new MaterialSkin.Controls.MaterialButton();
+            this.luck = new MaterialSkin.Controls.MaterialButton();
+            this.intelligence = new MaterialSkin.Controls.MaterialButton();
+            this.dexterity = new MaterialSkin.Controls.MaterialButton();
+            this.strenght = new MaterialSkin.Controls.MaterialButton();
+            this.vitality = new MaterialSkin.Controls.MaterialButton();
+            this.endurance = new MaterialSkin.Controls.MaterialButton();
+            this.attunement = new MaterialSkin.Controls.MaterialButton();
+            this.vigor = new MaterialSkin.Controls.MaterialButton();
             this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel16 = new MaterialSkin.Controls.MaterialLabel();
@@ -173,9 +191,9 @@
             // 
             // calculator
             // 
+            this.calculator.Controls.Add(this.WeaponCard);
             this.calculator.Controls.Add(this.StatCard);
             this.calculator.Controls.Add(this.RingCard);
-            this.calculator.Controls.Add(this.WeaponCard);
             this.calculator.Controls.Add(this.ArmorCard);
             this.calculator.Controls.Add(this.SoulsCard);
             this.calculator.Controls.Add(this.CharacterCard);
@@ -187,17 +205,30 @@
             this.calculator.Text = "Calculator";
             this.calculator.UseVisualStyleBackColor = true;
             // 
+            // WeaponCard
+            // 
+            this.WeaponCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.WeaponCard.Depth = 0;
+            this.WeaponCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.WeaponCard.Location = new System.Drawing.Point(469, 184);
+            this.WeaponCard.Margin = new System.Windows.Forms.Padding(14);
+            this.WeaponCard.MouseState = MaterialSkin.MouseState.HOVER;
+            this.WeaponCard.Name = "WeaponCard";
+            this.WeaponCard.Padding = new System.Windows.Forms.Padding(14);
+            this.WeaponCard.Size = new System.Drawing.Size(320, 262);
+            this.WeaponCard.TabIndex = 3;
+            // 
             // StatCard
             // 
             this.StatCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.StatCard.Depth = 0;
             this.StatCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.StatCard.Location = new System.Drawing.Point(905, 30);
+            this.StatCard.Location = new System.Drawing.Point(887, 30);
             this.StatCard.Margin = new System.Windows.Forms.Padding(14);
             this.StatCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.StatCard.Name = "StatCard";
             this.StatCard.Padding = new System.Windows.Forms.Padding(14);
-            this.StatCard.Size = new System.Drawing.Size(291, 473);
+            this.StatCard.Size = new System.Drawing.Size(326, 473);
             this.StatCard.TabIndex = 32;
             // 
             // RingCard
@@ -213,20 +244,20 @@
             this.RingCard.Controls.Add(this.materialLabel28);
             this.RingCard.Depth = 0;
             this.RingCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.RingCard.Location = new System.Drawing.Point(482, 459);
+            this.RingCard.Location = new System.Drawing.Point(469, 459);
             this.RingCard.Margin = new System.Windows.Forms.Padding(14);
             this.RingCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.RingCard.Name = "RingCard";
             this.RingCard.Padding = new System.Windows.Forms.Padding(14);
-            this.RingCard.Size = new System.Drawing.Size(291, 142);
+            this.RingCard.Size = new System.Drawing.Size(320, 142);
             this.RingCard.TabIndex = 31;
             // 
             // comboBox8
             // 
             this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(112, 101);
+            this.comboBox8.Location = new System.Drawing.Point(129, 99);
             this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(152, 21);
+            this.comboBox8.Size = new System.Drawing.Size(174, 21);
             this.comboBox8.TabIndex = 30;
             // 
             // materialLabel25
@@ -244,9 +275,9 @@
             // comboBox9
             // 
             this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(112, 74);
+            this.comboBox9.Location = new System.Drawing.Point(129, 74);
             this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(152, 21);
+            this.comboBox9.Size = new System.Drawing.Size(174, 21);
             this.comboBox9.TabIndex = 28;
             // 
             // materialLabel26
@@ -264,9 +295,9 @@
             // comboBox10
             // 
             this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(112, 47);
+            this.comboBox10.Location = new System.Drawing.Point(129, 47);
             this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(152, 21);
+            this.comboBox10.Size = new System.Drawing.Size(174, 21);
             this.comboBox10.TabIndex = 26;
             // 
             // materialLabel27
@@ -284,9 +315,9 @@
             // comboBox11
             // 
             this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(112, 20);
+            this.comboBox11.Location = new System.Drawing.Point(129, 20);
             this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(152, 21);
+            this.comboBox11.Size = new System.Drawing.Size(174, 21);
             this.comboBox11.TabIndex = 24;
             // 
             // materialLabel28
@@ -301,19 +332,6 @@
             this.materialLabel28.TabIndex = 23;
             this.materialLabel28.Text = "Ring Slot 1";
             // 
-            // WeaponCard
-            // 
-            this.WeaponCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.WeaponCard.Depth = 0;
-            this.WeaponCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.WeaponCard.Location = new System.Drawing.Point(482, 184);
-            this.WeaponCard.Margin = new System.Windows.Forms.Padding(14);
-            this.WeaponCard.MouseState = MaterialSkin.MouseState.HOVER;
-            this.WeaponCard.Name = "WeaponCard";
-            this.WeaponCard.Padding = new System.Windows.Forms.Padding(14);
-            this.WeaponCard.Size = new System.Drawing.Size(291, 262);
-            this.WeaponCard.TabIndex = 3;
-            // 
             // ArmorCard
             // 
             this.ArmorCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -327,20 +345,20 @@
             this.ArmorCard.Controls.Add(this.materialLabel21);
             this.ArmorCard.Depth = 0;
             this.ArmorCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.ArmorCard.Location = new System.Drawing.Point(482, 30);
+            this.ArmorCard.Location = new System.Drawing.Point(469, 29);
             this.ArmorCard.Margin = new System.Windows.Forms.Padding(14);
             this.ArmorCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.ArmorCard.Name = "ArmorCard";
             this.ArmorCard.Padding = new System.Windows.Forms.Padding(14);
-            this.ArmorCard.Size = new System.Drawing.Size(291, 142);
+            this.ArmorCard.Size = new System.Drawing.Size(320, 142);
             this.ArmorCard.TabIndex = 2;
             // 
             // comboBox7
             // 
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(101, 101);
+            this.comboBox7.Location = new System.Drawing.Point(129, 101);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(163, 21);
+            this.comboBox7.Size = new System.Drawing.Size(174, 21);
             this.comboBox7.TabIndex = 30;
             // 
             // materialLabel24
@@ -358,9 +376,9 @@
             // comboBox6
             // 
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(101, 74);
+            this.comboBox6.Location = new System.Drawing.Point(129, 74);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(163, 21);
+            this.comboBox6.Size = new System.Drawing.Size(174, 21);
             this.comboBox6.TabIndex = 28;
             // 
             // materialLabel23
@@ -378,9 +396,9 @@
             // comboBox5
             // 
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(101, 47);
+            this.comboBox5.Location = new System.Drawing.Point(129, 47);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(163, 21);
+            this.comboBox5.Size = new System.Drawing.Size(174, 21);
             this.comboBox5.TabIndex = 26;
             // 
             // materialLabel22
@@ -398,9 +416,9 @@
             // comboBox4
             // 
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(101, 20);
+            this.comboBox4.Location = new System.Drawing.Point(129, 20);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(163, 21);
+            this.comboBox4.Size = new System.Drawing.Size(174, 21);
             this.comboBox4.TabIndex = 24;
             // 
             // materialLabel21
@@ -424,12 +442,12 @@
             this.SoulsCard.Controls.Add(this.materialLabel19);
             this.SoulsCard.Depth = 0;
             this.SoulsCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.SoulsCard.Location = new System.Drawing.Point(905, 515);
+            this.SoulsCard.Location = new System.Drawing.Point(887, 515);
             this.SoulsCard.Margin = new System.Windows.Forms.Padding(14);
             this.SoulsCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.SoulsCard.Name = "SoulsCard";
             this.SoulsCard.Padding = new System.Windows.Forms.Padding(14);
-            this.SoulsCard.Size = new System.Drawing.Size(291, 86);
+            this.SoulsCard.Size = new System.Drawing.Size(326, 86);
             this.SoulsCard.TabIndex = 1;
             // 
             // materialButton10
@@ -495,15 +513,33 @@
             // CharacterCard
             // 
             this.CharacterCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.CharacterCard.Controls.Add(this.materialButton20);
-            this.CharacterCard.Controls.Add(this.materialButton21);
-            this.CharacterCard.Controls.Add(this.materialButton22);
-            this.CharacterCard.Controls.Add(this.materialButton23);
-            this.CharacterCard.Controls.Add(this.materialButton24);
-            this.CharacterCard.Controls.Add(this.materialButton25);
-            this.CharacterCard.Controls.Add(this.materialButton26);
-            this.CharacterCard.Controls.Add(this.materialButton27);
-            this.CharacterCard.Controls.Add(this.materialButton28);
+            this.CharacterCard.Controls.Add(this.subfaith);
+            this.CharacterCard.Controls.Add(this.subluck);
+            this.CharacterCard.Controls.Add(this.subintelligence);
+            this.CharacterCard.Controls.Add(this.subdexterity);
+            this.CharacterCard.Controls.Add(this.substrenght);
+            this.CharacterCard.Controls.Add(this.subvitality);
+            this.CharacterCard.Controls.Add(this.subendurance);
+            this.CharacterCard.Controls.Add(this.subattunement);
+            this.CharacterCard.Controls.Add(this.subvigor);
+            this.CharacterCard.Controls.Add(this.addfaith);
+            this.CharacterCard.Controls.Add(this.addluck);
+            this.CharacterCard.Controls.Add(this.addintelligence);
+            this.CharacterCard.Controls.Add(this.adddexterity);
+            this.CharacterCard.Controls.Add(this.addstrength);
+            this.CharacterCard.Controls.Add(this.addvitality);
+            this.CharacterCard.Controls.Add(this.addendurance);
+            this.CharacterCard.Controls.Add(this.addattunement);
+            this.CharacterCard.Controls.Add(this.addvigor);
+            this.CharacterCard.Controls.Add(this.faith);
+            this.CharacterCard.Controls.Add(this.luck);
+            this.CharacterCard.Controls.Add(this.intelligence);
+            this.CharacterCard.Controls.Add(this.dexterity);
+            this.CharacterCard.Controls.Add(this.strenght);
+            this.CharacterCard.Controls.Add(this.vitality);
+            this.CharacterCard.Controls.Add(this.endurance);
+            this.CharacterCard.Controls.Add(this.attunement);
+            this.CharacterCard.Controls.Add(this.vigor);
             this.CharacterCard.Controls.Add(this.materialLabel18);
             this.CharacterCard.Controls.Add(this.materialLabel17);
             this.CharacterCard.Controls.Add(this.materialLabel16);
@@ -530,184 +566,528 @@
             this.CharacterCard.Controls.Add(this.materialLabel3);
             this.CharacterCard.Depth = 0;
             this.CharacterCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.CharacterCard.Location = new System.Drawing.Point(58, 30);
+            this.CharacterCard.Location = new System.Drawing.Point(45, 29);
             this.CharacterCard.Margin = new System.Windows.Forms.Padding(14);
             this.CharacterCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.CharacterCard.Name = "CharacterCard";
             this.CharacterCard.Padding = new System.Windows.Forms.Padding(14);
-            this.CharacterCard.Size = new System.Drawing.Size(291, 571);
+            this.CharacterCard.Size = new System.Drawing.Size(318, 571);
             this.CharacterCard.TabIndex = 0;
             // 
-            // materialButton20
+            // subfaith
             // 
-            this.materialButton20.AutoSize = false;
-            this.materialButton20.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton20.Depth = 0;
-            this.materialButton20.DrawShadows = true;
-            this.materialButton20.HighEmphasis = true;
-            this.materialButton20.Icon = null;
-            this.materialButton20.Location = new System.Drawing.Point(167, 464);
-            this.materialButton20.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton20.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton20.Name = "materialButton20";
-            this.materialButton20.Size = new System.Drawing.Size(38, 36);
-            this.materialButton20.TabIndex = 47;
-            this.materialButton20.Text = "11";
-            this.materialButton20.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton20.UseAccentColor = false;
-            this.materialButton20.UseVisualStyleBackColor = true;
+            this.subfaith.AutoSize = false;
+            this.subfaith.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subfaith.Depth = 0;
+            this.subfaith.DrawShadows = true;
+            this.subfaith.HighEmphasis = true;
+            this.subfaith.Icon = null;
+            this.subfaith.Location = new System.Drawing.Point(251, 464);
+            this.subfaith.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subfaith.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subfaith.Name = "subfaith";
+            this.subfaith.Size = new System.Drawing.Size(38, 36);
+            this.subfaith.TabIndex = 65;
+            this.subfaith.Text = "-";
+            this.subfaith.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subfaith.UseAccentColor = false;
+            this.subfaith.UseVisualStyleBackColor = true;
             // 
-            // materialButton21
+            // subluck
             // 
-            this.materialButton21.AutoSize = false;
-            this.materialButton21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton21.Depth = 0;
-            this.materialButton21.DrawShadows = true;
-            this.materialButton21.HighEmphasis = true;
-            this.materialButton21.Icon = null;
-            this.materialButton21.Location = new System.Drawing.Point(167, 512);
-            this.materialButton21.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton21.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton21.Name = "materialButton21";
-            this.materialButton21.Size = new System.Drawing.Size(38, 36);
-            this.materialButton21.TabIndex = 46;
-            this.materialButton21.Text = "11";
-            this.materialButton21.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton21.UseAccentColor = false;
-            this.materialButton21.UseVisualStyleBackColor = true;
+            this.subluck.AutoSize = false;
+            this.subluck.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subluck.Depth = 0;
+            this.subluck.DrawShadows = true;
+            this.subluck.HighEmphasis = true;
+            this.subluck.Icon = null;
+            this.subluck.Location = new System.Drawing.Point(251, 515);
+            this.subluck.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subluck.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subluck.Name = "subluck";
+            this.subluck.Size = new System.Drawing.Size(38, 36);
+            this.subluck.TabIndex = 64;
+            this.subluck.Text = "-";
+            this.subluck.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subluck.UseAccentColor = false;
+            this.subluck.UseVisualStyleBackColor = true;
             // 
-            // materialButton22
+            // subintelligence
             // 
-            this.materialButton22.AutoSize = false;
-            this.materialButton22.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton22.Depth = 0;
-            this.materialButton22.DrawShadows = true;
-            this.materialButton22.HighEmphasis = true;
-            this.materialButton22.Icon = null;
-            this.materialButton22.Location = new System.Drawing.Point(167, 418);
-            this.materialButton22.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton22.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton22.Name = "materialButton22";
-            this.materialButton22.Size = new System.Drawing.Size(38, 36);
-            this.materialButton22.TabIndex = 45;
-            this.materialButton22.Text = "11";
-            this.materialButton22.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton22.UseAccentColor = false;
-            this.materialButton22.UseVisualStyleBackColor = true;
+            this.subintelligence.AutoSize = false;
+            this.subintelligence.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subintelligence.Depth = 0;
+            this.subintelligence.DrawShadows = true;
+            this.subintelligence.HighEmphasis = true;
+            this.subintelligence.Icon = null;
+            this.subintelligence.Location = new System.Drawing.Point(251, 416);
+            this.subintelligence.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subintelligence.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subintelligence.Name = "subintelligence";
+            this.subintelligence.Size = new System.Drawing.Size(38, 36);
+            this.subintelligence.TabIndex = 63;
+            this.subintelligence.Text = "-";
+            this.subintelligence.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subintelligence.UseAccentColor = false;
+            this.subintelligence.UseVisualStyleBackColor = true;
             // 
-            // materialButton23
+            // subdexterity
             // 
-            this.materialButton23.AutoSize = false;
-            this.materialButton23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton23.Depth = 0;
-            this.materialButton23.DrawShadows = true;
-            this.materialButton23.HighEmphasis = true;
-            this.materialButton23.Icon = null;
-            this.materialButton23.Location = new System.Drawing.Point(167, 370);
-            this.materialButton23.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton23.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton23.Name = "materialButton23";
-            this.materialButton23.Size = new System.Drawing.Size(38, 36);
-            this.materialButton23.TabIndex = 44;
-            this.materialButton23.Text = "11";
-            this.materialButton23.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton23.UseAccentColor = false;
-            this.materialButton23.UseVisualStyleBackColor = true;
+            this.subdexterity.AutoSize = false;
+            this.subdexterity.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subdexterity.Depth = 0;
+            this.subdexterity.DrawShadows = true;
+            this.subdexterity.HighEmphasis = true;
+            this.subdexterity.Icon = null;
+            this.subdexterity.Location = new System.Drawing.Point(251, 370);
+            this.subdexterity.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subdexterity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subdexterity.Name = "subdexterity";
+            this.subdexterity.Size = new System.Drawing.Size(38, 36);
+            this.subdexterity.TabIndex = 62;
+            this.subdexterity.Text = "-";
+            this.subdexterity.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subdexterity.UseAccentColor = false;
+            this.subdexterity.UseVisualStyleBackColor = true;
             // 
-            // materialButton24
+            // substrenght
             // 
-            this.materialButton24.AutoSize = false;
-            this.materialButton24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton24.Depth = 0;
-            this.materialButton24.DrawShadows = true;
-            this.materialButton24.HighEmphasis = true;
-            this.materialButton24.Icon = null;
-            this.materialButton24.Location = new System.Drawing.Point(167, 322);
-            this.materialButton24.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton24.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton24.Name = "materialButton24";
-            this.materialButton24.Size = new System.Drawing.Size(38, 36);
-            this.materialButton24.TabIndex = 43;
-            this.materialButton24.Text = "11";
-            this.materialButton24.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton24.UseAccentColor = false;
-            this.materialButton24.UseVisualStyleBackColor = true;
+            this.substrenght.AutoSize = false;
+            this.substrenght.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.substrenght.Depth = 0;
+            this.substrenght.DrawShadows = true;
+            this.substrenght.HighEmphasis = true;
+            this.substrenght.Icon = null;
+            this.substrenght.Location = new System.Drawing.Point(251, 322);
+            this.substrenght.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.substrenght.MouseState = MaterialSkin.MouseState.HOVER;
+            this.substrenght.Name = "substrenght";
+            this.substrenght.Size = new System.Drawing.Size(38, 36);
+            this.substrenght.TabIndex = 61;
+            this.substrenght.Text = "-";
+            this.substrenght.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.substrenght.UseAccentColor = false;
+            this.substrenght.UseVisualStyleBackColor = true;
             // 
-            // materialButton25
+            // subvitality
             // 
-            this.materialButton25.AutoSize = false;
-            this.materialButton25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton25.Depth = 0;
-            this.materialButton25.DrawShadows = true;
-            this.materialButton25.HighEmphasis = true;
-            this.materialButton25.Icon = null;
-            this.materialButton25.Location = new System.Drawing.Point(167, 274);
-            this.materialButton25.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton25.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton25.Name = "materialButton25";
-            this.materialButton25.Size = new System.Drawing.Size(38, 36);
-            this.materialButton25.TabIndex = 42;
-            this.materialButton25.Text = "11";
-            this.materialButton25.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton25.UseAccentColor = false;
-            this.materialButton25.UseVisualStyleBackColor = true;
+            this.subvitality.AutoSize = false;
+            this.subvitality.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subvitality.Depth = 0;
+            this.subvitality.DrawShadows = true;
+            this.subvitality.HighEmphasis = true;
+            this.subvitality.Icon = null;
+            this.subvitality.Location = new System.Drawing.Point(251, 274);
+            this.subvitality.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subvitality.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subvitality.Name = "subvitality";
+            this.subvitality.Size = new System.Drawing.Size(38, 36);
+            this.subvitality.TabIndex = 60;
+            this.subvitality.Text = "-";
+            this.subvitality.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subvitality.UseAccentColor = false;
+            this.subvitality.UseVisualStyleBackColor = true;
             // 
-            // materialButton26
+            // subendurance
             // 
-            this.materialButton26.AutoSize = false;
-            this.materialButton26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton26.Depth = 0;
-            this.materialButton26.DrawShadows = true;
-            this.materialButton26.HighEmphasis = true;
-            this.materialButton26.Icon = null;
-            this.materialButton26.Location = new System.Drawing.Point(167, 226);
-            this.materialButton26.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton26.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton26.Name = "materialButton26";
-            this.materialButton26.Size = new System.Drawing.Size(38, 36);
-            this.materialButton26.TabIndex = 41;
-            this.materialButton26.Text = "11";
-            this.materialButton26.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton26.UseAccentColor = false;
-            this.materialButton26.UseVisualStyleBackColor = true;
+            this.subendurance.AutoSize = false;
+            this.subendurance.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subendurance.Depth = 0;
+            this.subendurance.DrawShadows = true;
+            this.subendurance.HighEmphasis = true;
+            this.subendurance.Icon = null;
+            this.subendurance.Location = new System.Drawing.Point(251, 226);
+            this.subendurance.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subendurance.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subendurance.Name = "subendurance";
+            this.subendurance.Size = new System.Drawing.Size(38, 36);
+            this.subendurance.TabIndex = 59;
+            this.subendurance.Text = "-";
+            this.subendurance.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subendurance.UseAccentColor = false;
+            this.subendurance.UseVisualStyleBackColor = true;
             // 
-            // materialButton27
+            // subattunement
             // 
-            this.materialButton27.AutoSize = false;
-            this.materialButton27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton27.Depth = 0;
-            this.materialButton27.DrawShadows = true;
-            this.materialButton27.HighEmphasis = true;
-            this.materialButton27.Icon = null;
-            this.materialButton27.Location = new System.Drawing.Point(167, 178);
-            this.materialButton27.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton27.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton27.Name = "materialButton27";
-            this.materialButton27.Size = new System.Drawing.Size(38, 36);
-            this.materialButton27.TabIndex = 40;
-            this.materialButton27.Text = "11";
-            this.materialButton27.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton27.UseAccentColor = false;
-            this.materialButton27.UseVisualStyleBackColor = true;
+            this.subattunement.AutoSize = false;
+            this.subattunement.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subattunement.Depth = 0;
+            this.subattunement.DrawShadows = true;
+            this.subattunement.HighEmphasis = true;
+            this.subattunement.Icon = null;
+            this.subattunement.Location = new System.Drawing.Point(251, 178);
+            this.subattunement.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subattunement.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subattunement.Name = "subattunement";
+            this.subattunement.Size = new System.Drawing.Size(38, 36);
+            this.subattunement.TabIndex = 58;
+            this.subattunement.Text = "-";
+            this.subattunement.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subattunement.UseAccentColor = false;
+            this.subattunement.UseVisualStyleBackColor = true;
             // 
-            // materialButton28
+            // subvigor
             // 
-            this.materialButton28.AutoSize = false;
-            this.materialButton28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton28.Depth = 0;
-            this.materialButton28.DrawShadows = true;
-            this.materialButton28.HighEmphasis = true;
-            this.materialButton28.Icon = null;
-            this.materialButton28.Location = new System.Drawing.Point(167, 130);
-            this.materialButton28.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton28.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton28.Name = "materialButton28";
-            this.materialButton28.Size = new System.Drawing.Size(38, 36);
-            this.materialButton28.TabIndex = 39;
-            this.materialButton28.Text = "11";
-            this.materialButton28.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton28.UseAccentColor = false;
-            this.materialButton28.UseVisualStyleBackColor = true;
+            this.subvigor.AutoSize = false;
+            this.subvigor.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.subvigor.Depth = 0;
+            this.subvigor.DrawShadows = true;
+            this.subvigor.HighEmphasis = true;
+            this.subvigor.Icon = null;
+            this.subvigor.Location = new System.Drawing.Point(251, 130);
+            this.subvigor.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.subvigor.MouseState = MaterialSkin.MouseState.HOVER;
+            this.subvigor.Name = "subvigor";
+            this.subvigor.Size = new System.Drawing.Size(38, 36);
+            this.subvigor.TabIndex = 57;
+            this.subvigor.Text = "-";
+            this.subvigor.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.subvigor.UseAccentColor = false;
+            this.subvigor.UseVisualStyleBackColor = true;
+            this.subvigor.Click += new System.EventHandler(this.subvigor_Click);
+            // 
+            // addfaith
+            // 
+            this.addfaith.AutoSize = false;
+            this.addfaith.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addfaith.Depth = 0;
+            this.addfaith.DrawShadows = true;
+            this.addfaith.HighEmphasis = true;
+            this.addfaith.Icon = null;
+            this.addfaith.Location = new System.Drawing.Point(215, 464);
+            this.addfaith.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addfaith.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addfaith.Name = "addfaith";
+            this.addfaith.Size = new System.Drawing.Size(38, 36);
+            this.addfaith.TabIndex = 56;
+            this.addfaith.Text = "+";
+            this.addfaith.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addfaith.UseAccentColor = false;
+            this.addfaith.UseVisualStyleBackColor = true;
+            // 
+            // addluck
+            // 
+            this.addluck.AutoSize = false;
+            this.addluck.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addluck.Depth = 0;
+            this.addluck.DrawShadows = true;
+            this.addluck.HighEmphasis = true;
+            this.addluck.Icon = null;
+            this.addluck.Location = new System.Drawing.Point(215, 512);
+            this.addluck.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addluck.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addluck.Name = "addluck";
+            this.addluck.Size = new System.Drawing.Size(38, 36);
+            this.addluck.TabIndex = 55;
+            this.addluck.Text = "+";
+            this.addluck.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addluck.UseAccentColor = false;
+            this.addluck.UseVisualStyleBackColor = true;
+            // 
+            // addintelligence
+            // 
+            this.addintelligence.AutoSize = false;
+            this.addintelligence.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addintelligence.Depth = 0;
+            this.addintelligence.DrawShadows = true;
+            this.addintelligence.HighEmphasis = true;
+            this.addintelligence.Icon = null;
+            this.addintelligence.Location = new System.Drawing.Point(215, 418);
+            this.addintelligence.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addintelligence.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addintelligence.Name = "addintelligence";
+            this.addintelligence.Size = new System.Drawing.Size(38, 36);
+            this.addintelligence.TabIndex = 54;
+            this.addintelligence.Text = "+";
+            this.addintelligence.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addintelligence.UseAccentColor = false;
+            this.addintelligence.UseVisualStyleBackColor = true;
+            // 
+            // adddexterity
+            // 
+            this.adddexterity.AutoSize = false;
+            this.adddexterity.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.adddexterity.Depth = 0;
+            this.adddexterity.DrawShadows = true;
+            this.adddexterity.HighEmphasis = true;
+            this.adddexterity.Icon = null;
+            this.adddexterity.Location = new System.Drawing.Point(215, 370);
+            this.adddexterity.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.adddexterity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.adddexterity.Name = "adddexterity";
+            this.adddexterity.Size = new System.Drawing.Size(38, 36);
+            this.adddexterity.TabIndex = 53;
+            this.adddexterity.Text = "+";
+            this.adddexterity.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.adddexterity.UseAccentColor = false;
+            this.adddexterity.UseVisualStyleBackColor = true;
+            // 
+            // addstrength
+            // 
+            this.addstrength.AutoSize = false;
+            this.addstrength.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addstrength.Depth = 0;
+            this.addstrength.DrawShadows = true;
+            this.addstrength.HighEmphasis = true;
+            this.addstrength.Icon = null;
+            this.addstrength.Location = new System.Drawing.Point(215, 322);
+            this.addstrength.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addstrength.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addstrength.Name = "addstrength";
+            this.addstrength.Size = new System.Drawing.Size(38, 36);
+            this.addstrength.TabIndex = 52;
+            this.addstrength.Text = "+";
+            this.addstrength.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addstrength.UseAccentColor = false;
+            this.addstrength.UseVisualStyleBackColor = true;
+            // 
+            // addvitality
+            // 
+            this.addvitality.AutoSize = false;
+            this.addvitality.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addvitality.Depth = 0;
+            this.addvitality.DrawShadows = true;
+            this.addvitality.HighEmphasis = true;
+            this.addvitality.Icon = null;
+            this.addvitality.Location = new System.Drawing.Point(215, 274);
+            this.addvitality.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addvitality.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addvitality.Name = "addvitality";
+            this.addvitality.Size = new System.Drawing.Size(38, 36);
+            this.addvitality.TabIndex = 51;
+            this.addvitality.Text = "+";
+            this.addvitality.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addvitality.UseAccentColor = false;
+            this.addvitality.UseVisualStyleBackColor = true;
+            // 
+            // addendurance
+            // 
+            this.addendurance.AutoSize = false;
+            this.addendurance.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addendurance.Depth = 0;
+            this.addendurance.DrawShadows = true;
+            this.addendurance.HighEmphasis = true;
+            this.addendurance.Icon = null;
+            this.addendurance.Location = new System.Drawing.Point(215, 226);
+            this.addendurance.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addendurance.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addendurance.Name = "addendurance";
+            this.addendurance.Size = new System.Drawing.Size(38, 36);
+            this.addendurance.TabIndex = 50;
+            this.addendurance.Text = "+";
+            this.addendurance.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addendurance.UseAccentColor = false;
+            this.addendurance.UseVisualStyleBackColor = true;
+            // 
+            // addattunement
+            // 
+            this.addattunement.AutoSize = false;
+            this.addattunement.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addattunement.Depth = 0;
+            this.addattunement.DrawShadows = true;
+            this.addattunement.HighEmphasis = true;
+            this.addattunement.Icon = null;
+            this.addattunement.Location = new System.Drawing.Point(215, 178);
+            this.addattunement.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addattunement.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addattunement.Name = "addattunement";
+            this.addattunement.Size = new System.Drawing.Size(38, 36);
+            this.addattunement.TabIndex = 49;
+            this.addattunement.Text = "+";
+            this.addattunement.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addattunement.UseAccentColor = false;
+            this.addattunement.UseVisualStyleBackColor = true;
+            // 
+            // addvigor
+            // 
+            this.addvigor.AutoSize = false;
+            this.addvigor.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.addvigor.Depth = 0;
+            this.addvigor.DrawShadows = true;
+            this.addvigor.HighEmphasis = true;
+            this.addvigor.Icon = null;
+            this.addvigor.Location = new System.Drawing.Point(215, 130);
+            this.addvigor.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.addvigor.MouseState = MaterialSkin.MouseState.HOVER;
+            this.addvigor.Name = "addvigor";
+            this.addvigor.Size = new System.Drawing.Size(38, 36);
+            this.addvigor.TabIndex = 48;
+            this.addvigor.Text = "+";
+            this.addvigor.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Text;
+            this.addvigor.UseAccentColor = false;
+            this.addvigor.UseVisualStyleBackColor = true;
+            this.addvigor.Click += new System.EventHandler(this.addvigor_Click);
+            // 
+            // faith
+            // 
+            this.faith.AutoSize = false;
+            this.faith.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.faith.Depth = 0;
+            this.faith.DrawShadows = true;
+            this.faith.HighEmphasis = true;
+            this.faith.Icon = null;
+            this.faith.Location = new System.Drawing.Point(167, 464);
+            this.faith.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.faith.MouseState = MaterialSkin.MouseState.HOVER;
+            this.faith.Name = "faith";
+            this.faith.Size = new System.Drawing.Size(38, 36);
+            this.faith.TabIndex = 47;
+            this.faith.Text = "11";
+            this.faith.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.faith.UseAccentColor = false;
+            this.faith.UseVisualStyleBackColor = true;
+            // 
+            // luck
+            // 
+            this.luck.AutoSize = false;
+            this.luck.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.luck.Depth = 0;
+            this.luck.DrawShadows = true;
+            this.luck.HighEmphasis = true;
+            this.luck.Icon = null;
+            this.luck.Location = new System.Drawing.Point(167, 512);
+            this.luck.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.luck.MouseState = MaterialSkin.MouseState.HOVER;
+            this.luck.Name = "luck";
+            this.luck.Size = new System.Drawing.Size(38, 36);
+            this.luck.TabIndex = 46;
+            this.luck.Text = "11";
+            this.luck.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.luck.UseAccentColor = false;
+            this.luck.UseVisualStyleBackColor = true;
+            // 
+            // intelligence
+            // 
+            this.intelligence.AutoSize = false;
+            this.intelligence.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.intelligence.Depth = 0;
+            this.intelligence.DrawShadows = true;
+            this.intelligence.HighEmphasis = true;
+            this.intelligence.Icon = null;
+            this.intelligence.Location = new System.Drawing.Point(167, 418);
+            this.intelligence.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.intelligence.MouseState = MaterialSkin.MouseState.HOVER;
+            this.intelligence.Name = "intelligence";
+            this.intelligence.Size = new System.Drawing.Size(38, 36);
+            this.intelligence.TabIndex = 45;
+            this.intelligence.Text = "11";
+            this.intelligence.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.intelligence.UseAccentColor = false;
+            this.intelligence.UseVisualStyleBackColor = true;
+            // 
+            // dexterity
+            // 
+            this.dexterity.AutoSize = false;
+            this.dexterity.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.dexterity.Depth = 0;
+            this.dexterity.DrawShadows = true;
+            this.dexterity.HighEmphasis = true;
+            this.dexterity.Icon = null;
+            this.dexterity.Location = new System.Drawing.Point(167, 370);
+            this.dexterity.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.dexterity.MouseState = MaterialSkin.MouseState.HOVER;
+            this.dexterity.Name = "dexterity";
+            this.dexterity.Size = new System.Drawing.Size(38, 36);
+            this.dexterity.TabIndex = 44;
+            this.dexterity.Text = "11";
+            this.dexterity.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.dexterity.UseAccentColor = false;
+            this.dexterity.UseVisualStyleBackColor = true;
+            // 
+            // strenght
+            // 
+            this.strenght.AutoSize = false;
+            this.strenght.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.strenght.Depth = 0;
+            this.strenght.DrawShadows = true;
+            this.strenght.HighEmphasis = true;
+            this.strenght.Icon = null;
+            this.strenght.Location = new System.Drawing.Point(167, 322);
+            this.strenght.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.strenght.MouseState = MaterialSkin.MouseState.HOVER;
+            this.strenght.Name = "strenght";
+            this.strenght.Size = new System.Drawing.Size(38, 36);
+            this.strenght.TabIndex = 43;
+            this.strenght.Text = "11";
+            this.strenght.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.strenght.UseAccentColor = false;
+            this.strenght.UseVisualStyleBackColor = true;
+            // 
+            // vitality
+            // 
+            this.vitality.AutoSize = false;
+            this.vitality.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.vitality.Depth = 0;
+            this.vitality.DrawShadows = true;
+            this.vitality.HighEmphasis = true;
+            this.vitality.Icon = null;
+            this.vitality.Location = new System.Drawing.Point(167, 274);
+            this.vitality.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.vitality.MouseState = MaterialSkin.MouseState.HOVER;
+            this.vitality.Name = "vitality";
+            this.vitality.Size = new System.Drawing.Size(38, 36);
+            this.vitality.TabIndex = 42;
+            this.vitality.Text = "11";
+            this.vitality.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.vitality.UseAccentColor = false;
+            this.vitality.UseVisualStyleBackColor = true;
+            // 
+            // endurance
+            // 
+            this.endurance.AutoSize = false;
+            this.endurance.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.endurance.Depth = 0;
+            this.endurance.DrawShadows = true;
+            this.endurance.HighEmphasis = true;
+            this.endurance.Icon = null;
+            this.endurance.Location = new System.Drawing.Point(167, 226);
+            this.endurance.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.endurance.MouseState = MaterialSkin.MouseState.HOVER;
+            this.endurance.Name = "endurance";
+            this.endurance.Size = new System.Drawing.Size(38, 36);
+            this.endurance.TabIndex = 41;
+            this.endurance.Text = "11";
+            this.endurance.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.endurance.UseAccentColor = false;
+            this.endurance.UseVisualStyleBackColor = true;
+            // 
+            // attunement
+            // 
+            this.attunement.AutoSize = false;
+            this.attunement.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.attunement.Depth = 0;
+            this.attunement.DrawShadows = true;
+            this.attunement.HighEmphasis = true;
+            this.attunement.Icon = null;
+            this.attunement.Location = new System.Drawing.Point(167, 178);
+            this.attunement.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.attunement.MouseState = MaterialSkin.MouseState.HOVER;
+            this.attunement.Name = "attunement";
+            this.attunement.Size = new System.Drawing.Size(38, 36);
+            this.attunement.TabIndex = 40;
+            this.attunement.Text = "11";
+            this.attunement.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.attunement.UseAccentColor = false;
+            this.attunement.UseVisualStyleBackColor = true;
+            // 
+            // vigor
+            // 
+            this.vigor.AutoSize = false;
+            this.vigor.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.vigor.Depth = 0;
+            this.vigor.DrawShadows = true;
+            this.vigor.HighEmphasis = true;
+            this.vigor.Icon = null;
+            this.vigor.Location = new System.Drawing.Point(167, 130);
+            this.vigor.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.vigor.MouseState = MaterialSkin.MouseState.HOVER;
+            this.vigor.Name = "vigor";
+            this.vigor.Size = new System.Drawing.Size(38, 36);
+            this.vigor.TabIndex = 39;
+            this.vigor.Text = "11";
+            this.vigor.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.vigor.UseAccentColor = false;
+            this.vigor.UseVisualStyleBackColor = true;
             // 
             // materialLabel18
             // 
@@ -995,7 +1375,7 @@
             this.levelbtn.DrawShadows = true;
             this.levelbtn.HighEmphasis = true;
             this.levelbtn.Icon = null;
-            this.levelbtn.Location = new System.Drawing.Point(215, 12);
+            this.levelbtn.Location = new System.Drawing.Point(251, 12);
             this.levelbtn.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.levelbtn.MouseState = MaterialSkin.MouseState.HOVER;
             this.levelbtn.Name = "levelbtn";
@@ -1014,7 +1394,7 @@
             "Female"});
             this.comboBox3.Location = new System.Drawing.Point(90, 88);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(163, 21);
+            this.comboBox3.Size = new System.Drawing.Size(199, 21);
             this.comboBox3.TabIndex = 4;
             // 
             // comboBox1
@@ -1033,7 +1413,7 @@
             "Deprived"});
             this.comboBox1.Location = new System.Drawing.Point(90, 57);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(163, 21);
+            this.comboBox1.Size = new System.Drawing.Size(199, 21);
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -1242,7 +1622,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(920, 441);
+            this.tabPage7.Size = new System.Drawing.Size(1227, 543);
             this.tabPage7.TabIndex = 1;
             this.tabPage7.Text = "Rings";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1613,6 +1993,7 @@
             this.Controls.Add(this.materialTabControl2);
             this.DrawerTabControl = this.materialTabControl2;
             //this.Name = "Form1";
+            this.Sizable = false;
             this.Text = "DS3 Build Planner";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.materialTabControl2.ResumeLayout(false);
@@ -1731,15 +2112,15 @@
         private System.Windows.Forms.ComboBox comboBox4;
         private MaterialSkin.Controls.MaterialLabel materialLabel21;
         private MaterialSkin.Controls.MaterialCard StatCard;
-        private MaterialSkin.Controls.MaterialButton materialButton20;
-        private MaterialSkin.Controls.MaterialButton materialButton21;
-        private MaterialSkin.Controls.MaterialButton materialButton22;
-        private MaterialSkin.Controls.MaterialButton materialButton23;
-        private MaterialSkin.Controls.MaterialButton materialButton24;
-        private MaterialSkin.Controls.MaterialButton materialButton25;
-        private MaterialSkin.Controls.MaterialButton materialButton26;
-        private MaterialSkin.Controls.MaterialButton materialButton27;
-        private MaterialSkin.Controls.MaterialButton materialButton28;
+        private MaterialSkin.Controls.MaterialButton faith;
+        private MaterialSkin.Controls.MaterialButton luck;
+        private MaterialSkin.Controls.MaterialButton intelligence;
+        private MaterialSkin.Controls.MaterialButton dexterity;
+        private MaterialSkin.Controls.MaterialButton strenght;
+        private MaterialSkin.Controls.MaterialButton vitality;
+        private MaterialSkin.Controls.MaterialButton endurance;
+        private MaterialSkin.Controls.MaterialButton attunement;
+        private MaterialSkin.Controls.MaterialButton vigor;
         private MaterialSkin.Controls.MaterialLabel materialLabel18;
         private MaterialSkin.Controls.MaterialLabel materialLabel17;
         private MaterialSkin.Controls.MaterialLabel materialLabel16;
@@ -1756,6 +2137,24 @@
         private MaterialSkin.Controls.MaterialButton endurancebase;
         private MaterialSkin.Controls.MaterialButton attunementbase;
         public MaterialSkin.Controls.MaterialButton vigorbase;
+        private MaterialSkin.Controls.MaterialButton subfaith;
+        private MaterialSkin.Controls.MaterialButton subluck;
+        private MaterialSkin.Controls.MaterialButton subintelligence;
+        private MaterialSkin.Controls.MaterialButton subdexterity;
+        private MaterialSkin.Controls.MaterialButton substrenght;
+        private MaterialSkin.Controls.MaterialButton subvitality;
+        private MaterialSkin.Controls.MaterialButton subendurance;
+        private MaterialSkin.Controls.MaterialButton subattunement;
+        private MaterialSkin.Controls.MaterialButton subvigor;
+        private MaterialSkin.Controls.MaterialButton addfaith;
+        private MaterialSkin.Controls.MaterialButton addluck;
+        private MaterialSkin.Controls.MaterialButton addintelligence;
+        private MaterialSkin.Controls.MaterialButton adddexterity;
+        private MaterialSkin.Controls.MaterialButton addstrength;
+        private MaterialSkin.Controls.MaterialButton addvitality;
+        private MaterialSkin.Controls.MaterialButton addendurance;
+        private MaterialSkin.Controls.MaterialButton addattunement;
+        private MaterialSkin.Controls.MaterialButton addvigor;
     }
 }
 
