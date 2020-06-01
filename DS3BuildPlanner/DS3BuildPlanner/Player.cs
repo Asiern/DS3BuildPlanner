@@ -100,6 +100,47 @@ namespace DS3BuildPlanner
 
         //SETTERS
 
+        public void setVigor(int v)
+        {
+            this.vigor = v;
+        }
+        public void setAttunement(int a)
+        {
+            this.attunement = a;
+        }
+        public void setEndurance(int e)
+        {
+            this.endurance = e;
+        }
+        public void setVitality(int v)
+        {
+            this.vitality = v;
+        }
+        public void setStrenght(int s)
+        {
+            this.strenght = s;
+        }
+        public void setDexterity(int d)
+        {
+            this.dexterity = d;
+        }
+        public void setIntelligence(int i)
+        {
+            this.intelligence = i;
+        }
+        public void setFaith(int f)
+        {
+            this.faith = f;
+        }
+        public void setLuck(int l)
+        {
+            this.luck = l;
+        }
+        public void setLevel(int l)
+        {
+            this.level = l;
+        }
+
         public Player(string startingClass, int level, int souls, int hp, int fp, int stamina, float equipLoad, float poise, int itemDiscovery, int rWeapon1, int rWeapon2, int rWeapon3, int lWeapon1, int lWeapon2, int lWeapon3, int physicalDefense, int magicDefense, int fireDefense, int lightningDefense, int darkDefense, int bleedResistance, int poisonResistance, int frostResistance, int curseResistance, int attunementSlots, int vigor, int attunement, int endurance, int vitality, int strenght, int dexterity, int intelligence, int faith, int luck)
         {
             this.startingClass = startingClass;
