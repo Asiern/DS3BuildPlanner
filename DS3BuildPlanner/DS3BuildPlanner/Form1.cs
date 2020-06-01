@@ -108,10 +108,10 @@ namespace DS3BuildPlanner
 
 
             //chest
-            comboBox1.DataSource = chestList;
+            /**comboBox1.DataSource = chestList;
             comboBox1.DisplayMember = "name";
             comboBox1.SelectedItem = null;
-            comboBox1.SelectedIndex = 0;
+            comboBox1.SelectedIndex = 0;**/
         }
 
         private void seedListView(Armor a)
@@ -200,18 +200,18 @@ namespace DS3BuildPlanner
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
-                string souls = s.calculateSouls(int.Parse(materialTextBox1.Text), int.Parse(materialTextBox2.Text)).ToString();
+               * string souls = s.calculateSouls(int.Parse(materialTextBox1.Text), int.Parse(materialTextBox2.Text)).ToString();
                 //materialLabel3.Text = s.calculateSouls(15,23).ToString();
                 materialLabel3.Text = (souls+" souls will be needed to get from level "+ materialTextBox1.Text+" to level "+ materialTextBox2.Text);
             }
-            catch(Exception ex) { MessageBox.Show(ex.Message); }
+            catch(Exception ex) { MessageBox.Show(ex.Message); }*/
         }
 
-        private void materialButton6_Click(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            materialLabel3.Text = s.exponential(int.Parse(materialTextBox1.Text)).ToString();
+            p.setupPlayer(comboBox1.Text);
         }
     }
 }
