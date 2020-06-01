@@ -149,6 +149,11 @@ namespace DS3BuildPlanner
             return souls;
         }
 
+        public int soulsToNextLevel(int level)
+        {
+            return soul[level];
+        }
+
         public double exponential(int x)
         {
             double a = 240.5464;
