@@ -103,11 +103,9 @@
             this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.levelbtn = new MaterialSkin.Controls.MaterialButton();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
+            this.classcb = new System.Windows.Forms.ComboBox();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.levellabel = new MaterialSkin.Controls.MaterialLabel();
             this.info = new System.Windows.Forms.TabPage();
             this.materialTabSelector2 = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControl3 = new MaterialSkin.Controls.MaterialTabControl();
@@ -153,6 +151,8 @@
             this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.initiallabel = new MaterialSkin.Controls.MaterialLabel();
+            this.Currentlabel = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl2.SuspendLayout();
             this.calculator.SuspendLayout();
             this.RingCard.SuspendLayout();
@@ -204,13 +204,14 @@
             this.calculator.TabIndex = 0;
             this.calculator.Text = "Calculator";
             this.calculator.UseVisualStyleBackColor = true;
+            this.calculator.Click += new System.EventHandler(this.calculator_Click);
             // 
             // WeaponCard
             // 
             this.WeaponCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.WeaponCard.Depth = 0;
             this.WeaponCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.WeaponCard.Location = new System.Drawing.Point(469, 184);
+            this.WeaponCard.Location = new System.Drawing.Point(469, 183);
             this.WeaponCard.Margin = new System.Windows.Forms.Padding(14);
             this.WeaponCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.WeaponCard.Name = "WeaponCard";
@@ -515,6 +516,8 @@
             // CharacterCard
             // 
             this.CharacterCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.CharacterCard.Controls.Add(this.Currentlabel);
+            this.CharacterCard.Controls.Add(this.initiallabel);
             this.CharacterCard.Controls.Add(this.subfaith);
             this.CharacterCard.Controls.Add(this.subluck);
             this.CharacterCard.Controls.Add(this.subintelligence);
@@ -561,11 +564,9 @@
             this.CharacterCard.Controls.Add(this.materialLabel11);
             this.CharacterCard.Controls.Add(this.materialLabel6);
             this.CharacterCard.Controls.Add(this.levelbtn);
-            this.CharacterCard.Controls.Add(this.comboBox3);
-            this.CharacterCard.Controls.Add(this.comboBox1);
-            this.CharacterCard.Controls.Add(this.materialLabel5);
+            this.CharacterCard.Controls.Add(this.classcb);
             this.CharacterCard.Controls.Add(this.materialLabel4);
-            this.CharacterCard.Controls.Add(this.materialLabel3);
+            this.CharacterCard.Controls.Add(this.levellabel);
             this.CharacterCard.Depth = 0;
             this.CharacterCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.CharacterCard.Location = new System.Drawing.Point(45, 29);
@@ -573,7 +574,7 @@
             this.CharacterCard.MouseState = MaterialSkin.MouseState.HOVER;
             this.CharacterCard.Name = "CharacterCard";
             this.CharacterCard.Padding = new System.Windows.Forms.Padding(14);
-            this.CharacterCard.Size = new System.Drawing.Size(318, 571);
+            this.CharacterCard.Size = new System.Drawing.Size(320, 571);
             this.CharacterCard.TabIndex = 0;
             // 
             // subfaith
@@ -1405,21 +1406,10 @@
             this.levelbtn.UseAccentColor = false;
             this.levelbtn.UseVisualStyleBackColor = true;
             // 
-            // comboBox3
+            // classcb
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Male",
-            "Female"});
-            this.comboBox3.Location = new System.Drawing.Point(90, 88);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(199, 21);
-            this.comboBox3.TabIndex = 4;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.classcb.FormattingEnabled = true;
+            this.classcb.Items.AddRange(new object[] {
             "Knight",
             "Mercenary",
             "Warrior",
@@ -1430,23 +1420,11 @@
             "Pyromancer",
             "Cleric",
             "Deprived"});
-            this.comboBox1.Location = new System.Drawing.Point(90, 57);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(199, 21);
-            this.comboBox1.TabIndex = 3;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // materialLabel5
-            // 
-            this.materialLabel5.AutoSize = true;
-            this.materialLabel5.Depth = 0;
-            this.materialLabel5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel5.Location = new System.Drawing.Point(17, 88);
-            this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(51, 19);
-            this.materialLabel5.TabIndex = 2;
-            this.materialLabel5.Text = "Gender";
+            this.classcb.Location = new System.Drawing.Point(90, 57);
+            this.classcb.Name = "classcb";
+            this.classcb.Size = new System.Drawing.Size(199, 21);
+            this.classcb.TabIndex = 3;
+            this.classcb.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // materialLabel4
             // 
@@ -1460,17 +1438,17 @@
             this.materialLabel4.TabIndex = 1;
             this.materialLabel4.Text = "Class";
             // 
-            // materialLabel3
+            // levellabel
             // 
-            this.materialLabel3.AutoSize = true;
-            this.materialLabel3.Depth = 0;
-            this.materialLabel3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel3.Location = new System.Drawing.Point(17, 22);
-            this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(110, 19);
-            this.materialLabel3.TabIndex = 0;
-            this.materialLabel3.Text = "Character Level";
+            this.levellabel.AutoSize = true;
+            this.levellabel.Depth = 0;
+            this.levellabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.levellabel.Location = new System.Drawing.Point(17, 22);
+            this.levellabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.levellabel.Name = "levellabel";
+            this.levellabel.Size = new System.Drawing.Size(38, 19);
+            this.levellabel.TabIndex = 0;
+            this.levellabel.Text = "Level";
             // 
             // info
             // 
@@ -2004,6 +1982,30 @@
             this.materialLabel7.TabIndex = 0;
             this.materialLabel7.Text = "DS3 Build Planner";
             // 
+            // initiallabel
+            // 
+            this.initiallabel.AutoSize = true;
+            this.initiallabel.Depth = 0;
+            this.initiallabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.initiallabel.Location = new System.Drawing.Point(119, 101);
+            this.initiallabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.initiallabel.Name = "initiallabel";
+            this.initiallabel.Size = new System.Drawing.Size(40, 19);
+            this.initiallabel.TabIndex = 66;
+            this.initiallabel.Text = "Initial";
+            // 
+            // Currentlabel
+            // 
+            this.Currentlabel.AutoSize = true;
+            this.Currentlabel.Depth = 0;
+            this.Currentlabel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.Currentlabel.Location = new System.Drawing.Point(164, 101);
+            this.Currentlabel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Currentlabel.Name = "Currentlabel";
+            this.Currentlabel.Size = new System.Drawing.Size(52, 19);
+            this.Currentlabel.TabIndex = 67;
+            this.Currentlabel.Text = "Current";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2098,14 +2100,12 @@
         private MaterialSkin.Controls.MaterialButton materialButton9;
         private MaterialSkin.Controls.MaterialButton materialButton8;
         private MaterialSkin.Controls.MaterialCard CharacterCard;
-        private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
-        private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel levellabel;
         private MaterialSkin.Controls.MaterialLabel materialLabel11;
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private MaterialSkin.Controls.MaterialButton levelbtn;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox classcb;
         private MaterialSkin.Controls.MaterialCard SoulsCard;
         private MaterialSkin.Controls.MaterialButton totalSouls;
         private MaterialSkin.Controls.MaterialButton nextSouls;
@@ -2174,6 +2174,8 @@
         private MaterialSkin.Controls.MaterialButton addendurance;
         private MaterialSkin.Controls.MaterialButton addattunement;
         private MaterialSkin.Controls.MaterialButton addvigor;
+        private MaterialSkin.Controls.MaterialLabel Currentlabel;
+        private MaterialSkin.Controls.MaterialLabel initiallabel;
     }
 }
 
