@@ -212,6 +212,21 @@ namespace DS3BuildPlanner
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             p.setupPlayer(comboBox1.Text);
+            ShowPlayer();
+        }
+
+        public void ShowPlayer()
+        {
+            vigorbase.Text = p.getVigor().ToString();
+            attunementbase.Text = p.getAttunement().ToString();
+            endurancebase.Text = p.getEndurance().ToString();
+            vitalitybase.Text = p.getVitality().ToString();
+            strenghtbase.Text = p.getStrenght().ToString();
+            dexteritybase.Text = p.getDexterity().ToString();
+            intelligencebase.Text = p.getIntelligence().ToString();
+            faithbase.Text = p.getFaith().ToString();
+            luckbase.Text = p.getLuck().ToString();
+            levelbtn.Text = p.getLevel().ToString();
         }
     }
 }
