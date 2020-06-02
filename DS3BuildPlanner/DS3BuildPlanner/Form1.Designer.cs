@@ -223,7 +223,6 @@
             this.calculator.TabIndex = 0;
             this.calculator.Text = "Calculator";
             this.calculator.UseVisualStyleBackColor = true;
-            this.calculator.Click += new System.EventHandler(this.calculator_Click);
             // 
             // WeaponCard
             // 
@@ -2329,7 +2328,7 @@
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.materialTabControl2);
             this.DrawerTabControl = this.materialTabControl2;
-            this.Name = "Form1";
+            //this.Name = "Form1";
             this.Sizable = false;
             this.Text = "DS3 Build Planner";
             this.Load += new System.EventHandler(this.Form1_Load);
