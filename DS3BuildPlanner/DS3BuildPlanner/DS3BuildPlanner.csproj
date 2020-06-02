@@ -57,6 +57,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stats.cs" />
     <Compile Include="IndexException.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="ItemNotFound.cs" />
