@@ -17,7 +17,7 @@ namespace DS3BuildPlanner
     {
         private readonly MaterialSkinManager materialSkinManager;
         List<Armor> chestList = new List<Armor>();
-        souls s = souls.getInstance();
+        Stats s = Stats.getInstance();
         Updater u = new Updater();
         Player p = new Player();
         Equipment e = Equipment.getInstance();
@@ -31,12 +31,12 @@ namespace DS3BuildPlanner
 
             //if (Properties.Settings.Default.ThemePrimary1 == null)
             //{
-                Properties.Settings.Default.ThemePrimary1 = Primary.Green600;
-                Properties.Settings.Default.ThemePrimary2 = Primary.Green700;
-                Properties.Settings.Default.ThemePrimary3 = Primary.Green200;
-                Properties.Settings.Default.ThemeAccent = Accent.Red100;
-                Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
-                Properties.Settings.Default.Save();
+            Properties.Settings.Default.ThemePrimary1 = Primary.Green600;
+            Properties.Settings.Default.ThemePrimary2 = Primary.Green700;
+            Properties.Settings.Default.ThemePrimary3 = Primary.Green200;
+            Properties.Settings.Default.ThemeAccent = Accent.Red100;
+            Properties.Settings.Default.ThemeTextShade = TextShade.WHITE;
+            Properties.Settings.Default.Save();
             //}
             loadTheme();
 
@@ -51,7 +51,7 @@ namespace DS3BuildPlanner
 
 
         }
-        
+
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -64,13 +64,13 @@ namespace DS3BuildPlanner
             else { Properties.Settings.Default.Theme = "DARK"; }
             Properties.Settings.Default.Save();
             loadTheme();
-            
+
         }
 
         //TESTING
         private void test()
         {
-            
+
 
             string path = System.IO.Path.GetFullPath("chest.csv");
 
@@ -234,25 +234,28 @@ namespace DS3BuildPlanner
             levelbtn.Text = p.getLevel().ToString();
 
             calculateSouls();
+            calculateFP();
+            calculateHP();
         }
 
         private void addvigor_Click(object sender, EventArgs e)
         {
-            if(p.getVigor() < 99)
+            if (p.getVigor() < 99)
             {
                 p.setVigor(p.getVigor() + 1);
                 p.setLevel(p.getLevel() + 1);
                 ShowPlayer();
-                
+
             }
         }
 
         private void subvigor_Click(object sender, EventArgs e)
         {
-            if(p.getVigor() > p.getbaseVigor()) { 
-            p.setVigor(p.getVigor() - 1);
-            p.setLevel(p.getLevel() - 1);
-            ShowPlayer(); 
+            if (p.getVigor() > p.getbaseVigor())
+            {
+                p.setVigor(p.getVigor() - 1);
+                p.setLevel(p.getLevel() - 1);
+                ShowPlayer();
             }
         }
 
@@ -347,7 +350,7 @@ namespace DS3BuildPlanner
         }
 
         private void subdexterity_Click(object sender, EventArgs e)
-        { 
+        {
             if (p.getDexterity() > p.getbaseDexterity())
             {
                 p.setDexterity(p.getDexterity() - 1);
@@ -418,18 +421,20 @@ namespace DS3BuildPlanner
 
         public void calculateSouls()
         {
-            //nextSouls.Text = s.soulsToNextLevel(p.getLevel()).ToString();
-            totalSouls.Text = s.calculateSouls(p.getbaseLevel(),p.getLevel()).ToString();
+            nextSouls.Text = s.soulsToNextLevel(p.getLevel()).ToString();
+            totalSouls.Text = s.calculateSouls(p.getbaseLevel(), p.getLevel()).ToString();
         }
 
-        private void calculator_Click(object sender, EventArgs e)
+        public void calculateFP()
         {
-
+            p.setFP(s.calculateFP(p.getAttunement()));
+            FPbtn.Text = p.getFP().ToString();
         }
 
-        private void materialComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        public void calculateHP()
         {
-
+            p.setHP(s.calculateHP(p.getVigor()));
+            HPbtn.Text = p.getHP().ToString();
         }
     }
 }
