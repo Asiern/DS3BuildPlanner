@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -157,6 +158,18 @@ namespace DS3BuildPlanner
         {
             return this.hp;
         }
+        public int getAttunementSlots()
+        {
+            return this.attunementSlots;
+        }
+        public int getStamina()
+        {
+            return this.stamina;
+        }
+        public int getItemDiscovery()
+        {
+            return this.itemDiscovery;
+        }
 
         //SETTERS
 
@@ -208,6 +221,18 @@ namespace DS3BuildPlanner
         {
             this.hp = HP;
         }
+        public void setAttunemnetSlots(int slots)
+        {
+            this.attunementSlots = slots;
+        }
+        public void setStamina(int stamina)
+        {
+            this.stamina = stamina;
+        }
+        public void setItemDiscovery(int itemDiscovery)
+        {
+            this.itemDiscovery = itemDiscovery;
+        }
 
         public Player(string startingClass, int level, int souls, int hp, int fp, int stamina, float equipLoad, float poise, int itemDiscovery, int rWeapon1, int rWeapon2, int rWeapon3, int lWeapon1, int lWeapon2, int lWeapon3, int physicalDefense, int magicDefense, int fireDefense, int lightningDefense, int darkDefense, int bleedResistance, int poisonResistance, int frostResistance, int curseResistance, int attunementSlots, int vigor, int attunement, int endurance, int vitality, int strenght, int dexterity, int intelligence, int faith, int luck)
         {
@@ -255,6 +280,7 @@ namespace DS3BuildPlanner
         //LOAD STARTING CLASS STATS
         public void setupPlayer(String startingClass)
         {
+            this.itemDiscovery = 100;
             if (this.startingClass != startingClass) this.startingClass = startingClass;
 
 
@@ -484,5 +510,53 @@ namespace DS3BuildPlanner
             }
         }
 
+     
+        public void calculateAttunementSlots()
+        {
+            if(1 < this.attunement && this.attunement < 10)
+            {
+                this.attunementSlots = 0;
+            }
+            else if (9 < this.attunement && this.attunement < 14)
+            {
+                this.attunementSlots = 1;
+            }
+            else if (13 < this.attunement && this.attunement < 18)
+            {
+                this.attunementSlots = 2;
+            }
+            else if (16 < this.attunement && this.attunement < 24)
+            {
+                this.attunementSlots = 3;
+            }
+            else if (23 < this.attunement && this.attunement < 30)
+            {
+                this.attunementSlots = 4;
+            }
+            else if (29 < this.attunement && this.attunement < 40)
+            {
+                this.attunementSlots = 5;
+            }
+            else if (39 < this.attunement && this.attunement < 50)
+            {
+                this.attunementSlots = 6;
+            }
+            else if (49 < this.attunement && this.attunement < 60)
+            {
+                this.attunementSlots = 7;
+            }
+            else if (59 < this.attunement && this.attunement < 80)
+            {
+                this.attunementSlots = 8;
+            }
+            else if (79 < this.attunement && this.attunement < 99)
+            {
+                this.attunementSlots = 9;
+            }
+            else if (this.attunement == 99)
+            {
+                this.attunementSlots = 10;
+            }
+        }
     }
 }
