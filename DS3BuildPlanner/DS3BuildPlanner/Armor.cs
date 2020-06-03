@@ -45,7 +45,7 @@ namespace DS3BuildPlanner
 
         //Getter & Setters
         public String Name { get { return name; } set { name = value; } }
-        public float PhysicalAbsortion { get; set; }
+        public float PhysicalAbsortion { get { return physicalAbsortion; } set { this.physicalAbsortion = value; } }
         public float MagicAbsortion { get { return this.magicAbsortion; } set { this.magicAbsortion = value; } }
         public float FireAbsortion { get { return fireAbsortion; } set { fireAbsortion = value; } }
         public float LightningAbsortion { get { return lightningAbsortion; } set { lightningAbsortion = value; } }
