@@ -171,8 +171,17 @@
             this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.Lweapon1cb = new System.Windows.Forms.ComboBox();
+            this.Rweapon3cb = new System.Windows.Forms.ComboBox();
+            this.Rweapon2cb = new System.Windows.Forms.ComboBox();
+            this.Rweapon1cb = new System.Windows.Forms.ComboBox();
+            this.Lweapon3cb = new System.Windows.Forms.ComboBox();
+            this.Lweapon2cb = new System.Windows.Forms.ComboBox();
+            this.lefthandlbl = new MaterialSkin.Controls.MaterialLabel();
+            this.righthandlbl = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl2.SuspendLayout();
             this.calculator.SuspendLayout();
+            this.WeaponCard.SuspendLayout();
             this.StatCard.SuspendLayout();
             this.RingCard.SuspendLayout();
             this.ArmorCard.SuspendLayout();
@@ -227,6 +236,14 @@
             // WeaponCard
             // 
             this.WeaponCard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.WeaponCard.Controls.Add(this.righthandlbl);
+            this.WeaponCard.Controls.Add(this.lefthandlbl);
+            this.WeaponCard.Controls.Add(this.Lweapon2cb);
+            this.WeaponCard.Controls.Add(this.Lweapon3cb);
+            this.WeaponCard.Controls.Add(this.Rweapon1cb);
+            this.WeaponCard.Controls.Add(this.Rweapon2cb);
+            this.WeaponCard.Controls.Add(this.Rweapon3cb);
+            this.WeaponCard.Controls.Add(this.Lweapon1cb);
             this.WeaponCard.Depth = 0;
             this.WeaponCard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.WeaponCard.Location = new System.Drawing.Point(469, 183);
@@ -674,7 +691,7 @@
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Location = new System.Drawing.Point(129, 101);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(174, 21);
+            this.comboBox7.Size = new System.Drawing.Size(165, 21);
             this.comboBox7.TabIndex = 30;
             // 
             // materialLabel24
@@ -694,7 +711,7 @@
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.Location = new System.Drawing.Point(129, 74);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(174, 21);
+            this.comboBox6.Size = new System.Drawing.Size(165, 21);
             this.comboBox6.TabIndex = 28;
             // 
             // materialLabel23
@@ -714,7 +731,7 @@
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Location = new System.Drawing.Point(129, 47);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(174, 21);
+            this.comboBox5.Size = new System.Drawing.Size(165, 21);
             this.comboBox5.TabIndex = 26;
             // 
             // materialLabel22
@@ -734,7 +751,7 @@
             this.headcb.FormattingEnabled = true;
             this.headcb.Location = new System.Drawing.Point(129, 20);
             this.headcb.Name = "headcb";
-            this.headcb.Size = new System.Drawing.Size(174, 21);
+            this.headcb.Size = new System.Drawing.Size(165, 21);
             this.headcb.TabIndex = 24;
             // 
             // materialLabel21
@@ -2321,6 +2338,78 @@
             this.materialLabel7.TabIndex = 0;
             this.materialLabel7.Text = "DS3 Build Planner";
             // 
+            // Lweapon1cb
+            // 
+            this.Lweapon1cb.FormattingEnabled = true;
+            this.Lweapon1cb.Location = new System.Drawing.Point(31, 54);
+            this.Lweapon1cb.Name = "Lweapon1cb";
+            this.Lweapon1cb.Size = new System.Drawing.Size(121, 21);
+            this.Lweapon1cb.TabIndex = 0;
+            // 
+            // Rweapon3cb
+            // 
+            this.Rweapon3cb.FormattingEnabled = true;
+            this.Rweapon3cb.Location = new System.Drawing.Point(173, 193);
+            this.Rweapon3cb.Name = "Rweapon3cb";
+            this.Rweapon3cb.Size = new System.Drawing.Size(121, 21);
+            this.Rweapon3cb.TabIndex = 1;
+            // 
+            // Rweapon2cb
+            // 
+            this.Rweapon2cb.FormattingEnabled = true;
+            this.Rweapon2cb.Location = new System.Drawing.Point(173, 120);
+            this.Rweapon2cb.Name = "Rweapon2cb";
+            this.Rweapon2cb.Size = new System.Drawing.Size(121, 21);
+            this.Rweapon2cb.TabIndex = 2;
+            // 
+            // Rweapon1cb
+            // 
+            this.Rweapon1cb.FormattingEnabled = true;
+            this.Rweapon1cb.Location = new System.Drawing.Point(173, 54);
+            this.Rweapon1cb.Name = "Rweapon1cb";
+            this.Rweapon1cb.Size = new System.Drawing.Size(121, 21);
+            this.Rweapon1cb.TabIndex = 3;
+            // 
+            // Lweapon3cb
+            // 
+            this.Lweapon3cb.FormattingEnabled = true;
+            this.Lweapon3cb.Location = new System.Drawing.Point(31, 193);
+            this.Lweapon3cb.Name = "Lweapon3cb";
+            this.Lweapon3cb.Size = new System.Drawing.Size(121, 21);
+            this.Lweapon3cb.TabIndex = 4;
+            // 
+            // Lweapon2cb
+            // 
+            this.Lweapon2cb.FormattingEnabled = true;
+            this.Lweapon2cb.Location = new System.Drawing.Point(31, 121);
+            this.Lweapon2cb.Name = "Lweapon2cb";
+            this.Lweapon2cb.Size = new System.Drawing.Size(121, 21);
+            this.Lweapon2cb.TabIndex = 5;
+            // 
+            // lefthandlbl
+            // 
+            this.lefthandlbl.AutoSize = true;
+            this.lefthandlbl.Depth = 0;
+            this.lefthandlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lefthandlbl.Location = new System.Drawing.Point(53, 24);
+            this.lefthandlbl.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lefthandlbl.Name = "lefthandlbl";
+            this.lefthandlbl.Size = new System.Drawing.Size(71, 19);
+            this.lefthandlbl.TabIndex = 6;
+            this.lefthandlbl.Text = "Left Hand";
+            // 
+            // righthandlbl
+            // 
+            this.righthandlbl.AutoSize = true;
+            this.righthandlbl.Depth = 0;
+            this.righthandlbl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.righthandlbl.Location = new System.Drawing.Point(194, 24);
+            this.righthandlbl.MouseState = MaterialSkin.MouseState.HOVER;
+            this.righthandlbl.Name = "righthandlbl";
+            this.righthandlbl.Size = new System.Drawing.Size(80, 19);
+            this.righthandlbl.TabIndex = 7;
+            this.righthandlbl.Text = "Right Hand";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2334,6 +2423,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.materialTabControl2.ResumeLayout(false);
             this.calculator.ResumeLayout(false);
+            this.WeaponCard.ResumeLayout(false);
+            this.WeaponCard.PerformLayout();
             this.StatCard.ResumeLayout(false);
             this.StatCard.PerformLayout();
             this.RingCard.ResumeLayout(false);
@@ -2511,6 +2602,14 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel29;
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialLabel righthandlbl;
+        private MaterialSkin.Controls.MaterialLabel lefthandlbl;
+        private System.Windows.Forms.ComboBox Lweapon2cb;
+        private System.Windows.Forms.ComboBox Lweapon3cb;
+        private System.Windows.Forms.ComboBox Rweapon1cb;
+        private System.Windows.Forms.ComboBox Rweapon2cb;
+        private System.Windows.Forms.ComboBox Rweapon3cb;
+        private System.Windows.Forms.ComboBox Lweapon1cb;
     }
 }
 
