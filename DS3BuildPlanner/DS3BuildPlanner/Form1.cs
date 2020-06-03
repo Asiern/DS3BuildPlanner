@@ -233,9 +233,16 @@ namespace DS3BuildPlanner
             luck.Text = p.getLuck().ToString();
             levelbtn.Text = p.getLevel().ToString();
 
+            //Attunement         
+
+            p.calculateAttunementSlots();
+            attunementslotsbtn.Text = p.getAttunementSlots().ToString();
+
             calculateSouls();
             calculateFP();
             calculateHP();
+            calculateStamina();
+            calculateItemDiscovery();
         }
 
         private void addvigor_Click(object sender, EventArgs e)
@@ -434,7 +441,18 @@ namespace DS3BuildPlanner
         public void calculateHP()
         {
             p.setHP(s.calculateHP(p.getVigor()));
-            HPbtn.Text = p.getHP().ToString();
+            HPbtn.Text = p.getHP().ToString()+"("+(p.getHP()+ p.getHP()*0.3).ToString() + ")";
+        }
+        public void calculateStamina()
+        {
+            p.setStamina(s.calculateStamina(p.getEndurance()));
+            staminabtn.Text = p.getStamina().ToString();
+        }
+        public void calculateItemDiscovery()
+        {
+            p.setItemDiscovery(p.getLuck()+100);
+            itemdiscoverybtn.Text = p.getItemDiscovery().ToString();
         }
     }
 }
+
