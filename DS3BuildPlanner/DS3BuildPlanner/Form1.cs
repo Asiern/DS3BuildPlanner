@@ -441,7 +441,8 @@ namespace DS3BuildPlanner
         public void calculateHP()
         {
             p.setHP(s.calculateHP(p.getVigor()));
-            HPbtn.Text = p.getHP().ToString()+"("+(p.getHP()+ p.getHP()*0.3).ToString() + ")";
+            //HPbtn.Text = p.getHP().ToString()+"("+(p.getHP()+ p.getHP()*0.3).ToString() + ")";
+            HPbtn.Text = p.getHP().ToString();
         }
         public void calculateStamina()
         {
