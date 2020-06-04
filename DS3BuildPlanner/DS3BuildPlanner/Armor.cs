@@ -9,7 +9,7 @@ namespace DS3BuildPlanner
     class Armor
     {
         private String name;
-        private float physicalAbsortion ;
+        private float physicalAbsortion;
         private float magicAbsortion;
         private float fireAbsortion;
         private float lightningAbsortion;
@@ -57,5 +57,7 @@ namespace DS3BuildPlanner
         public float Poise { get { return poise; } set { poise = value; } }
         public float Weight { get { return weight; } set { weight = value; } }
         public float PoiseWeightRatio { get { return poiseWeightRatio; } set { poiseWeightRatio = value; } }
+
+
     }
 }
