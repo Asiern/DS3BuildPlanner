@@ -43,11 +43,10 @@ namespace DS3BuildPlanner
             //Search for updates
             u.update();
 
-            //Class select Knight as Default
+            //Class select Knight as Default            
             classcb.SelectedIndex = 0;
 
-            //test();
-            //seedListView(chestList[1]);
+            LoadChest();
 
 
         }
@@ -67,74 +66,6 @@ namespace DS3BuildPlanner
 
         }
 
-        //TESTING
-        private void test()
-        {
-
-
-            string path = System.IO.Path.GetFullPath("chest.csv");
-
-            using (StreamReader reader = new StreamReader(path)) // Used to read file data
-            {
-                while (!reader.EndOfStream)
-                {
-                    string line = reader.ReadLine();
-
-                    // Split the line by the tab so that both columns are separated
-                    string[] values = line.Split(',');
-
-                    // set the properties of the item and parse the value string to float
-                    string name = values[0];
-                    float physicalAbsortion = float.Parse(values[1], System.Globalization.CultureInfo.InvariantCulture);
-                    float ST = float.Parse(values[2], System.Globalization.CultureInfo.InvariantCulture);
-                    float SL = float.Parse(values[3], System.Globalization.CultureInfo.InvariantCulture);
-                    float TH = float.Parse(values[4], System.Globalization.CultureInfo.InvariantCulture);
-                    float magicAbsortion = float.Parse(values[5], System.Globalization.CultureInfo.InvariantCulture);
-                    float fireAbsortion = float.Parse(values[6], System.Globalization.CultureInfo.InvariantCulture);
-                    float lightningAbsortion = float.Parse(values[7], System.Globalization.CultureInfo.InvariantCulture);
-                    float darkAbsortion = float.Parse(values[8], System.Globalization.CultureInfo.InvariantCulture);
-                    int bleedResistance = int.Parse(values[9], System.Globalization.CultureInfo.InvariantCulture);
-                    int poisonResistance = int.Parse(values[10], System.Globalization.CultureInfo.InvariantCulture);
-                    int frostResistance = int.Parse(values[11], System.Globalization.CultureInfo.InvariantCulture);
-                    int curseResistance = int.Parse(values[12], System.Globalization.CultureInfo.InvariantCulture);
-                    float poise = float.Parse(values[13], System.Globalization.CultureInfo.InvariantCulture);
-                    float weight = float.Parse(values[14], System.Globalization.CultureInfo.InvariantCulture);
-                    float poiseWeightRatio = float.Parse(values[15], System.Globalization.CultureInfo.InvariantCulture);
-
-                    //Weapon
-                    /*Armor chest = new Armor(name, physicalAbsortion, magicAbsortion, fireAbsortion, lightningAbsortion, darkAbsortion, bleedResistance, poisonResistance, 
-                        frostResistance, curseResistance, poise, weight, poiseWeightRatio);*/
-                    Armor chest = new Armor();
-                    chest.Name = name;
-                    chestList.Add(chest);
-                }
-            }
-
-
-
-            //chest
-            /**comboBox1.DataSource = chestList;
-            comboBox1.DisplayMember = "name";
-            comboBox1.SelectedItem = null;
-            comboBox1.SelectedIndex = 0;**/
-        }
-
-        private void seedListView(Armor a)
-        {
-            //Armor to String
-            //Define
-            var data = new[]
-            {
-                new []{a.Name, a.PhysicalAbsortion.ToString(), a.MagicAbsortion.ToString(), a.FireAbsortion.ToString(), a.LightningAbsortion.ToString(), a.DarkAbsortion.ToString(), a.BleedResistance.ToString(), a.PoisonResistance.ToString(), a.FrostResistance.ToString(), a.CurseResistance.ToString(), a.Poise.ToString(), a.Weight.ToString(), a.PoiseWeightRatio.ToString() },
-            };
-
-            //Add
-            foreach (string[] version in data)
-            {
-                var item = new ListViewItem(version);
-                materialListView1.Items.Add(item);
-            }
-        }
 
         private void materialComboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -232,6 +163,7 @@ namespace DS3BuildPlanner
             faith.Text = p.getFaith().ToString();
             luck.Text = p.getLuck().ToString();
             levelbtn.Text = p.getLevel().ToString();
+
 
             //Attunement         
 
@@ -441,6 +373,7 @@ namespace DS3BuildPlanner
         public void calculateHP()
         {
             p.setHP(s.calculateHP(p.getVigor()));
+            //EMBERED HP +30%
             //HPbtn.Text = p.getHP().ToString()+"("+(p.getHP()+ p.getHP()*0.3).ToString() + ")";
             HPbtn.Text = p.getHP().ToString();
         }
@@ -451,8 +384,58 @@ namespace DS3BuildPlanner
         }
         public void calculateItemDiscovery()
         {
-            p.setItemDiscovery(p.getLuck()+100);
+            p.setItemDiscovery(p.getLuck() + 100);
             itemdiscoverybtn.Text = p.getItemDiscovery().ToString();
+        }
+
+        public void LoadChest()
+        {
+            List<Armor> chestList = new List<Armor>();
+
+            string path = System.IO.Path.GetFullPath("chest.csv");
+
+            using (StreamReader reader = new StreamReader(path)) // Used to read file data
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+
+                    // Split the line by the tab so that both columns are separated
+                    string[] values = line.Split(',');
+
+                    // set the properties of the item and parse the value string to float
+                    string name = values[0];
+                    float P = float.Parse(values[1], System.Globalization.CultureInfo.InvariantCulture);
+                    float ST = float.Parse(values[2], System.Globalization.CultureInfo.InvariantCulture);
+                    float SL = float.Parse(values[3], System.Globalization.CultureInfo.InvariantCulture);
+                    float TH = float.Parse(values[4], System.Globalization.CultureInfo.InvariantCulture);
+                    float M = float.Parse(values[5], System.Globalization.CultureInfo.InvariantCulture);
+                    float F = float.Parse(values[6], System.Globalization.CultureInfo.InvariantCulture);
+                    float L = float.Parse(values[7], System.Globalization.CultureInfo.InvariantCulture);
+                    float D = float.Parse(values[8], System.Globalization.CultureInfo.InvariantCulture);
+                    float BI = float.Parse(values[9], System.Globalization.CultureInfo.InvariantCulture);
+                    float PO = float.Parse(values[10], System.Globalization.CultureInfo.InvariantCulture);
+                    float FR = float.Parse(values[11], System.Globalization.CultureInfo.InvariantCulture);
+                    float CU = float.Parse(values[12], System.Globalization.CultureInfo.InvariantCulture);
+                    float PS = float.Parse(values[13], System.Globalization.CultureInfo.InvariantCulture);
+                    float weight = float.Parse(values[14], System.Globalization.CultureInfo.InvariantCulture);
+                    float PSW = float.Parse(values[15], System.Globalization.CultureInfo.InvariantCulture);
+
+                    //Weapon
+                    Armor chest = new Armor();
+                    chest.Name = name;
+                    chest.Weight = weight;
+                    chestList.Add(chest);
+                }
+            }
+
+
+            //chest
+            chestcb.DataSource = chestList;
+            chestcb.DisplayMember = "Name";
+            chestcb.ValueMember = "Weight";
+            chestcb.SelectedItem = null;
+            chestcb.SelectedIndex = 0;
         }
     }
 }
