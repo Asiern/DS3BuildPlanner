@@ -47,6 +47,7 @@ namespace DS3BuildPlanner
             classcb.SelectedIndex = 0;
 
             LoadChest();
+            LoadHead();
 
 
         }
@@ -436,6 +437,55 @@ namespace DS3BuildPlanner
             chestcb.ValueMember = "Weight";
             chestcb.SelectedItem = null;
             chestcb.SelectedIndex = 0;
+        }
+        public void LoadHead()
+        {
+            List<Armor> headList = new List<Armor>();
+
+            string path = System.IO.Path.GetFullPath("chest.csv");
+
+            using (StreamReader reader = new StreamReader(path)) // Used to read file data
+            {
+                while (!reader.EndOfStream)
+                {
+                    string line = reader.ReadLine();
+
+                    // Split the line by the tab so that both columns are separated
+                    string[] values = line.Split(',');
+
+                    // set the properties of the item and parse the value string to float
+                    string name = values[0];
+                    float P = float.Parse(values[1], System.Globalization.CultureInfo.InvariantCulture);
+                    float ST = float.Parse(values[2], System.Globalization.CultureInfo.InvariantCulture);
+                    float SL = float.Parse(values[3], System.Globalization.CultureInfo.InvariantCulture);
+                    float TH = float.Parse(values[4], System.Globalization.CultureInfo.InvariantCulture);
+                    float M = float.Parse(values[5], System.Globalization.CultureInfo.InvariantCulture);
+                    float F = float.Parse(values[6], System.Globalization.CultureInfo.InvariantCulture);
+                    float L = float.Parse(values[7], System.Globalization.CultureInfo.InvariantCulture);
+                    float D = float.Parse(values[8], System.Globalization.CultureInfo.InvariantCulture);
+                    float BI = float.Parse(values[9], System.Globalization.CultureInfo.InvariantCulture);
+                    float PO = float.Parse(values[10], System.Globalization.CultureInfo.InvariantCulture);
+                    float FR = float.Parse(values[11], System.Globalization.CultureInfo.InvariantCulture);
+                    float CU = float.Parse(values[12], System.Globalization.CultureInfo.InvariantCulture);
+                    float PS = float.Parse(values[13], System.Globalization.CultureInfo.InvariantCulture);
+                    float weight = float.Parse(values[14], System.Globalization.CultureInfo.InvariantCulture);
+                    float PSW = float.Parse(values[15], System.Globalization.CultureInfo.InvariantCulture);
+
+                    //Weapon
+                    Armor head = new Armor();
+                    head.Name = name;
+                    head.Weight = weight;
+                    headList.Add(head);
+                }
+            }
+
+
+            //chest
+            headcb.DataSource = headList;
+            headcb.DisplayMember = "Name";
+            headcb.ValueMember = "Weight";
+            headcb.SelectedItem = null;
+            headcb.SelectedIndex = 0;
         }
     }
 }
