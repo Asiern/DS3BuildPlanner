@@ -1162,9 +1162,9 @@
             // comboBox7
             // 
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(129, 101);
+            this.comboBox7.Location = new System.Drawing.Point(91, 101);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(165, 21);
+            this.comboBox7.Size = new System.Drawing.Size(203, 21);
             this.comboBox7.TabIndex = 30;
             // 
             // materialLabel24
@@ -1182,9 +1182,9 @@
             // comboBox6
             // 
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(129, 74);
+            this.comboBox6.Location = new System.Drawing.Point(91, 74);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(165, 21);
+            this.comboBox6.Size = new System.Drawing.Size(203, 21);
             this.comboBox6.TabIndex = 28;
             // 
             // materialLabel23
@@ -1202,9 +1202,9 @@
             // chestcb
             // 
             this.chestcb.FormattingEnabled = true;
-            this.chestcb.Location = new System.Drawing.Point(129, 47);
+            this.chestcb.Location = new System.Drawing.Point(91, 47);
             this.chestcb.Name = "chestcb";
-            this.chestcb.Size = new System.Drawing.Size(165, 21);
+            this.chestcb.Size = new System.Drawing.Size(203, 21);
             this.chestcb.TabIndex = 26;
             // 
             // materialLabel22
@@ -1222,9 +1222,9 @@
             // headcb
             // 
             this.headcb.FormattingEnabled = true;
-            this.headcb.Location = new System.Drawing.Point(129, 20);
+            this.headcb.Location = new System.Drawing.Point(91, 20);
             this.headcb.Name = "headcb";
-            this.headcb.Size = new System.Drawing.Size(165, 21);
+            this.headcb.Size = new System.Drawing.Size(203, 21);
             this.headcb.TabIndex = 24;
             // 
             // materialLabel21
@@ -2812,7 +2812,6 @@
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.materialTabControl2);
             this.DrawerTabControl = this.materialTabControl2;
-            //this.Name = "Form1";
             this.Sizable = false;
             this.Text = "DS3 Build Planner";
             this.Load += new System.EventHandler(this.Form1_Load);
